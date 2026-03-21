@@ -16,11 +16,11 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 
 | # | Section | Status |
 |---|---|---|
-| 1 | Brand Guidelines | ✅ Complete |
-| 2 | Article Formats | ✅ Discover Explainer complete |
-| 3 | Personas | ✅ Discover Browser complete |
-| 4 | Acceptable Sources | ⚠️ Stub — pending |
-| 5 | Publishing Guidelines | ⚠️ CUE complete, others pending |
+| 1 | Brand Guidelines | 📝 Draft — pending approval |
+| 2 | Article Formats | 📝 Draft — pending approval |
+| 3 | Personas | 📝 Draft — pending approval |
+| 4 | Acceptable Sources | ✅ Complete |
+| 5 | Publishing Guidelines | 📝 Draft — pending approval |
 
 ---
 
