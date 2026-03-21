@@ -5,6 +5,8 @@ backend:
   auth_type: pkce
   app_id: Ov23liJVBKsQWqSisNyV
 
+publish_mode: editorial_workflow
+
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
