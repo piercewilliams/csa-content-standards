@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: piercewilliams/csa-content-standards
+  branch: main
+  auth_type: pkce
+  app_id: Ov23liJVBKsQWqSisNyV
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "docs"
+    label: "Documentation"
+    files:
+
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Home" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Brand Guidelines"
+        name: "brand-guidelines"
+        file: "docs/brand-guidelines.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Brand Guidelines" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Headlines by Outlet"
+        name: "headlines"
+        file: "docs/headlines.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Headlines by Outlet" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Google Discover Explainer"
+        name: "discover-explainer"
+        file: "docs/discover-explainer.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Google Discover Explainer" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Persona: The Discover Browser"
+        name: "discover-browser"
+        file: "docs/discover-browser.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Discover Browser" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Acceptable Sources"
+        name: "acceptable-sources"
+        file: "docs/acceptable-sources.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Acceptable Sources" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Publishing Guidelines"
+        name: "publishing-guidelines"
+        file: "docs/publishing-guidelines.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Changelog"
+        name: "changelog"
+        file: "docs/changelog.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Changelog" }
+          - { label: "Body", name: "body", widget: "markdown" }
