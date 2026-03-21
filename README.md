@@ -14,18 +14,18 @@ Reference documentation for the McClatchy Content Scaling Agent.
 
 ### For humans
 Browse the rendered site at:
-`https://piercewilliams.github.io/content-agent-docs`
+`https://piercewilliams.github.io/csa-content-standards`
 
 ### For the content agent
 Ingest the raw markdown directly:
-`https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md`
+`https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md`
 
 Or ingest the structured JSON:
-`https://piercewilliams.github.io/content-agent-docs/api/reference.json`
+`https://piercewilliams.github.io/csa-content-standards/api/reference.json`
 
 ### To download
 Right-click and choose Save Link As:
-`https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md`
+`https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md`
 
 ## Versioning
 

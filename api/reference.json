@@ -7,7 +7,7 @@
       "id": "brand-guidelines",
       "title": "Brand Guidelines",
       "status": "complete",
-      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#1-brand-guidelines"
+      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#1-brand-guidelines"
     },
     {
       "id": "article-formats",
@@ -18,7 +18,7 @@
           "id": "discover-explainer",
           "title": "Google Discover Explainer",
           "status": "complete",
-          "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#21-google-discover-explainer"
+          "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#21-google-discover-explainer"
         }
       ]
     },
@@ -32,7 +32,7 @@
           "title": "The Discover Browser",
           "platform": "Google Discover",
           "status": "complete",
-          "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#31-the-discover-browser"
+          "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#31-the-discover-browser"
         }
       ]
     },
@@ -40,14 +40,14 @@
       "id": "acceptable-sources",
       "title": "Acceptable Sources",
       "status": "stub",
-      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#4-acceptable-sources"
+      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#4-acceptable-sources"
     },
     {
       "id": "publishing-guidelines",
       "title": "Publishing Guidelines",
       "status": "partial",
-      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#5-publishing-guidelines"
+      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#5-publishing-guidelines"
     }
   ],
-  "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md"
+  "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md"
 }

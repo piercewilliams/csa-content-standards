@@ -1,7 +1,7 @@
 title: McClatchy Content Agent
 description: Reference documentation for the McClatchy Content Scaling Agent
 theme: jekyll-theme-cayman
-baseurl: "/content-agent-docs"
+baseurl: "/csa-content-standards"
 url: "https://piercewilliams.github.io"
 
 plugins:

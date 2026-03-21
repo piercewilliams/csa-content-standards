@@ -8,7 +8,7 @@ title: Home
 Reference documentation for the Content Scaling Agent — versioned, maintained by the content strategy team, and served in multiple formats.
 
 [View Master Reference]({{ "/docs/master-reference" | relative_url }}){: .btn .btn-primary }
-[Download Markdown](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md){: .btn }
+[Download Markdown](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md){: .btn }
 
 ---
 
@@ -28,6 +28,6 @@ Reference documentation for the Content Scaling Agent — versioned, maintained 
 
 | Format | URL |
 |---|---|
-| Rendered site | [piercewilliams.github.io/content-agent-docs](https://piercewilliams.github.io/content-agent-docs) |
-| Raw markdown | [master-reference.md](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md) |
-| JSON API | [reference.json](https://piercewilliams.github.io/content-agent-docs/api/reference.json) |
+| Rendered site | [piercewilliams.github.io/csa-content-standards](https://piercewilliams.github.io/csa-content-standards) |
+| Raw markdown | [master-reference.md](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md) |
+| JSON API | [reference.json](https://piercewilliams.github.io/csa-content-standards/api/reference.json) |
