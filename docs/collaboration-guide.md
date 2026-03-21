@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Collaboration Guide
+cms_entry: collaboration-guide
 ---
 
 # Collaboration Guide

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Persona: The Discover Browser"
+cms_entry: discover-browser
 ---
 
 # The Discover Browser

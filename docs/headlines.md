@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Headlines by Outlet
+cms_entry: headlines
 ---
 
 # Headlines by Outlet

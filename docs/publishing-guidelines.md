@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publishing Guidelines
+cms_entry: publishing-guidelines
 ---
 
 # Publishing Guidelines

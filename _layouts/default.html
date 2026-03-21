@@ -83,6 +83,11 @@
     .main details[open] summary { border-bottom: 1px solid #ddd; }
     .main details > *:not(summary) { padding: 0 16px 16px; }
 
+    /* Edit link */
+    .edit-link { text-align: right; margin-bottom: 24px; }
+    .edit-link a { font-size: 12px; color: #999; text-decoration: none; border: 1px solid #ddd; padding: 4px 10px; border-radius: 4px; }
+    .edit-link a:hover { background: #f5f5f5; color: #555; }
+
     /* Footer */
     .footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid #eee; font-size: 13px; color: #888; }
   </style>
@@ -119,8 +124,8 @@
 
       <div class="nav-divider"></div>
 
-      <a href="{{ "/docs/changelog" | relative_url }}" {% if page.url contains "changelog" %}class="active"{% endif %}>Changelog</a>
       <a href="{{ "/docs/collaboration-guide" | relative_url }}" {% if page.url contains "collaboration-guide" %}class="active"{% endif %}>Collaboration Guide</a>
+      <a href="{{ "/docs/changelog" | relative_url }}" {% if page.url contains "changelog" %}class="active"{% endif %}>Changelog</a>
 
       <div class="nav-divider"></div>
 
@@ -131,6 +136,11 @@
     </nav>
   </aside>
   <main class="main">
+    {% if page.cms_entry %}
+    <div class="edit-link">
+      <a href="{{ "/admin/#/collections/docs/entries/" | append: page.cms_entry | relative_url }}">✏ Edit this page</a>
+    </div>
+    {% endif %}
     {{ content }}
     <div class="footer">{{ site.footer_content }}</div>
   </main>

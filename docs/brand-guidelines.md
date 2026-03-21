@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Brand Guidelines
+cms_entry: brand-guidelines
 ---
 
 # Brand Guidelines

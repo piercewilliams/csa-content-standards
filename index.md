@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+cms_entry: home
 ---
 
 # CSA Content Standards

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Acceptable Sources
+cms_entry: acceptable-sources
 ---
 
 # Acceptable Sources

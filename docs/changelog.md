@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Changelog
+cms_entry: changelog
 ---
 
 # Changelog
@@ -9,6 +10,15 @@ All notable changes to this document are recorded here.
 Format: `[VERSION] — YYYY-MM — Description`
 
 ---
+
+## [1.0.4] — 2026-03
+- Headlines by Outlet section added with universal rules and outlet-specific accordion structure
+- Acceptable Sources reorganized into expandable category accordions
+- Collaboration Guide added covering editor workflow, owner approval, and new collaborator setup
+- Decap CMS editorial workflow enabled — edits now route through pull request approval before publishing
+- Edit this page button added to all pages
+- Section numbers removed from individual page headings
+- Changelog moved below Collaboration Guide in sidebar
 
 ## [1.0.3] — 2026-03
 - Acceptable Sources (§4) populated with 37 sources across 6 categories
