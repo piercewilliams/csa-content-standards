@@ -1,15 +1,14 @@
 ---
 layout: default
 title: Home
-nav_order: 1
 ---
 
 # McClatchy Content Scaling Agent
 
 Reference documentation for the Content Scaling Agent — versioned, maintained by the content strategy team, and served in multiple formats.
 
-[View Master Reference]({{ "/docs/master-reference" | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Download Markdown](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Master Reference]({{ "/docs/master-reference" | relative_url }}){: .btn .btn-primary }
+[Download Markdown](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md){: .btn }
 
 ---
 
