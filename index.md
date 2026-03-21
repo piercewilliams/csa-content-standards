@@ -1,25 +1,17 @@
 ---
 layout: home
-title: McClatchy Content Agent Docs
+title: Home
+nav_order: 1
 ---
 
 # McClatchy Content Scaling Agent
-## Reference Documentation
+{: .fs-9 }
 
-This site is the authoritative reference for the McClatchy Content Scaling Agent.
-It is versioned, maintained by the content strategy team, and served in multiple
-formats for human readers and AI agent ingestion.
+Reference documentation for the Content Scaling Agent — versioned, maintained by the content strategy team, and served in multiple formats.
+{: .fs-6 .fw-300 }
 
-**Current version:** 1.0.0 — last updated March 2026
-
----
-
-## Quick Links
-
-- [Master Reference Document](/docs/master-reference) — full reference, all sections
-- [Raw Markdown](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md) — for agent ingestion
-- [JSON API](/api/reference.json) — structured data for programmatic access
-- [Changelog](/CHANGELOG) — version history
+[View Master Reference](/content-agent-docs/docs/master-reference){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download Markdown](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -35,7 +27,10 @@ formats for human readers and AI agent ingestion.
 
 ---
 
-## How to Download
+## Quick Access
 
-Right-click this link and choose **Save Link As**:
-[Download master-reference.md](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md)
+| Format | URL |
+|---|---|
+| Rendered site | [piercewilliams.github.io/content-agent-docs](https://piercewilliams.github.io/content-agent-docs) |
+| Raw markdown | [master-reference.md](https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md) |
+| JSON API | [reference.json](https://piercewilliams.github.io/content-agent-docs/api/reference.json) |

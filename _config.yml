@@ -1,6 +1,21 @@
-title: McClatchy Content Agent Docs
+title: McClatchy Content Agent
 description: Reference documentation for the McClatchy Content Scaling Agent
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
+color_scheme: light
+
+nav_enabled: true
+
+footer_content: "McClatchy Content Strategy Team — v1.0.0"
+
+aux_links:
+  "Download Markdown":
+    - "https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md"
+  "JSON API":
+    - "https://piercewilliams.github.io/content-agent-docs/api/reference.json"
+
+aux_links_new_tab: true

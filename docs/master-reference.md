@@ -1,3 +1,10 @@
+---
+layout: default
+title: Master Reference
+nav_order: 2
+has_children: false
+---
+
 # McClatchy Content Scaling Agent — Master Reference Document
 **Version:** 1.0.0
 **Last Updated:** 2026-03
