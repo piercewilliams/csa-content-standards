@@ -1,0 +1,6 @@
+title: McClatchy Content Agent Docs
+description: Reference documentation for the McClatchy Content Scaling Agent
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

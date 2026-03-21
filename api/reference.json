@@ -1,0 +1,53 @@
+{
+  "document": "McClatchy Content Scaling Agent — Master Reference",
+  "version": "1.0.0",
+  "last_updated": "2026-03",
+  "sections": [
+    {
+      "id": "brand-guidelines",
+      "title": "Brand Guidelines",
+      "status": "complete",
+      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#1-brand-guidelines"
+    },
+    {
+      "id": "article-formats",
+      "title": "Article Formats",
+      "status": "partial",
+      "formats": [
+        {
+          "id": "discover-explainer",
+          "title": "Google Discover Explainer",
+          "status": "complete",
+          "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#21-google-discover-explainer"
+        }
+      ]
+    },
+    {
+      "id": "personas",
+      "title": "Personas",
+      "status": "partial",
+      "personas": [
+        {
+          "id": "discover-browser",
+          "title": "The Discover Browser",
+          "platform": "Google Discover",
+          "status": "complete",
+          "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#31-the-discover-browser"
+        }
+      ]
+    },
+    {
+      "id": "acceptable-sources",
+      "title": "Acceptable Sources",
+      "status": "stub",
+      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#4-acceptable-sources"
+    },
+    {
+      "id": "publishing-guidelines",
+      "title": "Publishing Guidelines",
+      "status": "partial",
+      "url": "https://piercewilliams.github.io/content-agent-docs/docs/master-reference#5-publishing-guidelines"
+    }
+  ],
+  "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/content-agent-docs/main/docs/master-reference.md"
+}
