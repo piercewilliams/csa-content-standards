@@ -5,7 +5,7 @@ title: Home
 
 # McClatchy Content Scaling Agent
 
-Reference documentation for the Content Scaling Agent — versioned, maintained by the content strategy team, and served in multiple formats.
+Reference documentation for the Content Scaling Agent — versioned and served in multiple formats.
 
 [View Master Reference]({{ "/docs/master-reference" | relative_url }}){: .btn .btn-primary }
 [Download Markdown](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md){: .btn }

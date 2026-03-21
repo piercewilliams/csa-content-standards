@@ -6,7 +6,6 @@ title: Master Reference
 # McClatchy Content Scaling Agent — Master Reference Document
 **Version:** 1.0.0
 **Last Updated:** 2026-03
-**Maintainers:** Content Strategy Team
 **Repository:** `mcclatchy-content-agent` on GitHub
 **Status:** Active
 
