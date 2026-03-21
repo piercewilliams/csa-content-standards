@@ -3,7 +3,7 @@ layout: default
 title: "Persona: The Discover Browser"
 ---
 
-# 3.1 The Discover Browser
+# The Discover Browser
 
 **Platform:** Google Discover
 **Applies to:** All Discover content formats including §2.1 Google Discover Explainer

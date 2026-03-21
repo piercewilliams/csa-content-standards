@@ -3,7 +3,7 @@ layout: default
 title: Acceptable Sources
 ---
 
-# 4. Acceptable Sources
+# Acceptable Sources
 
 > **Scope:** Defines approved sources for McClatchy content. All facts must be verified and all links must point to sources that meet these standards.
 
@@ -11,7 +11,8 @@ title: Acceptable Sources
 
 ---
 
-## Health & Wellness
+<details markdown="1">
+<summary>Health & Wellness</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -24,9 +25,10 @@ title: Acceptable Sources
 | Cleveland Clinic Health Essentials | [health.clevelandclinic.org](https://health.clevelandclinic.org) | Medical/Nonprofit | Consumer-friendly health articles from top-ranked hospital system. Good model for tone in service health journalism. |
 | Psychology Today | [psychologytoday.com](https://www.psychologytoday.com) | Media/Expert | Therapist directory and accessible mental health articles. Helpful for sourcing expert quotes and trends. |
 
----
+</details>
 
-## Home / DIY / Gardening
+<details markdown="1">
+<summary>Home / DIY / Gardening</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -38,9 +40,10 @@ title: Acceptable Sources
 | The Spruce | [thespruce.com](https://www.thespruce.com) | Media | Broad home, garden, and decor coverage; Dotdash Meredith brand. Competitive benchmark for Everyday Living vertical. |
 | Houzz | [houzz.com](https://www.houzz.com) | Platform/Media | Design inspiration, contractor directory, renovation cost data. Good for decor trend pieces and renovation budgets. |
 
----
+</details>
 
-## Personal Finance / Money
+<details markdown="1">
+<summary>Personal Finance / Money</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -52,9 +55,10 @@ title: Acceptable Sources
 | Bureau of Labor Statistics (BLS) | [bls.gov](https://www.bls.gov) | Government | Employment, wages, CPI/inflation, cost of living data. Strong for jobs and cost-of-living articles. |
 | Social Security Administration | [ssa.gov](https://www.ssa.gov) | Government | Benefits info, retirement planning, disability resources. Key for retirement and benefits service content. |
 
----
+</details>
 
-## Food & Recipes
+<details markdown="1">
+<summary>Food & Recipes</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -64,9 +68,10 @@ title: Acceptable Sources
 | Bon Appétit | [bonappetit.com](https://www.bonappetit.com) | Media | Trend-forward recipes, restaurant culture, food trends. Good for food trend sourcing. |
 | Academy of Nutrition and Dietetics | [eatright.org](https://www.eatright.org) | Professional Assoc. | Evidence-based nutrition guidance, dietitian resources. Authoritative for nutrition claims and expert sourcing. |
 
----
+</details>
 
-## SEO & Content Strategy
+<details markdown="1">
+<summary>SEO & Content Strategy</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -76,9 +81,10 @@ title: Acceptable Sources
 | Content Marketing Institute | [contentmarketinginstitute.com](https://contentmarketinginstitute.com) | Industry | Content strategy frameworks, editorial planning, distribution. Useful for strategic planning and team training. |
 | Nieman Lab | [niemanlab.org](https://www.niemanlab.org) | Academic/Media | Future of journalism, audience trends, digital media innovation. Great for staying ahead on industry shifts. |
 
----
+</details>
 
-## General News & Reporting
+<details markdown="1">
+<summary>General News & Reporting</summary>
 
 | Source | URL | Type | Notes |
 |---|---|---|---|
@@ -87,3 +93,5 @@ title: Acceptable Sources
 | Pew Research Center | [pewresearch.org](https://www.pewresearch.org) | Nonprofit/Research | Public opinion polling, media trends, demographic research. Excellent for trend stats and audience insights. |
 | Statista | [statista.com](https://www.statista.com) | Data Platform | Aggregated statistics across industries; charts and infographics. Quick stats for any vertical (some content paywalled). |
 | Data.gov | [data.gov](https://data.gov) | Government | Open data catalog for U.S. government datasets. Great for data journalism and investigative pieces. |
+
+</details>

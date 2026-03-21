@@ -3,7 +3,7 @@ layout: default
 title: Publishing Guidelines
 ---
 
-# 5. Publishing Guidelines
+# Publishing Guidelines
 
 > **Scope:** Platform-specific and CMS-specific rules for exporting, formatting, and publishing content. Rules here are operational — they govern how content is entered and submitted, not how it is written.
 

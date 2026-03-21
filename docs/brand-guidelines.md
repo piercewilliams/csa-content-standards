@@ -3,7 +3,7 @@ layout: default
 title: Brand Guidelines
 ---
 
-# 1. Brand Guidelines
+# Brand Guidelines
 
 > **Scope:** Universal — applies to all article formats, all platforms, all distributions unless explicitly overridden in a format-specific section.
 

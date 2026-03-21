@@ -3,7 +3,7 @@ layout: default
 title: Google Discover Explainer
 ---
 
-# 2.1 Google Discover Explainer
+# Google Discover Explainer
 
 Platform: Google Discover | Type: Explainer
 

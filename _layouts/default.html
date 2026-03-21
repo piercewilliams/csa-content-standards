@@ -73,6 +73,16 @@
     .btn-primary { background: #1a1a1a; color: #fff !important; border-color: #1a1a1a; }
     .btn-primary:hover { background: #333; }
 
+    /* Content accordions */
+    .main details { border: 1px solid #ddd; border-radius: 4px; margin-bottom: 8px; }
+    .main details summary { padding: 12px 16px; font-weight: 600; font-size: 15px; cursor: pointer; list-style: none; user-select: none; }
+    .main details summary::-webkit-details-marker { display: none; }
+    .main details summary::before { content: "▸ "; font-size: 11px; color: #888; }
+    .main details[open] summary::before { content: "▾ "; }
+    .main details summary:hover { background: #f9f9f9; }
+    .main details[open] summary { border-bottom: 1px solid #ddd; }
+    .main details > *:not(summary) { padding: 0 16px 16px; }
+
     /* Footer */
     .footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid #eee; font-size: 13px; color: #888; }
   </style>
