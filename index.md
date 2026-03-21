@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# McClatchy Content Scaling Agent
+# CSA Content Standards
 
 Reference documentation for the Content Scaling Agent — versioned and served in multiple formats.
 

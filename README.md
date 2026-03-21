@@ -1,6 +1,6 @@
-# McClatchy Content Agent Docs
+# CSA Content Standards
 
-Reference documentation for the McClatchy Content Scaling Agent.
+Reference documentation for the Content Scaling Agent.
 
 ## What's In Here
 
