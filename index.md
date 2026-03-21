@@ -17,6 +17,7 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 | # | Section | Status |
 |---|---|---|
 | 1 | Brand Guidelines | 📝 Draft — pending approval |
+| 1a | Headlines by Outlet | ⚠️ Pending — outlet standards needed |
 | 2 | Article Formats | 📝 Draft — pending approval |
 | 3 | Personas | 📝 Draft — pending approval |
 | 4 | Acceptable Sources | ✅ Complete |
