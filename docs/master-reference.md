@@ -2,7 +2,7 @@
 layout: default
 title: Master Reference
 nav_order: 2
-has_children: false
+has_toc: true
 ---
 
 # McClatchy Content Scaling Agent — Master Reference Document
