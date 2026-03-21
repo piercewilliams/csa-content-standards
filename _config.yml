@@ -21,8 +21,3 @@ aux_links:
     - "https://piercewilliams.github.io/content-agent-docs/api/reference.json"
 
 aux_links_new_tab: true
-
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
