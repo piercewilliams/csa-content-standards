@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Master Reference
+cms_entry: master-reference
 ---
 
 # CSA Content Standards — Master Reference Document
@@ -191,6 +192,7 @@ Every piece of content must be able to answer **yes** to all of the following be
 <!-- FORMAT:discover-explainer -->
 ## 3.1 Google Discover Explainer
 
+
 Platform: Google Discover | Type: Explainer
 
 ### Purpose
@@ -359,6 +361,13 @@ Link to:
 
 ---
 
+<!-- FORMAT:additional-formats-pending -->
+## 3.2 Additional Formats — Pending
+
+> ⚠️ **STUB** — Standards for additional article formats are pending. Do not create or publish content under a new format type until its section has been reviewed and approved. Add new formats following the §3.1 structure: Purpose, required fields, article structure, formatting rules, pre-publish checklist.
+
+---
+
 <!-- SECTION:personas -->
 # 4. Personas
 
@@ -439,7 +448,27 @@ This is the person scrolling their phone in a waiting room or on the couch after
 
 ## 6.2 WordPress
 
-> ⚠️ **STUB** — Publishing rules for WordPress destinations pending. Do not populate until guidance is provided.
+### Required Fields & Settings
+**(REQUIRED)**
+
+- **Post status:** Set to Draft — do not publish directly; all content requires peer review and human approval before going live
+- **Author:** Named individual byline — never a staff or team account (see Brand Guidelines §1.5)
+- **Featured image:** 1200px+ wide, 16:9 aspect ratio, 300K+ pixels — same requirements as the Hero Image spec (§3)
+- **Permalink:** Follow URL structure rules in the article format spec — 4+ keywords, stop words stripped, front-loaded
+
+### AI Disclosure
+**(REQUIRED)**
+
+- Add *"This article was created by content specialists using various tools, including AI."* at the top of the post body
+- Enable any available AI disclosure settings in the WordPress theme or plugin if present
+
+### Tags & Categories
+**(REQUIRED)**
+
+- Apply `TH-CSA` and `The Commons` where the platform supports tags *(subject to change — check for updates)*
+- Set a specific category per destination site — do not use generic defaults (e.g., "Uncategorized", "General")
+
+> ⚠️ **Destination-specific settings** — custom fields, theme requirements, and plugin configurations vary by WordPress site. Confirm with the site owner before publishing to any WordPress destination for the first time.
 
 ---
 

@@ -1,0 +1,55 @@
+main:
+  - title: Home
+    url: /
+
+  - divider: true
+
+  - title: Brand Guidelines
+    url: /docs/brand-guidelines
+    match: brand-guidelines
+
+  - title: Headlines
+    url: /docs/headlines
+    match: headlines
+
+  - title: Article Formats
+    children:
+      - title: Google Discover Explainer
+        url: /docs/discover-explainer
+        match: discover-explainer
+
+  - title: Personas
+    children:
+      - title: The Discover Browser
+        url: /docs/discover-browser
+        match: discover-browser
+
+  - title: Acceptable Sources
+    url: /docs/acceptable-sources
+    match: acceptable-sources
+
+  - title: Publishing Guidelines
+    url: /docs/publishing-guidelines
+    match: publishing-guidelines
+
+  - divider: true
+
+  - title: Master Reference
+    url: /docs/master-reference
+    match: master-reference
+
+  - title: Collaboration Guide
+    url: /docs/collaboration-guide
+    match: collaboration-guide
+
+  - title: Changelog
+    url: /docs/changelog
+    match: changelog
+
+aux:
+  - title: "⬇ Download Full Reference"
+    url: "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md"
+    external: true
+  - title: "⚙ JSON API"
+    url: "/api/reference.json"
+    external: true

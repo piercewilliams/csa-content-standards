@@ -96,3 +96,19 @@ cms_entry: acceptable-sources
 | Data.gov | [data.gov](https://data.gov) | Government | Open data catalog for U.S. government datasets. Great for data journalism and investigative pieces. |
 
 </details>
+
+<details markdown="1">
+<summary>Entertainment & Celebrity</summary>
+
+| Source | URL | Type | Notes |
+|---|---|---|---|
+| People | [people.com](https://people.com) | Media | Celebrity news, human interest, entertainment. Primary benchmark for voice, tone, and format in celebrity content. |
+| Entertainment Weekly | [ew.com](https://ew.com) | Media | Film, TV, music, and celebrity coverage. Strong for entertainment explainers, reviews, and awards coverage. |
+| Variety | [variety.com](https://variety.com) | Trade/Media | Entertainment industry news, box office, awards, deals. Authoritative for credits, industry data, and business-side sourcing. |
+| The Hollywood Reporter | [hollywoodreporter.com](https://www.hollywoodreporter.com) | Trade/Media | Film/TV industry, talent news, awards coverage. Good for authoritative industry sourcing and talent credits. |
+| Billboard | [billboard.com](https://www.billboard.com) | Trade/Media | Music charts, artist news, tour and album data. Primary source for chart positions and music industry facts. |
+| IMDb | [imdb.com](https://www.imdb.com) | Database | Film/TV credits, cast and crew, release dates, episode data. Authoritative for credits, filmography, and release info — cite the record, not editorial content. |
+| Rotten Tomatoes | [rottentomatoes.com](https://www.rottentomatoes.com) | Aggregator | Film/TV critic and audience scores. Use for consensus ratings; note score and review count when citing. |
+| Deadline Hollywood | [deadline.com](https://deadline.com) | Trade/Media | Breaking entertainment industry news, casting, deals, ratings. Fast-moving; verify before citing. |
+
+</details>

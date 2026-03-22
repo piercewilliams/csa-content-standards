@@ -8,20 +8,50 @@ cms_entry: headlines
 
 Universal headline rules are defined in [Brand Guidelines]({{ "/docs/brand-guidelines" | relative_url }}). This section documents outlet-specific headline standards — character counts, casing rules, formula variations, and CMS-specific requirements — that override or extend the universal rules for each distribution destination.
 
-Each outlet's standards can be expanded below and downloaded individually.
+Each outlet's standards can be expanded below.
 
-[⬇ Download all headline standards](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/headlines.md){: .btn }
+[⬇ Download all headline standards](https://raw.githubusercontent.com/{{ site.github_username }}/{{ site.github_repo }}/main/docs/headlines.md){: .btn }
 
 ---
 
-> ⚠️ Outlet standards are pending. Add each outlet as a `<details>` block below following the pattern shown.
+<details markdown="1">
+<summary>Universal Defaults (All Outlets)</summary>
 
-<!-- OUTLET TEMPLATE — copy and fill for each outlet
+*These apply to all outlets unless an outlet-specific block below says otherwise.*
+
+### Character Counts
+| Field | Count |
+|---|---|
+| Headline (H1) | 95–100 characters |
+| SEO Title | 60–70 characters |
+| Promo/Homepage Title | 65–70 characters |
+| Meta Description | 100–165 characters |
+
+### Casing Rules
+- Follow Brand Guidelines §1.2 unless the outlet specifies otherwise
+- All-caps headlines in CUE (McClatchy CMS) per L&E Style Guide
+- Adjust casing per destination site style guide before publishing
+
+### Formula Variations
+- Default to Brand Guidelines headline formulas (§1.2)
+- "Everything You Need to Know" / "Everything to Know" patterns per article format spec (§3)
+
+### CMS-Specific Notes
+- See Publishing Guidelines §6 for platform-specific CMS requirements
+
+### Additional Rules
+- See Brand Guidelines §1.3 for explicit language prohibitions that apply to all headlines
+
+</details>
+
+---
+
+> ⚠️ Outlet-specific standards are pending. Add each outlet as a `<details>` block below following the pattern in the template comment at the bottom of this file.
+
+<!-- OUTLET TEMPLATE — copy, remove comment markers, and fill for each outlet
 
 <details markdown="1">
 <summary>Outlet Name</summary>
-
-[⬇ Download this outlet's standards](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/headlines/outlet-name.md){: .btn }
 
 *Vertical:* [e.g. Entertainment / Lifestyle]
 

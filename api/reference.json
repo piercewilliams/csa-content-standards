@@ -2,51 +2,74 @@
   "document": "CSA Content Standards — Master Reference",
   "version": "1.0.0",
   "last_updated": "2026-03",
+  "base_url": "https://csa-content-standards.netlify.app",
   "sections": [
     {
+      "section": 1,
       "id": "brand-guidelines",
       "title": "Brand Guidelines",
-      "status": "complete",
-      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#1-brand-guidelines"
+      "status": "active",
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#1-brand-guidelines",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/brand-guidelines"
     },
     {
+      "section": 2,
+      "id": "headlines",
+      "title": "Headlines",
+      "status": "pending",
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#2-headlines",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/headlines",
+      "notes": "Outlet-specific standards pending. Universal headline rules are in Brand Guidelines §1.2."
+    },
+    {
+      "section": 3,
       "id": "article-formats",
       "title": "Article Formats",
       "status": "partial",
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#3-article-formats",
       "formats": [
         {
           "id": "discover-explainer",
           "title": "Google Discover Explainer",
-          "status": "complete",
-          "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#21-google-discover-explainer"
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#31-google-discover-explainer",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/discover-explainer"
         }
       ]
     },
     {
+      "section": 4,
       "id": "personas",
       "title": "Personas",
       "status": "partial",
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#4-personas",
       "personas": [
         {
           "id": "discover-browser",
           "title": "The Discover Browser",
           "platform": "Google Discover",
-          "status": "complete",
-          "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#31-the-discover-browser"
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#41-the-discover-browser",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/discover-browser"
         }
       ]
     },
     {
+      "section": 5,
       "id": "acceptable-sources",
       "title": "Acceptable Sources",
-      "status": "complete",
-      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#4-acceptable-sources"
+      "status": "active",
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#5-acceptable-sources",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/acceptable-sources"
     },
     {
+      "section": 6,
       "id": "publishing-guidelines",
       "title": "Publishing Guidelines",
       "status": "partial",
-      "url": "https://piercewilliams.github.io/csa-content-standards/docs/master-reference#5-publishing-guidelines"
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#6-publishing-guidelines",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/publishing-guidelines",
+      "notes": "CUE (McClatchy CMS) guidelines are active. WordPress and other platform guidelines are pending."
     }
   ],
   "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md"

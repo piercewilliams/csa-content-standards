@@ -4,6 +4,9 @@ theme: jekyll-theme-cayman
 baseurl: ""
 url: "https://csa-content-standards.netlify.app"
 
+github_username: piercewilliams
+github_repo: csa-content-standards
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

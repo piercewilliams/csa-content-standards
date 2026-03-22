@@ -9,7 +9,7 @@ cms_entry: home
 Reference documentation for the Content Scaling Agent — versioned and served in multiple formats.
 
 [View Master Reference]({{ "/docs/master-reference" | relative_url }}){: .btn .btn-primary }
-[Download Markdown](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md){: .btn }
+[Download Markdown](https://raw.githubusercontent.com/{{ site.github_username }}/{{ site.github_repo }}/main/docs/master-reference.md){: .btn }
 
 ---
 
@@ -17,12 +17,12 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 
 | # | Section | Status |
 |---|---|---|
-| 1 | Brand Guidelines | 📝 Draft — pending approval |
+| 1 | Brand Guidelines | ✅ Active |
 | 2 | Headlines | ⚠️ Pending — outlet standards needed |
-| 3 | Article Formats | 📝 Draft — pending approval |
-| 4 | Personas | 📝 Draft — pending approval |
-| 5 | Acceptable Sources | ✅ Complete |
-| 6 | Publishing Guidelines | 📝 Draft — pending approval |
+| 3 | Article Formats | 🔄 Partial — Discover Explainer only |
+| 4 | Personas | 🔄 Partial — Discover Browser only |
+| 5 | Acceptable Sources | ✅ Active |
+| 6 | Publishing Guidelines | 🔄 Partial — CUE only; WordPress pending |
 
 ---
 
@@ -30,6 +30,6 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 
 | Format | URL |
 |---|---|
-| Rendered site | [piercewilliams.github.io/csa-content-standards](https://piercewilliams.github.io/csa-content-standards) |
-| Raw markdown | [master-reference.md](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md) |
-| JSON API | [reference.json](https://piercewilliams.github.io/csa-content-standards/api/reference.json) |
+| Rendered site | [csa-content-standards.netlify.app]({{ site.url }}) |
+| Raw markdown | [master-reference.md](https://raw.githubusercontent.com/{{ site.github_username }}/{{ site.github_repo }}/main/docs/master-reference.md) |
+| JSON API | [reference.json]({{ site.url }}/api/reference.json) |

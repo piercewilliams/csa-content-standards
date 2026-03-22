@@ -18,13 +18,21 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Home" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - label: "Master Reference"
+        name: "master-reference"
+        file: "docs/master-reference.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Master Reference" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "This is the authoritative single-source document. Edit individual section pages instead where possible." }
+
       - label: "Brand Guidelines"
         name: "brand-guidelines"
         file: "docs/brand-guidelines.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Brand Guidelines" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Universal rules — applies to all formats unless a format-specific page explicitly overrides." }
 
       - label: "Headlines"
         name: "headlines"
@@ -32,7 +40,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Headlines" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Add each outlet as a <details> block. Character counts: H1 95–100, SEO Title 60–70, Promo 65–70, Meta 100–165." }
 
       - label: "Google Discover Explainer"
         name: "discover-explainer"
@@ -40,7 +48,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Google Discover Explainer" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict." }
 
       - label: "Persona: The Discover Browser"
         name: "discover-browser"
@@ -56,7 +64,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Acceptable Sources" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Add new sources as rows in the relevant vertical's table. Each source needs: name, URL, type, and notes." }
 
       - label: "Publishing Guidelines"
         name: "publishing-guidelines"
@@ -64,7 +72,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Platform-specific rules — CMS entry and submission, not writing style." }
 
       - label: "Collaboration Guide"
         name: "collaboration-guide"
@@ -80,4 +88,4 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Changelog" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Add new versions at the top. Format: ## [version] — YYYY-MM-DD" }
