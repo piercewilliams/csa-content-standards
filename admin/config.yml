@@ -5,8 +5,6 @@ backend:
   auth_type: pkce
   app_id: Ov23liJVBKsQWqSisNyV
 
-publish_mode: editorial_workflow
-
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
@@ -36,7 +34,7 @@ collections:
         file: "docs/headlines.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Title", name: "title", widget: "hidden", default: "Headlines by Outlet" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Headlines" }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Google Discover Explainer"
