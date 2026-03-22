@@ -1,7 +1,7 @@
 title: CSA Content Standards
 description: Reference documentation for the Content Scaling Agent
 theme: jekyll-theme-cayman
-baseurl: "/csa-content-standards"
+baseurl: ""
 url: "https://piercewilliams.github.io"
 
 plugins:

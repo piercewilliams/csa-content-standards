@@ -2,8 +2,6 @@ backend:
   name: github
   repo: piercewilliams/csa-content-standards
   branch: main
-  auth_type: pkce
-  app_id: Ov23liJVBKsQWqSisNyV
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
