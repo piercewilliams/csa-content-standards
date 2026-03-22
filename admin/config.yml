@@ -66,6 +66,14 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - label: "Collaboration Guide"
+        name: "collaboration-guide"
+        file: "docs/collaboration-guide.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Collaboration Guide" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
       - label: "Changelog"
         name: "changelog"
         file: "docs/changelog.md"

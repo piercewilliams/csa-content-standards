@@ -11,11 +11,19 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.0.5] — 2026-03
+- Site migrated from GitHub Pages to Netlify for CMS authentication support
+- CMS login switched from GitHub OAuth to Netlify Identity (email/password)
+- Collaboration Guide rewritten to reflect Netlify/Decap CMS setup, added editor usage instructions
+- Headlines renamed from "Headlines by Outlet" and renumbered as §2; all subsequent sections renumbered (§3–§6)
+- Pre-publish checklist bullet formatting fixed on Google Discover Explainer page
+- Required labels standardized to `*type: required*` format across all pages
+- Collaboration Guide added to CMS admin panel
+
 ## [1.0.4] — 2026-03
 - Headlines section added with universal rules and outlet-specific accordion structure
 - Acceptable Sources reorganized into expandable category accordions
 - Collaboration Guide added covering editor workflow, owner approval, and new collaborator setup
-- Decap CMS editorial workflow enabled — edits now route through pull request approval before publishing
 - Edit this page button added to all pages
 - Section numbers removed from individual page headings
 - Changelog moved below Collaboration Guide in sidebar

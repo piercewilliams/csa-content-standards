@@ -8,82 +8,97 @@ cms_entry: collaboration-guide
 
 ---
 
-## Part 1: Making and Approving Edits
+## Part 1: Logging In
 
-### Making an edit
+The CMS is hosted at **[csa-content-standards.netlify.app/admin](https://csa-content-standards.netlify.app/admin/)**. You can also reach it by clicking **Edit this page** on any page of the site.
 
-1. Go to [piercewilliams.github.io/csa-content-standards/admin/](https://piercewilliams.github.io/csa-content-standards/admin/)
-2. Click **Login with GitHub**
-3. If prompted, click **Authorize** to allow the CMS to access the repo
-4. In the left sidebar, click **Documentation**
-5. Click the page you want to edit
-6. Make your changes in the editor — the right panel shows a live preview
-7. When done, click **Save** in the upper right
-8. The CMS will ask for a status — leave it as **Draft** and confirm
-9. Your edit is submitted as a draft for review — nothing goes live yet
+Login uses Netlify Identity — you do not need a GitHub account.
 
-### Submitting a draft for review
+1. Go to [csa-content-standards.netlify.app/admin](https://csa-content-standards.netlify.app/admin/)
+2. Click **Login with Netlify Identity**
+3. Enter the email and password from your invitation
+4. Click **Log in** — you'll land on the CMS dashboard
 
-After saving, mark your draft ready for review:
-
-1. In the CMS, click **Workflow** in the top nav — this shows all drafts in progress
-2. Find your draft and drag it from **Drafts** to **In Review**, or open it and change the status in the upper right
-3. This notifies the repo owner that it's ready to approve
+> If you haven't been invited yet, ask the site owner to send you an invitation. See Part 3.
 
 ---
 
-### Reviewing and approving an edit *(owner)*
+## Part 2: Using the Editor
 
-1. Go to [github.com/piercewilliams/csa-content-standards/pulls](https://github.com/piercewilliams/csa-content-standards/pulls)
-2. Click the open pull request for the edit
-3. Click the **Files changed** tab to see a line-by-line diff of what changed
-4. **To approve:** click **Review changes → Approve → Submit review**, then click **Merge pull request → Confirm merge** — the change goes live within ~1–2 minutes
-5. **To request changes:** click **Review changes → Request changes**, leave a comment explaining what to adjust, and submit — the editor will be notified and can revise in the CMS
+### Navigating the CMS
+
+- The left sidebar shows **Collections** — click **Documentation** to see all editable pages
+- Click any page to open it in the editor
+
+### The editor layout
+
+| Panel | What it does |
+|---|---|
+| Left | The editing area — all changes happen here |
+| Right | Live preview — updates as you type |
+
+### Editing content
+
+The editor has two modes — switch between them using the toggle in the upper right of the editing panel:
+
+- **Rich Text** — a visual editor similar to Google Docs. Use the toolbar to add formatting, headings, links, and lists
+- **Markdown** — raw Markdown source, for users comfortable with Markdown syntax
+
+Both modes edit the same content — switching between them is safe.
+
+### Formatting reference
+
+| Element | Rich Text | Markdown |
+|---|---|---|
+| Heading | Toolbar → H1/H2/H3 | `## Heading` |
+| Bold | Toolbar → B, or Cmd+B | `**bold**` |
+| Italic | Toolbar → I, or Cmd+I | `*italic*` |
+| Link | Toolbar → link icon | `[text](url)` |
+| Bullet list | Toolbar → list icon | `- item` |
+| Code | Toolbar → code icon | `` `code` `` |
+
+### Saving
+
+1. When done editing, click **Save** in the upper right
+2. The CMS commits your changes directly to the repository
+3. Netlify automatically rebuilds the site — changes go live within **1–2 minutes**
+
+> There is no draft or review step — saved changes publish immediately.
 
 ---
 
-## Part 2: Adding an Approved Collaborator
+## Part 3: Adding a Collaborator *(owner only)*
 
-*Do this once per person, on github.com.*
+Collaborators are managed through Netlify Identity — no GitHub account is required.
 
-1. Go to [github.com/piercewilliams/csa-content-standards](https://github.com/piercewilliams/csa-content-standards)
-2. Click **Settings** in the top nav of the repo
-3. Click **Collaborators** in the left sidebar
-4. Click **Add people**
-5. Type their GitHub username or the email address associated with their GitHub account
-6. Set their role to **Write** — this lets them submit edits but not change repo settings
-7. Click **Add [username] to this repository**
-8. They'll receive an email invitation — they must accept it before they can log into the CMS
+1. Go to [app.netlify.com/sites/csa-content-standards/identity](https://app.netlify.com/sites/csa-content-standards/identity)
+2. Click **Invite users**
+3. Enter the collaborator's email address and click **Send**
+4. They'll receive an email invitation to set a password and log in
+
+To remove a collaborator, find them in the users list on that same page and delete their account.
 
 ---
 
-## Part 3: New Collaborator Setup — Start to Finish
+## Part 4: New Collaborator Setup — Start to Finish
 
-### Step 1 — Create a GitHub account
+### Step 1 — Accept the invitation
 
-1. Go to [github.com](https://github.com) and click **Sign up**
-2. Enter an email address, create a password, and choose a username
-3. Verify your email address when GitHub sends a confirmation
+1. Check your email for a message from Netlify with the subject *"You've been invited to join..."*
+2. Click the link in the email
+3. You'll be taken to the site — a prompt will appear to set your password
+4. Enter a password and confirm it
 
-### Step 2 — Accept the collaboration invitation
+### Step 2 — Log into the CMS
 
-1. Check the inbox of the email used to sign up for GitHub
-2. Find the email from GitHub with the subject line: *"[piercewilliams] You've been invited to collaborate"*
-3. Click **View invitation** in the email
-4. On the GitHub page that opens, click **Accept invitation**
+1. Go to [csa-content-standards.netlify.app/admin](https://csa-content-standards.netlify.app/admin/)
+2. Click **Login with Netlify Identity**
+3. Enter your email and the password you just set
+4. You're in
 
-### Step 3 — Log into the CMS
-
-1. Go to [piercewilliams.github.io/csa-content-standards/admin/](https://piercewilliams.github.io/csa-content-standards/admin/)
-2. Click **Login with GitHub**
-3. Enter your GitHub username and password
-4. When GitHub asks *"Authorize CSA Content Standards to access your account?"* — click **Authorize**
-5. You're in
-
-### Step 4 — Make an edit
+### Step 3 — Make an edit
 
 1. Click **Documentation** in the left sidebar
 2. Click the page you want to edit
-3. Make your changes — the right panel shows a live preview as you type
-4. Click **Save** when done — your edit goes to the owner for review
-5. You'll receive a GitHub email notification when it's approved and published, or if changes are requested
+3. Make your changes in the editor — the right panel shows a live preview
+4. Click **Save** when done — the change goes live on the site within 1–2 minutes
