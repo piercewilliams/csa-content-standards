@@ -156,22 +156,22 @@ Link to:
 - *(Tags subject to change — check for updates)*
 
 ### Pre-Publish Checklist
--AI disclaimer present (CUE sites only) and "Created With AI" checkbox checked in CUE
--Named human byline — creator/first editor only, no staff byline
--All facts verified; all links point to reputable sources
--Focus keyphrase in H1, SEO title, dek (CMS), and meta description
--H1: 95–100 characters, correct formula, no prohibited language
--SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
--Meta description: 100–165 characters, no repeated hed language
--Dek entered as CMS field — not placed inside article body
--Lede leads with *why it matters*, introduces key figures, no definition opener
--3–5 internal links with descriptive anchor text
--H2 subheadings contain Google Trends keywords
--Hero image: 1200px+ wide, 16:9, 300K+ res, no logos/text/stock
--URL: short, keyword-forward, stop words stripped
--Headline casing adjusted for publishing destination
--Tags applied: `TH-CSA` and `The Commons`
--If variant: ≥50% different from source and all other variants
--If new pitch: confirmed not duplicated on other McClatchy platforms
--Passes all Google Helpful Content standard questions (Brand Guidelines §1.7)
--Human review and approval obtained before publishing
+- AI disclaimer present (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- All facts verified; all links point to reputable sources
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 95–100 characters, correct formula, no prohibited language
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
+- Meta description: 100–165 characters, no repeated hed language
+- Dek entered as CMS field — not placed inside article body
+- Lede leads with *why it matters*, introduces key figures, no definition opener
+- 3–5 internal links with descriptive anchor text
+- H2 subheadings contain Google Trends keywords
+- Hero image: 1200px+ wide, 16:9, 300K+ res, no logos/text/stock
+- URL: short, keyword-forward, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- If variant: ≥50% different from source and all other variants
+- If new pitch: confirmed not duplicated on other McClatchy platforms
+- Passes all Google Helpful Content standard questions (Brand Guidelines §1.7)
+- Human review and approval obtained before publishing
