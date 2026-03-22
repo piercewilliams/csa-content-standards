@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: piercewilliams/csa-content-standards
+  name: git-gateway
   branch: main
 
 media_folder: "assets/images"
