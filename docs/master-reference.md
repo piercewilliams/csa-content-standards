@@ -182,13 +182,13 @@ Every piece of content must be able to answer **yes** to all of the following be
 <!-- FORMAT:discover-explainer -->
 ## 2.1 Google Discover Explainer
 
-**REQUIRED** | Platform: Google Discover | Type: Explainer
+Platform: Google Discover | Type: Explainer
 
 ### Purpose
 A Discover Explainer introduces readers to the **why** of a topic. Its primary purpose is to explain why the topic matters right now — not merely to define it. It provides clarity on complex topics, answers user questions, and ranks for informational search queries. It must earn attention from someone who was not actively looking for it.
 
 ### Headline (H1)
-**REQUIRED**
+*type: required*
 
 **Primary formula:** `What Is [Topic]? Everything You Need to Know`
 **Alternate formula:** `Who Is [Person]? Everything You Need to Know`
@@ -200,7 +200,7 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 - Casing varies by publishing destination — adjust per site style guide before publishing
 
 ### SEO Title
-**REQUIRED**
+*type: required*
 
 - Character count: 60–70 characters
 - Must contain the focus keyphrase
@@ -210,21 +210,21 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 - Avoid clickbait — question-format titles are permitted but must not be misleading
 
 ### Dek
-**REQUIRED** — CMS field only, not an in-article element
+*type: required · CMS field only, not an in-article element*
 
 - Entered as a separate field in the CMS
 - Must contain the focus keyphrase
 - Should summarize the article in a way that entices the click
 
 ### Meta Description
-**REQUIRED**
+*type: required*
 
 - 100–165 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 
 ### Focus Keyphrase
-**REQUIRED**
+*type: required*
 
 | Type | Format |
 |---|---|
@@ -234,17 +234,17 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 Must appear in: H1, SEO title, dek (CMS field), meta description
 
 ### Tone
-**REQUIRED**
+*type: required*
 
 Authoritative, clear, and easy to understand. Conversational and human — never stiff or institutional.
 
 ### Word Count
-**REQUIRED** — 400–800 words
+*type: required · target 400–800 words*
 
 Word count is a target range, not a hard ceiling. If the topic requires more depth, go longer — provided the article remains well-organized and every word earns its place.
 
 ### Article Structure
-**REQUIRED**
+*type: required*
 ```
 [AI DISCLAIMER — CUE sites only]
 "This article was created by content specialists using various tools, including AI."
@@ -274,7 +274,7 @@ Word count is a target range, not a hard ceiling. If the topic requires more dep
 ```
 
 ### Formatting Rules
-**REQUIRED**
+*type: required*
 
 - Use H2 subheadings as primary section headers
 - Bullet points permitted for lists within body copy — not as a substitute for prose
@@ -282,7 +282,7 @@ Word count is a target range, not a hard ceiling. If the topic requires more dep
 - All-caps headlines in CMS only (see Headline rules above)
 
 ### Internal Links
-**REQUIRED** — 3 minimum, 5 maximum
+*type: required · 3 minimum, 5 maximum*
 
 See Brand Guidelines §1.4 for full anchor text rules.
 
@@ -292,7 +292,7 @@ Link to:
 - Previously published site articles about events mentioned in the explainer
 
 ### Hero Image
-**REQUIRED**
+*type: required*
 
 | Spec | Requirement |
 |---|---|
@@ -305,7 +305,7 @@ Link to:
 | Generic stock | NOT permitted |
 
 ### URL Structure
-**REQUIRED**
+*type: required*
 
 - 4+ keywords, front-loaded
 - Strip stop words
@@ -313,7 +313,7 @@ Link to:
 - Pattern: `[topic-keyword]-[topic-keyword]-explained` or similar
 
 ### Variants
-**REQUIRED** where applicable
+*type: required where applicable*
 
 - Every piece should have a local variant and a national variant
 - All variants must be ≥50% different from the original and from each other
@@ -321,7 +321,7 @@ Link to:
 - New pitches must not duplicate content already published on other McClatchy platforms
 
 ### Tags
-**REQUIRED**
+*type: required*
 
 - `TH-CSA`
 - `The Commons`
@@ -404,7 +404,7 @@ This is the person scrolling their phone in a waiting room or on the couch after
 ## 5.1 CUE (McClatchy CMS)
 
 ### Required Fields & Settings
-**REQUIRED**
+*type: required*
 
 - **AI Disclosure checkbox:** Check "Created With AI" in the General section for all AI-assisted content
 - **AI Disclosure text:** Add *"This article was created by content specialists using various tools, including AI."* at the top of the article body
@@ -413,14 +413,14 @@ This is the person scrolling their phone in a waiting room or on the couch after
 - **Dek:** Enter as a separate CMS field — do not place inside the article body
 
 ### Section Placement
-**REQUIRED**
+*type: required*
 
 - Do **not** home stories to generic sections like "Local News" or "Sports"
 - Use designated sections (e.g., "Homebuyers Guide", "Travel", "Wellness", "Lifestyle", "FIFA World Cup")
 - Do **not** use "Real Estate News Destination" as a section
 
 ### Headline Casing
-**REQUIRED**
+*type: required*
 
 - Headlines are all-caps in CUE in alignment with the L&E Style Guide
 - UsW uses all-caps subheadings; WW does not
