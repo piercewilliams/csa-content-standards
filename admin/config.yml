@@ -31,7 +31,7 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Brand Guidelines" }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: "Headlines by Outlet"
+      - label: "Headlines"
         name: "headlines"
         file: "docs/headlines.md"
         fields:

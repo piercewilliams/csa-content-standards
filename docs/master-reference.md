@@ -172,15 +172,24 @@ Every piece of content must be able to answer **yes** to all of the following be
 
 ---
 
+<!-- SECTION:headlines -->
+# 2. Headlines
+
+> **Scope:** Outlet-specific headline standards — character counts, casing rules, formula variations, and CMS-specific requirements. Universal headline rules are defined in Brand Guidelines §1.2.
+
+> See the full [Headlines page]({{ "/docs/headlines" | relative_url }}) for outlet-specific standards organized by outlet.
+
+---
+
 <!-- SECTION:article-formats -->
-# 2. Article Formats
+# 3. Article Formats
 
 > **Scope:** Format-specific rules. Each subsection defines the structure, metadata, and content requirements for a specific article type and platform combination. Rules here override Brand Guidelines only where explicitly stated.
 
 ---
 
 <!-- FORMAT:discover-explainer -->
-## 2.1 Google Discover Explainer
+## 3.1 Google Discover Explainer
 
 Platform: Google Discover | Type: Explainer
 
@@ -351,16 +360,16 @@ Link to:
 ---
 
 <!-- SECTION:personas -->
-# 3. Personas
+# 4. Personas
 
 > **Scope:** Audience definitions used to guide tone, framing, and content decisions. Each persona maps to one or more platforms or content types.
 
 ---
 
-## 3.1 The Discover Browser
+## 4.1 The Discover Browser
 
 **Platform:** Google Discover
-**Applies to:** All Discover content formats including §2.1 Google Discover Explainer
+**Applies to:** All Discover content formats including §3.1 Google Discover Explainer
 
 ### Who They Are
 This is the person scrolling their phone in a waiting room or on the couch after dinner — not searching for anything, just open to being interested. They are visually driven, pattern-aware, and impatient. They remember what they have engaged with before and keep seeing more of the same, but light up when something unexpected breaks through. They trust credible sources but want content that feels human, not institutional.
@@ -386,7 +395,7 @@ This is the person scrolling their phone in a waiting room or on the couch after
 ---
 
 <!-- SECTION:acceptable-sources -->
-# 4. Acceptable Sources
+# 5. Acceptable Sources
 
 > **Scope:** Defines what constitutes a reputable, linkable source for McClatchy content. All facts must be verified and all links must point to sources that meet these standards.
 
@@ -395,13 +404,13 @@ This is the person scrolling their phone in a waiting room or on the couch after
 ---
 
 <!-- SECTION:publishing-guidelines -->
-# 5. Publishing Guidelines
+# 6. Publishing Guidelines
 
 > **Scope:** Platform-specific and CMS-specific rules for exporting, formatting, and publishing content. Rules here are operational — they govern how content is entered and submitted, not how it is written.
 
 ---
 
-## 5.1 CUE (McClatchy CMS)
+## 6.1 CUE (McClatchy CMS)
 
 ### Required Fields & Settings
 *type: required*
@@ -428,13 +437,13 @@ This is the person scrolling their phone in a waiting room or on the couch after
 
 ---
 
-## 5.2 WordPress
+## 6.2 WordPress
 
 > ⚠️ **STUB** — Publishing rules for WordPress destinations pending. Do not populate until guidance is provided.
 
 ---
 
-## 5.3 Other Export Destinations
+## 6.3 Other Export Destinations
 
 > ⚠️ **STUB** — Additional distribution platforms and export rules pending. Do not populate until guidance is provided.
 

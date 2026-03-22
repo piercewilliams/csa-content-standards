@@ -7,7 +7,7 @@ cms_entry: discover-browser
 # The Discover Browser
 
 **Platform:** Google Discover
-**Applies to:** All Discover content formats including §2.1 Google Discover Explainer
+**Applies to:** All Discover content formats including §3.1 Google Discover Explainer
 
 [⬇ Download this section](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/discover-browser.md){: .btn }
 

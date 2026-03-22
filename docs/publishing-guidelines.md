@@ -12,7 +12,7 @@ cms_entry: publishing-guidelines
 
 ---
 
-## 5.1 CUE (McClatchy CMS)
+## 6.1 CUE (McClatchy CMS)
 
 ### Required Fields & Settings
 *type: required*
@@ -39,12 +39,12 @@ cms_entry: publishing-guidelines
 
 ---
 
-## 5.2 WordPress
+## 6.2 WordPress
 
 > ⚠️ **STUB** — Publishing rules for WordPress destinations pending. Do not populate until guidance is provided.
 
 ---
 
-## 5.3 Other Export Destinations
+## 6.3 Other Export Destinations
 
 > ⚠️ **STUB** — Additional distribution platforms and export rules pending. Do not populate until guidance is provided.

@@ -18,11 +18,11 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 | # | Section | Status |
 |---|---|---|
 | 1 | Brand Guidelines | 📝 Draft — pending approval |
-| 1a | Headlines by Outlet | ⚠️ Pending — outlet standards needed |
-| 2 | Article Formats | 📝 Draft — pending approval |
-| 3 | Personas | 📝 Draft — pending approval |
-| 4 | Acceptable Sources | ✅ Complete |
-| 5 | Publishing Guidelines | 📝 Draft — pending approval |
+| 2 | Headlines | ⚠️ Pending — outlet standards needed |
+| 3 | Article Formats | 📝 Draft — pending approval |
+| 4 | Personas | 📝 Draft — pending approval |
+| 5 | Acceptable Sources | ✅ Complete |
+| 6 | Publishing Guidelines | 📝 Draft — pending approval |
 
 ---
 

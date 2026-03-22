@@ -12,7 +12,7 @@ Format: `[VERSION] — YYYY-MM — Description`
 ---
 
 ## [1.0.4] — 2026-03
-- Headlines by Outlet section added with universal rules and outlet-specific accordion structure
+- Headlines section added with universal rules and outlet-specific accordion structure
 - Acceptable Sources reorganized into expandable category accordions
 - Collaboration Guide added covering editor workflow, owner approval, and new collaborator setup
 - Decap CMS editorial workflow enabled — edits now route through pull request approval before publishing
@@ -36,7 +36,7 @@ Format: `[VERSION] — YYYY-MM — Description`
 ## [1.0.0] — 2026-03
 - Initial release
 - Brand Guidelines (§1): voice/tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content standard, universal compliance
-- Article Formats (§2): Google Discover Explainer (§2.1) — complete
-- Personas (§3): The Discover Browser (§3.1) — complete
-- Acceptable Sources (§4): stub — pending editorial input
-- Publishing Guidelines (§5): CUE complete; WordPress and other destinations stubbed
+- Article Formats (§3): Google Discover Explainer (§3.1) — complete
+- Personas (§4): The Discover Browser (§4.1) — complete
+- Acceptable Sources (§5): stub — pending editorial input
+- Publishing Guidelines (§6): CUE complete; WordPress and other destinations stubbed

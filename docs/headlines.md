@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Headlines by Outlet
+title: Headlines
 cms_entry: headlines
 ---
 
-# Headlines by Outlet
+# Headlines
 
 Universal headline rules are defined in [Brand Guidelines]({{ "/docs/brand-guidelines" | relative_url }}). This section documents outlet-specific headline standards — character counts, casing rules, formula variations, and CMS-specific requirements — that override or extend the universal rules for each distribution destination.
 
