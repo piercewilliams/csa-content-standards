@@ -91,6 +91,7 @@
     /* Footer */
     .footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid #eee; font-size: 13px; color: #888; }
   </style>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <aside class="sidebar">
@@ -144,5 +145,16 @@
     {{ content }}
     <div class="footer">{{ site.footer_content }}</div>
   </main>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
