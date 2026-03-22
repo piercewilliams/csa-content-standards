@@ -16,7 +16,7 @@ Platform: Google Discover | Type: Explainer
 A Discover Explainer introduces readers to the **why** of a topic. Its primary purpose is to explain why the topic matters right now — not merely to define it. It provides clarity on complex topics, answers user questions, and ranks for informational search queries. It must earn attention from someone who was not actively looking for it.
 
 ### Headline (H1)
-*type: required*
+**(REQUIRED)**
 
 **Primary formula:** `What Is [Topic]? Everything You Need to Know`
 **Alternate formula:** `Who Is [Person]? Everything You Need to Know`
@@ -28,7 +28,7 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 - Casing varies by publishing destination — adjust per site style guide before publishing
 
 ### SEO Title
-*type: required*
+**(REQUIRED)**
 
 - Character count: 60–70 characters
 - Must contain the focus keyphrase
@@ -38,21 +38,21 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 - Avoid clickbait — question-format titles are permitted but must not be misleading
 
 ### Dek
-*type: required · CMS field only, not an in-article element*
+**(REQUIRED)**
 
 - Entered as a separate field in the CMS
 - Must contain the focus keyphrase
 - Should summarize the article in a way that entices the click
 
 ### Meta Description
-*type: required*
+**(REQUIRED)**
 
 - 100–165 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 
 ### Focus Keyphrase
-*type: required*
+**(REQUIRED)**
 
 | Type | Format |
 |---|---|
@@ -62,17 +62,17 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 Must appear in: H1, SEO title, dek (CMS field), meta description
 
 ### Tone
-*type: required*
+**(REQUIRED)**
 
 Authoritative, clear, and easy to understand. Conversational and human — never stiff or institutional.
 
 ### Word Count
-*type: required · target 400–800 words*
+**(REQUIRED)**
 
 Word count is a target range, not a hard ceiling. If the topic requires more depth, go longer — provided the article remains well-organized and every word earns its place.
 
 ### Article Structure
-*type: required*
+**(REQUIRED)**
 ```
 [AI DISCLAIMER — CUE sites only]
 "This article was created by content specialists using various tools, including AI."
@@ -102,7 +102,7 @@ Word count is a target range, not a hard ceiling. If the topic requires more dep
 ```
 
 ### Formatting Rules
-*type: required*
+**(REQUIRED)**
 
 - Use H2 subheadings as primary section headers
 - Bullet points permitted for lists within body copy — not as a substitute for prose
@@ -110,7 +110,7 @@ Word count is a target range, not a hard ceiling. If the topic requires more dep
 - All-caps headlines in CMS only (see Headline rules above)
 
 ### Internal Links
-*type: required · 3 minimum, 5 maximum*
+**(REQUIRED)**
 
 See Brand Guidelines §1.4 for full anchor text rules.
 
@@ -120,7 +120,7 @@ Link to:
 - Previously published site articles about events mentioned in the explainer
 
 ### Hero Image
-*type: required*
+**(REQUIRED)**
 
 | Spec | Requirement |
 |---|---|
@@ -133,7 +133,7 @@ Link to:
 | Generic stock | NOT permitted |
 
 ### URL Structure
-*type: required*
+**(REQUIRED)**
 
 - 4+ keywords, front-loaded
 - Strip stop words
@@ -141,7 +141,7 @@ Link to:
 - Pattern: `[topic-keyword]-[topic-keyword]-explained` or similar
 
 ### Variants
-*type: required where applicable*
+**(REQUIRED)**
 
 - Every piece should have a local variant and a national variant
 - All variants must be ≥50% different from the original and from each other
@@ -149,7 +149,7 @@ Link to:
 - New pitches must not duplicate content already published on other McClatchy platforms
 
 ### Tags
-*type: required*
+**(REQUIRED)**
 
 - `TH-CSA`
 - `The Commons`
