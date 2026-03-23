@@ -11,6 +11,9 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.0.9] — 2026-03
+- Google Discover Explainer: added variant platform-optimization principle — all variants must be optimized for intended audience and intended platform, not audience alone
+
 ## [1.0.8] — 2026-03
 - Google Discover Explainer fully reconciled with master style guide: gaps filled and conflicts resolved
 - Added: Discover-specific note that the Discover headline may differ from the SEO title

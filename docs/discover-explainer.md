@@ -177,7 +177,8 @@ Images must be striking and visually specific — no stock blandness.
 
 - <span style="color: #dc2626;">Every piece should have a local variant and a national variant</span>
 - All variants must be ≥50% different from the original and from each other
-- <span style="color: #dc2626;">Revival content (2025 or later) must be optimized for its best-performing distribution channel — for Discover, the format and framing must suit a passive, visually-driven feed reader</span>
+- All variants must be optimized for their intended audience **and** their intended platform — for Discover, format and framing must suit a passive, visually-driven feed reader
+- <span style="color: #dc2626;">Revival content (2025 or later) must be optimized for its best-performing distribution channel</span>
 - <span style="color: #dc2626;">Revival content includes: nostalgic angles (e.g., callbacks to 2016 trends) and "one year later" perspectives on top articles</span>
 - <span style="color: #dc2626;">New pitches must not duplicate content already published on other McClatchy platforms</span>
 
