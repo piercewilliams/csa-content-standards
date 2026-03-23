@@ -11,6 +11,25 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.0.7] — 2026-03
+- Google Discover Explainer: format-override summary paragraph added at top of page; all guidance that overrides or extends Brand Guidelines highlighted in red throughout
+- Gemfile.lock updated to include Linux platform (`x86_64-linux`) alongside macOS — fixes Netlify build failures caused by platform-specific gem resolution
+
+## [1.0.6] — 2026-03
+- Required labels (`*type: required*`) replaced with **(REQUIRED)** on all pages — now appears as bold inline text directly below each relevant subheading
+- Site infrastructure: CSS extracted to external stylesheet (`assets/css/main.css`); sidebar navigation made data-driven via `_data/navigation.yml`; Gemfile.lock added; `.gitignore` added with standard Jekyll excludes
+- URLs unified — all references updated from `piercewilliams.github.io` to `csa-content-standards.netlify.app`; `github_username` and `github_repo` added to `_config.yml`
+- JSON API (`api/reference.json`) overhauled: URLs corrected, Headlines §2 entry added, section numbers added, `standalone_url` and `notes` fields added per section
+- Section statuses on homepage corrected to accurately reflect active/partial/pending state
+- Master Reference added to sidebar navigation and CMS admin panel
+- CMS editor (`admin/config.yml`) updated: Master Reference entry added, contextual hints added to all document fields
+- `assets/images/` folder created to support CMS media uploads
+- Entertainment & Celebrity vertical added to Acceptable Sources (8 sources: People, EW, Variety, THR, Billboard, IMDb, Rotten Tomatoes, Deadline)
+- WordPress (§6.2) publishing skeleton populated — required fields, AI disclosure, and tags/categories guidance now documented
+- Headlines (§2) Universal Defaults block added — character counts, casing rules, and formula guidance now visible on the page
+- Article Formats §3.2 stub added as a placeholder for future format documentation
+- README updated to reflect current site URL and 6-section structure
+
 ## [1.0.5] — 2026-03
 - Site migrated from GitHub Pages to Netlify for CMS authentication support
 - CMS login switched from GitHub OAuth to Netlify Identity (email/password)
