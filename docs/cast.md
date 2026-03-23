@@ -237,23 +237,23 @@ For each cast member:
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All facts verified — cast member names, roles, and change details confirmed accurate
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, correct subtype formula applied, show/movie name front-loaded
-- [ ] SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- [ ] Meta description: 100–165 characters, no repeated hed language
-- [ ] Dek entered as CMS field — not placed inside article body
-- [ ] **Cast Update:** each change clearly labeled as joining, leaving, or role change; context provided
-- [ ] **Cast Introduction:** each cast member's name, role, and relevant background included
-- [ ] **UsW:** gallery or H2 format chosen and applied consistently
-- [ ] 3–5 internal links — show/movie tag page, actor tag pages, related news articles
-- [ ] Total word count is 400–500 words
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, production or cast photo, no logos/text/stock
-- [ ] URL: show/movie name front-loaded, subtype-appropriate pattern, stop words stripped
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All facts verified — cast member names, roles, and change details confirmed accurate
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, correct subtype formula applied, show/movie name front-loaded
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–165 characters, no repeated hed language
+- Dek entered as CMS field — not placed inside article body
+- **Cast Update:** each change clearly labeled as joining, leaving, or role change; context provided
+- **Cast Introduction:** each cast member's name, role, and relevant background included
+- **UsW:** gallery or H2 format chosen and applied consistently
+- 3–5 internal links — show/movie tag page, actor tag pages, related news articles
+- Total word count is 400–500 words
+- Hero image: 1200px+ wide, 16:9, 300K+ res, production or cast photo, no logos/text/stock
+- URL: show/movie name front-loaded, subtype-appropriate pattern, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

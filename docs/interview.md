@@ -241,24 +241,24 @@ A: [Answer]
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All quotes verified as accurate — no meaning altered in editing
-- [ ] All facts verified; all links point to reputable sources
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, `[Celebrity Name] on [Topic]: '[Quote]' (EXCLUSIVE)` formula, celebrity name front-loaded
-- [ ] SEO title: 60–70 characters (or slightly over to fit `(Excl)`), matches H1 intent, front-loaded keywords
-- [ ] Meta description: 100–165 characters, no repeated hed language
-- [ ] Dek entered as CMS field — not placed inside article body; teases most newsworthy reveal
-- [ ] Article structure chosen (Q&A or narrative) and applied consistently throughout
-- [ ] Most interesting/newsworthy parts surfaced early — lead not buried
-- [ ] In Q&A format: interviewer questions clearly labeled
-- [ ] 3–5 internal links — celebrity tag page, project pages, related articles (UsW: 3 min, 5 max); not confused with Related Links
-- [ ] Total word count is 500–1,500 words
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, features interview subject, no logos/text/stock
-- [ ] URL: `[celebrity-name]-[topic-keywords]` pattern, stop words stripped
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All quotes verified as accurate — no meaning altered in editing
+- All facts verified; all links point to reputable sources
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, `[Celebrity Name] on [Topic]: '[Quote]' (EXCLUSIVE)` formula, celebrity name front-loaded
+- SEO title: 60–70 characters (or slightly over to fit `(Excl)`), matches H1 intent, front-loaded keywords
+- Meta description: 100–165 characters, no repeated hed language
+- Dek entered as CMS field — not placed inside article body; teases most newsworthy reveal
+- Article structure chosen (Q&A or narrative) and applied consistently throughout
+- Most interesting/newsworthy parts surfaced early — lead not buried
+- In Q&A format: interviewer questions clearly labeled
+- 3–5 internal links — celebrity tag page, project pages, related articles (UsW: 3 min, 5 max); not confused with Related Links
+- Total word count is 500–1,500 words
+- Hero image: 1200px+ wide, 16:9, 300K+ res, features interview subject, no logos/text/stock
+- URL: `[celebrity-name]-[topic-keywords]` pattern, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

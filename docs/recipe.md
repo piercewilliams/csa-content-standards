@@ -240,22 +240,22 @@ Link to:
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All facts verified; all links point to reputable sources
-- [ ] Focus keyphrase (`[Recipe Name] recipe`) in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, "Recipe" present, long-tail keywords used, no prohibited language
-- [ ] SEO title: 50–70 characters, "Recipe" present, `[Dish Name] Recipe` construction preferred over "How to Make"
-- [ ] If recipe-specific video exists: `(with Video)` added to end of SEO title
-- [ ] Meta description: 100–165 characters, focus keyphrase present, no repeated hed language
-- [ ] Dek: 2–3 sentences, dish name present, entered as CMS field (not in article body)
-- [ ] Intro body copy: 150–350 words, mentions the name of the food
-- [ ] 3–5 internal links with descriptive anchor text; no unlabeled affiliate links
-- [ ] Recipe card complete: ingredients and step-by-step instructions
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, shows finished dish, no logos/text/stock
-- [ ] URL: `[dish-name]-recipe` pattern, stop words stripped
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All facts verified; all links point to reputable sources
+- Focus keyphrase (`[Recipe Name] recipe`) in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, "Recipe" present, long-tail keywords used, no prohibited language
+- SEO title: 50–70 characters, "Recipe" present, `[Dish Name] Recipe` construction preferred over "How to Make"
+- If recipe-specific video exists: `(with Video)` added to end of SEO title
+- Meta description: 100–165 characters, focus keyphrase present, no repeated hed language
+- Dek: 2–3 sentences, dish name present, entered as CMS field (not in article body)
+- Intro body copy: 150–350 words, mentions the name of the food
+- 3–5 internal links with descriptive anchor text; no unlabeled affiliate links
+- Recipe card complete: ingredients and step-by-step instructions
+- Hero image: 1200px+ wide, 16:9, 300K+ res, shows finished dish, no logos/text/stock
+- URL: `[dish-name]-recipe` pattern, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

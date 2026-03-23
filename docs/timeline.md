@@ -218,22 +218,22 @@ Each entry must include:
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All facts verified; all dates and events verified against reputable sources
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, `[Subject]: A Complete Timeline` or `[Subject]: A Complete Breakdown` formula, subject front-loaded, no prohibited language
-- [ ] SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
-- [ ] Meta description: 100–165 characters, no repeated hed language
-- [ ] Dek entered as CMS field — not placed inside article body
-- [ ] Entries listed chronologically — earliest first, most recent last
-- [ ] Every entry includes a date or time period
-- [ ] Every key moment has a corresponding photo (1200px+ wide, 16:9, 300K+ res, no logos/text/stock)
-- [ ] 3–5 internal links — subjects' tag pages and articles about specific events in the timeline
-- [ ] Total word count is 500–2,000 words
-- [ ] URL: `[subject]-relationship-timeline` or `[subject]-timeline` pattern, stop words stripped
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All facts verified; all dates and events verified against reputable sources
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, `[Subject]: A Complete Timeline` or `[Subject]: A Complete Breakdown` formula, subject front-loaded, no prohibited language
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
+- Meta description: 100–165 characters, no repeated hed language
+- Dek entered as CMS field — not placed inside article body
+- Entries listed chronologically — earliest first, most recent last
+- Every entry includes a date or time period
+- Every key moment has a corresponding photo (1200px+ wide, 16:9, 300K+ res, no logos/text/stock)
+- 3–5 internal links — subjects' tag pages and articles about specific events in the timeline
+- Total word count is 500–2,000 words
+- URL: `[subject]-relationship-timeline` or `[subject]-timeline` pattern, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

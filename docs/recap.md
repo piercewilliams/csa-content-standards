@@ -217,23 +217,23 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All facts verified; character names, episode titles, and plot details confirmed accurate
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, `[Show/Movie Name] Recap: [Number] Biggest Moments From [Episode Title]` formula (or UsW "Ending Explained" alternate), show/movie name front-loaded
-- [ ] SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- [ ] Meta description: 100–165 characters, no repeated hed language
-- [ ] Dek entered as CMS field — not placed inside article body; teases biggest moment
-- [ ] Lede opens with the biggest moment or most impactful development — not a neutral summary
-- [ ] Analysis and commentary present throughout — not a pure plot summary
-- [ ] Implications for future episodes or sequels addressed
-- [ ] 3–5 internal links — show/movie tag page, actor pages, previous episode's recap, related articles
-- [ ] Total word count is 400–800 words
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, episode or film still/promo, no logos/text/stock
-- [ ] URL: `[show-name]-recap-[episode-keywords]` or `[show-name]-season-[x]-episode-[y]-recap` pattern
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All facts verified; character names, episode titles, and plot details confirmed accurate
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, `[Show/Movie Name] Recap: [Number] Biggest Moments From [Episode Title]` formula (or UsW "Ending Explained" alternate), show/movie name front-loaded
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–165 characters, no repeated hed language
+- Dek entered as CMS field — not placed inside article body; teases biggest moment
+- Lede opens with the biggest moment or most impactful development — not a neutral summary
+- Analysis and commentary present throughout — not a pure plot summary
+- Implications for future episodes or sequels addressed
+- 3–5 internal links — show/movie tag page, actor pages, previous episode's recap, related articles
+- Total word count is 400–800 words
+- Hero image: 1200px+ wide, 16:9, 300K+ res, episode or film still/promo, no logos/text/stock
+- URL: `[show-name]-recap-[episode-keywords]` or `[show-name]-season-[x]-episode-[y]-recap` pattern
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

@@ -256,24 +256,24 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 ---
 
 ### Pre-Publish Checklist
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] If updated article: byline and dateline handled per General Guidelines §1.5
-- [ ] All facts confirmed — baby name (if reported), baby number, relationship details verified accurate
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, correct subtype formula applied, celebrity name(s) front-loaded
-- [ ] If Discover destination: Discover-specific formula applied (`Is Pregnant, Expecting...` or `Gives Birth to...`)
-- [ ] SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- [ ] Meta description: 100–165 characters, no repeated hed language, warm and celebratory tone
-- [ ] Dek entered as CMS field — not placed inside article body
-- [ ] **Couple:** key relationship milestones detailed with relevant dates
-- [ ] **Baby:** announcement confirmed with baby name (if known), baby number, and parent details
-- [ ] No speculation on unconfirmed details
-- [ ] 3–5 internal links — celebrity tag pages, couple's relationship timeline (if exists), related articles
-- [ ] **UsW:** word count at or above 500 words; **all outlets:** 200–500 words
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, features the celebrity or couple, no logos/text/stock
-- [ ] URL: celebrity name(s) front-loaded, subtype-appropriate pattern, stop words stripped
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- If updated article: byline and dateline handled per General Guidelines §1.5
+- All facts confirmed — baby name (if reported), baby number, relationship details verified accurate
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, correct subtype formula applied, celebrity name(s) front-loaded
+- If Discover destination: Discover-specific formula applied (`Is Pregnant, Expecting...` or `Gives Birth to...`)
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–165 characters, no repeated hed language, warm and celebratory tone
+- Dek entered as CMS field — not placed inside article body
+- **Couple:** key relationship milestones detailed with relevant dates
+- **Baby:** announcement confirmed with baby name (if known), baby number, and parent details
+- No speculation on unconfirmed details
+- 3–5 internal links — celebrity tag pages, couple's relationship timeline (if exists), related articles
+- **UsW:** word count at or above 500 words; **all outlets:** 200–500 words
+- Hero image: 1200px+ wide, 16:9, 300K+ res, features the celebrity or couple, no logos/text/stock
+- URL: celebrity name(s) front-loaded, subtype-appropriate pattern, stop words stripped
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing

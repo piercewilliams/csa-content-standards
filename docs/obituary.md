@@ -253,25 +253,25 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 ---
 
 ### Pre-Publish Checklist
-- [ ] Death confirmed by reliable source — official statement, family representative, or verified wire service report
-- [ ] AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
-- [ ] Named human byline — creator/first editor only, no staff byline
-- [ ] All facts verified; age, cause of death (if included), and career details confirmed accurate
-- [ ] Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- [ ] H1: 80–100 characters, `[Celebrity Name] Dead: [Descriptor] Was [Age]` formula, celebrity name front-loaded
-- [ ] SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- [ ] Meta description: 100–165 characters, no repeated hed language, tone is respectful
-- [ ] Dek entered as CMS field — not placed inside article body
-- [ ] **UsW:** Cause of death handled as a separate article — not included unless officially confirmed; link added when published
-- [ ] **WW:** Article frames legacy and career retrospective, not just the breaking death news
-- [ ] Cause of death not speculated upon — only officially confirmed causes reported
-- [ ] Career highlights and key works included
-- [ ] Reactions from celebrities or public figures included and sourced accurately
-- [ ] 3–5 internal links — celebrity tag page, articles about famous works, cause of death article (UsW, when available); not confused with Related Links
-- [ ] **UsW:** Word count ~500 words; **all outlets:** 300–600 words
-- [ ] Hero image: 1200px+ wide, 16:9, 300K+ res, dignified photo of the subject, no logos/text/stock
-- [ ] URL: celebrity name front-loaded, pattern matches outlet convention
-- [ ] Headline casing adjusted for publishing destination
-- [ ] Tags applied: `TH-CSA` and `The Commons`
-- [ ] Passes all Google Helpful Content standard questions (General Guidelines §1.7)
-- [ ] Human review and approval obtained before publishing
+- Death confirmed by reliable source — official statement, family representative, or verified wire service report
+- AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
+- Named human byline — creator/first editor only, no staff byline
+- All facts verified; age, cause of death (if included), and career details confirmed accurate
+- Focus keyphrase in H1, SEO title, dek (CMS), and meta description
+- H1: 80–100 characters, `[Celebrity Name] Dead: [Descriptor] Was [Age]` formula, celebrity name front-loaded
+- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–165 characters, no repeated hed language, tone is respectful
+- Dek entered as CMS field — not placed inside article body
+- **UsW:** Cause of death handled as a separate article — not included unless officially confirmed; link added when published
+- **WW:** Article frames legacy and career retrospective, not just the breaking death news
+- Cause of death not speculated upon — only officially confirmed causes reported
+- Career highlights and key works included
+- Reactions from celebrities or public figures included and sourced accurately
+- 3–5 internal links — celebrity tag page, articles about famous works, cause of death article (UsW, when available); not confused with Related Links
+- **UsW:** Word count ~500 words; **all outlets:** 300–600 words
+- Hero image: 1200px+ wide, 16:9, 300K+ res, dignified photo of the subject, no logos/text/stock
+- URL: celebrity name front-loaded, pattern matches outlet convention
+- Headline casing adjusted for publishing destination
+- Tags applied: `TH-CSA` and `The Commons`
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
+- Human review and approval obtained before publishing
