@@ -11,6 +11,11 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.1.0] — 2026-03
+- Discover Browser persona corrected to align with authoritative Content Brief
+- Word count updated from 740–816 to 400–800 (Content Brief is authoritative source)
+- Meta description range corrected from 140–160 to 100–165 to match Brand Guidelines and style guide; unsubstantiated "4+ keywords front-loaded, stop words stripped" spec removed
+
 ## [1.0.9] — 2026-03
 - Google Discover Explainer: added variant platform-optimization principle — all variants must be optimized for intended audience and intended platform, not audience alone
 
