@@ -11,6 +11,21 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.0.8] — 2026-03
+- Google Discover Explainer fully reconciled with master style guide: gaps filled and conflicts resolved
+- Added: Discover-specific note that the Discover headline may differ from the SEO title
+- Added: "Optimize before publishing" urgency note with re-indexing timing detail
+- Added: SEO Title section intro and too-short/too-long character count guidance
+- Added: Meta description practical tip ("pull two sentences from the article")
+- Added: Revival content definition — nostalgic angles and "one year later" perspectives
+- Added: "What to Avoid" reference table with prohibited items and reasons
+- Added: "If updated article: byline and dateline handled per §1.5" to pre-publish checklist
+- Added: "Local and national variants confirmed" to pre-publish checklist
+- Updated: Internal Links section to include SEO rationale for the 3–5 link count
+- Updated: Tone section to add "Confident and specific — avoid vague generalities"
+- Updated: Focus Keyphrase section to note real-person search intent and Google Trends usage
+- Red override highlighting confirmed current throughout
+
 ## [1.0.7] — 2026-03
 - Google Discover Explainer: format-override summary paragraph added at top of page; all guidance that overrides or extends Brand Guidelines highlighted in red throughout
 - Gemfile.lock updated to include Linux platform (`x86_64-linux`) alongside macOS — fixes Netlify build failures caused by platform-specific gem resolution
