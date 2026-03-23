@@ -45,8 +45,6 @@ Each outlet's standards can be expanded below.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Apple News / Apple News+ (Us Weekly)</summary>
 
@@ -79,8 +77,6 @@ Each outlet's standards can be expanded below.
 
 ---
 
----
-
 ## Format-Specific Headline Formulas
 
 Each article format uses a specific headline formula that overrides the generic General Guidelines pattern. These are the locked or required formulas — consult the full format spec for SEO title rules, casing, and pre-publish checklist.
@@ -105,8 +101,6 @@ Each article format uses a specific headline formula that overrides the generic 
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Everything to Know (§3.2)</summary>
 
@@ -124,8 +118,6 @@ Each article format uses a specific headline formula that overrides the generic 
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Recipe (§3.3)</summary>
 
@@ -141,8 +133,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 [Full spec →]({{ "/docs/recipe" | relative_url }})
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Timeline (§3.4)</summary>
@@ -162,8 +152,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Interview (§3.5)</summary>
 
@@ -180,8 +168,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 [Full spec →]({{ "/docs/interview" | relative_url }})
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Recap (§3.6)</summary>
@@ -201,8 +187,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Fan Theory / Fan Question (§3.7)</summary>
 
@@ -221,8 +205,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
----
-
 <details markdown="1">
 <summary>Obituary (§3.8)</summary>
 
@@ -240,8 +222,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 [Full spec →]({{ "/docs/obituary" | relative_url }})
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Couple / Baby (§3.9)</summary>
@@ -278,8 +258,6 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 [Full spec →]({{ "/docs/couple-baby" | relative_url }})
 
 </details>
-
----
 
 <details markdown="1">
 <summary>Cast Introduction / Update (§3.10)</summary>
