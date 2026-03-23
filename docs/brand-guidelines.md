@@ -37,12 +37,10 @@ cms_entry: brand-guidelines
 - Must avoid exaggerating or being shocking in nature
 
 ### Character Counts
-| Field | Count |
-|---|---|
-| Headline (H1) | 80–100 characters |
-| SEO Title | 60–70 characters |
-| Promo/Homepage Title | 65–70 characters |
-| Meta Description | 100–165 characters |
+- **Headline (H1):** 80–100 characters
+- **SEO Title:** 60–70 characters
+- **Promo/Homepage Title:** 65–70 characters
+- **Meta Description:** 100–165 characters
 
 ### Focus Keyphrase
 - The focus keyphrase is the simplest expression of what the article is about

@@ -20,12 +20,10 @@ Each outlet's standards can be expanded below.
 *These apply to all outlets unless an outlet-specific block below says otherwise.*
 
 ### Character Counts
-| Field | Count |
-|---|---|
-| Headline (H1) | 80–100 characters |
-| SEO Title | 60–70 characters |
-| Promo/Homepage Title | 65–70 characters |
-| Meta Description | 100–165 characters |
+- **Headline (H1):** 80–100 characters
+- **SEO Title:** 60–70 characters
+- **Promo/Homepage Title:** 65–70 characters
+- **Meta Description:** 100–165 characters
 
 ### Casing Rules
 - Follow General Guidelines §1.2 unless the outlet specifies otherwise
@@ -51,12 +49,10 @@ Each outlet's standards can be expanded below.
 *Vertical:* All verticals
 
 ### Character Counts
-| Field | Count |
-|---|---|
-| Headline (H1) | 80–100 characters |
-| SEO Title | 60–70 characters |
-| Promo/Homepage Title | 65–70 characters |
-| Meta Description | 100–165 characters |
+- **Headline (H1):** 80–100 characters
+- **SEO Title:** 60–70 characters
+- **Promo/Homepage Title:** 65–70 characters
+- **Meta Description:** 100–165 characters
 
 ### Casing Rules
 - Title case (same as Us Weekly default) — capitalize all major words
