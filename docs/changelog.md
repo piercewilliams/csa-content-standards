@@ -11,6 +11,22 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.1.5] — 2026-03
+- Brand Guidelines §1.2: SEO title placement context added (Top Stories, Also in the News, search results, AI Overviews, Discover); clickbait guidance refined — question-format titles permitted occasionally but overuse undermines site authority
+
+## [1.1.4] — 2026-03
+- Brand Guidelines §1.4: rationale intro added — internal links, search authority, and user navigation
+
+## [1.1.3] — 2026-03
+- Brand Guidelines §1.5: named-byline rationale strengthened — added Google News transparency policy detail and specific placement impact (Top Stories, News tab)
+
+## [1.1.2] — 2026-03
+- Brand Guidelines §1.5: Author Bio Pages subsection added — required fields, optional fields, and 100–200 word length guidance
+
+## [1.1.1] — 2026-03
+- Brand Guidelines §1.8: bullet points rule added ("Bullet points are permitted in article body copy for lists — not as a default structure for prose")
+- Google Discover Explainer: bullet points formatting rule un-reddened — it is now a universal Brand Guidelines rule, not a format-specific override
+
 ## [1.1.0] — 2026-03
 - Discover Browser persona corrected to align with authoritative Content Brief
 - Word count updated from 740–816 to 400–800 (Content Brief is authoritative source)

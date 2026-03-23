@@ -127,7 +127,7 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 **(REQUIRED)**
 
 - <span style="color: #dc2626;">Use H2 subheadings as primary section headers — do not use H2s as decoration; each must introduce a substantive section</span>
-- <span style="color: #dc2626;">Bullet points permitted for lists within body copy — not as a substitute for prose</span>
+- Bullet points permitted for lists within body copy — not as a substitute for prose
 - <span style="color: #dc2626;">Keep paragraphs short for mobile readability</span>
 - All-caps headlines in CMS only (see Headline rules above)
 

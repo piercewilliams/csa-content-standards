@@ -24,6 +24,7 @@ cms_entry: brand-guidelines
 ## 1.2 Headline Best Practices
 
 ### General Rules
+- The SEO title is the most important element on an article page — it is the first thing search engines see while crawling, and often the first thing readers see. It can appear in Top Stories, "Also in the News," regular search results, AI Overviews, and Google Discover
 - Headlines and SEO titles are the most important elements on an article page
 - **Front-load keywords — the first 8 words carry the most weight** (applies to H1s and SEO titles)
 - Must contain the focus keyphrase
@@ -31,7 +32,7 @@ cms_entry: brand-guidelines
 - Use active voice; keep verb as close to subject as possible
 - Must be clear and concise — do not assume the reader knows the topic
 - Must make sense on its own, out of context
-- Must be supported by the article body — never misleading or clickbait
+- Must be supported by the article body — avoid clickbait; question-format titles can work occasionally (especially on Discover) but overuse undermines the site's authority and expertise
 - Must be unique — do not duplicate headlines across stories
 - Must avoid exaggerating or being shocking in nature
 
@@ -94,6 +95,8 @@ risqué, off-color, cheeky, racy, immodest, lewd, provocative, suggestive, naugh
 
 ## 1.4 Internal Linking Rules
 
+Internal links help search engines understand site structure, pass authority between pages, and signal which pages are important. They also help users navigate to relevant content and keep readers on the site.
+
 - **Count:** 3–5 contextual internal links per article
 - Internal links ≠ Related Links (Related Links break up inline copy — do not conflate)
 
@@ -114,10 +117,32 @@ risqué, off-color, cheeky, racy, immodest, lewd, provocative, suggestive, naugh
 ## 1.5 Byline & Credit Rules
 
 - **Always use a named individual byline** — never a staff or team byline
-- Generic bylines (e.g., "Us Weekly Staff") undermine site transparency and may cause Google News to reject the article
+- Generic bylines (e.g., "Us Weekly Staff") undermine site transparency — Google News uses article bylines as a key indicator of a site's adherence to its transparency policy, and staff bylines may cause the article to be excluded from Top Stories and the News tab
 - **For AI-assisted content:** The byline goes to the creator who built and first-edited the draft. The peer reviewer does not receive a byline credit.
 - **For freelance submissions:** Use "Special to McClatchy Media" in the CUE credit line
 - **Role language:** Refer to content producers as "content creators" — do not use "journalists" or "writers" unless the person is on the news team
+
+### Author Bio Pages
+
+Demonstrating the authority of a site's authors — their content, credentials, experience, and connection to the site — is critical to search visibility. A strong author bio establishes trust and communicates why the author is a credible voice.
+
+**Profile length:** 100–200 words
+
+**Required:**
+- Full name
+- Position title (reporter, editor, columnist) and status (full-time staff or freelance contributor)
+- Beat or area of expertise
+- Years the author has worked at McClatchy or covered their beat
+- Other publications the author has worked at; if a bio exists at a previous publication, link to it
+- Professional headshot photo
+- Complete author bio paragraph
+- Professional social profiles — Muck Rack and LinkedIn at minimum
+
+**Additional (include when applicable):**
+- Books, podcasts, newsletters, or other editorial features created or hosted by the author
+- Academic or professional credentials
+- Major awards
+- Contact information
 
 ### Byline Rules for Updated Articles
 | Scenario | Action |
@@ -162,4 +187,5 @@ Every piece of content must be able to answer **yes** to all of the following be
 - **All facts must be verified** — links must point to reputable sources only
 - **Variants must be ≥50% different** from the original and from each other
 - **No key takeaways at the top of articles**
+- **Bullet points** are permitted in article body copy for lists — not as a default structure for prose
 - **No piece of content is to be published before it has been reviewed and approved by a human**
