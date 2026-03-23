@@ -4,7 +4,7 @@ main:
 
   - divider: true
 
-  - title: Brand Guidelines
+  - title: General Guidelines
     url: /docs/brand-guidelines
     match: brand-guidelines
 
@@ -17,7 +17,33 @@ main:
       - title: Google Discover Explainer
         url: /docs/discover-explainer
         match: discover-explainer
-
+      - title: Everything to Know
+        url: /docs/everything-to-know
+        match: everything-to-know
+      - title: Recipe
+        url: /docs/recipe
+        match: recipe
+      - title: Timeline
+        url: /docs/timeline
+        match: timeline
+      - title: Interview
+        url: /docs/interview
+        match: interview
+      - title: Recap
+        url: /docs/recap
+        match: recap
+      - title: Fan Theory / Fan Question
+        url: /docs/fan-content
+        match: fan-content
+      - title: Obituary
+        url: /docs/obituary
+        match: obituary
+      - title: Couple / Baby
+        url: /docs/couple-baby
+        match: couple-baby
+      - title: Cast Introduction / Update
+        url: /docs/cast
+        match: cast
   - title: Personas
     children:
       - title: The Discover Browser
@@ -32,7 +58,15 @@ main:
     url: /docs/publishing-guidelines
     match: publishing-guidelines
 
+  - title: Follow-Up Content
+    url: /docs/follow-up-content
+    match: follow-up-content
+
   - divider: true
+
+  - title: Documentation
+    url: /docs/documentation
+    match: documentation
 
   - title: Master Reference
     url: /docs/master-reference

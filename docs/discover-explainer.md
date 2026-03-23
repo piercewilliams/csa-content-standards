@@ -12,7 +12,7 @@ Platform: Google Discover | Type: Explainer
 
 ---
 
-> **Where this format overrides Brand Guidelines:** The headline formula is locked to a specific pattern (`What Is [Topic]?` / `Who Is [Person]?`) rather than the open principles in §1.2. The focus keyphrase must follow the `"What Is"` or `"Who Is"` structure rather than the general format. This format also introduces requirements with no brand-level equivalent: a prescribed article structure, a word count target, hero image specifications, a URL pattern, mandatory local and national variants, and required tags. Text in <span style="color: #dc2626;">**red**</span> throughout this page marks anything that overrides or goes beyond the Brand Guidelines.
+> **Where this format overrides General Guidelines:** The headline formula is locked to a specific pattern (`What Is [Topic]?` / `Who Is [Person]?`) rather than the open principles in §1.2. The focus keyphrase must follow the `"What Is"` or `"Who Is"` structure rather than the general format. This format also introduces requirements with no brand-level equivalent: a prescribed article structure, a word count target, hero image specifications, a URL pattern, mandatory local and national variants, and required tags. Text in <span style="color: #dc2626;">**red**</span> throughout this page marks anything that overrides or goes beyond the General Guidelines.
 
 ---
 
@@ -26,10 +26,10 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 <span style="color: #dc2626;">**Alternate formula:** `Who Is [Person]? Everything You Need to Know`</span><br>
 <span style="color: #dc2626;">**Question format also permitted:** e.g., `Who Is [Person]? What to Know About the [Descriptor]`</span>
 
-- Character count: 95–100 characters
+- Character count: 80–100 characters
 - Build from the focus keyphrase outward — `[Focus Keyphrase] + [Rest of Headline]`
 - <span style="color: #dc2626;">Do **not** confuse with the "Everything to Know" format — that is a separate article type for everyday topics outside of entertainment</span>
-- <span style="color: #dc2626;">All-caps in CMS only — does **not** apply to og:title or the Discover-served headline</span>
+- <span style="color: #dc2626;">Casing in CMS depends on destination: CUE uses sentence case; UsW and WW use title case — does **not** affect og:title or the Discover-served headline</span>
 - Casing varies by publishing destination — adjust per site style guide before publishing
 
 > **Discover-specific:** <span style="color: #dc2626;">The Discover headline may differ from the SEO title. Both must reflect the same focus keyphrase — they should be similar but not identical.</span>
@@ -94,7 +94,7 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 ### Article Structure
 **(REQUIRED)**
 
-<span style="color: #dc2626;">The following structure is mandatory for this format. Brand Guidelines do not prescribe article structure.</span>
+<span style="color: #dc2626;">The following structure is mandatory for this format. General Guidelines do not prescribe article structure.</span>
 
 ```
 [AI DISCLAIMER — CUE sites only]
@@ -129,12 +129,12 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 - <span style="color: #dc2626;">Use H2 subheadings as primary section headers — do not use H2s as decoration; each must introduce a substantive section</span>
 - Bullet points permitted for lists within body copy — not as a substitute for prose
 - <span style="color: #dc2626;">Keep paragraphs short for mobile readability</span>
-- All-caps headlines in CMS only (see Headline rules above)
+- Casing in CMS depends on destination: CUE uses sentence case; UsW and WW use title case (see Headline rules above)
 
 ### Internal Links
 **(REQUIRED)**
 
-3–5 contextual internal links per article. Fewer weakens SEO signal; more creates poor UX and confuses search engines about page importance. See Brand Guidelines §1.4 for full anchor text rules.
+3–5 contextual internal links per article. Fewer weakens SEO signal; more creates poor UX and confuses search engines about page importance. See General Guidelines §1.4 for full anchor text rules.
 
 Link to:
 - Tag pages relevant to the article's focus
@@ -144,7 +144,7 @@ Link to:
 ### Hero Image
 **(REQUIRED)**
 
-<span style="color: #dc2626;">Brand Guidelines do not specify image requirements. The following specs are mandatory for this format.</span>
+<span style="color: #dc2626;">General Guidelines do not specify image requirements. The following specs are mandatory for this format.</span>
 
 <span style="color: #dc2626;">
 
@@ -165,7 +165,7 @@ Images must be striking and visually specific — no stock blandness.
 ### URL Structure
 **(REQUIRED)**
 
-<span style="color: #dc2626;">Brand Guidelines do not prescribe URL patterns. The following is mandatory for this format.</span>
+<span style="color: #dc2626;">General Guidelines do not prescribe URL patterns. The following is mandatory for this format.</span>
 
 - <span style="color: #dc2626;">4+ keywords, front-loaded</span>
 - <span style="color: #dc2626;">Strip stop words</span>
@@ -185,7 +185,7 @@ Images must be striking and visually specific — no stock blandness.
 ### Tags
 **(REQUIRED)**
 
-<span style="color: #dc2626;">Brand Guidelines do not specify tags. The following are mandatory for this format.</span>
+<span style="color: #dc2626;">General Guidelines do not specify tags. The following are mandatory for this format.</span>
 
 - <span style="color: #dc2626;">`TH-CSA`</span>
 - <span style="color: #dc2626;">`The Commons`</span>
@@ -195,22 +195,22 @@ Images must be striking and visually specific — no stock blandness.
 
 | Prohibited | Reason |
 |---|---|
-| NSFW in any metadata field | Suppresses article in Discover and syndication feeds — see Brand Guidelines §1.3 |
-| "Sex," fetish language, or profanity in headlines, SEO titles, URLs, or meta descriptions | Google News & Discover policy violation — see Brand Guidelines §1.3 |
-| Clickbait or misleading headlines | Helpful Content algorithm penalty risk — see Brand Guidelines §1.2 |
+| NSFW in any metadata field | Suppresses article in Discover and syndication feeds — see General Guidelines §1.3 |
+| "Sex," fetish language, or profanity in headlines, SEO titles, URLs, or meta descriptions | Google News & Discover policy violation — see General Guidelines §1.3 |
+| Clickbait or misleading headlines | Helpful Content algorithm penalty risk — see General Guidelines §1.2 |
 | <span style="color: #dc2626;">Generic stock images or images with text overlays</span> | <span style="color: #dc2626;">Discover image policy — this format requires visually specific, striking imagery</span> |
-| Affiliate links (unlabeled) | Google penalty risk — see Brand Guidelines §1.4 |
-| "Click here" or "read more" as anchor text | Poor UX and SEO signal — see Brand Guidelines §1.4 |
-| Publishing without human review | Universal compliance rule — see Brand Guidelines §1.8 |
+| Affiliate links (unlabeled) | Google penalty risk — see General Guidelines §1.4 |
+| "Click here" or "read more" as anchor text | Poor UX and SEO signal — see General Guidelines §1.4 |
+| Publishing without human review | Universal compliance rule — see General Guidelines §1.8 |
 | <span style="color: #dc2626;">Duplicating content from other McClatchy platforms</span> | <span style="color: #dc2626;">Discover-specific content rule</span> |
 
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline
-- If updated article: byline and dateline handled per Brand Guidelines §1.5
+- If updated article: byline and dateline handled per General Guidelines §1.5
 - All facts verified; all links point to reputable sources
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
-- H1: 95–100 characters, correct formula, contains verb, no prohibited language
+- H1: 80–100 characters, correct formula, contains verb, no prohibited language
 - SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
 - Meta description: 100–165 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
@@ -224,5 +224,5 @@ Images must be striking and visually specific — no stock blandness.
 - If variant: ≥50% different from source and all other variants
 - If new pitch: confirmed not duplicated on other McClatchy platforms
 - Local and national variants confirmed (if applicable)
-- Passes all Google Helpful Content standard questions (Brand Guidelines §1.7)
+- Passes all Google Helpful Content standard questions (General Guidelines §1.7)
 - Human review and approval obtained before publishing

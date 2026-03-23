@@ -31,5 +31,5 @@ This is the person scrolling their phone in a waiting room or on the couch after
 - No warm-ups — hook in the first sentence
 - Target 400–800 words — not a hard ceiling; go longer if the topic requires it, provided every word earns its place
 - Every piece needs a high-quality hero image: 1200px+ wide, 16:9, 300K+ resolution, no logos, no text overlays, no generic stock
-- Meta descriptions: 100–165 characters — must contain the focus keyphrase and relevant proper nouns; see Brand Guidelines §1.2
+- Meta descriptions: 100–165 characters — must contain the focus keyphrase and relevant proper nouns; see General Guidelines §1.2
 - Consistency in a content lane builds Discover trust over time — publish regularly in focus verticals

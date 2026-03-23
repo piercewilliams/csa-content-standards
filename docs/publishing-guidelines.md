@@ -33,7 +33,8 @@ cms_entry: publishing-guidelines
 ### Headline Casing
 **(REQUIRED)**
 
-- Headlines are all-caps in CUE in alignment with the L&E Style Guide
+- **CUE main headlines:** Sentence case — capitalize the first word and proper nouns only
+- **Us Weekly (UsW) and WW main headlines:** Title case — capitalize all major words
 - UsW uses all-caps subheadings; WW does not
 - Adjust casing per destination site style guide before publishing
 
@@ -45,7 +46,7 @@ cms_entry: publishing-guidelines
 **(REQUIRED)**
 
 - **Post status:** Set to Draft — do not publish directly; all content requires peer review and human approval before going live
-- **Author:** Named individual byline — never a staff or team account (see Brand Guidelines §1.5)
+- **Author:** Named individual byline — never a staff or team account (see General Guidelines §1.5)
 - **Featured image:** 1200px+ wide, 16:9 aspect ratio, 300K+ pixels — same requirements as the Hero Image spec (§3)
 - **Permalink:** Follow URL structure rules in the article format spec — 4+ keywords, stop words stripped, front-loaded
 
@@ -65,6 +66,22 @@ cms_entry: publishing-guidelines
 
 ---
 
-## 6.3 Other Export Destinations
+## 6.3 Apple News / Apple News+ (Us Weekly)
+
+### Headline Requirements
+**(REQUIRED)**
+
+- **H1 character count:** 80–139 characters — this is the documented performance sweet spot for Apple News based on flatplan.io analysis of ~15,000 articles across 10 publishers
+- The universal H1 default (80–100 characters) falls within this range
+- Headlines outside the 80–139 range underperform relative to the publisher baseline
+- See Headlines §2 — Apple News / Apple News+ for the full outlet-specific spec
+
+### Additional Notes
+
+> ⚠️ Additional Apple News publishing and distribution settings (feed configuration, section targeting, metadata fields) are pending. Do not populate until guidance is provided.
+
+---
+
+## 6.4 Other Export Destinations
 
 > ⚠️ **STUB** — Additional distribution platforms and export rules pending. Do not populate until guidance is provided.

@@ -26,12 +26,12 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Master Reference" }
           - { label: "Body", name: "body", widget: "markdown", hint: "This is the authoritative single-source document. Edit individual section pages instead where possible." }
 
-      - label: "Brand Guidelines"
+      - label: "General Guidelines"
         name: "brand-guidelines"
         file: "docs/brand-guidelines.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Title", name: "title", widget: "hidden", default: "Brand Guidelines" }
+          - { label: "Title", name: "title", widget: "hidden", default: "General Guidelines" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Universal rules — applies to all formats unless a format-specific page explicitly overrides." }
 
       - label: "Headlines"
@@ -49,6 +49,78 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Google Discover Explainer" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict." }
+
+      - label: "Everything to Know"
+        name: "everything-to-know"
+        file: "docs/everything-to-know.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Everything to Know" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Subject]: Everything You Need to Know. Word count: 500–1,500. H2 intro minimum: 80 words." }
+
+      - label: "Recipe"
+        name: "recipe"
+        file: "docs/recipe.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Recipe" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Focus keyphrase: [Recipe Name] recipe. 'Recipe' must appear in H1 and SEO title. SEO title: 50–70 characters. Intro: 150–350 words. URL: [dish-name]-recipe." }
+
+      - label: "Timeline"
+        name: "timeline"
+        file: "docs/timeline.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Timeline" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Subject]: A Complete Timeline or [Subject]: A Complete Breakdown. Focus keyphrase: [Subject] timeline. Word count: 500–2,000. Every entry needs a date and a photo. URL: [subject]-relationship-timeline." }
+
+      - label: "Interview"
+        name: "interview"
+        file: "docs/interview.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Interview" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Celebrity Name] on [Topic]: '[Quote]' (EXCLUSIVE). Focus keyphrase: [Celebrity Name] interview. Word count: 500–1,500. Q&A or narrative structure." }
+
+      - label: "Recap"
+        name: "recap"
+        file: "docs/recap.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Recap" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Show/Movie Name] Recap: [Number] Biggest Moments From [Episode Title]. UsW alternate: [Show/Movie Name] Ending Explained. Focus keyphrase: [Show/Movie Name] recap. Word count: 400–800. Analysis required — not just plot summary. Always link to previous episode recap." }
+
+      - label: "Fan Theory / Fan Question"
+        name: "fan-content"
+        file: "docs/fan-content.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Fan Theory / Fan Question" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Two subtypes: Fan Theory (explain theory + evidence) and Fan Question (answer directly + context). Word count: 300–500 — shortest format. UsW: each theory/question = own H2 with Google Trends keyword. Focus keyphrase: [Show Name] fan theory or [Show Name] fan question." }
+
+      - label: "Obituary"
+        name: "obituary"
+        file: "docs/obituary.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Obituary" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "CONFIRM DEATH BEFORE PUBLISHING. Headline formula: [Celebrity Name] Dead: [Descriptor] Was [Age]. Focus keyphrase: [Celebrity Name] dead. Word count: 300–600 (UsW: 500). UsW: cause of death = separate story. WW: legacy/career retrospective framing. Do not speculate on cause of death." }
+
+      - label: "Couple / Baby"
+        name: "couple-baby"
+        file: "docs/couple-baby.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Couple / Baby" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Two subtypes: Couple ([Celebrity A] and [Celebrity B]'s Relationship Timeline) and Baby (Welcomes / Pregnant / Gives Birth formulas). Discover-specific variants available for Baby. Word count: 200–500 (UsW: 500 minimum). Only report confirmed details — no speculation." }
+
+      - label: "Cast Introduction / Update"
+        name: "cast"
+        file: "docs/cast.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Cast Introduction / Update" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Two subtypes: Cast Update ([Show/Movie Name] Cast Update: Who's In and Who's Out) and Cast Introduction (Meet the Cast of [Show/Movie Title]: [Name], [Name] and More — UsW). Focus keyphrase: [Show/Movie Name] cast. Word count: 400–500. UsW: gallery or H2 format. Label each change as joining/leaving/role change." }
 
       - label: "Persona: The Discover Browser"
         name: "discover-browser"
@@ -73,6 +145,22 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Platform-specific rules — CMS entry and submission, not writing style." }
+
+      - label: "Follow-Up Content"
+        name: "follow-up-content"
+        file: "docs/follow-up-content.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Follow-Up Content" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Editorial strategy for extending breaking news coverage. Decision framework: newsworthy? → write original (never syndicate); site normally covers? → follow-up content. Story types: death, arrest, breakup, interview, release, controversy, pregnancy, wedding, and more." }
+
+      - label: "Documentation"
+        name: "documentation"
+        file: "docs/documentation.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Documentation" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Meta-documentation for the site itself — what it is, how it's structured, how to read format pages, how to edit, versioning, and technical stack." }
 
       - label: "Collaboration Guide"
         name: "collaboration-guide"

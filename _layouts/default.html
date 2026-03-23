@@ -10,6 +10,9 @@
 <body>
   <aside class="sidebar">
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    <form class="sidebar-search-form" action="{{ "/search" | relative_url }}" method="get" role="search">
+      <input type="search" name="q" class="sidebar-search-input" placeholder="Search…" autocomplete="off" aria-label="Search standards">
+    </form>
     <nav>
       {% for item in site.data.navigation.main %}
         {% if item.divider %}
