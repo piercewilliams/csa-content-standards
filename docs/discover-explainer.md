@@ -12,19 +12,23 @@ Platform: Google Discover | Type: Explainer
 
 ---
 
+> **Where this format overrides Brand Guidelines:** The headline formula is locked to a specific pattern (`What Is [Topic]?` / `Who Is [Person]?`) rather than the open principles in §1.2. The focus keyphrase is similarly constrained to a `"What Is"` or `"Who Is"` structure. This format also introduces requirements with no brand-level equivalent: a prescribed article structure, a word count target, hero image specifications, a URL pattern, mandatory local and national variants, and required tags. Text in <span style="color: #dc2626;">**red**</span> throughout this page marks anything that overrides or goes beyond the Brand Guidelines.
+
+---
+
 ### Purpose
 A Discover Explainer introduces readers to the **why** of a topic. Its primary purpose is to explain why the topic matters right now — not merely to define it. It provides clarity on complex topics, answers user questions, and ranks for informational search queries. It must earn attention from someone who was not actively looking for it.
 
 ### Headline (H1)
 **(REQUIRED)**
 
-**Primary formula:** `What Is [Topic]? Everything You Need to Know`
-**Alternate formula:** `Who Is [Person]? Everything You Need to Know`
-**Question format also permitted:** e.g., `Who Is [Person]? What to Know About the [Descriptor]`
+<span style="color: #dc2626;">**Primary formula:** `What Is [Topic]? Everything You Need to Know`</span><br>
+<span style="color: #dc2626;">**Alternate formula:** `Who Is [Person]? Everything You Need to Know`</span><br>
+<span style="color: #dc2626;">**Question format also permitted:** e.g., `Who Is [Person]? What to Know About the [Descriptor]`</span>
 
 - Character count: 95–100 characters
-- Do **not** confuse with the "Everything to Know" format — that is a separate article type for everyday topics outside of entertainment
-- All-caps in CMS only — does **not** apply to og:title or the Discover-served headline
+- <span style="color: #dc2626;">Do **not** confuse with the "Everything to Know" format — that is a separate article type for everyday topics outside of entertainment</span>
+- <span style="color: #dc2626;">All-caps in CMS only — does **not** apply to og:title or the Discover-served headline</span>
 - Casing varies by publishing destination — adjust per site style guide before publishing
 
 ### SEO Title
@@ -54,10 +58,14 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 ### Focus Keyphrase
 **(REQUIRED)**
 
+<span style="color: #dc2626;">
+
 | Type | Format |
 |---|---|
 | Primary | `"What Is [Topic]"` or `"Who Is [Topic]"` |
 | Secondary (if applicable) | `"[Topic] explained"` or `"[Topic] meaning"` |
+
+</span>
 
 Must appear in: H1, SEO title, dek (CMS field), meta description
 
@@ -69,10 +77,13 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 ### Word Count
 **(REQUIRED)**
 
-Word count is a target range, not a hard ceiling. If the topic requires more depth, go longer — provided the article remains well-organized and every word earns its place.
+<span style="color: #dc2626;">Target: 400–800 words.</span> Word count is a target range, not a hard ceiling. If the topic requires more depth, go longer — provided the article remains well-organized and every word earns its place.
 
 ### Article Structure
 **(REQUIRED)**
+
+<span style="color: #dc2626;">The following structure is mandatory for this format. Brand Guidelines do not prescribe article structure.</span>
+
 ```
 [AI DISCLAIMER — CUE sites only]
 "This article was created by content specialists using various tools, including AI."
@@ -104,9 +115,9 @@ Word count is a target range, not a hard ceiling. If the topic requires more dep
 ### Formatting Rules
 **(REQUIRED)**
 
-- Use H2 subheadings as primary section headers
-- Bullet points permitted for lists within body copy — not as a substitute for prose
-- Keep paragraphs short for mobile readability
+- <span style="color: #dc2626;">Use H2 subheadings as primary section headers</span>
+- <span style="color: #dc2626;">Bullet points permitted for lists within body copy — not as a substitute for prose</span>
+- <span style="color: #dc2626;">Keep paragraphs short for mobile readability</span>
 - All-caps headlines in CMS only (see Headline rules above)
 
 ### Internal Links
@@ -122,6 +133,10 @@ Link to:
 ### Hero Image
 **(REQUIRED)**
 
+<span style="color: #dc2626;">Brand Guidelines do not specify image requirements. The following specs are mandatory for this format.</span>
+
+<span style="color: #dc2626;">
+
 | Spec | Requirement |
 |---|---|
 | Minimum width | 1200px (1600px+ preferred) |
@@ -132,27 +147,33 @@ Link to:
 | Text overlays | NOT permitted |
 | Generic stock | NOT permitted |
 
+</span>
+
 ### URL Structure
 **(REQUIRED)**
 
-- 4+ keywords, front-loaded
-- Strip stop words
-- Keep short and descriptive
-- Pattern: `[topic-keyword]-[topic-keyword]-explained` or similar
+<span style="color: #dc2626;">Brand Guidelines do not prescribe URL patterns. The following is mandatory for this format.</span>
+
+- <span style="color: #dc2626;">4+ keywords, front-loaded</span>
+- <span style="color: #dc2626;">Strip stop words</span>
+- <span style="color: #dc2626;">Keep short and descriptive</span>
+- <span style="color: #dc2626;">Pattern: `[topic-keyword]-[topic-keyword]-explained` or similar</span>
 
 ### Variants
 **(REQUIRED)**
 
-- Every piece should have a local variant and a national variant
+- <span style="color: #dc2626;">Every piece should have a local variant and a national variant</span>
 - All variants must be ≥50% different from the original and from each other
-- Revival content (2025 or later) must be optimized for its best-performing distribution channel
-- New pitches must not duplicate content already published on other McClatchy platforms
+- <span style="color: #dc2626;">Revival content (2025 or later) must be optimized for its best-performing distribution channel</span>
+- <span style="color: #dc2626;">New pitches must not duplicate content already published on other McClatchy platforms</span>
 
 ### Tags
 **(REQUIRED)**
 
-- `TH-CSA`
-- `The Commons`
+<span style="color: #dc2626;">Brand Guidelines do not specify tags. The following are mandatory for this format.</span>
+
+- <span style="color: #dc2626;">`TH-CSA`</span>
+- <span style="color: #dc2626;">`The Commons`</span>
 - *(Tags subject to change — check for updates)*
 
 ### Pre-Publish Checklist
