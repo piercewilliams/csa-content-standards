@@ -42,7 +42,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the show or movie name and "cast" carry the most search weight
 - Must match the H1 in intent — similar but not identical
@@ -63,7 +63,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns (show name, key actor names)
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -243,8 +243,8 @@ For each cast member:
 - All facts verified — cast member names, roles, and change details confirmed accurate
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, correct subtype formula applied, show/movie name front-loaded
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
 - **Cast Update:** each change clearly labeled as joining, leaving, or role change; context provided
 - **Cast Introduction:** each cast member's name, role, and relevant background included

@@ -39,7 +39,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the first 8 words carry the most weight
 - Must match the H1 in intent — similar but not identical
@@ -60,7 +60,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns (show name, character name)
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -248,8 +248,8 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 - All facts and source material verified; speculation clearly framed as such
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, correct subtype formula applied, show name prominent
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
 - **Fan Theory:** theory clearly stated; supporting evidence explicitly laid out
 - **Fan Question:** answer comes first; supporting details and context follow

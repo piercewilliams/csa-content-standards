@@ -45,7 +45,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the celebrity's name and "dead" or "death" carry the most search weight
 - Must match the H1 in intent — similar but not identical
@@ -65,7 +65,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns (name, profession, age)
 - Must not repeat the H1 or SEO title verbatim
 - Tone must remain respectful — do not sensationalize
@@ -259,8 +259,8 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 - All facts verified; age, cause of death (if included), and career details confirmed accurate
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, `[Celebrity Name] Dead: [Descriptor] Was [Age]` formula, celebrity name front-loaded
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- Meta description: 100–165 characters, no repeated hed language, tone is respectful
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–155 characters, no repeated hed language, tone is respectful
 - Dek entered as CMS field — not placed inside article body
 - **UsW:** Cause of death handled as a separate article — not included unless officially confirmed; link added when published
 - **WW:** Article frames legacy and career retrospective, not just the breaking death news

@@ -59,7 +59,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the celebrities' names carry the most search weight
 - Must match the H1 in intent — similar but not identical
@@ -80,7 +80,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns (celebrity names, baby's name if known)
 - Must not repeat the H1 or SEO title verbatim
 - Tone must be warm and celebratory
@@ -263,8 +263,8 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, correct subtype formula applied, celebrity name(s) front-loaded
 - If Discover destination: Discover-specific formula applied (`Is Pregnant, Expecting...` or `Gives Birth to...`)
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- Meta description: 100–165 characters, no repeated hed language, warm and celebratory tone
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–155 characters, no repeated hed language, warm and celebratory tone
 - Dek entered as CMS field — not placed inside article body
 - **Couple:** key relationship milestones detailed with relevant dates
 - **Baby:** announcement confirmed with baby name (if known), baby number, and parent details

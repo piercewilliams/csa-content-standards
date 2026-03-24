@@ -39,7 +39,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the first 8 words carry the most weight
 - Must match the H1 in intent — similar but not identical
@@ -59,7 +59,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns (show name, episode title, key characters)
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -223,8 +223,8 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 - All facts verified; character names, episode titles, and plot details confirmed accurate
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, `[Show/Movie Name] Recap: [Number] Biggest Moments From [Episode Title]` formula (or UsW "Ending Explained" alternate), show/movie name front-loaded
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords, contains verb
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords, contains verb
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body; teases biggest moment
 - Lede opens with the biggest moment or most impactful development — not a neutral summary
 - Analysis and commentary present throughout — not a pure plot summary

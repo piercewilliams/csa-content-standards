@@ -29,7 +29,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 - <span style="color: #dc2626;">Celebrity name must be front-loaded</span>
 - <span style="color: #dc2626;">The quote must be pulled from the interview and wrapped in single quotation marks</span>
-- <span style="color: #dc2626;">`(EXCLUSIVE)` must appear at the end of the H1 — this signals to readers and search engines that the content is original to the outlet. Note: General Guidelines §1.2 already requires `(Exclusive)` or `(Excl)` in the SEO title; this format extends that practice to the H1 as well</span>
+- <span style="color: #dc2626;">`(EXCLUSIVE)` must appear at the end of the H1 — this signals to readers and search engines that the content is original to the outlet. Note: General Guidelines §1.2 now treats `(Exclusive)` or `(Excl)` in the SEO title as optional; this format still requires it in the H1</span>
 - Character count: 80–100 characters
 - Casing varies by publishing destination — adjust per site style guide before publishing
 
@@ -40,11 +40,11 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the first 8 words carry the most weight
 - Must match the H1 in intent — similar but not identical
-- Add `(Excl)` at the end per General Guidelines §1.2 — it is acceptable to exceed 70 characters to accommodate it; do not make the title awkward to fit
+- `(Excl)` is optional — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description instead
 
 ---
 
@@ -60,7 +60,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -248,8 +248,8 @@ A: [Answer]
 - All facts verified; all links point to reputable sources
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, `[Celebrity Name] on [Topic]: '[Quote]' (EXCLUSIVE)` formula, celebrity name front-loaded
-- SEO title: 60–70 characters (or slightly over to fit `(Excl)`), matches H1 intent, front-loaded keywords
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters (or slightly over to fit `(Excl)`), matches H1 intent, front-loaded keywords
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body; teases most newsworthy reveal
 - Article structure chosen (Q&A or narrative) and applied consistently throughout
 - Most interesting/newsworthy parts surfaced early — lead not buried

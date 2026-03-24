@@ -42,7 +42,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the first 8 words carry the most weight
 - Must match the H1 in intent — similar but not identical
@@ -63,7 +63,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -232,8 +232,8 @@ Link to:
 - All facts verified; all links point to reputable sources
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, `[Subject]: Everything You Need to Know` formula, subject front-loaded, no prohibited language
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
 - Lede opens with why the topic matters — no definition opener, no throat-clearing
 - 3–5 internal links with descriptive anchor text (UsW: 3 min, 5 max); not confused with Related Links

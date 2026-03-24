@@ -42,7 +42,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
+- Character count: 50–70 characters — titles under 60 risk missing keywords and clarity; titles over 70 are truncated in search results
 - Must contain the focus keyphrase
 - Must front-load keywords — the first 8 words carry the most weight
 - Must match the H1 in intent — similar but not identical
@@ -63,7 +63,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -224,8 +224,8 @@ Each entry must include:
 - All facts verified; all dates and events verified against reputable sources
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, `[Subject]: A Complete Timeline` or `[Subject]: A Complete Breakdown` formula, subject front-loaded, no prohibited language
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
 - Entries listed chronologically — earliest first, most recent last
 - Every entry includes a date or time period

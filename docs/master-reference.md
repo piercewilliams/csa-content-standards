@@ -44,9 +44,9 @@ cms_entry: master-reference
 
 ### Character Counts
 - **Headline (H1):** 80–100 characters
-- **SEO Title:** 60–70 characters
-- **Promo/Homepage Title:** 65–70 characters
-- **Meta Description:** 100–165 characters
+- **SEO Title:** 50–70 characters
+- **Promo/Homepage Title:** 70–75 characters
+- **Meta Description:** 100–155 characters
 
 ### Focus Keyphrase
 - The focus keyphrase is the simplest expression of what the article is about
@@ -55,20 +55,19 @@ cms_entry: master-reference
 - Build the headline out from the focus keyphrase — not the other way around
 
 ### SEO Title Rules
-- 60–70 characters (titles under 60 risk missing keywords and clarity)
+- 50–70 characters
 - Is a concise version of the H1 — not a string of keywords
 - Must follow the same focus keyphrase as the H1 — the H1 develops the keyphrase with more detail; the SEO title is the focused version. They don't have to be identical, but must say the same thing
-- Add `(Exclusive)` or `(Excl)` at the end when first to publish — see Exclusive Guidelines in General Guidelines §1.2
+- `(Exclusive)` or `(Excl)` is optional — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description instead
 - Do not include site branding (e.g., `| Us Weekly`) in the character count
-- It is acceptable to exceed 70 characters to accommodate `(Excl)`
 
 ### Promo/Homepage Title Rules
-- 65–70 characters maximum
+- 70–75 characters maximum
 - Must say the same thing as the H1 and SEO title — same keywords, same news
 - Must contain the focus keyphrase
 
 ### Exclusive Guidelines (summary)
-Use `(Exclusive)` or `(EXCL)` when: first to break the news; direct interview with the subject; content obtained exclusively (sneak peeks, behind-the-scenes, publicist-provided breaking news). See General Guidelines §1.2 for full criteria.
+`(Exclusive)` or `(Excl)` is optional in the SEO title — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description. Applicable when: first to break the news; direct interview with the subject; content obtained exclusively (sneak peeks, behind-the-scenes, publicist-provided breaking news). See General Guidelines §1.2 for full criteria.
 
 ### Modifier Guidelines (summary)
 - **Celebrity children:** unknown child → `[Parent]'s [Son/Daughter] [Child Name]…`; two famous parents → `[Parent A] and [Parent B]'s [Son/Daughter] [Child Name]…`; child independently known → use name directly
@@ -78,7 +77,7 @@ Use `(Exclusive)` or `(EXCL)` when: first to break the news; direct interview wi
 - See General Guidelines §1.2 for full guidance and examples
 
 ### Meta Description Rules
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -253,7 +252,7 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 ### SEO Title
 **(REQUIRED)**
 
-- Character count: 60–70 characters
+- Character count: 50–70 characters
 - Must contain the focus keyphrase
 - Must front-load keywords
 - Must match the H1 in intent
@@ -270,7 +269,7 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters
+- 100–155 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 
@@ -384,8 +383,8 @@ Link to:
 - All facts verified; all links point to reputable sources
 - Focus keyphrase in H1, SEO title, dek (CMS), and meta description
 - H1: 80–100 characters, correct formula, no prohibited language
-- SEO title: 60–70 characters, matches H1 intent, front-loaded keywords
-- Meta description: 100–165 characters, no repeated hed language
+- SEO title: 50–70 characters, matches H1 intent, front-loaded keywords
+- Meta description: 100–155 characters, no repeated hed language
 - Dek entered as CMS field — not placed inside article body
 - Lede leads with *why it matters*, introduces key figures, no definition opener
 - 3–5 internal links with descriptive anchor text
@@ -425,12 +424,12 @@ Keep the subject front-loaded — do not place it after the "Everything You Need
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords
+- 50–70 characters; must contain focus keyphrase; front-load keywords
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; must contain focus keyphrase and relevant proper nouns; must not repeat the H1
+- 100–155 characters; must contain focus keyphrase and relevant proper nouns; must not repeat the H1
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -502,7 +501,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -566,13 +565,13 @@ Subject must be front-loaded. A verb is **not required** — relationship timeli
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords
+- 50–70 characters; must contain focus keyphrase; front-load keywords
 - Verb not required (same §1.2 exception applies)
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -647,12 +646,12 @@ Delivers exclusive, first-person access to a celebrity or public figure — cont
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters (acceptable to exceed slightly to fit `(Excl)`); must contain focus keyphrase; front-load keywords
+- 50–70 characters; must contain focus keyphrase; front-load keywords; include `(Excl)` if it fits within the limit
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -721,12 +720,12 @@ Summarizes and analyzes key moments of an episode, film, podcast, or book. Engag
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
+- 50–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -800,12 +799,12 @@ Two subtypes covering fan speculation and fan Q&A. Engages the fan community and
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
+- 50–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -885,12 +884,12 @@ Marks the death of a public figure with accuracy, respect, and authority. Serves
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
+- 50–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim; tone must be respectful
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim; tone must be respectful
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -976,12 +975,12 @@ Celebrity name(s) must be front-loaded. Character count: 80–100.
 ### SEO Title
 **(REQUIRED)**
 
-- 60–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
+- 50–70 characters; must contain focus keyphrase; front-load keywords; must contain a verb
 
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim; warm and celebratory tone
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim; warm and celebratory tone
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -1064,7 +1063,7 @@ Informs fans about who is appearing in a show or film — new additions, departu
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters; focus keyphrase required; must not repeat H1 verbatim
+- 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
 ### Focus Keyphrase
 **(REQUIRED)**

@@ -79,7 +79,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 ### Meta Description
 **(REQUIRED)**
 
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters (approximately 2 sentences)
 - Must contain the focus keyphrase
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
@@ -248,7 +248,7 @@ Link to:
 - H1: 80–100 characters, "Recipe" present, long-tail keywords used, no prohibited language
 - SEO title: 50–70 characters, "Recipe" present, `[Dish Name] Recipe` construction preferred over "How to Make"
 - If recipe-specific video exists: `(with Video)` added to end of SEO title
-- Meta description: 100–165 characters, focus keyphrase present, no repeated hed language
+- Meta description: 100–155 characters, focus keyphrase present, no repeated hed language
 - Dek: 2–3 sentences, dish name present, entered as CMS field (not in article body)
 - Intro body copy: 150–350 words, mentions the name of the food
 - 3–5 internal links with descriptive anchor text; no unlabeled affiliate links

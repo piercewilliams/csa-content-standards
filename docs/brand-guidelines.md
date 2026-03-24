@@ -38,9 +38,9 @@ cms_entry: brand-guidelines
 
 ### Character Counts
 - **Headline (H1):** 80–100 characters
-- **SEO Title:** 60–70 characters
-- **Promo/Homepage Title:** 65–70 characters
-- **Meta Description:** 100–165 characters
+- **SEO Title:** 50–70 characters
+- **Promo/Homepage Title:** 70–75 characters
+- **Meta Description:** 100–155 characters
 
 ### Focus Keyphrase
 - The focus keyphrase is the simplest expression of what the article is about
@@ -49,20 +49,21 @@ cms_entry: brand-guidelines
 - Build the headline out from the focus keyphrase — not the other way around
 
 ### SEO Title Rules
-- 60–70 characters (titles under 60 risk missing keywords and clarity)
+- 50–70 characters
 - Is a concise version of the H1 — not a string of keywords
 - Must follow the same focus keyphrase as the H1 — the H1 develops the keyphrase with more detail and context; the SEO title is the more focused version. They don't have to be identical, but they must say the same thing
-- Add `(Exclusive)` or `(Excl)` at the end when your outlet is first to publish — see Exclusive Guidelines below
+- `(Exclusive)` or `(Excl)` is optional — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description instead
 - Do not include site branding (e.g., `| Us Weekly`) in the character count
-- It is acceptable to exceed 70 characters to accommodate `(Excl)` — do not make the title awkward to fit it
 
 ### Promo/Homepage Title Rules
-- 65–70 characters maximum — keeps the title within three lines on the homepage and four lines in the top banner
+- 70–75 characters maximum — must not get cut off on the homepage
 - Must say the same thing as the H1 and SEO title — does not have to be identical, but must convey the same news with the same keywords
 - Must contain the focus keyphrase and be readable, accurate, and engaging
 
 ### Exclusive Guidelines
-Use `(Exclusive)` or `(EXCL)` in the H1 and SEO title when:
+`(Exclusive)` or `(Excl)` is optional in the SEO title — include it if it fits within the character limit. If it doesn't fit, use "exclusively" or "exclusive" in the meta description instead.
+
+Use it when:
 - Your outlet is first to break the news
 - The article is based on a direct interview with the subject
 - The news came to the outlet exclusively (e.g., a publicist provides breaking news only to your site)
@@ -70,10 +71,10 @@ Use `(Exclusive)` or `(EXCL)` in the H1 and SEO title when:
 
 **Benefits:** Signals to readers and search engines that the content is a scoop; increases the likelihood the article is cited and linked to by other outlets; can lead to more exclusives.
 
-> When in doubt, ask: Is this the only place readers can find this story right now? Is the site the first to break it? If yes to either — use it.
+> When in doubt, ask: Is this the only place readers can find this story right now? Is the site the first to break it? If yes to either — use it if it fits.
 
 ### Meta Description Rules
-- 100–165 characters (approximately 2 sentences)
+- 100–155 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
