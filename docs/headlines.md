@@ -44,34 +44,6 @@ Each outlet's standards can be expanded below.
 </details>
 
 <details markdown="1">
-<summary>Apple News / Apple News+ (Us Weekly)</summary>
-
-*Vertical:* All verticals
-
-### Character Counts
-- **Headline (H1):** 80–100 characters
-- **SEO Title:** 50–70 characters
-- **Promo/Homepage Title:** 70–75 characters
-- **Meta Description:** 100–155 characters
-
-### Casing Rules
-- Title case (same as Us Weekly default) — capitalize all major words
-
-### Formula Variations
-- Inherits universal defaults from General Guidelines §1.2
-- No Apple News-specific formula required — apply standard General Guidelines headline patterns
-
-### CMS-Specific Notes
-- See Publishing Guidelines §6.3 for Apple News distribution requirements
-
-### Additional Rules
-- **Headline length 80–139 characters is the documented performance sweet spot for Apple News.** Source: flatplan.io analysis of ~15,000 articles across 10 publishers (February performance data). Articles were measured as a percentage above or below each publisher's baseline average; editor-featured articles excluded as anomalies.
-- The universal H1 default (80–100 characters) falls within this range. Apple News performance data shows strong results across the full 80–139 span, but the team standard caps at 100.
-- Headlines below 80 characters or above 139 characters underperform relative to the publisher baseline.
-
-</details>
-
-<details markdown="1">
 <summary>Us Weekly (UsW)</summary>
 
 *Vertical:* Entertainment / Celebrity
@@ -149,6 +121,13 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 - Onpage hed = **Add title** field
 - Promo hed = **Promo Title** field (used on homepage/tag pages and sometimes social)
 - SEO hed = **SEO title** field in the Yoast SEO panel (also sets the story URL/slug)
+
+### Apple News / Apple News+
+
+- Inherits all UsW character counts and casing rules above
+- No Apple News-specific formula required — apply standard General Guidelines headline patterns
+- See Publishing Guidelines §6.3 for Apple News distribution requirements
+- **Performance note:** Headline length 80–139 characters is the documented performance sweet spot for Apple News. Source: flatplan.io analysis of ~15,000 articles across 10 publishers (February performance data). The UsW standard (80–100) falls within this range. Headlines below 80 or above 139 underperform relative to publisher baseline.
 
 </details>
 
