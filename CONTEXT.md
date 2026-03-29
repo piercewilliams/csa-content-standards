@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-03-24
+**Last session:** 2026-03-28
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,14 +13,22 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Major headlines page overhaul + site-wide character count updates (Mar 24, 2026)
+- **Last changes:** README overhaul (Mar 28, 2026)
 - **Blockers:** None known
 
 ## What's Next
 
 No active tasks. Add tasks here as work begins.
 
-## Recent Session: 2026-03-24
+## Recent Session: 2026-03-28
+
+Rewrote README.md from scratch.
+
+**README.md:**
+- Replaced minimal 4-section README with a comprehensive document covering: what the CSA is, quick-access links, per-audience usage guide (AI agents, human editors, developers), full section and format index with live links, CMS editing walkthrough, table of technical files requiring direct GitHub editing, full directory tree, stack table, versioning reference, contributing guidelines, and roadmap with explanation of infrastructure already in place to support expansion
+- Explanation of red-text convention and (REQUIRED) labels added — critical context missing from the original
+
+## Previous Session: 2026-03-24
 
 Ingested new Word and Character Counts doc (March 2026) into the headlines page and resolved conflicts with existing standards across the full site.
 

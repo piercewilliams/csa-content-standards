@@ -1,45 +1,200 @@
 # CSA Content Standards
 
-Reference documentation for the Content Scaling Agent.
+Reference documentation for the Content Scaling Agent (CSA) — an AI content generation system. This site defines every rule the agent and its human editors follow when creating, optimizing, and publishing articles across all CSA-affiliated outlets.
 
-## What's In Here
+**Live site:** https://csa-content-standards.netlify.app
+**Current version:** 1.3.5
 
-| File | Purpose |
+---
+
+## What this is
+
+The CSA is an AI system that writes and publishes entertainment and celebrity content at scale. This site is its rulebook. It documents voice and tone, headline formulas, SEO requirements, article structure, source credibility standards, publishing workflows, and more — with enough precision that both a human editor and an AI agent can open any page and get a complete, unambiguous answer.
+
+The site is versioned (every change is logged), machine-readable (served as raw Markdown and a JSON API), and human-readable (rendered as a navigable site with a CMS for non-technical editors).
+
+---
+
+## Quick access
+
+| What | URL |
 |---|---|
-| `docs/master-reference.md` | Full reference document — all 6 sections |
-| `api/reference.json` | JSON version for agent API ingestion |
-| `docs/changelog.md` | Version history |
+| Rendered site | https://csa-content-standards.netlify.app |
+| Master Reference (Markdown) | https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md |
+| JSON API | https://csa-content-standards.netlify.app/api/reference.json |
+| CMS editor | https://csa-content-standards.netlify.app/admin |
+| Changelog | https://csa-content-standards.netlify.app/docs/changelog |
 
-## How to Use
+---
 
-### For humans
-Browse the rendered site at:
-`https://csa-content-standards.netlify.app`
+## Audiences and how each uses this site
 
-### For the content agent
-Ingest the raw markdown directly:
-`https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md`
+### AI agents
+Ingest the full rulebook as a single document via raw Markdown or the structured JSON API. The Master Reference (`docs/master-reference.md`) contains all sections in order with machine-readable delimiters. Each section can also be ingested independently — every format page has a **⬇ Download** button linking to its raw source.
 
-Or ingest the structured JSON:
-`https://csa-content-standards.netlify.app/api/reference.json`
+```
+# Full rulebook (single document):
+https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md
 
-### To download
-Right-click and choose Save Link As:
-`https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md`
+# Section index with IDs, statuses, and URLs:
+https://csa-content-standards.netlify.app/api/reference.json
+```
+
+### Human editors
+Browse the rendered site. Use the sidebar to navigate sections or search by keyword. Every page has an **✏ Edit this page** button that opens it directly in the CMS editor — no GitHub account or technical knowledge required.
+
+### Developers and technical contributors
+Clone the repo and work directly with Markdown files in `/docs`. Netlify rebuilds the site automatically on every push to `main`. Technical files (navigation, layout, CSS, admin config, JSON API) are outside `/docs` — see [Technical structure](#technical-structure) below.
+
+---
+
+## Content structure
+
+The standards are organized into seven numbered sections. Section numbers are stable references — all internal links and the JSON API use them.
+
+| # | Section | Status | What it covers |
+|---|---|---|---|
+| 1 | [General Guidelines](https://csa-content-standards.netlify.app/docs/brand-guidelines) | ✅ Active | Universal rules — voice/tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content compliance. Applies to all formats unless a format-specific page overrides it. |
+| 2 | [Headlines](https://csa-content-standards.netlify.app/docs/headlines) | ✅ Active | Outlet-specific headline standards (Us Weekly, Apple News) and format-specific headline formulas for all 10 active formats. |
+| 3 | [Article Formats](https://csa-content-standards.netlify.app/docs/discover-explainer) | ✅ Active | Format-specific rules for each article type — structure, metadata, word counts, image specs, URL patterns, and pre-publish checklists. 10 formats active. |
+| 4 | [Personas](https://csa-content-standards.netlify.app/docs/discover-browser) | 🔄 Partial | Audience definitions that guide tone, framing, and content decisions. The Discover Browser persona is currently active; more are planned. |
+| 5 | [Acceptable Sources](https://csa-content-standards.netlify.app/docs/acceptable-sources) | ✅ Active | Approved sources for factual reporting and citation, organized by vertical (news, entertainment, health, etc.). |
+| 6 | [Publishing Guidelines](https://csa-content-standards.netlify.app/docs/publishing-guidelines) | 🔄 Partial | Platform-specific CMS entry requirements. CUE (McClatchy CMS) and Apple News are active; WordPress is pending. |
+| 7 | [Follow-Up Content](https://csa-content-standards.netlify.app/docs/follow-up-content) | ✅ Active | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
+
+### Active article formats (§3)
+
+| Format | Page |
+|---|---|
+| Google Discover Explainer | [/docs/discover-explainer](https://csa-content-standards.netlify.app/docs/discover-explainer) |
+| Everything to Know | [/docs/everything-to-know](https://csa-content-standards.netlify.app/docs/everything-to-know) |
+| Recipe | [/docs/recipe](https://csa-content-standards.netlify.app/docs/recipe) |
+| Timeline | [/docs/timeline](https://csa-content-standards.netlify.app/docs/timeline) |
+| Interview | [/docs/interview](https://csa-content-standards.netlify.app/docs/interview) |
+| Recap | [/docs/recap](https://csa-content-standards.netlify.app/docs/recap) |
+| Fan Theory / Fan Question | [/docs/fan-content](https://csa-content-standards.netlify.app/docs/fan-content) |
+| Obituary | [/docs/obituary](https://csa-content-standards.netlify.app/docs/obituary) |
+| Couple / Baby | [/docs/couple-baby](https://csa-content-standards.netlify.app/docs/couple-baby) |
+| Cast Introduction / Update | [/docs/cast](https://csa-content-standards.netlify.app/docs/cast) |
+
+### How format pages work
+
+Every format page uses two conventions worth knowing:
+
+- **Red text** marks rules that override General Guidelines for that format. If a rule appears in red, it takes precedence over the §1 equivalent. If it's not in red, it inherits from General Guidelines.
+- **(REQUIRED)** labels mark fields that must be present before an article is published. Everything else is guidance.
+
+Every format page also ends with a pre-publish checklist and a "What to Avoid" table.
+
+---
+
+## How to edit the site
+
+### CMS (recommended for editors)
+
+The CMS requires no technical knowledge and no GitHub account.
+
+1. Go to https://csa-content-standards.netlify.app/admin
+2. Log in with your Netlify Identity credentials (email and password)
+3. Click any page to open it — left panel is the editor, right panel is a live preview
+4. Click **Save** when done — changes commit to GitHub and the site rebuilds in 1–2 minutes
+
+**There is no draft or staging step.** Saved changes publish immediately.
+
+To add a new collaborator: go to Netlify → Site → Identity → Invite users. Enter their email. They'll receive an invitation to set a password. See the [Collaboration Guide](https://csa-content-standards.netlify.app/docs/collaboration-guide) for full setup instructions.
+
+### Direct GitHub editing (for technical contributors)
+
+All content is Markdown files in `/docs`. Edit them directly in GitHub or clone the repo and push. Netlify rebuilds automatically on every push to `main`.
+
+**Technical files** (not editable via CMS — require direct GitHub editing):
+
+| File | Controls |
+|---|---|
+| `_data/navigation.yml` | Sidebar navigation structure |
+| `admin/config.yml` | CMS fields and collections |
+| `_layouts/default.html` | Page layout template |
+| `assets/css/main.css` | Stylesheet |
+| `api/reference.json` | JSON API — section index |
+| `search.json` | Full-text search index |
+
+When adding a new format page or section, all six of these files typically need to be updated in addition to the new Markdown file.
+
+---
+
+## Technical structure
+
+```
+/
+├── docs/                    # All content pages (Markdown)
+│   ├── master-reference.md  # Single source of truth — all sections in one document
+│   ├── brand-guidelines.md  # §1 General Guidelines
+│   ├── headlines.md         # §2 Headlines
+│   ├── [format pages]       # §3 Article Formats (10 files)
+│   ├── discover-browser.md  # §4 Personas
+│   ├── acceptable-sources.md# §5 Acceptable Sources
+│   ├── publishing-guidelines.md # §6 Publishing Guidelines
+│   ├── follow-up-content.md # §7 Follow-Up Content
+│   ├── documentation.md     # Site documentation (meta)
+│   ├── collaboration-guide.md
+│   └── changelog.md
+├── api/
+│   └── reference.json       # JSON API — section index with IDs, statuses, URLs
+├── admin/
+│   └── config.yml           # Decap CMS configuration
+├── _data/
+│   └── navigation.yml       # Sidebar nav (data-driven)
+├── _layouts/
+│   └── default.html         # Page template
+├── assets/css/main.css      # Stylesheet
+├── search.json / search.md  # Lunr.js full-text search
+├── index.md                 # Homepage
+├── _config.yml              # Jekyll config
+└── netlify.toml             # Netlify build config
+```
+
+**Stack:**
+
+| Layer | Technology |
+|---|---|
+| Static site generator | Jekyll 4.3 |
+| Hosting and CI/CD | Netlify — auto-deploys on push to `main` |
+| CMS | Decap CMS (Git-based, no database) |
+| Authentication | Netlify Identity (email/password) |
+| Search | Lunr.js (client-side, no external service) |
+| Source control | GitHub |
+
+---
 
 ## Versioning
 
 This repo uses semantic versioning: `MAJOR.MINOR.PATCH`
 
-- **MAJOR** — structural changes to sections or format
-- **MINOR** — new content added (new article formats, new personas, etc.)
-- **PATCH** — corrections, clarifications, gap fills
+| Increment | When to use |
+|---|---|
+| **PATCH** | Minor corrections, clarifications, or small additions within an existing section |
+| **MINOR** | New subsection, new format page, new guidance block, or meaningful expansion |
+| **MAJOR** | Structural changes, new top-level sections, or significant policy shifts |
 
-See `docs/changelog.md` for full history.
+Every change is recorded in [`docs/changelog.md`](https://csa-content-standards.netlify.app/docs/changelog) with the version number, month, and a description of what changed and why.
+
+---
 
 ## Contributing
 
-1. Create a branch named `update/[short-description]`
+1. Create a branch: `update/[short-description]`
 2. Make changes
 3. Open a pull request with a summary of what changed and why
 4. One other team member must approve before merging to `main`
+
+---
+
+## Roadmap
+
+The site was designed for incremental expansion. The following are currently in progress or planned:
+
+- **§2 Headlines** — Us Weekly and Apple News blocks are active; additional outlet standards are pending
+- **§4 Personas** — The Discover Browser is active; additional personas for other platforms and reader types are planned
+- **§6 Publishing Guidelines** — CUE (McClatchy CMS) and Apple News are active; WordPress guidelines are pending
+
+The infrastructure supporting this expansion is already in place: the JSON API tracks section status (`active` / `partial` / `pending`) so agents can check coverage programmatically, the CMS is pre-configured for every section, and the sidebar navigation is data-driven so new entries require a single-line addition to `_data/navigation.yml`.
