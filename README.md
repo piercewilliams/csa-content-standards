@@ -180,6 +180,44 @@ Every change is recorded in [`docs/changelog.md`](https://csa-content-standards.
 
 ---
 
+## Version history and rollback
+
+A row of version pills appears at the bottom of every page on the site. Each pill represents a weekly snapshot of the documentation — automatically taken every Monday at 8 AM. This lets you browse any historical state of the standards and, if needed, restore the entire site to a past version.
+
+### Browsing a past version
+
+1. Scroll to the bottom of any page and click a version pill (e.g. "Mar 31, 2026").
+2. A full-page overlay opens on top of the current site.
+3. The **left sidebar** lists every documentation file that existed in that snapshot — `master-reference.md` is always first, followed by all other docs in alphabetical order.
+4. Click any item in the sidebar to read that document as it existed at that point in time. The content is rendered as formatted HTML (not raw Markdown).
+5. To close the overlay and return to the live site: click the **×** button in the top-right corner, or press **Escape**.
+
+> The overlay is read-only. Browsing a snapshot does not affect the live site.
+
+### Restoring a past version to the live site
+
+Use this only if the documentation has been corrupted, accidentally overwritten, or significantly changed in a way that needs to be undone.
+
+1. Browse to the version you want to restore (steps 1–3 above).
+2. Click **Restore this version** in the overlay header.
+3. A modal appears. Enter the passkey: **8812**
+4. Click **Download & Restore** — the files download automatically in sequence (~150ms apart to avoid browser popup blockers):
+   - All `docs/*.md` files — place each in the `docs/` directory
+   - `reference.json` — place in `api/`
+   - `snapshots-index.json` — rename to `index.json` and place in `data/snapshots/`
+5. Push all files via GitHub Desktop. Netlify will rebuild the site automatically in 1–2 minutes.
+
+> **Note:** Restoring removes snapshot history newer than the version you restored to. The modal tells you exactly how many versions will be removed.
+
+### How snapshots are maintained
+
+- Snapshots are taken automatically. You do not need to do anything.
+- The trigger runs every **Monday at 8 AM Dallas time**.
+- A maximum of **5 snapshots** are kept. When a 6th is taken, the oldest is deleted automatically.
+- If the snapshot bar shows no pills, the trigger has not yet run — check [claude.ai/code/scheduled](https://claude.ai/code/scheduled) and look for "Weekly Snapshots - All Sites."
+
+---
+
 ## Contributing
 
 1. Create a branch: `update/[short-description]`
