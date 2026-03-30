@@ -18,7 +18,7 @@ For session history: see [sessions/](sessions/)
 
 ## What's Next
 
-No active tasks. Add tasks here as work begins.
+1. [ ] **Update persona standards** after Sara Vallone drafts new personas (Apple News, Smart News, MSN versions) — confirmed action item from Content & Programming Weekly 2026-03-30. Pierce to codify into site once drafts are received. New personas will also be submitted to "Andy" (Apple News, MSN) for review before use.
 
 ## Recent Session: 2026-03-30
 
