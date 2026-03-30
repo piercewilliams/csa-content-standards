@@ -53,8 +53,10 @@
     </div>
     {% endif %}
     {{ content }}
+    <div id="snapshot-bar"></div>
     <div class="footer">{{ site.footer_content }}</div>
   </main>
+  <script src="{{ '/assets/js/snapshot.js' | relative_url }}"></script>
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", function(user) {
