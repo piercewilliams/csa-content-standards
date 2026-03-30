@@ -20,7 +20,15 @@ For session history: see [sessions/](sessions/)
 
 No active tasks. Add tasks here as work begins.
 
-## Recent Session: 2026-03-28
+## Recent Session: 2026-03-30
+
+Added snapshot version bar to every page. A weekly trigger (Mon 8am Dallas) bundles all `docs/*.md` + `api/reference.json` into a snapshot JSON file at `data/snapshots/`. Clicking a pill opens a full-page overlay that renders markdown client-side via lazily-loaded marked.js (CDN fallback: raw `<pre>`). Passkey `8812` gates multi-file restore download. Max 5 snapshots. Full user manual added to README.
+
+Files changed: `_layouts/default.html` (bar div + script tag), `assets/css/main.css` (snapshot + overlay styles), `assets/js/snapshot.js` (new file), `data/snapshots/index.json` (scaffold).
+
+**Trigger:** `trig_01Qze9PVrNErCEYa1fMXxF2U` — shared with csa-dashboard and data-t1headlines. Details in ops-hub REFERENCE.md.
+
+## Previous Session: 2026-03-28
 
 Rewrote README.md from scratch.
 
