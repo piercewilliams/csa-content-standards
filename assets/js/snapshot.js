@@ -10,6 +10,15 @@
   var _snapIndex = [];
   var _activeSnap = null; // { id, label, file, data }
 
+  // Escape HTML special chars before inserting untrusted strings into innerHTML.
+  function esc(str) {
+    return String(str == null ? '' : str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
   // ── Render snapshot bar ──────────────────────────────────────────────────────
 
   function renderSnapshotBar() {
@@ -22,8 +31,8 @@
         _snapIndex = snaps;
         var html = '<span class="snap-bar-label">Site versions</span>';
         snaps.forEach(function (s) {
-          html += '<button class="snap-btn" data-snap-id="' + s.id +
-            '" data-snap-file="' + s.filename + '">' + s.label + '</button>';
+          html += '<button class="snap-btn" data-snap-id="' + esc(s.id) +
+            '" data-snap-file="' + esc(s.filename) + '">' + esc(s.label) + '</button>';
         });
         bar.innerHTML = html;
         bar.querySelectorAll('.snap-btn').forEach(function (btn) {
@@ -42,7 +51,7 @@
       b.classList.toggle('active', b.dataset.snapId === id);
     });
     fetch('/data/snapshots/' + file, { cache: 'no-store' })
-      .then(function (r) { return r.json(); })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
         _activeSnap = { id: id, label: label, file: file, data: data };
         loadMarked(function () { showOverlay(data, label); });
