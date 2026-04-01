@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-03-31 (CSA Weekly Update outcomes)
+**Last session:** 2026-04-01 (persona status update; standup outcomes)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -18,15 +18,21 @@ For session history: see [sessions/](sessions/)
 
 ## What's Next
 
-1. [ ] **Update persona standards** after Sara Vallone drafts new personas — Sara committed to 1-2 personas by 2026-04-01 for testing; full set of 6-7 (Apple News, Smart News, MSN) still to be drafted. New personas to be submitted to "Andy" for review before use.
-2. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats (templates) and target audiences (personas) are to be treated as independently selectable items (mix-and-match). Currently combined in single persona items. Susannah logged tooling request. Codify architecture in standards once tooling is defined.
+1. [ ] **Update persona standards** — Pierce consolidated 3 personas from CSA data (2026-04-01) and passed to Sara Vallone to refine + supplement. Awaiting Sara's final set. Once delivered: codify into CSA for National team and update this site. Submit new Apple News + MSN personas to Andy for review before use.
+2. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Susannah logged tooling dev request. Codify architecture here once tooling is defined.
+3. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
+
+## Recent Session: 2026-04-01
+
+- **Personas:** Pierce consolidated 3 personas from CSA data; passed to Sara Vallone to refine/supplement. Awaiting final set.
+- **PGS-115:** Google Discover Explainer visible to all users — bug being fixed (should be national team only).
+- **Cluster tagging strategy:** Settled in alignment meeting. Variant linking now in dev queue. Document cluster tagging entry point (Research Draft stage) in standards once dev delivers.
 
 ## Recent Session: 2026-03-31 (CSA Weekly Update)
 
-- **Format/persona separation decision:** Content formats and target audiences to be independently selectable in the CSA (not combined in a single entity). Susannah logged dev request. Sara Vallone prefers format-first workflow.
-- **Personas:** Sara Vallone committed to 1-2 personas for testing by 2026-04-01.
-- **PGS-95 (Google Discover Explainer):** Live as of 2026-03-31.
-- **Canonical ID = Cluster ID:** Confirmed by group — relevant for future cluster tagging documentation when alignment meeting happens.
+- **Format/persona separation decision:** Content formats and target audiences to be independently selectable. Susannah logged dev request. Sara Vallone prefers format-first workflow.
+- **PGS-95 (Google Discover Explainer):** Live as of 2026-03-31 (scoping bug being fixed via PGS-115).
+- **Canonical ID = Cluster ID:** Confirmed by group.
 
 ## Recent Session: 2026-03-30
 
