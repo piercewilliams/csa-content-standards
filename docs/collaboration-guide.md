@@ -2,8 +2,10 @@
 layout: default
 title: Collaboration Guide
 cms_entry: collaboration-guide
+agent_audiences: [human-only]
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 # Collaboration Guide
 
 ---

@@ -2,8 +2,10 @@
 layout: default
 title: "Persona: The Wonder-Driven Science Enthusiast"
 cms_entry: science-enthusiast
+agent_audiences: [general-style]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # The Wonder-Driven Science Enthusiast
 
 **Platform:** Science / Discovery Features

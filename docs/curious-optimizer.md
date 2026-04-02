@@ -2,8 +2,10 @@
 layout: default
 title: "Persona: The Curious Optimizer"
 cms_entry: curious-optimizer
+agent_audiences: [general-style]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # The Curious Optimizer
 
 **Platform:** Trend Hunter / B2C Channels

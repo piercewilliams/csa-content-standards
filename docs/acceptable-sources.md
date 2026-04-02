@@ -2,8 +2,10 @@
 layout: default
 title: Acceptable Sources
 cms_entry: acceptable-sources
+agent_audiences: [general-style, human-only]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # Acceptable Sources
 
 > **Scope:** Defines approved sources for McClatchy content. All facts must be verified and all links must point to sources that meet these standards.

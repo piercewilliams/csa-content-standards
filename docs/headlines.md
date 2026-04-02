@@ -2,6 +2,7 @@
 layout: default
 title: Headlines
 cms_entry: headlines
+agent_audiences: [headline, seo, human-only]
 ---
 
 # Headlines
@@ -14,6 +15,7 @@ Each outlet's standards can be expanded below.
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Universal Defaults (All Outlets)</summary>
 
@@ -43,6 +45,7 @@ Each outlet's standards can be expanded below.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Us Weekly (UsW)</summary>
 
@@ -137,6 +140,7 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 
 Each article format uses a specific headline formula that overrides the generic General Guidelines pattern. These are the locked or required formulas — consult the full format spec for SEO title rules, casing, and pre-publish checklist.
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Google Discover Explainer (§3.1)</summary>
 
@@ -157,6 +161,7 @@ Each article format uses a specific headline formula that overrides the generic 
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Everything to Know (§3.2)</summary>
 
@@ -174,6 +179,7 @@ Each article format uses a specific headline formula that overrides the generic 
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Recipe (§3.3)</summary>
 
@@ -190,6 +196,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Timeline (§3.4)</summary>
 
@@ -208,6 +215,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Interview (§3.5)</summary>
 
@@ -225,6 +233,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Recap (§3.6)</summary>
 
@@ -243,6 +252,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Fan Theory / Fan Question (§3.7)</summary>
 
@@ -261,6 +271,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Obituary (§3.8)</summary>
 
@@ -279,6 +290,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Couple / Baby (§3.9)</summary>
 
@@ -315,6 +327,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>Cast Introduction / Update (§3.10)</summary>
 
@@ -333,6 +346,7 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<!-- AGENT-AUDIENCE: headline -->
 <details markdown="1">
 <summary>FAQ / Service Journalism (§3.11)</summary>
 

@@ -2,8 +2,10 @@
 layout: default
 title: Follow-Up Content
 cms_entry: follow-up-content
+agent_audiences: [human-only]
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 # Follow-Up Content
 
 [⬇ Download this section](https://raw.githubusercontent.com/{{ site.github_username }}/{{ site.github_repo }}/main/docs/follow-up-content.md){: .btn }

@@ -11,6 +11,13 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.3.9] — 2026-04
+- Agent Routing system extended site-wide: `agent_audiences` frontmatter field added to all 21 content pages; `<!-- AGENT-AUDIENCE: -->` section-level comments added to all 11 format pages (§3), all 5 persona pages (§4), `docs/headlines.md`, `docs/acceptable-sources.md`, `docs/publishing-guidelines.md`, `docs/follow-up-content.md`, and `docs/collaboration-guide.md`
+- `_data/agent_routing.yml` created — canonical single source of truth for the four routing tags (`general-style`, `headline`, `seo`, `human-only`), their descriptions, coverage, and standard format-page section mapping
+- `api/reference.json` updated — `agent_audiences` field added to every section and format entry; top-level `agent_routing` metadata block added with tag vocabulary and data file URL
+- Documentation page: Agent Routing section expanded to full convention guide — explains frontmatter layer, section-level comment layer, the four tags, the canonical data file, and instructions for new page authors
+- README: Agent Routing section updated to reflect both layers and reference `_data/agent_routing.yml` and JSON API
+
 ## [1.3.8] — 2026-04
 - General Guidelines §1: Agent Routing section added — routing table mapping each §1 subsection to its intended CSA agent (`general-style`, `headline`, `seo`, `human-only`); machine-readable `<!-- AGENT-AUDIENCE: [tag] -->` comments added before every subsection in both `docs/brand-guidelines.md` and `docs/master-reference.md` §1; §1.4 Internal Linking split into agent-consumable (anchor text, link count) and human-only (What to Link To) with inline note about tag page limitation
 - Documentation page: "Agent Routing annotations" subsection added to "How to Read a Format Page" — explains the four audience tags and how to grep for them

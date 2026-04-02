@@ -2,6 +2,7 @@
 layout: default
 title: Recipe
 cms_entry: recipe
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Recipe
@@ -22,6 +23,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -41,6 +43,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -65,6 +68,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -76,6 +80,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -89,6 +94,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -107,6 +113,7 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -114,6 +121,7 @@ Warm, approachable, and helpful. Conversational and human — never stiff or ins
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -121,6 +129,7 @@ Warm, approachable, and helpful. Conversational and human — never stiff or ins
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -152,6 +161,7 @@ Warm, approachable, and helpful. Conversational and human — never stiff or ins
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -162,6 +172,7 @@ Warm, approachable, and helpful. Conversational and human — never stiff or ins
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -179,6 +190,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -200,6 +212,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -212,6 +225,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -223,6 +237,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -239,6 +254,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

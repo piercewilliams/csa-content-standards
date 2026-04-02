@@ -2,6 +2,7 @@
 layout: default
 title: Google Discover Explainer
 cms_entry: discover-explainer
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Google Discover Explainer
@@ -19,6 +20,7 @@ Platform: Google Discover | Type: Explainer
 ### Purpose
 A Discover Explainer introduces readers to the **why** of a topic. Its primary purpose is to explain why the topic matters right now — not merely to define it. It provides clarity on complex topics, answers user questions, and ranks for informational search queries. It must earn attention from someone who was not actively looking for it.
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -36,6 +38,7 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 
 > **Optimize before publishing.** Articles are indexed almost immediately after publishing. Errors in the H1 or SEO title at the time of publish can take hours to re-index — by which point the news cycle has moved on. Get it right before hitting publish.
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -49,6 +52,7 @@ The SEO title is the most important element on the page. It is what search engin
 - Is a concise version of the H1, not a string of keywords
 - Avoid clickbait — question-format titles are permitted but must not be misleading
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -56,6 +60,7 @@ The SEO title is the most important element on the page. It is what search engin
 - Must contain the focus keyphrase
 - Should summarize the article in a way that entices the click
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -65,6 +70,7 @@ The SEO title is the most important element on the page. It is what search engin
 - Functions as a dek — entices clicks, does not merely summarize
 - A useful approach: pull two sentences from the article that best capture its point
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -81,16 +87,19 @@ The SEO title is the most important element on the page. It is what search engin
 - Should reflect how a real person would search for this topic
 - Use Google Trends data to inform H2 keyword choices
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
 Authoritative, clear, and easy to understand. Conversational and human — never stiff or institutional. Confident and specific — avoid vague generalities.
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
 <span style="color: #dc2626;">Target: 400–800 words.</span> Word count is a target range, not a hard ceiling. If the topic requires more depth, go longer — provided the article remains well-organized and every word earns its place.
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -123,6 +132,7 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 - Placed naturally within relevant sections
 ```
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -131,6 +141,7 @@ Authoritative, clear, and easy to understand. Conversational and human — never
 - <span style="color: #dc2626;">Keep paragraphs short for mobile readability</span>
 - Casing in CMS depends on destination: CUE uses sentence case; UsW and WW use title case (see Headline rules above)
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -141,6 +152,7 @@ Link to:
 - Source articles or social posts referenced in the explainer
 - Previously published site articles about events mentioned in the explainer
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -162,6 +174,7 @@ Images must be striking and visually specific — no stock blandness.
 
 </span>
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -182,6 +195,7 @@ Images must be striking and visually specific — no stock blandness.
 - <span style="color: #dc2626;">Revival content includes: nostalgic angles (e.g., callbacks to 2016 trends) and "one year later" perspectives on top articles</span>
 - <span style="color: #dc2626;">New pitches must not duplicate content already published on other McClatchy platforms</span>
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -191,6 +205,7 @@ Images must be striking and visually specific — no stock blandness.
 - <span style="color: #dc2626;">`The Commons`</span>
 - *(Tags subject to change — check for updates)*
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -204,6 +219,7 @@ Images must be striking and visually specific — no stock blandness.
 | Publishing without human review | Universal compliance rule — see General Guidelines §1.8 |
 | <span style="color: #dc2626;">Duplicating content from other McClatchy platforms</span> | <span style="color: #dc2626;">Discover-specific content rule</span> |
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

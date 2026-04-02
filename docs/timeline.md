@@ -2,6 +2,7 @@
 layout: default
 title: Timeline
 cms_entry: timeline
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Timeline
@@ -22,6 +23,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -39,6 +41,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -51,6 +54,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -60,6 +64,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -70,6 +75,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -88,6 +94,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -95,6 +102,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -102,6 +110,7 @@ A Timeline is a highly engaging, evergreen article that traces the key moments i
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -129,6 +138,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -165,6 +175,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -177,6 +188,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -189,6 +201,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -200,6 +213,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -217,6 +231,7 @@ Each entry must include:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

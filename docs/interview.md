@@ -2,6 +2,7 @@
 layout: default
 title: Interview
 cms_entry: interview
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Interview
@@ -22,6 +23,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -37,6 +39,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -48,6 +51,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -57,6 +61,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -68,6 +73,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -86,6 +92,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -93,6 +100,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -100,6 +108,7 @@ An Interview article delivers exclusive, first-person access to a celebrity or p
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -154,6 +163,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -165,6 +175,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -179,6 +190,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -200,6 +212,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -212,6 +225,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -223,6 +237,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -240,6 +255,7 @@ A: [Answer]
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

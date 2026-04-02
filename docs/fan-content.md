@@ -2,6 +2,7 @@
 layout: default
 title: Fan Theory / Fan Question
 cms_entry: fan-content
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Fan Theory / Fan Question
@@ -22,6 +23,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -36,6 +38,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -47,6 +50,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -57,6 +61,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -67,6 +72,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -85,6 +91,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -95,6 +102,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -102,6 +110,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -152,6 +161,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -164,6 +174,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -178,6 +189,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -199,6 +211,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -212,6 +225,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -223,6 +237,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -241,6 +256,7 @@ Fan Theory and Fan Question articles engage the fan community around a show, fil
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

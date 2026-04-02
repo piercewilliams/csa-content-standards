@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "last_updated": "2026-03",
   "base_url": "https://csa-content-standards.netlify.app",
+  "agent_routing": {
+    "description": "Rules in this document are distributed across specialized inputs and human-only workflows. Each page and subsection is annotated with AGENT-AUDIENCE tags. See _data/agent_routing.yml for the canonical tag vocabulary.",
+    "tags": ["general-style", "headline", "seo", "human-only"],
+    "tag_definitions_url": "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/_data/agent_routing.yml"
+  },
   "sections": [
     {
       "section": 1,
       "id": "brand-guidelines",
       "title": "General Guidelines",
       "status": "active",
+      "agent_audiences": ["general-style", "headline", "seo", "human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#1-brand-guidelines",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/brand-guidelines"
     },
@@ -16,7 +22,8 @@
       "section": 2,
       "id": "headlines",
       "title": "Headlines",
-      "status": "pending",
+      "status": "active",
+      "agent_audiences": ["headline", "seo", "human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#2-headlines",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/headlines",
       "notes": "Outlet-specific standards pending. Universal headline rules are in Brand Guidelines §1.2."
@@ -25,13 +32,15 @@
       "section": 3,
       "id": "article-formats",
       "title": "Article Formats",
-      "status": "partial",
+      "status": "active",
+      "agent_audiences": ["general-style", "headline", "seo", "human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#3-article-formats",
       "formats": [
         {
           "id": "discover-explainer",
           "title": "Google Discover Explainer",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#31-google-discover-explainer",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/discover-explainer"
         },
@@ -39,6 +48,7 @@
           "id": "everything-to-know",
           "title": "Everything to Know",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#32-everything-to-know",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/everything-to-know"
         },
@@ -46,6 +56,7 @@
           "id": "recipe",
           "title": "Recipe",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#33-recipe",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/recipe"
         },
@@ -53,6 +64,7 @@
           "id": "timeline",
           "title": "Timeline",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#34-timeline",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/timeline"
         },
@@ -60,6 +72,7 @@
           "id": "interview",
           "title": "Interview",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#35-interview",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/interview"
         },
@@ -67,6 +80,7 @@
           "id": "recap",
           "title": "Recap",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#36-recap",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/recap"
         },
@@ -74,6 +88,7 @@
           "id": "fan-content",
           "title": "Fan Theory / Fan Question",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#37-fan-theory--fan-question",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/fan-content"
         },
@@ -81,6 +96,7 @@
           "id": "obituary",
           "title": "Obituary",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#38-obituary",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/obituary"
         },
@@ -88,6 +104,7 @@
           "id": "couple-baby",
           "title": "Couple / Baby",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#39-couple--baby",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/couple-baby"
         },
@@ -95,6 +112,7 @@
           "id": "cast",
           "title": "Cast Introduction / Update",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#310-cast-introduction--update",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/cast"
         },
@@ -102,6 +120,7 @@
           "id": "faq",
           "title": "FAQ / Service Journalism",
           "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#311-faq--service-journalism",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/faq"
         }
@@ -112,6 +131,7 @@
       "id": "personas",
       "title": "Personas",
       "status": "active",
+      "agent_audiences": ["general-style"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#4-personas",
       "personas": [
         {
@@ -119,6 +139,7 @@
           "title": "The Discover Browser",
           "platform": "Google Discover",
           "status": "active",
+          "agent_audiences": ["general-style"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#41-the-discover-browser",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/discover-browser"
         },
@@ -127,6 +148,7 @@
           "title": "The Curious Optimizer",
           "platform": "Trend Hunter / B2C Channels",
           "status": "active",
+          "agent_audiences": ["general-style"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#42-the-curious-optimizer",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/curious-optimizer"
         },
@@ -135,6 +157,7 @@
           "title": "The Wonder-Driven Science Enthusiast",
           "platform": "Science / Discovery Features",
           "status": "active",
+          "agent_audiences": ["general-style"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#43-the-wonder-driven-science-enthusiast",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/science-enthusiast"
         },
@@ -143,6 +166,7 @@
           "title": "The Curious Explorer",
           "platform": "Discovery / Science / Nature",
           "status": "active",
+          "agent_audiences": ["general-style"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#44-the-curious-explorer",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/curious-explorer"
         },
@@ -151,6 +175,7 @@
           "title": "The Watercooler Insider",
           "platform": "Entertainment / Trending",
           "status": "active",
+          "agent_audiences": ["general-style"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#45-the-watercooler-insider",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/watercooler-insider"
         }
@@ -161,6 +186,7 @@
       "id": "acceptable-sources",
       "title": "Acceptable Sources",
       "status": "active",
+      "agent_audiences": ["general-style", "human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#5-acceptable-sources",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/acceptable-sources"
     },
@@ -169,6 +195,7 @@
       "id": "publishing-guidelines",
       "title": "Publishing Guidelines",
       "status": "partial",
+      "agent_audiences": ["human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#6-publishing-guidelines",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/publishing-guidelines",
       "notes": "CUE (McClatchy CMS) guidelines are active. WordPress and other platform guidelines are pending."
@@ -178,6 +205,7 @@
       "id": "follow-up-content",
       "title": "Follow-Up Content",
       "status": "active",
+      "agent_audiences": ["human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#7-follow-up-content",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/follow-up-content",
       "notes": "Editorial strategy guide for extending breaking news coverage across 13 story types. General principles also documented in Brand Guidelines §1.9."

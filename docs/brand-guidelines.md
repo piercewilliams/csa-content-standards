@@ -24,12 +24,12 @@ Every subsection below is prefixed with a machine-readable HTML comment in this 
 
 Use these tags to extract exactly what belongs in each agent's prompt. For sections that contain rules for more than one audience, the comment appears inline above each relevant block.
 
-| Tag | What Susannah described | What it covers |
-|---|---|---|
-| `general-style` | "General style for all work: voice and tone, words we use and don't use, explicit language policy" | §1.1 Voice & Tone; §1.3 Explicit Language Policy; anchor text rules in §1.4 |
-| `headline` | "Headline (H1) guidance abstracted from any SEO needs" | H1 character count, formula, verb requirement, front-loading, modifier rules |
-| `seo` | "Additional SEO requirements" | SEO title, focus keyphrase, meta description, promo title |
-| `human-only` | "1.5 and below seem like they're for humans" | Bylines, AI disclosure, Helpful Content review, compliance, editorial workflows, tag page linking |
+| Tag | What it covers |
+|---|---|
+| `general-style` | General style for all work — voice, tone, vocabulary, explicit language policy, anchor text rules |
+| `headline` | H1 headline guidance, abstracted from SEO — character count, formula, verb requirement, modifier rules |
+| `seo` | SEO title, focus keyphrase, meta description, promo title |
+| `human-only` | Human editorial workflows — bylines, AI disclosure, Helpful Content review, compliance, tag page linking |
 
 > **Note on §1.4 Internal Linking:** Link count and anchor text rules are `general-style`. "What to Link To" (tag pages, source articles) is `human-only` at this stage — the CSA does not currently have the ability to navigate tag pages programmatically.
 

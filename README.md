@@ -40,18 +40,24 @@ https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs
 https://csa-content-standards.netlify.app/api/reference.json
 ```
 
-**Agent Routing — §1 General Guidelines**
+**Agent Routing**
 
-§1 rules are distributed across three specialized agents and human editors. Each subsection is annotated with a machine-readable comment identifying its audience:
+Rules in this site are distributed across specialized inputs and human-only workflows — not ingested as a single prompt. Every page declares its audiences in frontmatter, and every subsection is annotated with a machine-readable HTML comment:
 
-```html
-<!-- AGENT-AUDIENCE: general-style -->    Voice, tone, explicit language policy, anchor text rules
-<!-- AGENT-AUDIENCE: headline --> H1 character count (80–100), formula, verb requirement, modifier guidelines
-<!-- AGENT-AUDIENCE: seo -->      SEO title, focus keyphrase, meta description, promo title
-<!-- AGENT-AUDIENCE: human-only -->     Bylines, AI disclosure, compliance, tag page linking, editorial workflows
+```yaml
+# frontmatter — page-level
+agent_audiences: [general-style, headline, seo, human-only]
 ```
 
-To extract rules for a specific agent prompt, grep `docs/master-reference.md` or `docs/brand-guidelines.md` for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next. The full routing table is at the top of `docs/brand-guidelines.md`.
+```html
+<!-- section-level, in raw Markdown -->
+<!-- AGENT-AUDIENCE: general-style -->   Voice, tone, explicit language policy, anchor text
+<!-- AGENT-AUDIENCE: headline -->        H1 character count, formula, verb requirement, modifier rules
+<!-- AGENT-AUDIENCE: seo -->             SEO title, focus keyphrase, meta description, promo title
+<!-- AGENT-AUDIENCE: human-only -->      Bylines, compliance, workflows, tag page linking
+```
+
+To extract rules for a specific input: grep `docs/brand-guidelines.md` or `docs/master-reference.md` for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next. The `api/reference.json` includes `agent_audiences` on every section and format entry for programmatic filtering. The canonical tag vocabulary is in `_data/agent_routing.yml`.
 
 ### Human editors
 Browse the rendered site. Use the sidebar to navigate sections or search by keyword. Every page has an **✏ Edit this page** button that opens it directly in the CMS editor — no GitHub account or technical knowledge required.

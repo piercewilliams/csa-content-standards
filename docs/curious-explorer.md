@@ -2,8 +2,10 @@
 layout: default
 title: "Persona: The Curious Explorer"
 cms_entry: curious-explorer
+agent_audiences: [general-style]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # The Curious Explorer
 
 **Platform:** Discovery / Science / Nature

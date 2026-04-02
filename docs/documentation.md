@@ -70,18 +70,49 @@ Text rendered in <span style="color: #dc2626;">**red**</span> marks guidance tha
 
 Every format page opens with a blockquote summarizing exactly which General Guidelines rules are overridden and how.
 
-### Agent Routing annotations
+### Agent Routing
 
-General Guidelines (§1) rules are consumed by **three specialized CSA agents** and **human editors** — not by a single monolithic prompt. Each subsection in §1 is prefixed with a machine-readable HTML comment that identifies which audience it belongs to:
+CSA rules are consumed by specialized inputs and human-only workflows — different rules go to different places. The site uses a two-layer routing system to make this machine-readable without changing the human-readable structure.
 
-```html
-<!-- AGENT-AUDIENCE: general-style -->    Voice, tone, vocabulary, explicit language, anchor text
-<!-- AGENT-AUDIENCE: headline --> H1 character count, formula, verb requirement, modifier rules
-<!-- AGENT-AUDIENCE: seo -->      SEO title, focus keyphrase, meta description, promo title
-<!-- AGENT-AUDIENCE: human-only -->     Bylines, compliance, workflows, tag page linking
+**Layer 1 — Page-level frontmatter**
+
+Every page declares which audiences it is relevant to via an `agent_audiences` field in its YAML frontmatter:
+
+```yaml
+agent_audiences: [general-style, headline, seo, human-only]
 ```
 
-These comments are invisible in the rendered site but present in the raw Markdown and rendered HTML. To extract rules for a specific agent prompt, grep the raw Markdown source for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next one. The [General Guidelines page]({{ "/docs/brand-guidelines" | relative_url }}) contains a full routing table at the top of the page.
+This lets agents and tooling quickly determine whether a page is relevant to them at all, without parsing content.
+
+**Layer 2 — Section-level HTML comments**
+
+Within pages that contain rules for multiple audiences, each subsection is prefixed with:
+
+```html
+<!-- AGENT-AUDIENCE: general-style -->
+<!-- AGENT-AUDIENCE: headline -->
+<!-- AGENT-AUDIENCE: seo -->
+<!-- AGENT-AUDIENCE: human-only -->
+```
+
+These comments are invisible on the rendered site but present in the raw Markdown source. To extract rules for a specific input, grep the raw Markdown for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next one.
+
+**The four tags**
+
+| Tag | What it covers |
+|---|---|
+| `general-style` | General style for all work — voice, tone, vocabulary, explicit language policy, anchor text rules |
+| `headline` | H1 headline guidance, abstracted from SEO — character count, formula, verb requirement, modifier rules |
+| `seo` | SEO title, focus keyphrase, meta description, promo title |
+| `human-only` | Human editorial workflows — not consumed by any CSA agent at this stage |
+
+**Canonical vocabulary**
+
+The tag definitions, coverage descriptions, and standard section-to-tag mapping for format pages are maintained in `_data/agent_routing.yml`. This is the single source of truth for the routing vocabulary — update it when tags are added or modified.
+
+**For new pages**
+
+When adding a new format page, follow the standard mapping documented in `_data/agent_routing.yml` under `format_page_mapping`. Add the `agent_audiences` frontmatter field and `<!-- AGENT-AUDIENCE: -->` comments to every section. The [General Guidelines page]({{ "/docs/brand-guidelines" | relative_url }}) shows the routing table and a worked example of how comments appear alongside content.
 
 ### (REQUIRED) labels
 

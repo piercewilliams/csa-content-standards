@@ -2,6 +2,7 @@
 layout: default
 title: Cast Introduction / Update
 cms_entry: cast
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Cast Introduction / Update
@@ -25,6 +26,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -39,6 +41,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -50,6 +53,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -60,6 +64,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -70,6 +75,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -88,6 +94,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -95,6 +102,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -102,6 +110,7 @@ Cast Introduction and Cast Update articles inform fans about who is appearing in
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -149,6 +158,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -161,6 +171,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -173,6 +184,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -194,6 +206,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -208,6 +221,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -219,6 +233,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -236,6 +251,7 @@ For each cast member:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

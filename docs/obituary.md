@@ -2,6 +2,7 @@
 layout: default
 title: Obituary
 cms_entry: obituary
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Obituary
@@ -28,6 +29,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -42,6 +44,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -53,6 +56,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -62,6 +66,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -72,6 +77,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -91,6 +97,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -100,6 +107,7 @@ An Obituary marks the death of a public figure with accuracy, respect, and autho
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -110,6 +118,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -163,6 +172,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -175,6 +185,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -189,6 +200,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -211,6 +223,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -224,6 +237,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -235,6 +249,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -252,6 +267,7 @@ These articles are intentionally focused. Do not pad. A well-crafted, respectful
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - Death confirmed by reliable source — official statement, family representative, or verified wire service report
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE

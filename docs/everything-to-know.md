@@ -2,6 +2,7 @@
 layout: default
 title: Everything to Know
 cms_entry: everything-to-know
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Everything to Know
@@ -24,6 +25,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -39,6 +41,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -51,6 +54,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -60,6 +64,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -71,6 +76,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -89,6 +95,7 @@ The Everything to Know article is a comprehensive resource designed to cover all
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -96,6 +103,7 @@ Informative, comprehensive, and easy to navigate. Conversational and human — n
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -103,6 +111,7 @@ Informative, comprehensive, and easy to navigate. Conversational and human — n
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -140,6 +149,7 @@ Informative, comprehensive, and easy to navigate. Conversational and human — n
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -151,6 +161,7 @@ Informative, comprehensive, and easy to navigate. Conversational and human — n
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -166,6 +177,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -186,6 +198,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -198,6 +211,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -209,6 +223,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -225,6 +240,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

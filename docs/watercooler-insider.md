@@ -2,8 +2,10 @@
 layout: default
 title: "Persona: The Watercooler Insider"
 cms_entry: watercooler-insider
+agent_audiences: [general-style]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # The Watercooler Insider
 
 **Platform:** Entertainment / Trending

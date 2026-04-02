@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-02 (Agent Routing annotations added to §1 General Guidelines — v1.3.8)
+**Last session:** 2026-04-02 (Agent Routing system extended site-wide — v1.3.9)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Agent Routing annotations added to §1 (2026-04-02) — v1.3.8
+- **Last changes:** Agent Routing extended site-wide; `_data/agent_routing.yml` created (2026-04-02) — v1.3.9
 - **Blockers:** None known
 
 ## What's Next

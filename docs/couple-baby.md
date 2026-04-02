@@ -2,6 +2,7 @@
 layout: default
 title: Couple / Baby
 cms_entry: couple-baby
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Couple / Baby
@@ -25,6 +26,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -56,6 +58,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -67,6 +70,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -77,6 +81,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -87,6 +92,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -106,6 +112,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -113,6 +120,7 @@ Couple and Baby articles cover two of the highest-interest topics for entertainm
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -123,6 +131,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -170,6 +179,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -180,6 +190,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -192,6 +203,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -213,6 +225,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -227,6 +240,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -238,6 +252,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -255,6 +270,7 @@ These articles are intentionally focused. Do not pad. Include what is known and 
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

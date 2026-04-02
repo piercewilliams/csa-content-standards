@@ -2,6 +2,7 @@
 layout: default
 title: FAQ / Service Journalism
 cms_entry: faq
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # FAQ / Service Journalism
@@ -22,6 +23,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -40,6 +42,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -50,6 +53,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -59,6 +63,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -69,6 +74,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -86,6 +92,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -93,6 +100,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -100,6 +108,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -136,6 +145,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -147,6 +157,7 @@ An FAQ / Service Journalism article directly answers reader questions in a scann
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -159,6 +170,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -180,6 +192,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -193,6 +206,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -204,6 +218,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -222,6 +237,7 @@ Link to:
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline

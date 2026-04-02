@@ -2,8 +2,10 @@
 layout: default
 title: "Persona: The Discover Browser"
 cms_entry: discover-browser
+agent_audiences: [general-style]
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 # The Discover Browser
 
 **Platform:** Google Discover

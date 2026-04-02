@@ -2,6 +2,7 @@
 layout: default
 title: Recap
 cms_entry: recap
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # Recap
@@ -22,6 +23,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Headline (H1)
 **(REQUIRED)**
 
@@ -36,6 +38,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title
 **(REQUIRED)**
 
@@ -47,6 +50,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Dek
 **(REQUIRED)**
 
@@ -56,6 +60,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description
 **(REQUIRED)**
 
@@ -66,6 +71,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -84,6 +90,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Tone
 **(REQUIRED)**
 
@@ -91,6 +98,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Word Count
 **(REQUIRED)**
 
@@ -98,6 +106,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Article Structure
 **(REQUIRED)**
 
@@ -130,6 +139,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Formatting Rules
 **(REQUIRED)**
 
@@ -141,6 +151,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Internal Links
 **(REQUIRED)**
 
@@ -154,6 +165,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Hero Image
 **(REQUIRED)**
 
@@ -175,6 +187,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### URL Structure
 **(REQUIRED)**
 
@@ -188,6 +201,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Tags
 **(REQUIRED)**
 
@@ -199,6 +213,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Avoid
 
 | Prohibited | Reason |
@@ -216,6 +231,7 @@ A Recap summarizes and analyzes the key moments of an episode, film, podcast, or
 
 ---
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### Pre-Publish Checklist
 - AI disclaimer present at top of article (CUE sites only) and "Created With AI" checkbox checked in CUE
 - Named human byline — creator/first editor only, no staff byline
