@@ -49,6 +49,18 @@ main:
       - title: The Discover Browser
         url: /docs/discover-browser
         match: discover-browser
+      - title: The Curious Optimizer
+        url: /docs/curious-optimizer
+        match: curious-optimizer
+      - title: The Wonder-Driven Science Enthusiast
+        url: /docs/science-enthusiast
+        match: science-enthusiast
+      - title: The Curious Explorer
+        url: /docs/curious-explorer
+        match: curious-explorer
+      - title: The Watercooler Insider
+        url: /docs/watercooler-insider
+        match: watercooler-insider
 
   - title: Acceptable Sources
     url: /docs/acceptable-sources

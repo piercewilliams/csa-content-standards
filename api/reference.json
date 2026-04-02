@@ -104,7 +104,7 @@
       "section": 4,
       "id": "personas",
       "title": "Personas",
-      "status": "partial",
+      "status": "active",
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#4-personas",
       "personas": [
         {
@@ -114,6 +114,38 @@
           "status": "active",
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#41-the-discover-browser",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/discover-browser"
+        },
+        {
+          "id": "curious-optimizer",
+          "title": "The Curious Optimizer",
+          "platform": "Trend Hunter / B2C Channels",
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#42-the-curious-optimizer",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/curious-optimizer"
+        },
+        {
+          "id": "science-enthusiast",
+          "title": "The Wonder-Driven Science Enthusiast",
+          "platform": "Science / Discovery Features",
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#43-the-wonder-driven-science-enthusiast",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/science-enthusiast"
+        },
+        {
+          "id": "curious-explorer",
+          "title": "The Curious Explorer",
+          "platform": "Discovery / Science / Nature",
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#44-the-curious-explorer",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/curious-explorer"
+        },
+        {
+          "id": "watercooler-insider",
+          "title": "The Watercooler Insider",
+          "platform": "Entertainment / Trending",
+          "status": "active",
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#45-the-watercooler-insider",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/watercooler-insider"
         }
       ]
     },

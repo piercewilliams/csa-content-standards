@@ -11,6 +11,13 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.3.6] — 2026-04
+- Personas §4: Four new personas added — The Curious Optimizer (§4.2), The Wonder-Driven Science Enthusiast (§4.3), The Curious Explorer (§4.4), and The Watercooler Insider (§4.5) — each with full standalone pages, navigation entries, CMS admin entries, and master reference condensed summaries
+- Personas §4: The Discover Browser (§4.1) updated — Content Framework section added (What It Is / Why It Matters / Who It's For / How to Experience It); familiar performance lanes (gut health, travel hacks, personal finance, functional foods) added to What They Respond To
+- Master Reference §4.1: Stale values corrected — word count updated from 740–816 to 400–800 (matches standalone page and v1.1.0 correction); meta description updated from 140–160 to 100–155 (matches v1.3.0 correction); "see full page" link added for consistency with §4.2–§4.5
+- Documentation §4 row updated to list all five active personas
+- Section 4 status updated to Active across homepage and JSON API
+
 ## [1.3.5] — 2026-03
 - "Brand Guidelines" renamed to "General Guidelines" across the entire site — page title, sidebar navigation, CMS admin, JSON API, master reference, all format pages, and all cross-references updated; URL (`/docs/brand-guidelines`) and historical changelog entries unchanged
 

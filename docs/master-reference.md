@@ -1133,6 +1133,8 @@ Cast Introduction: `[show-name]-cast` or `[show-name]-cast-meet-[details]`
 **Platform:** Google Discover
 **Applies to:** All Discover content formats including §3.1 Google Discover Explainer
 
+> See the full [Discover Browser page]({{ "/docs/discover-browser" | relative_url }}) for the complete persona spec including Content Framework.
+
 ### Who They Are
 This is the person scrolling their phone in a waiting room or on the couch after dinner — not searching for anything, just open to being interested. They are visually driven, pattern-aware, and impatient. They remember what they have engaged with before and keep seeing more of the same, but light up when something unexpected breaks through. They trust credible sources but want content that feels human, not institutional.
 
@@ -1149,10 +1151,86 @@ This is the person scrolling their phone in a waiting room or on the couch after
 ### Content Implications
 - Lead with the most surprising, specific, or emotionally resonant element
 - No warm-ups — hook in the first sentence
-- Target 740–816 words total for standard Discover pieces
+- Target 400–800 words — not a hard ceiling; go longer if the topic requires it, provided every word earns its place
 - Every piece needs a high-quality hero image: 1200px+ wide, 16:9, 300K+ resolution, no logos, no text overlays, no generic stock
-- Meta descriptions: 140–160 characters, 4+ keywords front-loaded, stop words stripped
+- Meta descriptions: 100–155 characters — must contain the focus keyphrase and relevant proper nouns; see General Guidelines §1.2
 - Consistency in a content lane builds Discover trust over time — publish regularly in focus verticals
+
+---
+
+## 4.2 The Curious Optimizer
+
+**Platform:** Trend Hunter / B2C Channels
+**Applies to:** Trend and self-improvement content
+
+> See the full [Curious Optimizer page]({{ "/docs/curious-optimizer" | relative_url }}) for the complete persona spec.
+
+**Core driver:** "Ahead of the curve — and ready to act on it."
+
+Psychographic-first persona spanning all demographics, united by mindset: curiosity, self-improvement, and the desire to act on emerging trends before they go mainstream.
+
+**Content Framework:** Each piece should address — What It Is (define the trend in one jargon-free sentence), Why It Matters (cultural/emotional resonance and timing), Who It's For (frame by motivation, not demographics), How to Experience It (concrete action steps).
+
+**Key rules:** Never assume age, gender, income, or region. Frame all benefits around intent and motivation. Blend optimism with tangible utility — optimistic without hype, direct without dryness.
+
+**Tone:** Smart, approachable, and curious. Encouraging but realistic.
+
+---
+
+## 4.3 The Wonder-Driven Science Enthusiast
+
+**Platform:** Science / Discovery Features
+**Applies to:** Science, nature, and discovery content
+
+> See the full [Wonder-Driven Science Enthusiast page]({{ "/docs/science-enthusiast" | relative_url }}) for the complete persona spec.
+
+**Core driver:** "That's extraordinary — and I need to tell someone about it."
+
+Reader united by awe — loves the strange, beautiful mechanisms behind how life and the universe work. Regardless of expertise, they want to reconnect with the amazement they felt watching nature documentaries. They relish stories that spark conversation and invite them to see familiar things with new eyes.
+
+**Content Framework:** What It Is (vivid, jargon-free definition), Why It Matters (expands understanding or stirs emotion), Who It's For (universalize the wonder), How to Experience It (exhibits, docs, imagery, related readings).
+
+**Key rules:** Lead with awe, not data. Prioritize comprehension and emotional resonance over technical depth. Tailor focus areas to the topic: paleontology, marine life, astronomy, and environmental change each have distinct registers.
+
+**Tone:** Accessible, vivid, and story-forward. Respects intelligence; leads with marvel.
+
+---
+
+## 4.4 The Curious Explorer
+
+**Platform:** Discovery / Science / Nature
+**Applies to:** Science, nature, archaeology, and discovery content
+
+> See the full [Curious Explorer page]({{ "/docs/curious-explorer" | relative_url }}) for the complete persona spec.
+
+**Core driver:** "I had no idea this existed — and now I need to tell someone."
+
+Deep-engagement reader who clicks on a headline about a weird species or archaeological mystery and stays — scrolling 28–55% of the page for 30–70+ seconds. Not skimming; absorbing. Wants to feel smarter and walk away with a shareable fact.
+
+**Top content types:** New species discoveries (vivid physical details and scale), animal survival narratives with emotional stakes, archaeology and fossils that rewrite history, invasive species surprises, deep-sea and cave exploration, "weird science" (fungi communication, octopus cognition, platypus biology).
+
+**Key rules:** Lead with the single most jaw-dropping specific detail. Frame as answering a question the reader didn't know they had. Animals with personality outperform dry taxonomy. Every piece needs a concrete, surprising hook — no generic nature roundups.
+
+**Tone:** Awestruck but grounded. Specific over sensational, smart without lecturing.
+
+---
+
+## 4.5 The Watercooler Insider
+
+**Platform:** Entertainment / Trending
+**Applies to:** Viral, entertainment, and pop culture content
+
+> See the full [Watercooler Insider page]({{ "/docs/watercooler-insider" | relative_url }}) for the complete persona spec.
+
+**Core driver:** "I know the real story — and now you will too."
+
+Treats content as social currency — wants to be the person who knows the real story behind the viral moment, the surprising celebrity detail, or the debunked hoax everyone else is sharing. Bimodal engagement: quick browsing on high-traffic pieces (2–15 seconds), deep reading on debunks and drama (30–60 seconds).
+
+**Top content types:** Viral debunks framed as narrative, humanizing celebrity moments (unexpected habits, relatable opinions), internet trend explainers ("why millions are doing this"), nostalgia-trigger content (returning snacks, throwback trends), sports and pop culture debates with a genuine split.
+
+**Key rules:** Position every article as the key to understanding something the internet is already buzzing about. Use named people, specific quotes, and concrete details — generic language reads as aggregation. Debunk and "real story behind" angles are the highest-performing pattern. Celebrity content should humanize, not tabloidize.
+
+**Tone:** Confident, culturally fluent, and insider-casual.
 
 ---
 

@@ -130,6 +130,38 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Discover Browser" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - label: "Persona: The Curious Optimizer"
+        name: "curious-optimizer"
+        file: "docs/curious-optimizer.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Curious Optimizer" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Psychographic-first persona for trend and self-improvement content. Platform: Trend Hunter / B2C Channels." }
+
+      - label: "Persona: The Wonder-Driven Science Enthusiast"
+        name: "science-enthusiast"
+        file: "docs/science-enthusiast.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Wonder-Driven Science Enthusiast" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Awe-driven reader for science, nature, and discovery content. Platform: Science / Discovery Features." }
+
+      - label: "Persona: The Curious Explorer"
+        name: "curious-explorer"
+        file: "docs/curious-explorer.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Curious Explorer" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Deep-engagement reader for science, nature, archaeology, and discovery content. Engagement: 30–70+ seconds, 28–55% scroll depth." }
+
+      - label: "Persona: The Watercooler Insider"
+        name: "watercooler-insider"
+        file: "docs/watercooler-insider.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Watercooler Insider" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Social-currency reader for viral, entertainment, and pop culture content. Bimodal engagement: 2–15s (high-traffic) or 30–60s (debunks/drama)." }
+
       - label: "Acceptable Sources"
         name: "acceptable-sources"
         file: "docs/acceptable-sources.md"

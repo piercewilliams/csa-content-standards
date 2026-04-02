@@ -24,7 +24,16 @@ This is the person scrolling their phone in a waiting room or on the couch after
 - Curiosity-gap framing that reveals enough to intrigue without withholding
 - Specificity over mystery — concrete, surprising details
 - Seasonal and culturally timed content that meets the moment they are already in
+- Reinforcing beats in familiar performance lanes: gut health, travel hacks, personal finance, functional foods
 - Surprise-and-delight breakouts — compelling personal essays, unexpected local discoveries, trend reveals
+
+### Content Framework
+Each piece for this persona should address all four points in sequence:
+
+- **What It Is:** A scroll-stopping hook that defines the story's core in one crisp line
+- **Why It Matters:** Contextualize why this tidbit, discovery, or insight breaks the pattern — what makes it freshly relevant
+- **Who It's For:** Frame value in universal curiosity terms: "If you like figuring out how things really work…" or "If you love tiny discoveries that change how you see something familiar…"
+- **How to Experience It:** Lean visual — suggest how to see, share, or explore: an article snippet, product link, or standout image
 
 ### Content Implications
 - Lead with the most surprising, specific, or emotionally resonant element
