@@ -31,5 +31,3 @@ This reader treats content as social currency — they want to be the person who
 - Debunk and "real story behind" angles are the highest-performing content pattern in this lane — always prefer them over straight reporting of the same event
 - Celebrity content should humanize, not tabloidize; nostalgia content consistently converts — lean into it
 - Avoid generic listicles and aggregation without an angle
-- **For bridge content:** Reframe existing McClatchy entertainment, sports, and trending coverage through a "here's what everyone's missing" or "the real story is more interesting" lens
-- **For discovery content:** Surface emerging viral moments and cultural debates before they peak

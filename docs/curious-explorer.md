@@ -33,5 +33,3 @@ A deep-engagement reader driven by wonder, surprise, and the thrill of learning 
 - Prioritize topics where science reveals something hidden or overturns a prior assumption
 - Headlines should combine specificity with a knowledge gap: "A 4-Foot Snake Killed by a Hiker Turned Out to Be Something Scientists Had Never Seen Before"
 - Avoid generic nature roundups — every piece needs a concrete, surprising hook
-- **For bridge content:** Reframe existing McClatchy science and environment reporting through a "never-before-seen" or "scientists just discovered" lens
-- **For discovery content:** Surface emerging research and species findings before mainstream pickup

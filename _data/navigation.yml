@@ -20,6 +20,9 @@ main:
       - title: Everything to Know
         url: /docs/everything-to-know
         match: everything-to-know
+      - title: FAQ / Service Journalism
+        url: /docs/faq
+        match: faq
       - title: Recipe
         url: /docs/recipe
         match: recipe
@@ -44,9 +47,6 @@ main:
       - title: Cast Introduction / Update
         url: /docs/cast
         match: cast
-      - title: FAQ / Service Journalism
-        url: /docs/faq
-        match: faq
   - title: Personas
     children:
       - title: The Discover Browser
