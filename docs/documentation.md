@@ -32,7 +32,7 @@ The site is organized into seven numbered sections plus supporting reference pag
 |---|---|---|
 | 1 | [General Guidelines]({{ "/docs/brand-guidelines" | relative_url }}) | Universal rules — voice and tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content standard, compliance. Applies to all formats and platforms unless explicitly overridden. |
 | 2 | [Headlines]({{ "/docs/headlines" | relative_url }}) | Outlet-specific headline standards and all format-specific headline formulas — character counts, casing, formula variations, and no-verb exceptions by format. |
-| 3 | [Article Formats]({{ "/docs/discover-explainer" | relative_url }}) | Format-specific rules for each article type — structure, metadata, word count, image specs, URL patterns, tags, and pre-publish checklists. Ten formats are currently active. |
+| 3 | [Article Formats]({{ "/docs/discover-explainer" | relative_url }}) | Format-specific rules for each article type — structure, metadata, word count, image specs, URL patterns, tags, and pre-publish checklists. Eleven formats are currently active. |
 | 4 | [Personas]({{ "/docs/discover-browser" | relative_url }}) | Audience definitions used to guide tone, framing, and content decisions. Five personas are currently active: The Discover Browser, The Curious Optimizer, The Wonder-Driven Science Enthusiast, The Curious Explorer, and The Watercooler Insider. |
 | 5 | [Acceptable Sources]({{ "/docs/acceptable-sources" | relative_url }}) | Approved source categories and specific outlets for factual reporting and citation across all verticals. |
 | 6 | [Publishing Guidelines]({{ "/docs/publishing-guidelines" | relative_url }}) | Platform-specific CMS entry requirements — CUE (McClatchy CMS), WordPress, Apple News, and additional export destinations. |
@@ -42,7 +42,7 @@ The site is organized into seven numbered sections plus supporting reference pag
 
 ## Active Article Formats
 
-Ten article formats are currently documented under §3. Each has its own standalone page.
+Eleven article formats are currently documented under §3. Each has its own standalone page.
 
 | Format | Section | Page |
 |---|---|---|
@@ -56,6 +56,7 @@ Ten article formats are currently documented under §3. Each has its own standal
 | Obituary | §3.8 | [obituary]({{ "/docs/obituary" | relative_url }}) |
 | Couple / Baby | §3.9 | [couple-baby]({{ "/docs/couple-baby" | relative_url }}) |
 | Cast Introduction / Update | §3.10 | [cast]({{ "/docs/cast" | relative_url }}) |
+| FAQ / Service Journalism | §3.11 | [faq]({{ "/docs/faq" | relative_url }}) |
 
 ---
 

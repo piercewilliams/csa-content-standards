@@ -11,6 +11,9 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.3.7] — 2026-04
+- Article Formats §3: FAQ / Service Journalism added as §3.11 — standalone page (`docs/faq.md`), navigation entry, CMS admin entry, master reference condensed summary, and JSON API entry; documentation format count updated from 10 to 11
+
 ## [1.3.6] — 2026-04
 - Personas §4: Four new personas added — The Curious Optimizer (§4.2), The Wonder-Driven Science Enthusiast (§4.3), The Curious Explorer (§4.4), and The Watercooler Insider (§4.5) — each with full standalone pages, navigation entries, CMS admin entries, and master reference condensed summaries
 - Personas §4: The Discover Browser (§4.1) updated — Content Framework section added (What It Is / Why It Matters / Who It's For / How to Experience It); familiar performance lanes (gut health, travel hacks, personal finance, functional foods) added to What They Respond To

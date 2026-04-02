@@ -122,6 +122,14 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Cast Introduction / Update" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Two subtypes: Cast Update ([Show/Movie Name] Cast Update: Who's In and Who's Out) and Cast Introduction (Meet the Cast of [Show/Movie Title]: [Name], [Name] and More — UsW). Focus keyphrase: [Show/Movie Name] cast. Word count: 400–500. UsW: gallery or H2 format. Label each change as joining/leaving/role change." }
 
+      - label: "FAQ / Service Journalism"
+        name: "faq"
+        file: "docs/faq.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "FAQ / Service Journalism" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Topic] [Question Word]: [Specific Question Answered]. Focus keyphrase: exact search query (e.g. 'Social Security check dates 2025'). Word count: 300–500 per answer block. Every H2 needs a Google Trends/PAA keyword. Answer-first: first 1–2 sentences must be snippet-ready." }
+
       - label: "Persona: The Discover Browser"
         name: "discover-browser"
         file: "docs/discover-browser.md"

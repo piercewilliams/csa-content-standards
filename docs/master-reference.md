@@ -1121,6 +1121,71 @@ Cast Introduction: `[show-name]-cast` or `[show-name]-cast-meet-[details]`
 
 ---
 
+<!-- FORMAT:faq -->
+## 3.11 FAQ / Service Journalism
+
+Platform: All platforms | Type: FAQ / Service Journalism Article
+
+> See the full [FAQ / Service Journalism page]({{ "/docs/faq" | relative_url }}) for the complete spec, article template, and pre-publish checklist.
+
+### Purpose
+Service journalism articles that directly answer reader questions in a scannable, H2-driven format. Captures long-tail search traffic and performs well for People Also Ask (PAA) placements and Google featured snippets.
+
+### Headline (H1)
+**(REQUIRED)**
+
+**Required formula:** `[Topic] [Question Word]: [Specific Question Answered]`
+
+Examples: `Social Security 2025: When Will Checks Arrive This Month?` / `Biggest Questions About [Show Name] Answered`
+
+- Topic must be front-loaded
+- Character count: 80–100 characters
+
+### Focus Keyphrase
+**(REQUIRED)**
+
+| Type | Format |
+|---|---|
+| Primary | Exact search query — e.g., `"Social Security check dates 2025"` |
+| Secondary | Related PAA query — e.g., `"When do Social Security checks come?"` |
+
+Validate against Google Trends and People Also Ask data.
+
+### Article Structure
+**(REQUIRED)**
+
+```
+[AI DISCLAIMER — CUE sites only]
+[INTRO — 1–2 sentences establishing timeliness/relevance]
+[H2] [Keyword-rich question from Google Trends / PAA]
+  [Direct answer — 1–2 sentences, snippet-ready]
+  [Supporting context — 2–4 sentences with specifics and source attribution]
+[Repeat H2 + answer pattern for each question]
+[INTERNAL LINKS — 3–5, embedded in copy]
+```
+
+- Every H2 must include a keyword from Google Trends or PAA
+- First 1–2 sentences under each H2 must directly answer the question (snippet-ready)
+- Paragraphs: 2–3 sentences maximum
+- Word count: 300–500 words per answer block
+
+### Internal Links
+**(REQUIRED)**
+
+3–5 contextual inline links per article. Link to relevant topic pages, tag pages, and related articles. See General Guidelines §1.4.
+
+### URL Structure
+**(REQUIRED)**
+
+Pattern: `[topic]-[question-keywords]` or `[topic]-[year]-questions-answered`
+
+### Tags
+**(REQUIRED)**
+
+`TH-CSA` and `The Commons` *(subject to change)*
+
+---
+
 <!-- SECTION:personas -->
 # 4. Personas
 

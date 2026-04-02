@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-02 (5 personas standardized + added to site; forwarded to Susannah)
+**Last session:** 2026-04-02 (FAQ / Service Journalism format added as §3.11)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** 5 personas added, Discover Browser revised (2026-04-02) — v1.3.6
+- **Last changes:** FAQ / Service Journalism added as §3.11 (2026-04-02) — v1.3.7
 - **Blockers:** None known
 
 ## What's Next
@@ -23,7 +23,24 @@ For session history: see [sessions/](sessions/)
 3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Susannah logged tooling dev request. Codify architecture here once tooling is defined.
 4. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
 
-## Recent Session: 2026-04-02
+## Recent Session: 2026-04-02 (second)
+
+Added FAQ / Service Journalism as §3.11. Created standalone page with full spec — headline formula, focus keyphrase, word count, article structure, formatting rules, internal links, hero image, URL pattern, tags, What to Avoid, and pre-publish checklist. Synced across all site files.
+
+**Files created:** `docs/faq.md`
+
+**Files updated:** `_data/navigation.yml`, `admin/config.yml`, `docs/master-reference.md` (§3.11 added), `docs/documentation.md` (format count 10 → 11; table updated), `api/reference.json` (§3.11 entry added), `docs/changelog.md` (v1.3.7), `docs/headlines.md` (§3.11 accordion added)
+
+**Red items (overrides General Guidelines):**
+- Headline formula locked to `[Topic] [Question Word]: [Specific Question Answered]`
+- Focus keyphrase: exact search query format, not `[Person/Topic] [Does/Is] [Thing]`
+- Answer-first requirement: first 1–2 sentences under each H2 must be snippet-ready
+- Word count: 300–500 words per answer block (not total)
+- Article structure: mandatory Intro + H2 answer blocks
+- Paragraph maximum: 2–3 sentences
+- H2 headings must include Google Trends / PAA keywords
+
+## Recent Session: 2026-04-02 (first)
 
 Received 5 personas from Pierce (Sara Vallone's refined set + 2 new data-driven ones). Normalized all to site conventions (Who They Are / Core Driver / What They Respond To / Content Framework / Content Implications), created standalone pages, and wired up full site sync.
 

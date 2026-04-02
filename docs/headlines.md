@@ -333,6 +333,32 @@ No single locked formula, but the word **"Recipe"** must appear in the H1.
 
 </details>
 
+<details markdown="1">
+<summary>FAQ / Service Journalism (§3.11)</summary>
+
+*Applies to: All platforms*
+
+| Formula |
+|---|
+| `[Topic] [Question Word]: [Specific Question Answered]` |
+
+**Examples:**
+
+| Example |
+|---|
+| `Social Security 2025: When Will Checks Arrive This Month?` |
+| `Biggest Questions About [Show Name] Answered` |
+
+- Character count: 80–100
+- Topic must be front-loaded
+- The headline should tease the answer or signal answers are inside — do not leave the question fully open-ended
+- No-verb exception does **not** apply — headlines must contain a verb or an implied answer
+- Casing: varies by destination
+
+[Full spec →]({{ "/docs/faq" | relative_url }})
+
+</details>
+
 ---
 
 > ⚠️ Additional outlet-specific standards are pending. Add each outlet as a `<details>` block above the template comment following the pattern shown.
