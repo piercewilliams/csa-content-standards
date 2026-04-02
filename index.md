@@ -17,12 +17,13 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 
 | # | Section | Status |
 |---|---|---|
-| 1 | Brand Guidelines | ✅ Active |
-| 2 | Headlines | ⚠️ Pending — outlet standards needed |
-| 3 | Article Formats | 🔄 Partial — Discover Explainer only |
-| 4 | Personas | ✅ Active |
+| 1 | General Guidelines | ✅ Active |
+| 2 | Headlines | ✅ Active |
+| 3 | Article Formats | ✅ Active — 11 formats |
+| 4 | Personas | ✅ Active — 5 personas |
 | 5 | Acceptable Sources | ✅ Active |
-| 6 | Publishing Guidelines | 🔄 Partial — CUE only; WordPress pending |
+| 6 | Publishing Guidelines | 🔄 Partial — CUE active; WordPress pending |
+| 7 | Follow-Up Content | ✅ Active |
 
 ---
 

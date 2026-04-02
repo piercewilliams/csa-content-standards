@@ -3,7 +3,7 @@
 Reference documentation for the Content Scaling Agent (CSA) — an AI content generation system. This site defines every rule the agent and its human editors follow when creating, optimizing, and publishing articles across all CSA-affiliated outlets.
 
 **Live site:** https://csa-content-standards.netlify.app
-**Current version:** 1.3.5
+**Current version:** 1.3.9
 
 ---
 
@@ -74,9 +74,9 @@ The standards are organized into seven numbered sections. Section numbers are st
 | # | Section | Status | What it covers |
 |---|---|---|---|
 | 1 | [General Guidelines](https://csa-content-standards.netlify.app/docs/brand-guidelines) | ✅ Active | Universal rules — voice/tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content compliance. Applies to all formats unless a format-specific page overrides it. |
-| 2 | [Headlines](https://csa-content-standards.netlify.app/docs/headlines) | ✅ Active | Outlet-specific headline standards (Us Weekly, Apple News) and format-specific headline formulas for all 10 active formats. |
-| 3 | [Article Formats](https://csa-content-standards.netlify.app/docs/discover-explainer) | ✅ Active | Format-specific rules for each article type — structure, metadata, word counts, image specs, URL patterns, and pre-publish checklists. 10 formats active. |
-| 4 | [Personas](https://csa-content-standards.netlify.app/docs/discover-browser) | 🔄 Partial | Audience definitions that guide tone, framing, and content decisions. The Discover Browser persona is currently active; more are planned. |
+| 2 | [Headlines](https://csa-content-standards.netlify.app/docs/headlines) | ✅ Active | Outlet-specific headline standards (Us Weekly, Apple News) and format-specific headline formulas for all 11 active formats. |
+| 3 | [Article Formats](https://csa-content-standards.netlify.app/docs/discover-explainer) | ✅ Active | Format-specific rules for each article type — structure, metadata, word counts, image specs, URL patterns, and pre-publish checklists. 11 formats active. |
+| 4 | [Personas](https://csa-content-standards.netlify.app/docs/discover-browser) | ✅ Active | Audience definitions that guide tone, framing, and content decisions. Five personas currently active. |
 | 5 | [Acceptable Sources](https://csa-content-standards.netlify.app/docs/acceptable-sources) | ✅ Active | Approved sources for factual reporting and citation, organized by vertical (news, entertainment, health, etc.). |
 | 6 | [Publishing Guidelines](https://csa-content-standards.netlify.app/docs/publishing-guidelines) | 🔄 Partial | Platform-specific CMS entry requirements. CUE (McClatchy CMS) and Apple News are active; WordPress is pending. |
 | 7 | [Follow-Up Content](https://csa-content-standards.netlify.app/docs/follow-up-content) | ✅ Active | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
@@ -95,6 +95,7 @@ The standards are organized into seven numbered sections. Section numbers are st
 | Obituary | [/docs/obituary](https://csa-content-standards.netlify.app/docs/obituary) |
 | Couple / Baby | [/docs/couple-baby](https://csa-content-standards.netlify.app/docs/couple-baby) |
 | Cast Introduction / Update | [/docs/cast](https://csa-content-standards.netlify.app/docs/cast) |
+| FAQ / Service Journalism | [/docs/faq](https://csa-content-standards.netlify.app/docs/faq) |
 
 ### How format pages work
 
@@ -149,7 +150,7 @@ When adding a new format page or section, all six of these files typically need 
 │   ├── master-reference.md  # Single source of truth — all sections in one document
 │   ├── brand-guidelines.md  # §1 General Guidelines
 │   ├── headlines.md         # §2 Headlines
-│   ├── [format pages]       # §3 Article Formats (10 files)
+│   ├── [format pages]       # §3 Article Formats (11 files)
 │   ├── discover-browser.md  # §4 Personas
 │   ├── acceptable-sources.md# §5 Acceptable Sources
 │   ├── publishing-guidelines.md # §6 Publishing Guidelines
@@ -251,7 +252,6 @@ Use this only if the documentation has been corrupted, accidentally overwritten,
 The site was designed for incremental expansion. The following are currently in progress or planned:
 
 - **§2 Headlines** — Us Weekly and Apple News blocks are active; additional outlet standards are pending
-- **§4 Personas** — The Discover Browser is active; additional personas for other platforms and reader types are planned
 - **§6 Publishing Guidelines** — CUE (McClatchy CMS) and Apple News are active; WordPress guidelines are pending
 
 The infrastructure supporting this expansion is already in place: the JSON API tracks section status (`active` / `partial` / `pending`) so agents can check coverage programmatically, the CMS is pre-configured for every section, and the sidebar navigation is data-driven so new entries require a single-line addition to `_data/navigation.yml`.

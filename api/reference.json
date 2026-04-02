@@ -1,7 +1,7 @@
 {
   "document": "CSA Content Standards — Master Reference",
-  "version": "1.0.0",
-  "last_updated": "2026-03",
+  "version": "1.3.9",
+  "last_updated": "2026-04",
   "base_url": "https://csa-content-standards.netlify.app",
   "agent_routing": {
     "description": "Rules in this document are distributed across specialized inputs and human-only workflows. Each page and subsection is annotated with AGENT-AUDIENCE tags. See _data/agent_routing.yml for the canonical tag vocabulary.",
