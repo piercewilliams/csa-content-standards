@@ -12,6 +12,30 @@ cms_entry: brand-guidelines
 
 ---
 
+## Agent Routing
+
+The rules in General Guidelines are consumed by **three specialized CSA agents** and **human editors**. Each agent has its own prompt — rules that don't reach the right agent prompt have no effect on agent behavior.
+
+Every subsection below is prefixed with a machine-readable HTML comment in this format:
+
+```html
+<!-- AGENT-AUDIENCE: [tag] -->
+```
+
+Use these tags to extract exactly what belongs in each agent's prompt. For sections that contain rules for more than one audience, the comment appears inline above each relevant block.
+
+| Tag | What Susannah described | What it covers |
+|---|---|---|
+| `general-style` | "General style for all work: voice and tone, words we use and don't use, explicit language policy" | §1.1 Voice & Tone; §1.3 Explicit Language Policy; anchor text rules in §1.4 |
+| `headline` | "Headline (H1) guidance abstracted from any SEO needs" | H1 character count, formula, verb requirement, front-loading, modifier rules |
+| `seo` | "Additional SEO requirements" | SEO title, focus keyphrase, meta description, promo title |
+| `human-only` | "1.5 and below seem like they're for humans" | Bylines, AI disclosure, Helpful Content review, compliance, editorial workflows, tag page linking |
+
+> **Note on §1.4 Internal Linking:** Link count and anchor text rules are `general-style`. "What to Link To" (tag pages, source articles) is `human-only` at this stage — the CSA does not currently have the ability to navigate tag pages programmatically.
+
+---
+
+<!-- AGENT-AUDIENCE: general-style -->
 ## 1.1 Voice & Tone
 
 - **Tone:** Conversational, confident, specific, human-first — never stiff or institutional
@@ -23,6 +47,7 @@ cms_entry: brand-guidelines
 
 ## 1.2 Headline Best Practices
 
+<!-- AGENT-AUDIENCE: headline -->
 ### General Rules
 - The SEO title is the most important element on an article page — it is the first thing search engines see while crawling, and often the first thing readers see. It can appear in Top Stories, "Also in the News," regular search results, AI Overviews, and Google Discover
 - Headlines and SEO titles are the most important elements on an article page
@@ -37,17 +62,21 @@ cms_entry: brand-guidelines
 - Must avoid exaggerating or being shocking in nature
 
 ### Character Counts
+<!-- AGENT-AUDIENCE: headline -->
 - **Headline (H1):** 80–100 characters
+<!-- AGENT-AUDIENCE: seo -->
 - **SEO Title:** 50–70 characters
 - **Promo/Homepage Title:** 70–75 characters
 - **Meta Description:** 100–155 characters
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 - The focus keyphrase is the simplest expression of what the article is about
 - Format: `[Person/Topic] [Does/Is] [Thing]`
 - Must appear in: H1, SEO title, subtitle/dek (CMS field), and meta description
 - Build the headline out from the focus keyphrase — not the other way around
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title Rules
 - 50–70 characters
 - Is a concise version of the H1 — not a string of keywords
@@ -55,11 +84,13 @@ cms_entry: brand-guidelines
 - `(Exclusive)` or `(Excl)` is optional — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description instead
 - Do not include site branding (e.g., `| Us Weekly`) in the character count
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Promo/Homepage Title Rules
 - 70–75 characters maximum — must not get cut off on the homepage
 - Must say the same thing as the H1 and SEO title — does not have to be identical, but must convey the same news with the same keywords
 - Must contain the focus keyphrase and be readable, accurate, and engaging
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Exclusive Guidelines
 `(Exclusive)` or `(Excl)` is optional in the SEO title — include it if it fits within the character limit. If it doesn't fit, use "exclusively" or "exclusive" in the meta description instead.
 
@@ -73,12 +104,14 @@ Use it when:
 
 > When in doubt, ask: Is this the only place readers can find this story right now? Is the site the first to break it? If yes to either — use it if it fits.
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description Rules
 - 100–155 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Modifier Guidelines
 
 Modifiers help identify who someone is or add keywords to a headline — but too many or misplaced modifiers push the name and news further back, hurting both clarity and search performance.
@@ -116,6 +149,7 @@ See Obituary format spec (§3.8) for full guidance. The universal principle: the
 - **Do:** *Richard Simmons Dead at [Age]* / *Richard Simmons Dead: The Fitness Star Was [Age]*
 - **Don't:** *Fitness Guru Richard Simmons Dead* / *King of Pop Michael Jackson Dead*
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### When to Update Headlines & SEO Titles
 
 Headlines and SEO titles can and should be updated. Three common scenarios:
@@ -142,6 +176,7 @@ This most commonly affects follow-up stories. If the original story drove search
 
 > **Note:** Articles are indexed almost immediately after publishing — optimize before hitting publish. Updating after the fact is still worthwhile, but re-indexing can take hours during which the news cycle may have moved on.
 
+<!-- AGENT-AUDIENCE: general-style -->
 ## 1.3 Explicit Language Policy
 
 Articles, headlines, URLs, or metadata containing adult-themed content or gratuitous profanity will be suppressed from Google News, Google Discover, and syndication partner feeds (including Apple News). Continuous violations may result in manual actions by Google against the site. This directly impacts traffic.
@@ -208,15 +243,20 @@ For galleries, the policy is stricter than for standard articles. Restricted lan
 
 Internal links help search engines understand site structure, pass authority between pages, and signal which pages are important. They also help users navigate to relevant content and keep readers on the site.
 
+<!-- AGENT-AUDIENCE: general-style -->
 - **Count:** 3–5 contextual internal links per article
 - Internal links ≠ Related Links (Related Links break up inline copy — do not conflate)
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Link To
 - Tag pages relevant to the article's focus (people, shows, movies, topics)
 - Source articles or social media posts referenced in the article
 - Previously published site articles about events mentioned in the article
 - Do **not** link to people or topics merely mentioned in passing
 
+> **Note for CSA agents:** Tag page linking is handled by human editors at this stage. The CSA does not currently have the ability to navigate tag pages. Anchor text and link count rules (below) do apply to agent-generated body copy.
+
+<!-- AGENT-AUDIENCE: general-style -->
 ### Anchor Text Rules
 - Use descriptive anchor text — the reader must understand where the link leads
 - **Do:** Link full names, show/movie titles, platform names, multi-word descriptive phrases
@@ -225,6 +265,7 @@ Internal links help search engines understand site structure, pass authority bet
 - **Don't:** Use "click here" or "read more"
 - **Don't:** Link to retailers (Walmart, Amazon, etc.) unless this is a designated affiliate article — unlabeled affiliate links will trigger Google penalties
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.5 Byline & Credit Rules
 
 - **Always use a named individual byline** — never a staff or team byline
@@ -263,6 +304,7 @@ Demonstrating the authority of a site's authors — their content, credentials, 
 | Article is 1+ year old, original author no longer on staff | Keep original author, add new author, update dateline |
 | Many contributors | List all contributors |
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.6 AI Disclosure
 
 - Required on CUE sites only
@@ -272,6 +314,7 @@ Demonstrating the authority of a site's authors — their content, credentials, 
 - Not required for content published outside CUE
 - This requirement may be phased out in future — check for updates
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.7 Google Helpful Content Standard
 
 Every piece of content must be able to answer **yes** to all of the following before publishing:
@@ -291,6 +334,7 @@ Every piece of content must be able to answer **yes** to all of the following be
 
 **A "no" on any of these is a reason to revise before publishing.**
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.9 Breaking News & Follow-Up Content
 
 Breaking news traffic doesn't end with the initial report. Follow-up articles extend the lifecycle of a story and generate continued traffic from search, Discover, social, and newsletter.
@@ -305,6 +349,7 @@ Breaking news traffic doesn't end with the initial report. Follow-up articles ex
 
 **Not every story warrants every possible follow-up angle.** Match the depth of follow-up coverage to how central the subject is to the site's normal beat.
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.8 Universal Compliance Rules
 
 - **No AI-generated content goes directly to CMS** — every draft must be edited by the creator and peer-reviewed before publishing

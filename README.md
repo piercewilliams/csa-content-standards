@@ -40,6 +40,19 @@ https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs
 https://csa-content-standards.netlify.app/api/reference.json
 ```
 
+**Agent Routing — §1 General Guidelines**
+
+§1 rules are distributed across three specialized agents and human editors. Each subsection is annotated with a machine-readable comment identifying its audience:
+
+```html
+<!-- AGENT-AUDIENCE: general-style -->    Voice, tone, explicit language policy, anchor text rules
+<!-- AGENT-AUDIENCE: headline --> H1 character count (80–100), formula, verb requirement, modifier guidelines
+<!-- AGENT-AUDIENCE: seo -->      SEO title, focus keyphrase, meta description, promo title
+<!-- AGENT-AUDIENCE: human-only -->     Bylines, AI disclosure, compliance, tag page linking, editorial workflows
+```
+
+To extract rules for a specific agent prompt, grep `docs/master-reference.md` or `docs/brand-guidelines.md` for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next. The full routing table is at the top of `docs/brand-guidelines.md`.
+
 ### Human editors
 Browse the rendered site. Use the sidebar to navigate sections or search by keyword. Every page has an **✏ Edit this page** button that opens it directly in the CMS editor — no GitHub account or technical knowledge required.
 

@@ -11,6 +11,11 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.3.8] — 2026-04
+- General Guidelines §1: Agent Routing section added — routing table mapping each §1 subsection to its intended CSA agent (`general-style`, `headline`, `seo`, `human-only`); machine-readable `<!-- AGENT-AUDIENCE: [tag] -->` comments added before every subsection in both `docs/brand-guidelines.md` and `docs/master-reference.md` §1; §1.4 Internal Linking split into agent-consumable (anchor text, link count) and human-only (What to Link To) with inline note about tag page limitation
+- Documentation page: "Agent Routing annotations" subsection added to "How to Read a Format Page" — explains the four audience tags and how to grep for them
+- README: "Agent Routing — §1 General Guidelines" section added to the AI agents audience block with grep instructions and tag reference
+
 ## [1.3.7] — 2026-04
 - Article Formats §3: FAQ / Service Journalism added as §3.11 — standalone page (`docs/faq.md`), navigation entry, CMS admin entry, master reference condensed summary, and JSON API entry; documentation format count updated from 10 to 11
 

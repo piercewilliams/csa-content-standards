@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-02 (FAQ / Service Journalism format added as §3.11)
+**Last session:** 2026-04-02 (Agent Routing annotations added to §1 General Guidelines — v1.3.8)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** FAQ / Service Journalism added as §3.11 (2026-04-02) — v1.3.7
+- **Last changes:** Agent Routing annotations added to §1 (2026-04-02) — v1.3.8
 - **Blockers:** None known
 
 ## What's Next
@@ -22,6 +22,14 @@ For session history: see [sessions/](sessions/)
 2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
 3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Susannah logged tooling dev request. Codify architecture here once tooling is defined.
 4. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
+
+## Recent Session: 2026-04-02 (third)
+
+Added Agent Routing annotation layer to §1 General Guidelines (v1.3.8). Driven by Susannah's input that the CSA's headline, SEO, and style agents each have their own prompts and don't consume the full General Guidelines doc. The standards were correct but unrouted — the 80–100 char H1 rule wasn't reaching the headline agent.
+
+**What was added:** A routing table at the top of `docs/brand-guidelines.md` mapping every §1 subsection to its audience (`style-agent`, `headline-agent`, `seo-agent`, `human-only`). Machine-readable `<!-- AGENT-AUDIENCE: [tag] -->` HTML comments added before every subsection in both `docs/brand-guidelines.md` and `docs/master-reference.md` §1. §1.4 Internal Linking explicitly split — anchor text and link count go to `style-agent`; What to Link To is `human-only` (with a note that tag page navigation is not yet a CSA capability). Documentation page and README updated with grep instructions.
+
+**Files updated:** `docs/brand-guidelines.md`, `docs/master-reference.md` (§1), `docs/documentation.md`, `README.md`, `docs/changelog.md`
 
 ## Recent Session: 2026-04-02 (second)
 

@@ -70,6 +70,19 @@ Text rendered in <span style="color: #dc2626;">**red**</span> marks guidance tha
 
 Every format page opens with a blockquote summarizing exactly which General Guidelines rules are overridden and how.
 
+### Agent Routing annotations
+
+General Guidelines (§1) rules are consumed by **three specialized CSA agents** and **human editors** — not by a single monolithic prompt. Each subsection in §1 is prefixed with a machine-readable HTML comment that identifies which audience it belongs to:
+
+```html
+<!-- AGENT-AUDIENCE: general-style -->    Voice, tone, vocabulary, explicit language, anchor text
+<!-- AGENT-AUDIENCE: headline --> H1 character count, formula, verb requirement, modifier rules
+<!-- AGENT-AUDIENCE: seo -->      SEO title, focus keyphrase, meta description, promo title
+<!-- AGENT-AUDIENCE: human-only -->     Bylines, compliance, workflows, tag page linking
+```
+
+These comments are invisible in the rendered site but present in the raw Markdown and rendered HTML. To extract rules for a specific agent prompt, grep the raw Markdown source for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next one. The [General Guidelines page]({{ "/docs/brand-guidelines" | relative_url }}) contains a full routing table at the top of the page.
+
 ### (REQUIRED) labels
 
 Every spec element marked **(REQUIRED)** must be present before the article is published. Elements without this label are guidance, not requirements.

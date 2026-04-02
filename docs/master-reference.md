@@ -19,6 +19,9 @@ cms_entry: master-reference
 
 > **Scope:** Universal — applies to all article formats, all platforms, all distributions unless explicitly overridden in a format-specific section.
 
+> **Agent Routing:** Rules in §1 are not sent to a single prompt — they are distributed across separate specialized inputs and human-only workflows. Each subsection below is prefixed with `<!-- AGENT-AUDIENCE: [tag] -->`: `general-style` (voice, tone, explicit language, anchor text), `headline` (H1 guidance, abstracted from SEO), `seo` (SEO title, focus keyphrase, meta description, promo title), `human-only` (§1.5 and below, plus tag page linking in §1.4). See the full [General Guidelines page]({{ "/docs/brand-guidelines" | relative_url }}) for the complete routing table.
+
+<!-- AGENT-AUDIENCE: general-style -->
 ## 1.1 Voice & Tone
 
 - **Tone:** Conversational, confident, specific, human-first — never stiff or institutional
@@ -30,6 +33,7 @@ cms_entry: master-reference
 
 ## 1.2 Headline Best Practices
 
+<!-- AGENT-AUDIENCE: headline -->
 ### General Rules
 - Headlines and SEO titles are the most important elements on an article page
 - **Front-load keywords — the first 8 words carry the most weight** (applies to H1s and SEO titles)
@@ -43,17 +47,21 @@ cms_entry: master-reference
 - Must avoid exaggerating or being shocking in nature
 
 ### Character Counts
+<!-- AGENT-AUDIENCE: headline -->
 - **Headline (H1):** 80–100 characters
+<!-- AGENT-AUDIENCE: seo -->
 - **SEO Title:** 50–70 characters
 - **Promo/Homepage Title:** 70–75 characters
 - **Meta Description:** 100–155 characters
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
 - The focus keyphrase is the simplest expression of what the article is about
 - Format: `[Person/Topic] [Does/Is] [Thing]`
 - Must appear in: H1, SEO title, subtitle/dek (CMS field), and meta description
 - Build the headline out from the focus keyphrase — not the other way around
 
+<!-- AGENT-AUDIENCE: seo -->
 ### SEO Title Rules
 - 50–70 characters
 - Is a concise version of the H1 — not a string of keywords
@@ -61,14 +69,17 @@ cms_entry: master-reference
 - `(Exclusive)` or `(Excl)` is optional — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description instead
 - Do not include site branding (e.g., `| Us Weekly`) in the character count
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Promo/Homepage Title Rules
 - 70–75 characters maximum
 - Must say the same thing as the H1 and SEO title — same keywords, same news
 - Must contain the focus keyphrase
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Exclusive Guidelines (summary)
 `(Exclusive)` or `(Excl)` is optional in the SEO title — include it if it fits within the character limit; if not, use "exclusively" or "exclusive" in the meta description. Applicable when: first to break the news; direct interview with the subject; content obtained exclusively (sneak peeks, behind-the-scenes, publicist-provided breaking news). See General Guidelines §1.2 for full criteria.
 
+<!-- AGENT-AUDIENCE: headline -->
 ### Modifier Guidelines (summary)
 - **Celebrity children:** unknown child → `[Parent]'s [Son/Daughter] [Child Name]…`; two famous parents → `[Parent A] and [Parent B]'s [Son/Daughter] [Child Name]…`; child independently known → use name directly
 - **Reboots and sequels:** use the show/film title as the modifier keyword — `Kim Fields Dishes on Living Single Reboot`, not `Living Single's Kim Fields Dishes on Reboot`
@@ -76,12 +87,14 @@ cms_entry: master-reference
 - **Obituaries:** name first, modifier after — `Richard Simmons Dead: The Fitness Star Was [Age]`, not `Fitness Guru Richard Simmons Dead`
 - See General Guidelines §1.2 for full guidance and examples
 
+<!-- AGENT-AUDIENCE: seo -->
 ### Meta Description Rules
 - 100–155 characters
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### When to Update Headlines & SEO Titles
 
 Three scenarios warrant a headline or SEO title update:
@@ -91,6 +104,7 @@ Three scenarios warrant a headline or SEO title update:
 
 > Optimize before publishing. Re-indexing after the fact can take hours. See General Guidelines §1.2 for worked examples of all three scenarios.
 
+<!-- AGENT-AUDIENCE: general-style -->
 ## 1.3 Explicit Language Policy
 
 Adult-themed content or gratuitous profanity in headlines, URLs, or metadata suppresses articles from Google News, Google Discover, and syndication partner feeds (including Apple News). Continuous violations may result in manual actions against the site.
@@ -127,15 +141,18 @@ Write descriptions that allude to what was said without reproducing the language
 
 ## 1.4 Internal Linking Rules
 
+<!-- AGENT-AUDIENCE: general-style -->
 - **Count:** 3–5 contextual internal links per article
 - Internal links ≠ Related Links (Related Links break up inline copy — do not conflate)
 
+<!-- AGENT-AUDIENCE: human-only -->
 ### What to Link To
 - Tag pages relevant to the article's focus (people, shows, movies, topics)
 - Source articles or social media posts referenced in the article
 - Previously published site articles about events mentioned in the article
 - Do **not** link to people or topics merely mentioned in passing
 
+<!-- AGENT-AUDIENCE: general-style -->
 ### Anchor Text Rules
 - Use descriptive anchor text — the reader must understand where the link leads
 - **Do:** Link full names, show/movie titles, platform names, multi-word descriptive phrases
@@ -144,6 +161,7 @@ Write descriptions that allude to what was said without reproducing the language
 - **Don't:** Use "click here" or "read more"
 - **Don't:** Link to retailers (Walmart, Amazon, etc.) unless this is a designated affiliate article — unlabeled affiliate links will trigger Google penalties
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.5 Byline & Credit Rules
 
 - **Always use a named individual byline** — never a staff or team byline
@@ -160,6 +178,7 @@ Write descriptions that allude to what was said without reproducing the language
 | Article is 1+ year old, original author no longer on staff | Keep original author, add new author, update dateline |
 | Many contributors | List all contributors |
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.6 AI Disclosure
 
 - Required on CUE sites only
@@ -169,6 +188,7 @@ Write descriptions that allude to what was said without reproducing the language
 - Not required for content published outside CUE
 - This requirement may be phased out in future — check for updates
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.7 Google Helpful Content Standard
 
 Every piece of content must be able to answer **yes** to all of the following before publishing:
@@ -188,6 +208,7 @@ Every piece of content must be able to answer **yes** to all of the following be
 
 **A "no" on any of these is a reason to revise before publishing.**
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.8 Universal Compliance Rules
 
 - **No AI-generated content goes directly to CMS** — every draft must be edited by the creator and peer-reviewed before publishing
@@ -197,6 +218,7 @@ Every piece of content must be able to answer **yes** to all of the following be
 - **No key takeaways at the top of articles**
 - **No piece of content is to be published before it has been reviewed and approved by a human**
 
+<!-- AGENT-AUDIENCE: human-only -->
 ## 1.9 Breaking News & Follow-Up Content
 
 Breaking news traffic doesn't end with the initial report. Follow-up articles extend the lifecycle of a story and generate continued traffic from search, Discover, social, and newsletter.
