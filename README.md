@@ -3,7 +3,7 @@
 Reference documentation for the Content Scaling Agent (CSA) — an AI content generation system. This site defines every rule the agent and its human editors follow when creating, optimizing, and publishing articles across all CSA-affiliated outlets.
 
 **Live site:** https://csa-content-standards.netlify.app
-**Current version:** 1.3.9
+**Current version:** 1.4.0
 
 ---
 
@@ -137,8 +137,9 @@ All content is Markdown files in `/docs`. Edit them directly in GitHub or clone 
 | `assets/css/main.css` | Stylesheet |
 | `api/reference.json` | JSON API — section index |
 | `search.json` | Full-text search index |
+| `_includes/headline-formulas/[match].html` | Format headline formula blocks — one per format; order on Headlines page follows `navigation.yml` automatically |
 
-When adding a new format page or section, all six of these files typically need to be updated in addition to the new Markdown file.
+When adding a new format page, all of these files typically need to be updated in addition to the new Markdown file.
 
 ---
 
@@ -158,12 +159,15 @@ When adding a new format page or section, all six of these files typically need 
 │   ├── documentation.md     # Site documentation (meta)
 │   ├── collaboration-guide.md
 │   └── changelog.md
+├── _includes/
+│   └── headline-formulas/   # One .html per format — rendered in nav order on Headlines page
 ├── api/
 │   └── reference.json       # JSON API — section index with IDs, statuses, URLs
 ├── admin/
 │   └── config.yml           # Decap CMS configuration
 ├── _data/
-│   └── navigation.yml       # Sidebar nav (data-driven)
+│   ├── navigation.yml       # Sidebar nav (data-driven); also controls Headlines formula order
+│   └── agent_routing.yml    # Canonical agent routing tag vocabulary
 ├── _layouts/
 │   └── default.html         # Page template
 ├── assets/css/main.css      # Stylesheet

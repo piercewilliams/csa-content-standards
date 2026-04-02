@@ -11,6 +11,11 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.4.0] — 2026-04
+- Headlines §2: Format-Specific Headline Formulas section made data-driven — accordion order now follows `_data/navigation.yml` automatically via Liquid loop; each format's block moved to `_includes/headline-formulas/[match].html`; no manual reordering needed when sidebar order changes
+- Site-wide audit: version numbers, format counts, and section statuses corrected across `README.md`, `index.md`, and `api/reference.json` (all had stale values from before v1.3.6–1.3.9 changes)
+- Documentation updated to describe `_includes/headline-formulas/` convention and checklist for adding new formats
+
 ## [1.3.9] — 2026-04
 - Agent Routing system extended site-wide: `agent_audiences` frontmatter field added to all 21 content pages; `<!-- AGENT-AUDIENCE: -->` section-level comments added to all 11 format pages (§3), all 5 persona pages (§4), `docs/headlines.md`, `docs/acceptable-sources.md`, `docs/publishing-guidelines.md`, `docs/follow-up-content.md`, and `docs/collaboration-guide.md`
 - `_data/agent_routing.yml` created — canonical single source of truth for the four routing tags (`general-style`, `headline`, `seo`, `human-only`), their descriptions, coverage, and standard format-page section mapping

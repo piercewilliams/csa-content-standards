@@ -114,6 +114,8 @@ The tag definitions, coverage descriptions, and standard section-to-tag mapping 
 
 When adding a new format page, follow the standard mapping documented in `_data/agent_routing.yml` under `format_page_mapping`. Add the `agent_audiences` frontmatter field and `<!-- AGENT-AUDIENCE: -->` comments to every section. The [General Guidelines page]({{ "/docs/brand-guidelines" | relative_url }}) shows the routing table and a worked example of how comments appear alongside content.
 
+Also create a corresponding file in `_includes/headline-formulas/[match].html` — this is the format's accordion block in the [Headlines page]({{ "/docs/headlines" | relative_url }}) Format-Specific Headline Formulas section. The Headlines page generates that list automatically from `_data/navigation.yml` in sidebar order, so the accordion will appear in the correct position as soon as `navigation.yml` is updated. The `match` value in `navigation.yml` must exactly match the include filename.
+
 ### (REQUIRED) labels
 
 Every spec element marked **(REQUIRED)** must be present before the article is published. Elements without this label are guidance, not requirements.
@@ -181,6 +183,7 @@ All content is Markdown files in the `/docs` directory of the GitHub repository.
 - Stylesheet: `assets/css/main.css`
 - Search index: `search.json`
 - JSON API: `api/reference.json`
+- Format-specific headline formula blocks: `_includes/headline-formulas/[match].html` — one file per format; order on the Headlines page follows `_data/navigation.yml` automatically
 
 See the [Collaboration Guide]({{ "/docs/collaboration-guide" | relative_url }}) for the full editor workflow and how to add new collaborators.
 

@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-02 (Full site audit + stale version/count fixes — v1.3.9)
+**Last session:** 2026-04-02 (Headlines formula order made data-driven; full site audit — v1.4.0)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Full site audit; stale version/count/status fixes across README, index.md, api/reference.json (2026-04-02) — v1.3.9
+- **Last changes:** Headlines format formulas made data-driven from navigation.yml; full audit + stale fixes (2026-04-02) — v1.4.0
 - **Blockers:** None known
 
 ## What's Next
