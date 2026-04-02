@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-01 (persona status update; standup outcomes)
+**Last session:** 2026-04-02 (5 personas standardized + added to site; forwarded to Susannah)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -18,11 +18,18 @@ For session history: see [sessions/](sessions/)
 
 ## What's Next
 
-1. [ ] **Update persona standards** — Pierce consolidated 3 personas from CSA data (2026-04-01) and passed to Sara Vallone to refine + supplement. Awaiting Sara's final set. Once delivered: codify into CSA for National team and update this site. Submit new Apple News + MSN personas to Andy for review before use.
-2. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Susannah logged tooling dev request. Codify architecture here once tooling is defined.
-3. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
+1. [ ] **Persona experimentation — Watercooler Insider + Curious Explorer** — Susannah pinning all 5 personas to National CSA accounts (2026-04-02). Once live, experimentation begins on the 2 newest. Watch for performance data and any standard updates that follow.
+2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
+3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Susannah logged tooling dev request. Codify architecture here once tooling is defined.
+4. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
 
-## Recent Session: 2026-04-01
+## Recent Session: 2026-04-02
+
+- **Personas complete:** All 5 personas standardized and added to site (v1.3.6) — Discover Browser (revised), Curious Optimizer, Wonder-Driven Science Enthusiast, Curious Explorer, Watercooler Insider.
+- **Forwarded to Susannah** for pinning to all National CSA accounts. Experimentation on Watercooler Insider and Curious Explorer to begin once live.
+- **Apple News + MSN personas** still pending Andy review.
+
+## Previous Session: 2026-04-01
 
 - **Personas:** Pierce consolidated 3 personas from CSA data; passed to Sara Vallone to refine/supplement. Awaiting final set.
 - **PGS-115:** Google Discover Explainer visible to all users — bug being fixed (should be national team only).
