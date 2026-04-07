@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-06 (Implementation integrity audit — post-v1.4.0 fixes)
+**Last session:** 2026-04-08 (Cross-repo sync: Gary API unblocked; AI Tool Responsibility page live; AGENT-AUDIENCE §1 confirmed)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,16 +13,19 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Implementation integrity audit caught two post-v1.4.0 gaps; both fixed (2026-04-06)
+- **Last changes:** Implementation integrity audit caught two post-v1.4.0 gaps; both fixed (2026-04-06). Cross-repo sync 2026-04-08.
 - **Blockers:** None known
+- **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Live as of 2026-04-07 with DRAFT banner. Completed draft passed to Sara Vallone 2026-04-08. Six [TBD] gaps still open (which Slack channel for Step 2, override doc location, United Robots scope, plus 3 others); pending Sara + Chris input.
+- **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
 
 ## What's Next
 
 1. [ ] **Persona experimentation — Watercooler Insider + Curious Explorer** — All 5 personas pinned to National CSA accounts (2026-04-02). Experimentation on §4.4 and §4.5 to begin once live. Watch for performance data and any standard updates that follow.
 2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
 3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Dev request logged. Codify architecture here once tooling is defined.
-4. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
-5. [ ] **Headline length root cause** — Sara Vallone flagged (2026-04-02) that short headlines may result from SEO rules mixing into the headline agent prompt. This is exactly what the Agent Routing system addresses — H1 80–100 and SEO title 50–70 are now tagged separately. Confirm with Susannah's team that the headline agent prompt has been updated with the `AGENT-AUDIENCE: headline` content.
+4. [ ] **Document claims validation workflow** — **Gary API unblocked 2026-04-08.** Gary sent full API docs; first-test sequence ready. Once Sara Vallone parameter session completes and integration is scoped, document claims validation as a post-CSA quality gate step in standards.
+5. [ ] **Extend AGENT-AUDIENCE routing beyond §1** — §1 fully confirmed. Audit §2+ sections and add AGENT-AUDIENCE tags where applicable.
+6. [ ] **Finalize AI Tool Responsibility page** — awaiting Sara + Chris input on 3 remaining gaps (Slack channel, override doc location, United Robots scope).
 
 ## Recent Session: 2026-04-06
 
