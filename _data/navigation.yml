@@ -73,6 +73,10 @@ main:
     url: /docs/publishing-guidelines
     match: publishing-guidelines
 
+  - title: AI Tool Responsibility
+    url: /docs/tool-responsibility
+    match: tool-responsibility
+
   - title: Follow-Up Content
     url: /docs/follow-up-content
     match: follow-up-content

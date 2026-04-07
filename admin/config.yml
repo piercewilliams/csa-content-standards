@@ -186,6 +186,14 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Platform-specific rules — CMS entry and submission, not writing style." }
 
+      - label: "AI Tool Responsibility"
+        name: "tool-responsibility"
+        file: "docs/tool-responsibility.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "AI Tool Responsibility" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Team responsibilities for CSA and partner feed content. Includes escalation chain, plagiarism checks, partner content vetting, and override documentation. Resolve all [TBD] placeholders with Chris Palo + Sara Vallone before removing the DRAFT banner." }
+
       - label: "Follow-Up Content"
         name: "follow-up-content"
         file: "docs/follow-up-content.md"
