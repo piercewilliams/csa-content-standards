@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-02 (Agent Routing site-wide + data-driven Headlines + audit — v1.4.0)
+**Last session:** 2026-04-06 (Implementation integrity audit — post-v1.4.0 fixes)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Full site audit + stale fixes; Headlines formula order made data-driven from navigation.yml (2026-04-02) — v1.4.0
+- **Last changes:** Implementation integrity audit caught two post-v1.4.0 gaps; both fixed (2026-04-06)
 - **Blockers:** None known
 
 ## What's Next
@@ -24,7 +24,17 @@ For session history: see [sessions/](sessions/)
 4. [ ] **Document claims validation workflow** — Gary Tools integration confirmed by Chris (2026-04-01). Once integration is scoped, document claims validation as a post-CSA quality gate step in standards.
 5. [ ] **Headline length root cause** — Sara Vallone flagged (2026-04-02) that short headlines may result from SEO rules mixing into the headline agent prompt. This is exactly what the Agent Routing system addresses — H1 80–100 and SEO title 50–70 are now tagged separately. Confirm with Susannah's team that the headline agent prompt has been updated with the `AGENT-AUDIENCE: headline` content.
 
-## Recent Session: 2026-04-02
+## Recent Session: 2026-04-06
+
+Implementation integrity audit (seven-pass protocol) run against v1.4.0 work. Two issues found and fixed:
+
+**master-reference.md stale header (v1.4.0 audit miss)**
+The site audit pass fixed README, index.md, and api/reference.json but missed the master-reference.md document header. Fixed: version `1.0.0` → `1.4.0`, date `2026-03` → `2026-04`, "five" → "seven" independently parseable sections.
+
+**brand-guidelines.md and master-reference.md missing Layer 1 agent_audiences frontmatter**
+The v1.3.9 Agent Routing pass added `agent_audiences` frontmatter to 21 content pages but excluded these two — which had gotten Layer 2 AGENT-AUDIENCE section comments in v1.3.8. Both pages now have `agent_audiences: [general-style, headline, seo, human-only]` in frontmatter. The two-layer routing system is now complete on all content pages.
+
+## Previous Session: 2026-04-02
 
 A full-day session across multiple exchanges. Summary of all work:
 
