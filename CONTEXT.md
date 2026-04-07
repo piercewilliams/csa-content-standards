@@ -77,7 +77,7 @@ Full §1 (all sections §1.1–§1.9) exported as formatted DOCX for upload to G
 ## Previous Session: 2026-03-30
 
 Added snapshot version bar to every page. Weekly trigger (Mon 8am Dallas) bundles all `docs/*.md` + `api/reference.json` into a snapshot JSON at `data/snapshots/`. Max 5 snapshots. Passkey `8812` gates restore download.
-**Trigger:** `trig_01Qze9PVrNErCEYa1fMXxF2U` — shared with csa-dashboard and data-headlines. Details in ops-hub REFERENCE.md.
+**Trigger:** `trig_014MR5mJJxFsVYLdVdDU4u1d` — shared with csa-dashboard and data-headlines. Details in ops-hub REFERENCE.md.
 
 ## Previous Session: 2026-03-24
 
