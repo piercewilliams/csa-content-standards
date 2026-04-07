@@ -2,6 +2,7 @@
 layout: default
 title: General Guidelines
 cms_entry: brand-guidelines
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # General Guidelines

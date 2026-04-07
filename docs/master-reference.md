@@ -2,15 +2,16 @@
 layout: default
 title: Master Reference
 cms_entry: master-reference
+agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # CSA Content Standards — Master Reference Document
-**Version:** 1.0.0
-**Last Updated:** 2026-03
+**Version:** 1.4.0
+**Last Updated:** 2026-04
 **Repository:** `mcclatchy-content-agent` on GitHub
 **Status:** Active
 
-> This document is the authoritative reference for the Content Scaling Agent. It is divided into five independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
+> This document is the authoritative reference for the Content Scaling Agent. It is divided into seven independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
 
 ---
 
