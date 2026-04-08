@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** SEO Keywords (Meta Keywords) guidance added (v1.6.2, 2026-04-08) — new `### SEO Keywords (Meta Keywords) Rules` section in §1.2; field added to Character Counts; Pre-Publish Checklist updated; `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection added to all ten §3 format sections. Rules: 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names required for local stories.
+- **Last changes:** SEO Keywords (Meta Keywords) guidance added (v1.6.2, 2026-04-08) — `### SEO Keywords (Meta Keywords) Rules` in §1.2; field in Character Counts; Pre-Publish Checklist updated; `### SEO Keywords (Meta Keywords)` **(REQUIRED)** added to all ten §3 format sections. Rules: 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names for local stories.
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -30,59 +30,23 @@ For session history: see [sessions/](sessions/)
 
 ## Recent Session: 2026-04-08 (SEO Keywords — v1.6.2)
 
-Added SEO Keywords (Meta Keywords) guidance site-wide, sourced from TEO team guidelines refined with National team input (Pierce + Oliver Felix + Susannah Locke, 2026-04-08).
+Added SEO Keywords (Meta Keywords) guidance site-wide. Source: TEO team guidelines (Oliver Felix), refined with National team input (Pierce + Susannah Locke). Single words are acceptable — National refinement from TEO's multi-word-only original.
 
-**Rules as codified:**
-- 1–5 keywords; single words are acceptable (National team refinement — TEO original required multi-word phrases only)
-- All lowercase, comma-separated
-- Reflect the story's primary focus
-- Include location names for stories with local interest
-- Example: `travel, supplements, Jason Kelce, dca plane crash, washington plane crash`
+- `docs/master-reference.md` §1.2: new `### SEO Keywords (Meta Keywords) Rules` section; field in Character Counts; Pre-Publish Checklist line added
+- `docs/master-reference.md` §3.1–3.10: `### SEO Keywords (Meta Keywords)` **(REQUIRED)** inserted after `### Meta Description` in each format section
+- `docs/changelog.md`: v1.6.2 entry
 
-**Changes made:**
-- `docs/master-reference.md` §1.2 Character Counts: `- **SEO Keywords (Meta Keywords):** 1–5 keywords` added
-- `docs/master-reference.md` §1.2: `### SEO Keywords (Meta Keywords) Rules` section added (tagged `<!-- AGENT-AUDIENCE: seo -->`) after Meta Description Rules
-- `docs/master-reference.md` §3.1 Pre-Publish Checklist: SEO keywords line added
-- `docs/master-reference.md` all §3 format sections (§3.1–3.10): `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection added after `### Meta Description` in each
+## Previous Sessions
 
-## Previous Session: 2026-04-08 (Platform Formats consistency audit — v1.6.1)
+- **2026-04-08 v1.6.1** — Platform Formats consistency audit: all discrepancies corrected; data-validated labels added to §10.1/§10.2; publishing-guidelines §6.3 and headlines §2 updated
+- **2026-04-07 v1.6.0** — Platform Formats §10 built: SmartNews §10.1 + Apple News §10.2 standalone pages
+- **2026-04-06** — Integrity audit: stale master-reference header fixed; missing `agent_audiences` frontmatter added to brand-guidelines.md
+- **2026-04-02 v1.3.7–1.4.0** — §3.11 FAQ added; Agent Routing system built (two-layer annotation, agent_routing.yml, api/reference.json); site-wide stale values fixed
+- **2026-03-30/31/04-01** — Snapshot version bar; format/persona separation decision; PGS-95 live; cluster tagging entry point documented
 
-Full audit of both platform pages against the validated source guidance. All discrepancies corrected; validated performance data labeled throughout.
-
-**Discrepancies found and fixed:**
-- `docs/publishing-guidelines.md §6.3` — stale 80–139 Apple News headline range (flatplan.io, superseded) replaced with validated 90–120 (110–119 sweet spot); no-question/no-number-led/separate-title/subtitle rules added in red; defers to §10.2
-- `docs/headlines.md` — Apple News block under UsW rewritten: 90–120 (not inherited UsW 80–100), no-question/no-number-led in red, featured placement exception documented, cross-ref to §10.2; SmartNews outlet block added (70–90 chars, formula constraints, RSS `<title>` = SEO title note, cross-ref to §10.1)
-- `_data/agent_routing.yml` — SmartNews seo coverage entry added (RSS `<title>` = SEO title)
-
-**Data-validated labels added to:**
-- `docs/platform-smartnews.md` — scope blockquote and headline section (sweet spot, question/WTK/number-led findings)
-- `docs/platform-apple-news.md` — scope blockquote and headline section (sweet spot, question/number-led findings)
-- `api/reference.json` — SmartNews and Apple News notes
-- `docs/master-reference.md` — §10.1 and §10.2 summary table headline rows
-
-## Previous Session: 2026-04-07 (Platform Formats §10 — v1.6.0)
-
-Platform Formats added as §10 — two standalone pages built (structured identically to §3 Article Format pages: red overrides, AGENT-AUDIENCE comments, checklist, What to Avoid):
-
-**SmartNews §10.1** (`docs/platform-smartnews.md`) — Headline 70–90 chars (80–99 sweet spot); no question headlines; no "What to Know" endings; number-led positive; SmartFormat RSS/XML; no CSS/scripted styling; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px; GA4 = in-app views not referral. Persona: The SmartNews Skimmer.
-
-**Apple News §10.2** (`docs/platform-apple-news.md`) — Headline 90–120 chars (110–119 sweet spot); no question or number-led (algorithmic reach); featured placement exception; subtitle required; AI content policy (byline + News Publisher metadata); 100% self-sold / 70% Apple-sold. Persona: The Apple News Explorer.
-
-Infrastructure: navigation.yml, admin/config.yml, master-reference.md, api/reference.json, documentation.md, index.md, README.md, changelog.md, agent_routing.yml all updated.
-
-## Previous Session: 2026-04-06
-
-Integrity audit against v1.4.0. Fixed: master-reference.md stale header (version, date, section count); brand-guidelines.md and master-reference.md missing Layer 1 `agent_audiences` frontmatter — two-layer routing system now complete on all content pages.
-
-## Previous Session: 2026-04-02
-
-§3.11 FAQ / Service Journalism added (v1.3.7). Agent Routing system built (v1.3.8–1.3.9): two-layer annotation (`agent_audiences` frontmatter + `<!-- AGENT-AUDIENCE: -->` comments) applied to all 21 content pages; `_data/agent_routing.yml` created; `api/reference.json` updated; human-stakeholder-agnostic policy established. Site-wide stale values fixed (v1.4.0). Headlines formula order made data-driven via Liquid loop over navigation.yml.
-
-## Previous Session: 2026-03-30 / 2026-03-31 / 2026-04-01
-
-Snapshot version bar added (Mon 8am Dallas trigger, max 5 snapshots, passkey `8812`; trigger `trig_014MR5mJJxFsVYLdVdDU4u1d`). Format/persona separation decision logged (independently selectable, dev queued). PGS-95 live; PGS-115 (scoping bug) in progress. Cluster tagging entry point = Research Draft stage (pending dev delivery). Persona consolidation passed to Sara Vallone.
+Full detail in [sessions/2026-04.md](sessions/2026-04.md) and [sessions/2026-03.md](sessions/2026-03.md)
 
 ---
 
 *This file follows the Tiered Context Architecture. Budget: ≤150 lines.*
-*Current: ~100 lines*
+*Current: ~70 lines*
