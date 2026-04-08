@@ -127,10 +127,48 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 
 ### Apple News / Apple News+
 
-- Inherits all UsW character counts and casing rules above
-- No Apple News-specific formula required — apply standard General Guidelines headline patterns
-- See Publishing Guidelines §6.3 for Apple News distribution requirements
-- **Performance note:** Headline length 80–139 characters is the documented performance sweet spot for Apple News. Source: flatplan.io analysis of ~15,000 articles across 10 publishers (February performance data). The UsW standard (80–100) falls within this range. Headlines below 80 or above 139 underperform relative to publisher baseline.
+<span style="color: #dc2626;">**Apple News requires a separate headline — do not use the UsW onpage hed (80–100 characters) as the Apple News title.**</span>
+
+| Field | Range | Notes |
+|---|---|---|
+| <span style="color: #dc2626;">**Apple News headline**</span> | <span style="color: #dc2626;">**90–120 characters**</span> | <span style="color: #dc2626;">**110–119 is the data-validated performance sweet spot**</span> |
+| Casing | Title case | Inherits UsW casing (no override) |
+
+**Formula constraints (data-validated, override General Guidelines):**
+
+- <span style="color: #dc2626;">**No question headlines** — underperform in organic algorithmic reach</span>
+- <span style="color: #dc2626;">**No number-led headlines** — underperform on Apple News despite performing well on other platforms (including SmartNews)</span>
+
+> **Featured placement exception:** Apple's editorial team *favors* question and "What to Know" formats for editorially curated featured slots. Use question framing only when specifically targeting a featured slot — not for broad algorithmic reach. See [Platform Formats §10.2]({{ "/docs/platform-apple-news" | relative_url }}) for complete spec including subtitle requirements, AI content policy, and image specs.
+
+</details>
+
+<!-- AGENT-AUDIENCE: headline -->
+<details markdown="1">
+<summary>SmartNews</summary>
+
+*Distribution: SmartNews (SmartFormat RSS/XML feed)*
+
+### Character Counts
+
+| Field | Range | Notes |
+|---|---|---|
+| <span style="color: #dc2626;">**Headline / RSS `<title>`**</span> | <span style="color: #dc2626;">**70–90 characters**</span> | <span style="color: #dc2626;">**80–99 is the data-validated performance sweet spot. 70–79 is acceptable on SmartNews — this extends below the universal 80-character minimum.**</span> |
+
+*The SmartNews headline is pulled directly from the RSS `<title>` field, which is the standard SEO title. Write the SEO title to SmartNews spec and it serves both purposes.*
+
+### Formula Constraints (data-validated)
+
+- <span style="color: #dc2626;">**Avoid question headlines** — underperform on SmartNews; read velocity rewards clarity and immediate payoff over curiosity gaps</span>
+- <span style="color: #dc2626;">**Avoid "What to Know" endings** — underperform platform-wide</span>
+- <span style="color: #dc2626;">**Number-led headlines trend positive** — e.g., "7 Ways to Lower Your Electric Bill This Summer"</span>
+- Plain declarative statements are the safe baseline — e.g., "Florida Property Taxes Are Rising. Here's What Homeowners Need to Do."
+- Keyword-forward — front-load the core topic in the first 8 words
+
+### Casing
+- Follow destination site style guide (sentence case for CUE)
+
+> For article structure, image requirements, analytics, and full discoverability guidance, see [Platform Formats §10.1 — SmartNews]({{ "/docs/platform-smartnews" | relative_url }}).
 
 </details>
 

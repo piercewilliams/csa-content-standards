@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-07 (Platform Formats §10 added — SmartNews §10.1 + Apple News §10.2 — full infrastructure sync v1.6.0)
+**Last session:** 2026-04-08 (Platform Formats §10 consistency audit + override validation — all discrepancies corrected, data-validated labels added — v1.6.1)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Platform Formats §10 added (v1.6.0, 2026-04-07) — SmartNews §10.1 and Apple News §10.2 standalone pages, full infrastructure sync across all supporting files. Two open items from §8/§9 carry forward: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
+- **Last changes:** Platform Formats §10 consistency audit + override validation (v1.6.1, 2026-04-08) — all discrepancies between validated platform guidance and other site documents corrected; data-validated labels added throughout; SmartNews outlet block added to §2 Headlines; Apple News §2 block rewritten; §6.3 Publishing Guidelines updated. Two open items from §8/§9 carry forward: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -40,7 +40,7 @@ Headline overrides: 90–120 chars (110–119 sweet spot), no question or number
 
 Infrastructure: navigation.yml, admin/config.yml, master-reference.md, api/reference.json, documentation.md, index.md, README.md, changelog.md, agent_routing.yml all updated.
 
-**Note:** Apple News headline (90–120) conflicts with the Apple News outlet block in §2 headlines.md (80–100). §2 predates §10 and reflects the universal standard. §10.2 takes precedence for Apple News specifically — consider adding a cross-reference to §2.
+**Resolved (v1.6.1):** Apple News headline conflict between §2 (stale 80–139/80–100) and §10.2 (validated 90–120) fully resolved — §2 Apple News block rewritten with correct data, SmartNews outlet block added to §2, Publishing Guidelines §6.3 updated. All validated data points labeled "(data-validated)" throughout.
 
 ## Recent Session: 2026-04-06
 

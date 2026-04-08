@@ -1554,7 +1554,7 @@ Per-piece: note what the module returned, what the editor decided, and one-sente
 
 | Spec | Requirement |
 |---|---|
-| Headline | 70–90 characters; 80–99 sweet spot; clear and keyword-forward; plain declarative or number-led; no question marks; no "What to Know" endings |
+| Headline | 70–90 characters; 80–99 sweet spot (data-validated); clear and keyword-forward; plain declarative or number-led preferred (data-validated); no question marks; no "What to Know" endings |
 | Tone | Clear, direct, value-first, zero friction |
 | Article structure | No CSS or scripted styling; supported HTML only (`<figure>`, `<figcaption>`); front-load value in lead paragraph |
 | Lead image | 1,200px+ wide; 4:3 crop option required |
@@ -1570,7 +1570,7 @@ Per-piece: note what the module returned, what the editor decided, and one-sente
 
 | Spec | Requirement |
 |---|---|
-| Headline | 90–120 characters; 110–119 sweet spot; compelling and informative; no question headlines (algorithmic reach); no number-led headlines; write distinct from SEO/Discover variant |
+| Headline | 90–120 characters; 110–119 sweet spot (data-validated); compelling and informative; no question headlines (algorithmic reach, data-validated); no number-led headlines (data-validated); write distinct from SEO/Discover variant |
 | Featured placement exception | Apple editorial team favors question/"What to Know" formats — use only when specifically targeting a human-curated featured slot |
 | Subtitle | Required in News Publisher — Apple pulls first paragraph if omitted |
 | Tone | Polished, confident, editorially rich, trustworthy |

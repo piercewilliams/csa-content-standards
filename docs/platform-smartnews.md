@@ -15,7 +15,7 @@ Platform: SmartNews | §10.1
 
 ---
 
-> **Where this platform overrides General Guidelines:** The headline character range is <span style="color: #dc2626;">**70–90 characters (80–99 performs best)**</span> — extending below the 80-character universal minimum. <span style="color: #dc2626;">**Question headlines and "What to Know" endings are explicitly avoided**</span> — General Guidelines permit question formats in some contexts; SmartNews does not. <span style="color: #dc2626;">**GIFs are prohibited**</span> in all image positions. SmartView's stripped-down rendering environment imposes strict article structure constraints: <span style="color: #dc2626;">**no CSS or scripted styling**</span>; HTML limited to supported tags (`<figure>`, `<figcaption>`). <span style="color: #dc2626;">**Feed thumbnail specs**</span> (`<media:thumbnail>`, 4:3, 320×240px) have no General Guidelines equivalent.
+> **Where this platform overrides General Guidelines:** The headline character range is <span style="color: #dc2626;">**70–90 characters (80–99 performs best — data-validated)**</span> — extending below the 80-character universal minimum. <span style="color: #dc2626;">**Question headlines and "What to Know" endings are explicitly avoided (data-validated underperformers)**</span> — General Guidelines permit question formats in some contexts; SmartNews does not. <span style="color: #dc2626;">**GIFs are prohibited**</span> in all image positions. SmartView's stripped-down rendering environment imposes strict article structure constraints: <span style="color: #dc2626;">**no CSS or scripted styling**</span>; HTML limited to supported tags (`<figure>`, `<figcaption>`). <span style="color: #dc2626;">**Feed thumbnail specs**</span> (`<media:thumbnail>`, 4:3, 320×240px) have no General Guidelines equivalent.
 
 ---
 
@@ -31,13 +31,13 @@ Analytics note: GA4 records SmartView content as in-app views, not referral traf
 ### Headline
 **(REQUIRED)**
 
-<span style="color: #dc2626;">**Character count: 70–90 characters. The proven performance sweet spot is 80–99.**</span>
+<span style="color: #dc2626;">**Character count: 70–90 characters. The data-validated performance sweet spot is 80–99.**</span>
 
 - <span style="color: #dc2626;">**Clear, direct, and keyword-forward** — SmartNews surfaces content based on read velocity; click-worthy clarity matters more than cleverness</span>
-- <span style="color: #dc2626;">**Number-led headlines trend positive** on SmartNews — e.g., "7 Ways to Lower Your Electric Bill This Summer"</span>
+- <span style="color: #dc2626;">**Number-led headlines trend positive** on SmartNews (data-validated) — e.g., "7 Ways to Lower Your Electric Bill This Summer"</span>
 - <span style="color: #dc2626;">**Plain declarative statements are the safe baseline** — e.g., "Florida Property Taxes Are Rising. Here's What Homeowners Need to Do."</span>
-- <span style="color: #dc2626;">**Avoid question marks** — question headlines underperform on SmartNews</span>
-- <span style="color: #dc2626;">**Avoid "What to Know" endings** — they underperform platform-wide</span>
+- <span style="color: #dc2626;">**Avoid question marks** — question headlines underperform on SmartNews (data-validated)</span>
+- <span style="color: #dc2626;">**Avoid "What to Know" endings** — they underperform platform-wide (data-validated)</span>
 - Service journalism verticals (Mind/Body, Everyday Living, Experiences) perform well when headlines signal actionable, practical value — lead with "How to," cost/savings angles, or a specific number
 - Headline is pulled from RSS `<title>` — the standard SEO title serves SmartNews when written to spec
 - Casing: follow destination site style guide (sentence case for CUE)

@@ -70,17 +70,21 @@ agent_audiences: [human-only]
 
 ## 6.3 Apple News / Apple News+ (Us Weekly)
 
-### Headline Requirements
+> **Writing and format specifications** for Apple News (headline requirements, formula constraints, subtitle, AI content policy, image specs) are defined in [Platform Formats §10.2]({{ "/docs/platform-apple-news" | relative_url }}). That section is the authoritative source. This section covers CMS entry steps for Apple News publishing.
+
+### News Publisher — Required Fields
 **(REQUIRED)**
 
-- **H1 character count:** 80–139 characters — this is the documented performance sweet spot for Apple News based on flatplan.io analysis of ~15,000 articles across 10 publishers
-- The universal H1 default (80–100 characters) falls within this range
-- Headlines outside the 80–139 range underperform relative to the publisher baseline
-- See Headlines §2 — Apple News / Apple News+ for the full outlet-specific spec
+- <span style="color: #dc2626;">**Apple News headline:** Enter in the Apple News title override field in News Publisher — **90–120 characters (110–119 sweet spot, data-validated)**; write as a distinct headline from the SEO/Discover title</span>
+- <span style="color: #dc2626;">**No question headlines** for organic algorithmic reach (exception: human editorial curated featured slots — see §10.2)</span>
+- <span style="color: #dc2626;">**No number-led headlines**</span>
+- <span style="color: #dc2626;">**Subtitle field:** Must be populated in News Publisher — Apple pulls from first paragraph if left blank</span>
+- **Content categories:** Select appropriate topic categories (technology, lifestyle, sports, etc.)
+- **AI-generated or AI-assisted content:** Include byline or co-byline; tag as AI-generated in News Publisher metadata
 
 ### Additional Notes
 
-> ⚠️ Additional Apple News publishing and distribution settings (feed configuration, section targeting, metadata fields) are pending. Do not populate until guidance is provided.
+> ⚠️ Additional Apple News distribution settings (feed configuration, section targeting) are pending. See [Platform Formats §10.2]({{ "/docs/platform-apple-news" | relative_url }}) for the current complete spec.
 
 ---
 

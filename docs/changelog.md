@@ -11,6 +11,16 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.6.1] — 2026-04
+- Platform Formats consistency audit and override validation: all rules from validated platform format guidance confirmed captured; all discrepancies corrected; data-validated claims labeled throughout
+- Publishing Guidelines §6.3 Apple News: headline range corrected from stale 80–139 (flatplan.io source) to validated 90–120 (110–119 sweet spot); no-question and no-number-led rules added; separate Apple News title requirement added; subtitle required added; defers to §10.2 as authoritative spec; stale flatplan.io attribution removed
+- Headlines §2: Apple News block under Us Weekly rewritten — separate title requirement (90–120 chars) replaces stale "inherits UsW counts" and "no Apple News-specific formula" language; no-question/no-number-led rules added and marked red; featured placement exception documented; cross-reference to §10.2
+- Headlines §2: SmartNews outlet block added — 70–90 chars (80–99 sweet spot, data-validated), formula constraints (no questions, no WTK, number-led positive), RSS `<title>` = SEO title note, cross-reference to §10.1
+- SmartNews §10.1 and Apple News §10.2: all empirically validated performance claims labeled "(data-validated)" in scope blockquote and headline section
+- agent_routing.yml: SmartNews seo coverage entry added — RSS `<title>` serves as SEO title for SmartNews
+- api/reference.json: SmartNews and Apple News notes updated with data-validated labels and missing formula constraints
+- master-reference.md: §10.1 and §10.2 summary tables updated with data-validated labels
+
 ## [1.6.0] — 2026-04
 - Platform Formats §10: new section added — two standalone pages created (§10.1 SmartNews, §10.2 Apple News); structured identically to §3 Article Format pages (red text for General Guidelines overrides, AGENT-AUDIENCE section comments, frontmatter agent_audiences, download buttons, What to Avoid tables, Pre-Publish Checklists)
 - SmartNews §10.1: headline 70–90 chars (80–99 sweet spot), no question headlines, no "What to Know" endings; SmartFormat RSS/XML feed; no CSS/scripted styling in SmartView; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px; GA4 analytics caveat (in-app views not referral traffic); target persona The SmartNews Skimmer

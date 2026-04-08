@@ -236,7 +236,7 @@
           "status": "active",
           "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "standalone_url": "https://csa-content-standards.netlify.app/docs/platform-smartnews",
-          "notes": "SmartFormat RSS/XML feed. Headline 70–90 chars (80–99 sweet spot). No CSS/scripted styling in SmartView. No GIFs. Feed thumbnail: media:thumbnail, 4:3, 320×240px. GA4 tracks in-app views not referral traffic."
+          "notes": "SmartFormat RSS/XML feed. Headline 70–90 chars (80–99 sweet spot, data-validated); no question headlines; no 'What to Know' endings; number-led trend positive. No CSS/scripted styling in SmartView. No GIFs. Feed thumbnail: media:thumbnail, 4:3, 320×240px. GA4 tracks in-app views not referral traffic."
         },
         {
           "id": "platform-apple-news",
@@ -245,7 +245,7 @@
           "status": "active",
           "agent_audiences": ["general-style", "headline", "human-only"],
           "standalone_url": "https://csa-content-standards.netlify.app/docs/platform-apple-news",
-          "notes": "ANF (recommended) or RSS. Headline 90–120 chars (110–119 sweet spot). No question or number-led headlines for algorithmic reach. Subtitle field required. AI content: byline/co-byline + News Publisher metadata. 100% self-sold revenue, 70% Apple-sold."
+          "notes": "ANF (recommended) or RSS. Headline 90–120 chars (110–119 sweet spot, data-validated); no question or number-led headlines for algorithmic reach (data-validated). Subtitle field required. AI content: byline/co-byline + News Publisher metadata. 100% self-sold revenue, 70% Apple-sold."
         }
       ]
     },
