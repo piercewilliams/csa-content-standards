@@ -11,6 +11,10 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.6.2] — 2026-04
+- SEO Keywords (Meta Keywords) guidance added to General Guidelines §1.2: new `### SEO Keywords (Meta Keywords) Rules` subsection; field added to §1.2 Character Counts; SEO keywords line added to §3.1 Pre-Publish Checklist
+- SEO Keywords field added to all ten §3 article format sections (§3.1–§3.10): `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection inserted after `### Meta Description` in each format — 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names required for local stories
+
 ## [1.6.1] — 2026-04
 - Platform Formats consistency audit and override validation: all rules from validated platform format guidance confirmed captured; all discrepancies corrected; data-validated claims labeled throughout
 - Publishing Guidelines §6.3 Apple News: headline range corrected from stale 80–139 (flatplan.io source) to validated 90–120 (110–119 sweet spot); no-question and no-number-led rules added; separate Apple News title requirement added; subtitle required added; defers to §10.2 as authoritative spec; stale flatplan.io attribution removed

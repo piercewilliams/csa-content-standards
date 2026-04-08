@@ -54,6 +54,7 @@ agent_audiences: [general-style, headline, seo, human-only]
 - **SEO Title:** 50–70 characters
 - **Promo/Homepage Title:** 70–75 characters
 - **Meta Description:** 100–155 characters
+- **SEO Keywords (Meta Keywords):** 1–5 keywords
 
 <!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
@@ -94,6 +95,14 @@ agent_audiences: [general-style, headline, seo, human-only]
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 - Functions as a dek — entices clicks, does not merely summarize
+
+<!-- AGENT-AUDIENCE: seo -->
+### SEO Keywords (Meta Keywords) Rules
+- 1–5 keywords; single words are acceptable
+- All lowercase, comma-separated
+- Reflect the story's primary focus
+- Include location names for stories with local interest
+- Example: `travel, supplements, Jason Kelce, dca plane crash, washington plane crash`
 
 <!-- AGENT-AUDIENCE: human-only -->
 ### When to Update Headlines & SEO Titles
@@ -296,6 +305,11 @@ A Discover Explainer introduces readers to the **why** of a topic. Its primary p
 - Must contain the focus keyphrase and relevant proper nouns
 - Must not repeat the H1 or SEO title verbatim
 
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
+
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -408,6 +422,7 @@ Link to:
 - H1: 80–100 characters, correct formula, no prohibited language
 - SEO title: 50–70 characters, matches H1 intent, front-loaded keywords
 - Meta description: 100–155 characters, no repeated hed language
+- SEO keywords (meta keywords): 1–5 terms, all lowercase, comma-separated; location names for local stories
 - Dek entered as CMS field — not placed inside article body
 - Lede leads with *why it matters*, introduces key figures, no definition opener
 - 3–5 internal links with descriptive anchor text
@@ -453,6 +468,11 @@ Keep the subject front-loaded — do not place it after the "Everything You Need
 **(REQUIRED)**
 
 - 100–155 characters; must contain focus keyphrase and relevant proper nouns; must not repeat the H1
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -526,6 +546,11 @@ A Recipe page delivers a complete, searchable recipe with enough context to earn
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
+
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -595,6 +620,11 @@ Subject must be front-loaded. A verb is **not required** — relationship timeli
 **(REQUIRED)**
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -676,6 +706,11 @@ Delivers exclusive, first-person access to a celebrity or public figure — cont
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
 
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
+
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -749,6 +784,11 @@ Summarizes and analyzes key moments of an episode, film, podcast, or book. Engag
 **(REQUIRED)**
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -828,6 +868,11 @@ Two subtypes covering fan speculation and fan Q&A. Engages the fan community and
 **(REQUIRED)**
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -913,6 +958,11 @@ Marks the death of a public figure with accuracy, respect, and authority. Serves
 **(REQUIRED)**
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim; tone must be respectful
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**
@@ -1005,6 +1055,11 @@ Celebrity name(s) must be front-loaded. Character count: 80–100.
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim; warm and celebratory tone
 
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
+
 ### Focus Keyphrase
 **(REQUIRED)**
 
@@ -1087,6 +1142,11 @@ Informs fans about who is appearing in a show or film — new additions, departu
 **(REQUIRED)**
 
 - 100–155 characters; focus keyphrase required; must not repeat H1 verbatim
+
+### SEO Keywords (Meta Keywords)
+**(REQUIRED)**
+
+- 1–5 keywords; single words acceptable; all lowercase, comma-separated; include location names for local stories
 
 ### Focus Keyphrase
 **(REQUIRED)**

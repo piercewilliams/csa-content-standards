@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-08 (Platform Formats §10 consistency audit + override validation — all discrepancies corrected, data-validated labels added — v1.6.1)
+**Last session:** 2026-04-08 (SEO Keywords guidance added — §1.2 + all §3 format sections — v1.6.2)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Platform Formats §10 consistency audit + override validation (v1.6.1, 2026-04-08) — all discrepancies between validated platform guidance and other site documents corrected; data-validated labels added throughout; SmartNews outlet block added to §2 Headlines; Apple News §2 block rewritten; §6.3 Publishing Guidelines updated. Two open items from §8/§9 carry forward: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
+- **Last changes:** SEO Keywords (Meta Keywords) guidance added (v1.6.2, 2026-04-08) — new `### SEO Keywords (Meta Keywords) Rules` section in §1.2; field added to Character Counts; Pre-Publish Checklist updated; `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection added to all ten §3 format sections. Rules: 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names required for local stories.
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -28,7 +28,24 @@ For session history: see [sessions/](sessions/)
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
-## Recent Session: 2026-04-08 (Platform Formats consistency audit — v1.6.1)
+## Recent Session: 2026-04-08 (SEO Keywords — v1.6.2)
+
+Added SEO Keywords (Meta Keywords) guidance site-wide, sourced from TEO team guidelines refined with National team input (Pierce + Oliver Felix + Susannah Locke, 2026-04-08).
+
+**Rules as codified:**
+- 1–5 keywords; single words are acceptable (National team refinement — TEO original required multi-word phrases only)
+- All lowercase, comma-separated
+- Reflect the story's primary focus
+- Include location names for stories with local interest
+- Example: `travel, supplements, Jason Kelce, dca plane crash, washington plane crash`
+
+**Changes made:**
+- `docs/master-reference.md` §1.2 Character Counts: `- **SEO Keywords (Meta Keywords):** 1–5 keywords` added
+- `docs/master-reference.md` §1.2: `### SEO Keywords (Meta Keywords) Rules` section added (tagged `<!-- AGENT-AUDIENCE: seo -->`) after Meta Description Rules
+- `docs/master-reference.md` §3.1 Pre-Publish Checklist: SEO keywords line added
+- `docs/master-reference.md` all §3 format sections (§3.1–3.10): `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection added after `### Meta Description` in each
+
+## Previous Session: 2026-04-08 (Platform Formats consistency audit — v1.6.1)
 
 Full audit of both platform pages against the validated source guidance. All discrepancies corrected; validated performance data labeled throughout.
 
