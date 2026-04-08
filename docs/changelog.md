@@ -11,6 +11,53 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.5.1] — 2026-04
+- Site-wide final pass: README version updated to 1.5.0; README section count corrected from seven to nine; §8 and §9 added to README content structure table and technical file tree; master-reference.md version header corrected from 1.4.0 to 1.5.0; master-reference.md end marker corrected from v1.4.9 to v1.5.0; _data/agent_routing.yml human-only coverage updated to include §8 and §9; documentation.md "How to Read a Format Page" scope note added clarifying conventions apply to §3/§4 only; two deferred open items (override doc location, role-level access) formally logged in CONTEXT.md What's Next
+
+## [1.5.0] — 2026-04
+- Claims Validation §9: source count requirements codified — one Tier 1 source sufficient for straightforward facts/statistics/attributed quotes; two independent Tier 1 sources required for contested claims, allegations, and claims that could harm a named individual; primary source document required for court outcomes, health dosage/drug/efficacy claims, and financial statistics cited as fact; content-type rules updated throughout to reference source count explicitly
+- Claims Validation §9: scope blockquote updated to clarify this is the ideal-state specification for a module to be developed; "What the Module Produces" intro updated to match
+- Site-wide consistency audit (v1.5.0): Documentation page updated — section count corrected from seven to nine; §8 AI Tool Responsibility and §9 Claims Validation added to sections table; index.md updated with §8 and §9 rows; master-reference.md §9 subsection ordering corrected (§9.5 Escalation was physically misplaced after §9.6 and §9.7); §9.3 updated with source count requirements and Acceptable Sources cross-reference; §9.4 Content-Type table updated to reflect source count rules; §9.7 note added distinguishing module verdict overrides from CSA editorial suggestion overrides; end marker updated to v1.4.9
+- AI Tool Responsibility §8: Override Documentation note added distinguishing CSA editorial suggestion overrides from module verdict overrides (Claims Validation §9.7); cross-reference added
+- Claims Validation §9: Source Authority Tiers cross-reference to Acceptable Sources §5 added; Acceptance Criteria human-agnostic language corrected
+
+## [1.4.9] — 2026-04
+- Claims Validation §9: Override Documentation expanded — aggregate pattern tracking added as a stated requirement alongside per-piece notes; tracks flag frequency by verdict type and content type, remediation type (rewrite / removal / kept with rationale), and override rate by verdict; links to Audit Trail as the dependency for aggregate tracking
+- Master Reference §9.7 added: Override Documentation condensed summary
+
+## [1.4.8] — 2026-04
+- Claims Validation §9: Audit Trail section added — requirement stated: validation output must be stored per-piece in the CMS (not ephemeral at generation time); audit trail must include all verdicts, flagged claims, confidence levels, editor actions, and final publication state; must be attached to piece record, accessible post-publication, readable by editors/senior editors/content leads; role-level access pending Rajiv + Susannah; implementation flagged for CSA product/dev team
+- Master Reference §9.6 added: Audit Trail condensed summary
+
+## [1.4.7] — 2026-04
+- Claims Validation §9: Confidence level field documented as pending module capability — when present, low confidence = treat as `INSUFFICIENT_EVIDENCE` regardless of stated verdict; medium = apply standard action with draft note; high = apply standard action; confidence-level escalation rows added to Escalation Logic table (marked pending); section heading updated to "Module Verdicts and Confidence Level"
+- Master Reference §9.1 and §9.5 updated to reflect pending confidence level handling
+
+## [1.4.6] — 2026-04
+- Claims Validation §9: Module access by role — raw module output confirmed as surfaced in CSA UI for High Touch (HITL) and Semi-Automated workstreams; Fully Automated does not surface output; role-level access specifics pending Rajiv + Susannah; tier table updated with "Raw Module Output in CSA UI" column
+- Master Reference §9.0: tier table updated to match; role-level access pending note added
+
+## [1.4.5] — 2026-04
+- Claims Validation §9: Semi-Automated tier definition finalized — it is everything not HITL or Fully Automated; "criteria pending" language removed; tier table and explanatory paragraph updated accordingly
+- Master Reference §9.0: Semi-Automated row updated to match
+
+## [1.4.4] — 2026-04
+- Claims Validation §9: United Robots confirmed as Fully Automated tier — no Claims Validation pass required; "pending" note removed; United Robots added as example to Fully Automated row
+- AI Tool Responsibility §8: Partner and Feed Content updated to include United Robots in the Fully Automated examples
+- Master Reference §9.0: United Robots added to Fully Automated row; pending note removed
+- JSON API: version bumped to 1.4.4
+
+## [1.4.3] — 2026-04
+- Claims Validation §9: Content Pipeline Tiers section added — three provisional tiers (High Touch/HITL, Semi-Automated, Fully Automated); fully automated structured data (game scores, weather) explicitly excluded from Claims Validation pass requirement; scope blockquote updated to reference tier framework; United Robots tier assignment noted as pending (Chris Palo + Kathryn)
+- AI Tool Responsibility §8: Partner and Feed Content updated — tier framework referenced; "editorial content" qualifier added to blanket fact-check requirement; link to Claims Validation tiers section added
+- Master Reference §9.0: Content Pipeline Tiers table added
+- JSON API: section 9 notes updated with tier framework; version bumped to 1.4.3
+
+## [1.4.2] — 2026-04
+- Claims Validation (§9): new standalone page (`docs/claims-validation.md`) — five-verdict taxonomy (`TRUE`, `FALSE`, `MISLEADING`, `INSUFFICIENT_EVIDENCE`, `OVERGENERALIZED`); two-tier editorial action framework (Needs Correction: FALSE/MISLEADING; Needs Clarification: OVERGENERALIZED/INSUFFICIENT_EVIDENCE); three source authority tiers; content-type specific rules for health/medical, legal/regulatory, financial/economic, real estate, travel, and entertainment; escalation logic table; override documentation requirement
+- Master Reference §9 added: Claims Validation condensed summary with verdict table, action taxonomy, source tiers, elevated-risk content table, and escalation summary; section count updated from eight to nine; end-of-document version updated to v1.4.2
+- Navigation, CMS admin, and JSON API updated to include Claims Validation
+
 ## [1.4.1] — 2026-04
 - AI Tool Responsibility (§8): page finalized — DRAFT banner removed; all escalation contacts and Slack channels resolved (Step 2: Sara Vallone + #prog-and-growth; supervisor conflict: Sara Vallone and/or Chris Palo; recurring issues and stop-use reporting: #nationalteam-csa-feedback; acknowledged by CSA product/dev team); Partner and Feed Content verbatim matching rule added (three or more consecutive words, or clearly derived sentence structure, triggers rewrite before peer review); United Robots TBD removed; Override Documentation updated with explicit bullet list and Sara Vallone daily EOD summary note; download button added
 - Master Reference §8 added: AI Tool Responsibility condensed summary with escalation table, plagiarism/attribution rule, partner content rule, and override documentation note; section count updated from seven to eight

@@ -97,7 +97,9 @@ This requirement exists because McClatchy was named in the 2026 Poynter/Nota inc
 
 Content arriving via partner feeds is subject to the same editorial standards as CSA-generated content, with one additional layer: because we do not control what a partner's tool produces, incoming content must be treated as unverified until reviewed by a human editor.
 
-- All partner-sourced content must be fact-checked before publication.
+Not all partner content requires the same level of oversight. Fully automated structured data output — such as game scores, weather reports, and United Robots automated content — does not require a Claims Validation pass. Editorial content and content from feeds where we do not control the generation process does. See [Claims Validation — Content Pipeline Tiers]({{ "/docs/claims-validation" | relative_url }}#content-pipeline-tiers) for the framework.
+
+- All partner-sourced editorial content must be fact-checked before publication.
 - Locality-dependent information — streaming availability, blackout rules, local broadcast schedules, local tax rates or regulatory figures — requires independent verification before publish. Do not assume partner-generated figures or watch information are accurate; this category has a known error rate.
 - If three or more consecutive words from the draft match a source document verbatim, or if a sentence's structure and phrasing are clearly derived from a specific source — meaning a writer wouldn't have constructed it that way independently — treat it as reproduced phrasing and rewrite before peer review.
 - Partner content that carries an AI disclaimer still requires full human editorial review before it goes live on our properties.
@@ -105,6 +107,8 @@ Content arriving via partner feeds is subject to the same editorial standards as
 ---
 
 ## Override Documentation
+
+> **Note:** This section covers overrides of CSA editorial suggestions — headline recommendations, structural flags, sourcing suggestions. For overrides of fact-checking module verdicts specifically, see [Claims Validation — Override Documentation]({{ "/docs/claims-validation" | relative_url }}#override-documentation).
 
 Overriding a CSA suggestion — a headline recommendation, a structural flag, a sourcing suggestion — is permitted and is sometimes the right call. When you override, note briefly:
 

@@ -3,7 +3,7 @@
 Reference documentation for the Content Scaling Agent (CSA) — an AI content generation system. This site defines every rule the agent and its human editors follow when creating, optimizing, and publishing articles across all CSA-affiliated outlets.
 
 **Live site:** https://csa-content-standards.netlify.app
-**Current version:** 1.4.0
+**Current version:** 1.5.0
 
 ---
 
@@ -69,7 +69,7 @@ Clone the repo and work directly with Markdown files in `/docs`. Netlify rebuild
 
 ## Content structure
 
-The standards are organized into seven numbered sections. Section numbers are stable references — all internal links and the JSON API use them.
+The standards are organized into nine numbered sections. Section numbers are stable references — all internal links and the JSON API use them.
 
 | # | Section | Status | What it covers |
 |---|---|---|---|
@@ -80,6 +80,8 @@ The standards are organized into seven numbered sections. Section numbers are st
 | 5 | [Acceptable Sources](https://csa-content-standards.netlify.app/docs/acceptable-sources) | ✅ Active | Approved sources for factual reporting and citation, organized by vertical (news, entertainment, health, etc.). |
 | 6 | [Publishing Guidelines](https://csa-content-standards.netlify.app/docs/publishing-guidelines) | 🔄 Partial | Platform-specific CMS entry requirements. CUE (McClatchy CMS) and Apple News are active; WordPress is pending. |
 | 7 | [Follow-Up Content](https://csa-content-standards.netlify.app/docs/follow-up-content) | ✅ Active | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
+| 8 | [AI Tool Responsibility](https://csa-content-standards.netlify.app/docs/tool-responsibility) | ✅ Active | Policy and escalation procedures for all team members using the CSA or any AI-assisted tool — single-piece concerns, supervisor conflict, recurring issues, plagiarism, partner content, and override documentation. |
+| 9 | [Claims Validation](https://csa-content-standards.netlify.app/docs/claims-validation) | 🔄 Partial | Ideal-state specification for the CSA fact-checking module — verdict taxonomy, editorial action framework, source authority tiers, source count requirements, content-type rules, escalation logic, audit trail, and override tracking. Module implementation pending. |
 
 ### Active article formats (§3)
 
@@ -156,6 +158,8 @@ When adding a new format page, all of these files typically need to be updated i
 │   ├── acceptable-sources.md# §5 Acceptable Sources
 │   ├── publishing-guidelines.md # §6 Publishing Guidelines
 │   ├── follow-up-content.md # §7 Follow-Up Content
+│   ├── tool-responsibility.md   # §8 AI Tool Responsibility
+│   ├── claims-validation.md     # §9 Claims Validation
 │   ├── documentation.md     # Site documentation (meta)
 │   ├── collaboration-guide.md
 │   └── changelog.md

@@ -77,6 +77,10 @@ main:
     url: /docs/tool-responsibility
     match: tool-responsibility
 
+  - title: Claims Validation
+    url: /docs/claims-validation
+    match: claims-validation
+
   - title: Follow-Up Content
     url: /docs/follow-up-content
     match: follow-up-content

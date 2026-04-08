@@ -6,12 +6,12 @@ agent_audiences: [general-style, headline, seo, human-only]
 ---
 
 # CSA Content Standards — Master Reference Document
-**Version:** 1.4.0
+**Version:** 1.5.0
 **Last Updated:** 2026-04
 **Repository:** `mcclatchy-content-agent` on GitHub
 **Status:** Active
 
-> This document is the authoritative reference for the Content Scaling Agent. It is divided into eight independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
+> This document is the authoritative reference for the Content Scaling Agent. It is divided into nine independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
 
 ---
 
@@ -1465,4 +1465,80 @@ Override documentation — noting what the tool suggested, what was chosen inste
 
 ---
 
-*End of document — v1.4.1*
+---
+
+<!-- SECTION:claims-validation -->
+# 9. Claims Validation
+
+> **Scope:** How to read and act on the CSA's built-in fact-checking module output. Applies to all editors handling CSA-produced drafts before peer review and publication.
+
+> See the full [Claims Validation page]({{ "/docs/claims-validation" | relative_url }}) for complete procedures.
+
+## 9.0 Content Pipeline Tiers
+
+| Tier | Raw Output in CSA UI | Claims Validation |
+|---|---|---|
+| **High Touch (HITL)** — CSA-generated drafts, full human review | Yes | Applies in full |
+| **Semi-Automated** — everything not HITL or Fully Automated | Yes | Applies selectively; editor judgment on verdict prioritization |
+| **Fully Automated** — structured data output (game scores, weather, United Robots) | No | Not required |
+
+Role-level access to raw module output pending confirmation with Rajiv and Susannah.
+
+Tier names are provisional.
+
+## 9.1 Module Verdicts and Confidence Level
+
+| Verdict | Meaning |
+|---|---|
+| `TRUE` | Claim is accurate and verifiable — no action required |
+| `FALSE` | Claim is factually incorrect — rewrite or remove before peer review |
+| `MISLEADING` | Technically true but distorts meaning — reframe; document change |
+| `INSUFFICIENT_EVIDENCE` | Cannot be verified — add a Tier 1 source or remove the claim |
+| `OVERGENERALIZED` | True in some contexts but stated too broadly — narrow or qualify |
+
+## 9.2 Editorial Action Taxonomy
+
+**Needs Correction** (rewrite or remove): `FALSE`, `MISLEADING`
+
+**Needs Clarification** (reword): `OVERGENERALIZED`, `INSUFFICIENT_EVIDENCE`
+
+`TRUE` flags are informational — no action required.
+
+If the module returns `MISLEADING` or `FALSE` and the original source is Tier 3 (aggregator, anonymous, social), treat as Needs Correction regardless of verdict.
+
+## 9.3 Source Authority Tiers
+
+**Tier 1 — Authoritative (accept):** Government/institutional primary sources (.gov, .edu), peer-reviewed records, official named-source statements, established national news organizations, McClatchy publications. See also Acceptable Sources §5.
+
+**Tier 2 — Acceptable with verification:** Trade publications with editorial standards, verified press releases, court records and legal filings.
+
+**Tier 3 — Flag for review:** Aggregator blogs, content farms, anonymous sourcing, social media posts (unless the post is the news). `MISLEADING` or `FALSE` verdict + Tier 3 source = Needs Correction regardless of verdict.
+
+**Source count:** One Tier 1 source sufficient for straightforward factual claims, official statistics, and attributed direct quotes. Two independent Tier 1 sources required for contested claims, allegations, and anything that could harm a named individual. Primary source document required (news coverage does not substitute) for court outcomes, health dosage/drug/efficacy claims, and financial statistics cited as fact.
+
+## 9.4 Content-Type Elevated Risk
+
+| Content Type | Elevated Rule |
+|---|---|
+| Health and Medical | Any flagged claim = hard stop; `OVERGENERALIZED` = Needs Correction; dosage/drug/efficacy = primary source document required (two independent Tier 1 if none exists), even on `TRUE` |
+| Legal and Regulatory | Primary source document required for court outcomes, legal status, regulatory figures; two independent Tier 1 for allegations; check vintage of annually updated figures |
+| Financial and Economic | Primary source document required for statistics cited as fact, even on `TRUE`; forward-looking claims must be attributed to originating institution |
+| Real Estate and Local Services | `OVERGENERALIZED` = Needs Correction; address/market claims require current local source |
+| Travel and Scheduling | `TRUE` verdicts may be stale; verify against official source at time of publication |
+| Entertainment and Celebrity | Relationship/pregnancy/legal status requires two independent Tier 1 sources, both named and on-record; historical creative-work facts: one Tier 1 sufficient |
+
+## 9.5 Escalation
+
+1–2 flags: editor resolves, documents in draft notes. 3+ flags: escalate to senior editor. Health or legal `FALSE`: hard stop, senior editor sign-off required. Unresolvable flags: do not publish. Recurring pattern: report as bug, stop using module for that content type. *(Pending)* Low-confidence verdict: treat as `INSUFFICIENT_EVIDENCE` regardless of stated verdict. *(Pending)* 3+ low-confidence verdicts: escalate to senior editor.
+
+## 9.6 Audit Trail
+
+Requirement (implementation pending): validation output must be stored per-piece in the CMS — not only visible at generation time. Audit trail must include all verdicts returned, claims flagged, confidence levels, editor actions, and final publication state. Must be attached to the piece record (not a separate log), accessible after publication, and readable by editors, senior editors, and content leads. Role-level access pending Rajiv and Susannah.
+
+## 9.7 Override Documentation
+
+Per-piece: note what the module returned, what the editor decided, and one-sentence rationale. Aggregate: track flag frequency by verdict type and content type; remediation type per flag (rewrite, removal, kept with rationale); override rate by verdict. Aggregate tracking requires per-piece audit trail stored in CMS (§9.6). Note: this covers module verdict overrides only — for overrides of CSA editorial suggestions (headlines, structure, sourcing), see AI Tool Responsibility §8.
+
+---
+
+*End of document — v1.5.0*

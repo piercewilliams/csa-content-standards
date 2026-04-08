@@ -192,7 +192,15 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "AI Tool Responsibility" }
-          - { label: "Body", name: "body", widget: "markdown", hint: "Team responsibilities for CSA and partner feed content. Includes escalation chain, plagiarism checks, partner content vetting, and override documentation. Resolve all [TBD] placeholders with Chris Palo + Sara Vallone before removing the DRAFT banner." }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Team responsibilities for CSA and partner feed content. Includes escalation chain, plagiarism checks, partner content vetting, and override documentation." }
+
+      - label: "Claims Validation"
+        name: "claims-validation"
+        file: "docs/claims-validation.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Claims Validation" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "How to read and act on the CSA fact-checking module output. Covers the five verdicts, Needs Correction / Needs Clarification taxonomy, source authority tiers, content-type specific rules (health, legal, financial, real estate, travel, entertainment), escalation logic, and override documentation." }
 
       - label: "Follow-Up Content"
         name: "follow-up-content"

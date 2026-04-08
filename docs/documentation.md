@@ -26,7 +26,7 @@ The site is versioned, machine-readable, and human-readable. Every rule has a se
 
 ## Content Sections
 
-The site is organized into seven numbered sections plus supporting reference pages.
+The site is organized into nine numbered sections plus supporting reference pages.
 
 | # | Section | What it covers |
 |---|---|---|
@@ -37,6 +37,8 @@ The site is organized into seven numbered sections plus supporting reference pag
 | 5 | [Acceptable Sources]({{ "/docs/acceptable-sources" | relative_url }}) | Approved source categories and specific outlets for factual reporting and citation across all verticals. |
 | 6 | [Publishing Guidelines]({{ "/docs/publishing-guidelines" | relative_url }}) | Platform-specific CMS entry requirements — CUE (McClatchy CMS), WordPress, Apple News, and additional export destinations. |
 | 7 | [Follow-Up Content]({{ "/docs/follow-up-content" | relative_url }}) | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
+| 8 | [AI Tool Responsibility]({{ "/docs/tool-responsibility" | relative_url }}) | Policy and escalation procedures for all team members using the CSA or any AI-assisted tool — single-piece concerns, supervisor conflict, recurring issues, plagiarism, partner content, and override documentation. |
+| 9 | [Claims Validation]({{ "/docs/claims-validation" | relative_url }}) | Ideal-state specification for the CSA fact-checking module — verdict taxonomy, editorial action framework, source authority tiers, source count requirements, content-type rules, escalation logic, audit trail, and override tracking. |
 
 ---
 
@@ -61,6 +63,8 @@ Eleven article formats are currently documented under §3. Each has its own stan
 ---
 
 ## How to Read a Format Page
+
+> **Scope:** The conventions below apply to §3 Article Format pages and §4 Persona pages. §1, §2, §5, §6, §7, §8, and §9 are reference, policy, or workflow pages and do not use the red-text override system, pre-publish checklists, or "What to Avoid" tables.
 
 All format pages share the same structure and conventions.
 

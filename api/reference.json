@@ -1,6 +1,6 @@
 {
   "document": "CSA Content Standards — Master Reference",
-  "version": "1.4.1",
+  "version": "1.5.1",
   "last_updated": "2026-04",
   "base_url": "https://csa-content-standards.netlify.app",
   "agent_routing": {
@@ -219,6 +219,16 @@
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#8-ai-tool-responsibility",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/tool-responsibility",
       "notes": "Policy and escalation procedures for all team members using the CSA or any AI-assisted tool. Covers single-piece concerns, supervisor conflict, recurring issues, plagiarism/attribution, partner content, and override documentation."
+    },
+    {
+      "section": 9,
+      "id": "claims-validation",
+      "title": "Claims Validation",
+      "status": "active",
+      "agent_audiences": ["human-only"],
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#9-claims-validation",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/claims-validation",
+      "notes": "Editorial procedures for the CSA built-in fact-checking module. Applicability determined by content pipeline tier: High Touch (HITL) = full application; Semi-Automated = selective; Fully Automated (game scores, weather, United Robots) = not required. Five verdicts: TRUE, FALSE, MISLEADING, INSUFFICIENT_EVIDENCE, OVERGENERALIZED. Two editorial actions: Needs Correction (FALSE, MISLEADING) and Needs Clarification (OVERGENERALIZED, INSUFFICIENT_EVIDENCE). Includes source authority tiers, content-type elevated risk rules, and escalation logic."
     }
   ],
   "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md",

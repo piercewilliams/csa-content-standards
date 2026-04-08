@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-07 (AI Tool Responsibility page finalized: DRAFT banner removed, all contacts/channels resolved, §8 added to master reference and JSON API, v1.4.1)
+**Last session:** 2026-04-07 (Claims Validation §9 complete + site-wide consistency audit v1.5.0)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** AI Tool Responsibility page finalized (v1.4.1, 2026-04-07). DRAFT banner removed; all contacts and Slack channels resolved. One remaining TBD: override doc location (pending CSA team input).
+- **Last changes:** Claims Validation §9 fully built out and site-wide consistency audit complete (v1.5.0, 2026-04-07). One open item across both §8 and §9: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -23,9 +23,10 @@ For session history: see [sessions/](sessions/)
 1. [ ] **Persona experimentation — Watercooler Insider + Curious Explorer** — All 5 personas pinned to National CSA accounts (2026-04-02). Experimentation on §4.4 and §4.5 to begin once live. Watch for performance data and any standard updates that follow.
 2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
 3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Dev request logged. Codify architecture here once tooling is defined.
-4. [ ] **Document claims validation workflow** — **Gary API unblocked 2026-04-08.** Gary sent full API docs; first-test sequence ready. Once Sara Vallone parameter session completes and integration is scoped, document claims validation as a post-CSA quality gate step in standards.
+4. [ ] **Claims validation integration** — §9 spec complete (v1.5.0). Sara Vallone parameter session still pending; once complete, scope the Gary API integration and update §9 with any integration-specific workflow details.
 5. [ ] **Extend AGENT-AUDIENCE routing beyond §1** — §1 fully confirmed. Audit §2+ sections and add AGENT-AUDIENCE tags where applicable.
-6. [ ] **Finalize AI Tool Responsibility page** — one remaining gap: override documentation location. All contacts, channels, and United Robots scope resolved in v1.4.1.
+6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
+7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
 ## Recent Session: 2026-04-06
 
