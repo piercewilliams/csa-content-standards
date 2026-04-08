@@ -7,13 +7,13 @@ agent_audiences: [human-only]
 
 <!-- AGENT-AUDIENCE: human-only -->
 
-> **DRAFT — 2026-04-07.** Several placeholders marked `[TBD]` require decisions from Chris Palo and Sara Vallone before this page is final. Do not distribute externally until those are resolved.
-
 # AI Tool Responsibility
 
 This document defines every team member's responsibilities when using the Content Scaling Agent (CSA) and any other AI-assisted tools in the content pipeline. It applies to all writers, editors, and content leads regardless of vertical or team.
 
 **The CSA amplifies human writing — it does not replace editorial judgment.** Every piece of content that touches a tool is still your responsibility. The tool only does so much; humans are responsible for everything past that point.
+
+[⬇ Download this section](https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/tool-responsibility.md){: .btn }
 
 ---
 
@@ -53,23 +53,31 @@ This document defines every team member's responsibilities when using the Conten
 
 If a CSA-produced piece is factually suspect, contains a hallucinated claim, feels editorially uncomfortable, or raises a legal or reputational concern — do not publish. Flag to your direct editor immediately with a description of the concern and the specific output in question.
 
-If your editor resolves the concern, document the resolution and proceed or discard accordingly.
+**Step 1:** If your editor resolves the concern, document the resolution and proceed or discard accordingly.
 
-If your editor is unavailable or the concern is unresolved after 24 hours, escalate to **[TBD — Step 2 contact]**. If that escalation is also unresolved, escalate to **[TBD — Step 3 contact]**.
+**Step 2:** If your editor is unavailable or the concern is unresolved after 24 hours, notify **Sara Vallone** and post to Slack channel **#prog-and-growth** with a description of the concern and the specific output in question.
 
 ### Supervisor conflict
 
-If you have escalated a concern to your editor and believe it was not addressed in good faith — you are not required to stop there. You may escalate directly to **[TBD — named contact]** without going back through your direct editor first. You will not face retaliation for using this path on a legitimate concern.
+If you have escalated a concern to your editor and believe it was not addressed in good faith — you are not required to stop there. You may escalate directly to management, **Sara Vallone and/or Chris Palo**, without going back through your direct editor first. You will not face retaliation for using this path on a legitimate concern.
 
 ### Persistent or recurring issues
 
 If the same type of problematic output recurs across multiple runs — the tool consistently hallucinates citations, produces variants that fail the 50% difference standard, or generates content that raises the same editorial concern repeatedly — report it as a bug.
 
-Report to **[TBD — Slack channel]** with: a description of the pattern, at least one example output, and the date of each instance observed. Do not continue using the tool for the affected content type until the issue is acknowledged by **[TBD — named contact]**.
+Report to Slack channel **#nationalteam-csa-feedback** with:
+
+- A description of the pattern
+- At least one example output
+- The date of each instance observed
+
+Do not continue using the tool for the affected content type until the issue is acknowledged by a member of the CSA product/dev team.
 
 ### When to stop using the tool
 
-If the CSA produces output you believe is unsafe to publish and you cannot get timely editorial guidance, stop using it for that piece and complete the work manually. You are never required to use the tool when your editorial judgment tells you the output is unacceptable. Document that you stopped and why, and report it to **[TBD — Slack channel]**.
+If the CSA produces output you believe is unsafe to publish and you cannot get timely editorial guidance, stop using it for that piece and complete the work manually. You are never required to use the tool when your editorial judgment tells you the output is unacceptable.
+
+Document that you stopped and why, and report it to Slack channel **#nationalteam-csa-feedback**.
 
 ---
 
@@ -91,20 +99,19 @@ Content arriving via partner feeds is subject to the same editorial standards as
 
 - All partner-sourced content must be fact-checked before publication.
 - Locality-dependent information — streaming availability, blackout rules, local broadcast schedules, local tax rates or regulatory figures — requires independent verification before publish. Do not assume partner-generated figures or watch information are accurate; this category has a known error rate.
-- If partner content appears to reproduce phrasing from a third-party news source without attribution, do not publish. Flag to **[TBD — named contact]**.
+- If three or more consecutive words from the draft match a source document verbatim, or if a sentence's structure and phrasing are clearly derived from a specific source — meaning a writer wouldn't have constructed it that way independently — treat it as reproduced phrasing and rewrite before peer review.
 - Partner content that carries an AI disclaimer still requires full human editorial review before it goes live on our properties.
-- **[TBD — confirm with Chris + Kathryn: does this section also cover United Robots automated content?]**
 
 ---
 
 ## Override Documentation
 
-Overriding a CSA suggestion — a headline recommendation, a structural flag, a sourcing suggestion — is permitted and is sometimes the right call.
+Overriding a CSA suggestion — a headline recommendation, a structural flag, a sourcing suggestion — is permitted and is sometimes the right call. When you override, note briefly:
 
-When you override, note briefly: what the tool suggested, what you chose instead, and why (one sentence is sufficient). This documentation travels with the piece through the review process and lives in **[TBD — CMS notes field / Slack thread / separate log]**.
+- What the tool suggested
+- What you chose instead
+- Why (one sentence is sufficient)
+
+This documentation travels with the piece through the review process and lives in **[location TBD, pending CSA team input]**. Sara Vallone receives a daily EOD summary of all overrides logged that day to stay apprised of editorial decisions.
 
 Override documentation is not punitive. Editors who consistently demonstrate better outcomes than the tool are providing feedback that improves it. That pattern is worth tracking and is explicitly valued.
-
----
-
-*Document owner: **[TBD]** — Review cadence: **[TBD]***

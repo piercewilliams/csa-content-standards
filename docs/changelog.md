@@ -11,6 +11,11 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.4.1] — 2026-04
+- AI Tool Responsibility (§8): page finalized — DRAFT banner removed; all escalation contacts and Slack channels resolved (Step 2: Sara Vallone + #prog-and-growth; supervisor conflict: Sara Vallone and/or Chris Palo; recurring issues and stop-use reporting: #nationalteam-csa-feedback; acknowledged by CSA product/dev team); Partner and Feed Content verbatim matching rule added (three or more consecutive words, or clearly derived sentence structure, triggers rewrite before peer review); United Robots TBD removed; Override Documentation updated with explicit bullet list and Sara Vallone daily EOD summary note; download button added
+- Master Reference §8 added: AI Tool Responsibility condensed summary with escalation table, plagiarism/attribution rule, partner content rule, and override documentation note; section count updated from seven to eight
+- JSON API updated: section 8 (AI Tool Responsibility) entry added; version bumped to 1.4.1
+
 ## [1.4.0] — 2026-04
 - Headlines §2: Format-Specific Headline Formulas section made data-driven — accordion order now follows `_data/navigation.yml` automatically via Liquid loop; each format's block moved to `_includes/headline-formulas/[match].html`; no manual reordering needed when sidebar order changes
 - Site-wide audit: version numbers, format counts, and section statuses corrected across `README.md`, `index.md`, and `api/reference.json` (all had stale values from before v1.3.6–1.3.9 changes)

@@ -11,7 +11,7 @@ agent_audiences: [general-style, headline, seo, human-only]
 **Repository:** `mcclatchy-content-agent` on GitHub
 **Status:** Active
 
-> This document is the authoritative reference for the Content Scaling Agent. It is divided into seven independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
+> This document is the authoritative reference for the Content Scaling Agent. It is divided into eight independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
 
 ---
 
@@ -1430,4 +1430,39 @@ Apply the triage framework from §1.9 to every story. Then use the story-type br
 
 ---
 
-*End of document — v1.0.0*
+<!-- SECTION:tool-responsibility -->
+# 8. AI Tool Responsibility
+
+> **Scope:** Policy and escalation procedures for all team members using the CSA or any AI-assisted tool in the content pipeline. Applies to all writers, editors, and content leads regardless of vertical or team.
+
+> See the full [AI Tool Responsibility page]({{ "/docs/tool-responsibility" | relative_url }}) for complete procedures.
+
+## 8.1 Core Principle
+
+The CSA amplifies human writing — it does not replace editorial judgment. Every piece of content that touches a tool is still the responsible team member's accountability.
+
+## 8.2 Escalation Summary
+
+| Scenario | Action |
+|---|---|
+| Single-piece concern — editor resolves | Document resolution; proceed or discard |
+| Single-piece concern — editor unavailable or unresolved after 24h | Notify Sara Vallone; post to #prog-and-growth |
+| Supervisor conflict | Escalate directly to Sara Vallone and/or Chris Palo |
+| Recurring / pattern issue | Report to #nationalteam-csa-feedback; stop using tool for affected content type until acknowledged |
+| Output unsafe to publish, no timely guidance | Stop; complete manually; report to #nationalteam-csa-feedback |
+
+## 8.3 Plagiarism and Attribution
+
+Verify all CSA-produced content does not contain lifted phrasing from source material. This is a separate requirement from fact-checking. If a draft closely mirrors a source, rewrite before peer review. Do not assume AI-generated text is original.
+
+## 8.4 Partner and Feed Content
+
+Incoming partner content is unverified until reviewed by a human editor. Fact-check all partner content before publication. If three or more consecutive words match a source document verbatim, or a sentence's structure is clearly derived from a specific source, treat it as reproduced phrasing and rewrite before peer review.
+
+## 8.5 Override Documentation
+
+Override documentation — noting what the tool suggested, what was chosen instead, and why — travels with the piece through review. Sara Vallone receives a daily EOD summary of all overrides. Override documentation is not punitive; it provides feedback that improves the tool.
+
+---
+
+*End of document — v1.4.1*

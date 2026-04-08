@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-08 (Cross-repo sync: Gary API unblocked; AI Tool Responsibility page live; AGENT-AUDIENCE §1 confirmed)
+**Last session:** 2026-04-07 (AI Tool Responsibility page finalized: DRAFT banner removed, all contacts/channels resolved, §8 added to master reference and JSON API, v1.4.1)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,9 +13,9 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Implementation integrity audit caught two post-v1.4.0 gaps; both fixed (2026-04-06). Cross-repo sync 2026-04-08.
+- **Last changes:** AI Tool Responsibility page finalized (v1.4.1, 2026-04-07). DRAFT banner removed; all contacts and Slack channels resolved. One remaining TBD: override doc location (pending CSA team input).
 - **Blockers:** None known
-- **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Live as of 2026-04-07 with DRAFT banner. Completed draft passed to Sara Vallone 2026-04-08. Six [TBD] gaps still open (which Slack channel for Step 2, override doc location, United Robots scope, plus 3 others); pending Sara + Chris input.
+- **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
 
 ## What's Next
@@ -25,7 +25,7 @@ For session history: see [sessions/](sessions/)
 3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Dev request logged. Codify architecture here once tooling is defined.
 4. [ ] **Document claims validation workflow** — **Gary API unblocked 2026-04-08.** Gary sent full API docs; first-test sequence ready. Once Sara Vallone parameter session completes and integration is scoped, document claims validation as a post-CSA quality gate step in standards.
 5. [ ] **Extend AGENT-AUDIENCE routing beyond §1** — §1 fully confirmed. Audit §2+ sections and add AGENT-AUDIENCE tags where applicable.
-6. [ ] **Finalize AI Tool Responsibility page** — awaiting Sara + Chris input on 3 remaining gaps (Slack channel, override doc location, United Robots scope).
+6. [ ] **Finalize AI Tool Responsibility page** — one remaining gap: override documentation location. All contacts, channels, and United Robots scope resolved in v1.4.1.
 
 ## Recent Session: 2026-04-06
 

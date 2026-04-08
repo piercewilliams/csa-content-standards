@@ -1,6 +1,6 @@
 {
   "document": "CSA Content Standards — Master Reference",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "last_updated": "2026-04",
   "base_url": "https://csa-content-standards.netlify.app",
   "agent_routing": {
@@ -209,6 +209,16 @@
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#7-follow-up-content",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/follow-up-content",
       "notes": "Editorial strategy guide for extending breaking news coverage across 13 story types. General principles also documented in Brand Guidelines §1.9."
+    },
+    {
+      "section": 8,
+      "id": "tool-responsibility",
+      "title": "AI Tool Responsibility",
+      "status": "active",
+      "agent_audiences": ["human-only"],
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#8-ai-tool-responsibility",
+      "standalone_url": "https://csa-content-standards.netlify.app/docs/tool-responsibility",
+      "notes": "Policy and escalation procedures for all team members using the CSA or any AI-assisted tool. Covers single-piece concerns, supervisor conflict, recurring issues, plagiarism/attribution, partner content, and override documentation."
     }
   ],
   "raw_markdown_url": "https://raw.githubusercontent.com/piercewilliams/csa-content-standards/main/docs/master-reference.md",
