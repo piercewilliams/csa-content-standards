@@ -26,7 +26,7 @@ The site is versioned, machine-readable, and human-readable. Every rule has a se
 
 ## Content Sections
 
-The site is organized into nine numbered sections plus supporting reference pages.
+The site is organized into ten numbered sections plus supporting reference pages.
 
 | # | Section | What it covers |
 |---|---|---|
@@ -39,6 +39,7 @@ The site is organized into nine numbered sections plus supporting reference page
 | 7 | [Follow-Up Content]({{ "/docs/follow-up-content" | relative_url }}) | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
 | 8 | [AI Tool Responsibility]({{ "/docs/tool-responsibility" | relative_url }}) | Policy and escalation procedures for all team members using the CSA or any AI-assisted tool — single-piece concerns, supervisor conflict, recurring issues, plagiarism, partner content, and override documentation. |
 | 9 | [Claims Validation]({{ "/docs/claims-validation" | relative_url }}) | Ideal-state specification for the CSA fact-checking module — verdict taxonomy, editorial action framework, source authority tiers, source count requirements, content-type rules, escalation logic, audit trail, and override tracking. |
+| 10 | [Platform Formats]({{ "/docs/platform-smartnews" | relative_url }}) | Distribution-channel-specific formatting requirements, headline specs, image specs, and publishing workflows. Two platforms currently active: SmartNews (§10.1) and Apple News (§10.2). |
 
 ---
 

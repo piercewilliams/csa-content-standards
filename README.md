@@ -69,7 +69,7 @@ Clone the repo and work directly with Markdown files in `/docs`. Netlify rebuild
 
 ## Content structure
 
-The standards are organized into nine numbered sections. Section numbers are stable references — all internal links and the JSON API use them.
+The standards are organized into ten numbered sections. Section numbers are stable references — all internal links and the JSON API use them.
 
 | # | Section | Status | What it covers |
 |---|---|---|---|

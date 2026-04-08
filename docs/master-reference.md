@@ -11,7 +11,7 @@ agent_audiences: [general-style, headline, seo, human-only]
 **Repository:** `mcclatchy-content-agent` on GitHub
 **Status:** Active
 
-> This document is the authoritative reference for the Content Scaling Agent. It is divided into nine independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
+> This document is the authoritative reference for the Content Scaling Agent. It is divided into ten independently parseable sections. Each section is delimited by a level-1 heading and a machine-readable section ID. When ingesting this document, parse each section independently. Rules in **General Guidelines** apply universally across all article formats and distributions unless a format-specific section explicitly overrides them.
 
 ---
 
@@ -1541,4 +1541,46 @@ Per-piece: note what the module returned, what the editor decided, and one-sente
 
 ---
 
-*End of document — v1.5.0*
+<!-- SECTION:platform-formats -->
+# 10. Platform Formats
+
+> **Scope:** Distribution-channel-specific formatting requirements, headline specs, image specs, and publishing workflows. Rules here override or extend General Guidelines for the named platform. Red text throughout each platform page marks anything that overrides a General Guidelines default.
+
+> See the full [SmartNews page]({{ "/docs/platform-smartnews" | relative_url }}) and [Apple News page]({{ "/docs/platform-apple-news" | relative_url }}) for complete specifications.
+
+## 10.1 SmartNews
+
+**Feed format:** SmartFormat (enhanced RSS/XML) | **Render environment:** SmartView — stripped-down mobile-optimized; no CSS or scripted styling | **Algorithm signal:** Read velocity and reader engagement (completion rate)
+
+| Spec | Requirement |
+|---|---|
+| Headline | 70–90 characters; 80–99 sweet spot; clear and keyword-forward; plain declarative or number-led; no question marks; no "What to Know" endings |
+| Tone | Clear, direct, value-first, zero friction |
+| Article structure | No CSS or scripted styling; supported HTML only (`<figure>`, `<figcaption>`); front-load value in lead paragraph |
+| Lead image | 1,200px+ wide; 4:3 crop option required |
+| Feed thumbnail | `<media:thumbnail>` in RSS; 4:3 aspect ratio; 320×240px |
+| Inline images | 400px+ wide; under 100px may be dropped |
+| GIFs | Prohibited |
+| Analytics | GA4 records in-app views, not referral traffic — report accordingly |
+| Monetization | One 300×250px ad unit (bottom of SmartView); up to 2 sponsored links; 100% of self-sold revenue |
+
+## 10.2 Apple News
+
+**Feed format:** Apple News Format (ANF, JSON-based, recommended) or RSS | **Render environment:** Native across iPhone, iPad, Mac; rich typography, galleries, parallax | **Algorithm signal:** User interaction patterns, topic relevance, social engagement, human editorial curation
+
+| Spec | Requirement |
+|---|---|
+| Headline | 90–120 characters; 110–119 sweet spot; compelling and informative; no question headlines (algorithmic reach); no number-led headlines; write distinct from SEO/Discover variant |
+| Featured placement exception | Apple editorial team favors question/"What to Know" formats — use only when specifically targeting a human-curated featured slot |
+| Subtitle | Required in News Publisher — Apple pulls first paragraph if omitted |
+| Tone | Polished, confident, editorially rich, trustworthy |
+| Thumbnail | 300×300px minimum; 1:2 to 3:1 aspect ratio |
+| AI content — generated/assisted | Byline or co-byline required; marked AI-generated in News Publisher metadata |
+| AI content — tools only | No disclosure required if journalist composes and vets |
+| AI media | Clearly labeled (images, video, audio) |
+| Monetization | 100% self-sold revenue; 70% Apple-sold revenue; affiliate content algorithmically prioritized |
+| Topic signal | Sports strongest; business/lifestyle lower — compensate with headline execution |
+
+---
+
+*End of document — v1.6.0*

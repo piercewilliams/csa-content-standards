@@ -210,6 +210,22 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Follow-Up Content" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Editorial strategy for extending breaking news coverage. Decision framework: newsworthy? → write original (never syndicate); site normally covers? → follow-up content. Story types: death, arrest, breakup, interview, release, controversy, pregnancy, wedding, and more." }
 
+      - label: "SmartNews"
+        name: "platform-smartnews"
+        file: "docs/platform-smartnews.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "SmartNews" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for SmartNews (§10.1). Covers headline range (70–90 chars, 80–99 sweet spot), SmartView structure constraints (no CSS/scripted styling), feed thumbnail specs (media:thumbnail, 4:3, 320×240px), GIF prohibition, read-velocity optimization, analytics caveat (GA4 tracks in-app views not referral traffic), and monetization." }
+
+      - label: "Apple News"
+        name: "platform-apple-news"
+        file: "docs/platform-apple-news.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Apple News" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for Apple News (§10.2). Covers headline range (90–120 chars, peak at 110–119), question/number-led headline avoidance for algorithmic reach (featured placement exception documented), subtitle field requirement, ANF vs RSS, AI content policy (byline/co-byline + News Publisher metadata), thumbnail specs, affiliate opportunity, and monetization (100% self-sold, 70% Apple-sold)." }
+
       - label: "Documentation"
         name: "documentation"
         file: "docs/documentation.md"

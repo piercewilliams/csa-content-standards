@@ -20,6 +20,8 @@ tags:
       - "Tone, Word Count, Article Structure, Formatting Rules on all format pages"
       - "All persona pages (§4)"
       - "§5 Acceptable Sources (citation context)"
+      - "§10.1 SmartNews — Tone, Article Structure (supported HTML, styling restrictions)"
+      - "§10.2 Apple News — Tone, Article Structure, AI Content Policy"
 
   headline:
     label: "Headline (H1)"
@@ -28,6 +30,8 @@ tags:
       - "§1.2 General Rules, H1 character count (80–100), Modifier Guidelines, Exclusive Guidelines"
       - "Headline (H1) section on all format pages"
       - "All format-specific and outlet-specific headline formula blocks in §2 Headlines"
+      - "§10.1 SmartNews — Headline (H1): 70–90 chars, 80–99 sweet spot, no question headlines, no 'What to Know' endings"
+      - "§10.2 Apple News — Headline (H1): 90–120 chars, 110–119 sweet spot, no question or number-led for algorithmic reach"
 
   seo:
     label: "SEO"
@@ -51,6 +55,8 @@ tags:
       - "§7 Follow-Up Content"
       - "§8 AI Tool Responsibility (escalation, plagiarism, partner content, override documentation)"
       - "§9 Claims Validation (verdict handling, source verification, audit trail, override tracking)"
+      - "§10.1 SmartNews — Image Requirements, Discoverability, Analytics, Monetization, What to Avoid, Pre-Publish Checklist"
+      - "§10.2 Apple News — AI Content Policy, Image Requirements, Discoverability, Analytics, Monetization, What to Avoid, Pre-Publish Checklist"
       - "§2 Headlines outlet-specific CMS and compliance notes"
 
 # Standard section-to-tag mapping for article format pages (§3)

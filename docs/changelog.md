@@ -11,6 +11,12 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.6.0] — 2026-04
+- Platform Formats §10: new section added — two standalone pages created (§10.1 SmartNews, §10.2 Apple News); structured identically to §3 Article Format pages (red text for General Guidelines overrides, AGENT-AUDIENCE section comments, frontmatter agent_audiences, download buttons, What to Avoid tables, Pre-Publish Checklists)
+- SmartNews §10.1: headline 70–90 chars (80–99 sweet spot), no question headlines, no "What to Know" endings; SmartFormat RSS/XML feed; no CSS/scripted styling in SmartView; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px; GA4 analytics caveat (in-app views not referral traffic); target persona The SmartNews Skimmer
+- Apple News §10.2: headline 90–120 chars (110–119 sweet spot), no question or number-led headlines for algorithmic reach (featured placement exception documented); subtitle field required; AI content policy (byline + News Publisher metadata); 100% self-sold / 70% Apple-sold revenue split; target persona The Apple News Explorer
+- Infrastructure sync: navigation.yml (Platform Formats section with SmartNews and Apple News children), admin/config.yml (CMS entries for both platforms), master-reference.md (§10 added, section count updated to ten, end marker v1.6.0), api/reference.json (version 1.6.0, §10 with nested platforms array), documentation.md (§10 row, section count ten), index.md (§10 row), README.md (ten sections, §10 in table), agent_routing.yml (§10 coverage added)
+
 ## [1.5.1] — 2026-04
 - Site-wide final pass: README version updated to 1.5.0; README section count corrected from seven to nine; §8 and §9 added to README content structure table and technical file tree; master-reference.md version header corrected from 1.4.0 to 1.5.0; master-reference.md end marker corrected from v1.4.9 to v1.5.0; _data/agent_routing.yml human-only coverage updated to include §8 and §9; documentation.md "How to Read a Format Page" scope note added clarifying conventions apply to §3/§4 only; two deferred open items (override doc location, role-level access) formally logged in CONTEXT.md What's Next
 

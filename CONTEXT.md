@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-07 (Claims Validation §9 complete + site-wide consistency audit v1.5.0)
+**Last session:** 2026-04-07 (Platform Formats §10 added — SmartNews §10.1 + Apple News §10.2 — full infrastructure sync v1.6.0)
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** Claims Validation §9 fully built out and site-wide consistency audit complete (v1.5.0, 2026-04-07). One open item across both §8 and §9: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
+- **Last changes:** Platform Formats §10 added (v1.6.0, 2026-04-07) — SmartNews §10.1 and Apple News §10.2 standalone pages, full infrastructure sync across all supporting files. Two open items from §8/§9 carry forward: override documentation location (TBD, pending CSA team input) and role-level module access (pending Rajiv + Susannah).
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -27,6 +27,20 @@ For session history: see [sessions/](sessions/)
 5. [ ] **Extend AGENT-AUDIENCE routing beyond §1** — §1 fully confirmed. Audit §2+ sections and add AGENT-AUDIENCE tags where applicable.
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
+
+## Recent Session: 2026-04-07 (Platform Formats §10)
+
+Platform Formats added as §10 — new top-level section for distribution-channel-specific formatting requirements. Two standalone pages built:
+
+**SmartNews §10.1** (`docs/platform-smartnews.md`)
+Headline overrides: 70–90 chars (80–99 sweet spot), no question headlines, no "What to Know" endings, keyword-forward, number-led OK. SmartFormat RSS/XML feed; no CSS/scripted styling; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px. GA4 caveat: tracks in-app views not referral. Target persona: The SmartNews Skimmer.
+
+**Apple News §10.2** (`docs/platform-apple-news.md`)
+Headline overrides: 90–120 chars (110–119 sweet spot), no question or number-led for algorithmic reach. Featured placement exception documented (Apple editorial favors questions for curated slots). Subtitle field required. AI content policy: byline + News Publisher metadata. Monetization: 100% self-sold / 70% Apple-sold. Target persona: The Apple News Explorer.
+
+Infrastructure: navigation.yml, admin/config.yml, master-reference.md, api/reference.json, documentation.md, index.md, README.md, changelog.md, agent_routing.yml all updated.
+
+**Note:** Apple News headline (90–120) conflicts with the Apple News outlet block in §2 headlines.md (80–100). §2 predates §10 and reflects the universal standard. §10.2 takes precedence for Apple News specifically — consider adding a cross-reference to §2.
 
 ## Recent Session: 2026-04-06
 

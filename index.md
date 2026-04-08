@@ -26,6 +26,7 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 | 7 | Follow-Up Content | ✅ Active |
 | 8 | AI Tool Responsibility | ✅ Active |
 | 9 | Claims Validation | 🔄 Partial — specification complete; module implementation pending |
+| 10 | Platform Formats | ✅ Active — 2 platforms (SmartNews, Apple News) |
 
 ---
 

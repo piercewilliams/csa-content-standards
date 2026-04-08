@@ -85,6 +85,15 @@ main:
     url: /docs/follow-up-content
     match: follow-up-content
 
+  - title: Platform Formats
+    children:
+      - title: SmartNews
+        url: /docs/platform-smartnews
+        match: platform-smartnews
+      - title: Apple News
+        url: /docs/platform-apple-news
+        match: platform-apple-news
+
   - divider: true
 
   - title: Documentation

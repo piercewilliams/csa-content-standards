@@ -1,6 +1,6 @@
 {
   "document": "CSA Content Standards — Master Reference",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "last_updated": "2026-04",
   "base_url": "https://csa-content-standards.netlify.app",
   "agent_routing": {
@@ -219,6 +219,35 @@
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#8-ai-tool-responsibility",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/tool-responsibility",
       "notes": "Policy and escalation procedures for all team members using the CSA or any AI-assisted tool. Covers single-piece concerns, supervisor conflict, recurring issues, plagiarism/attribution, partner content, and override documentation."
+    },
+    {
+      "section": 10,
+      "id": "platform-formats",
+      "title": "Platform Formats",
+      "status": "active",
+      "agent_audiences": ["general-style", "headline", "seo", "human-only"],
+      "url": "https://csa-content-standards.netlify.app/docs/master-reference#10-platform-formats",
+      "notes": "Distribution-channel-specific formatting requirements. Two platforms currently active.",
+      "platforms": [
+        {
+          "id": "platform-smartnews",
+          "section": "10.1",
+          "title": "SmartNews",
+          "status": "active",
+          "agent_audiences": ["general-style", "headline", "seo", "human-only"],
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/platform-smartnews",
+          "notes": "SmartFormat RSS/XML feed. Headline 70–90 chars (80–99 sweet spot). No CSS/scripted styling in SmartView. No GIFs. Feed thumbnail: media:thumbnail, 4:3, 320×240px. GA4 tracks in-app views not referral traffic."
+        },
+        {
+          "id": "platform-apple-news",
+          "section": "10.2",
+          "title": "Apple News",
+          "status": "active",
+          "agent_audiences": ["general-style", "headline", "human-only"],
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/platform-apple-news",
+          "notes": "ANF (recommended) or RSS. Headline 90–120 chars (110–119 sweet spot). No question or number-led headlines for algorithmic reach. Subtitle field required. AI content: byline/co-byline + News Publisher metadata. 100% self-sold revenue, 70% Apple-sold."
+        }
+      ]
     },
     {
       "section": 9,
