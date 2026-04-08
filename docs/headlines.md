@@ -153,7 +153,7 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 
 | Field | Range | Notes |
 |---|---|---|
-| <span style="color: #dc2626;">**Headline / RSS `<title>`**</span> | <span style="color: #dc2626;">**70–90 characters**</span> | <span style="color: #dc2626;">**80–99 is the data-validated performance sweet spot. 70–79 is acceptable on SmartNews — this extends below the universal 80-character minimum.**</span> |
+| <span style="color: #dc2626;">**Headline / RSS `<title>`**</span> | <span style="color: #dc2626;">**70–90 characters**</span> | <span style="color: #dc2626;">**Data-validated range. 70–79 is acceptable on SmartNews — this extends below the universal 80-character minimum.**</span> |
 
 *The SmartNews headline is pulled directly from the RSS `<title>` field, which is the standard SEO title. Write the SEO title to SmartNews spec and it serves both purposes.*
 

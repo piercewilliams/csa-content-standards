@@ -236,7 +236,7 @@
           "status": "active",
           "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "standalone_url": "https://csa-content-standards.netlify.app/docs/platform-smartnews",
-          "notes": "SmartFormat RSS/XML feed. Headline 70–90 chars (80–99 sweet spot, data-validated); no question headlines; no 'What to Know' endings; number-led trend positive. No CSS/scripted styling in SmartView. No GIFs. Feed thumbnail: media:thumbnail, 4:3, 320×240px. GA4 tracks in-app views not referral traffic."
+          "notes": "SmartFormat RSS/XML feed. Headline 70–90 chars (data-validated); no question headlines; no 'What to Know' endings; number-led trend positive. No CSS/scripted styling in SmartView. No GIFs. Feed thumbnail: media:thumbnail, 4:3, 320×240px. GA4 tracks in-app views not referral traffic."
         },
         {
           "id": "platform-apple-news",

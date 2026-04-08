@@ -1554,7 +1554,7 @@ Per-piece: note what the module returned, what the editor decided, and one-sente
 
 | Spec | Requirement |
 |---|---|
-| Headline | 70–90 characters; 80–99 sweet spot (data-validated); clear and keyword-forward; plain declarative or number-led preferred (data-validated); no question marks; no "What to Know" endings |
+| Headline | 70–90 characters (data-validated); clear and keyword-forward; plain declarative or number-led preferred (data-validated); no question marks; no "What to Know" endings |
 | Tone | Clear, direct, value-first, zero friction |
 | Article structure | No CSS or scripted styling; supported HTML only (`<figure>`, `<figcaption>`); front-load value in lead paragraph |
 | Lead image | 1,200px+ wide; 4:3 crop option required |
