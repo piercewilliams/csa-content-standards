@@ -28,80 +28,44 @@ For session history: see [sessions/](sessions/)
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
-## Recent Session: 2026-04-07 (Platform Formats §10)
+## Recent Session: 2026-04-08 (Platform Formats consistency audit — v1.6.1)
 
-Platform Formats added as §10 — new top-level section for distribution-channel-specific formatting requirements. Two standalone pages built:
+Full audit of both platform pages against the validated source guidance. All discrepancies corrected; validated performance data labeled throughout.
 
-**SmartNews §10.1** (`docs/platform-smartnews.md`)
-Headline overrides: 70–90 chars (80–99 sweet spot), no question headlines, no "What to Know" endings, keyword-forward, number-led OK. SmartFormat RSS/XML feed; no CSS/scripted styling; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px. GA4 caveat: tracks in-app views not referral. Target persona: The SmartNews Skimmer.
+**Discrepancies found and fixed:**
+- `docs/publishing-guidelines.md §6.3` — stale 80–139 Apple News headline range (flatplan.io, superseded) replaced with validated 90–120 (110–119 sweet spot); no-question/no-number-led/separate-title/subtitle rules added in red; defers to §10.2
+- `docs/headlines.md` — Apple News block under UsW rewritten: 90–120 (not inherited UsW 80–100), no-question/no-number-led in red, featured placement exception documented, cross-ref to §10.2; SmartNews outlet block added (70–90 chars, formula constraints, RSS `<title>` = SEO title note, cross-ref to §10.1)
+- `_data/agent_routing.yml` — SmartNews seo coverage entry added (RSS `<title>` = SEO title)
 
-**Apple News §10.2** (`docs/platform-apple-news.md`)
-Headline overrides: 90–120 chars (110–119 sweet spot), no question or number-led for algorithmic reach. Featured placement exception documented (Apple editorial favors questions for curated slots). Subtitle field required. AI content policy: byline + News Publisher metadata. Monetization: 100% self-sold / 70% Apple-sold. Target persona: The Apple News Explorer.
+**Data-validated labels added to:**
+- `docs/platform-smartnews.md` — scope blockquote and headline section (sweet spot, question/WTK/number-led findings)
+- `docs/platform-apple-news.md` — scope blockquote and headline section (sweet spot, question/number-led findings)
+- `api/reference.json` — SmartNews and Apple News notes
+- `docs/master-reference.md` — §10.1 and §10.2 summary table headline rows
+
+## Previous Session: 2026-04-07 (Platform Formats §10 — v1.6.0)
+
+Platform Formats added as §10 — two standalone pages built (structured identically to §3 Article Format pages: red overrides, AGENT-AUDIENCE comments, checklist, What to Avoid):
+
+**SmartNews §10.1** (`docs/platform-smartnews.md`) — Headline 70–90 chars (80–99 sweet spot); no question headlines; no "What to Know" endings; number-led positive; SmartFormat RSS/XML; no CSS/scripted styling; no GIFs; feed thumbnail `<media:thumbnail>` 4:3 320×240px; GA4 = in-app views not referral. Persona: The SmartNews Skimmer.
+
+**Apple News §10.2** (`docs/platform-apple-news.md`) — Headline 90–120 chars (110–119 sweet spot); no question or number-led (algorithmic reach); featured placement exception; subtitle required; AI content policy (byline + News Publisher metadata); 100% self-sold / 70% Apple-sold. Persona: The Apple News Explorer.
 
 Infrastructure: navigation.yml, admin/config.yml, master-reference.md, api/reference.json, documentation.md, index.md, README.md, changelog.md, agent_routing.yml all updated.
 
-**Resolved (v1.6.1):** Apple News headline conflict between §2 (stale 80–139/80–100) and §10.2 (validated 90–120) fully resolved — §2 Apple News block rewritten with correct data, SmartNews outlet block added to §2, Publishing Guidelines §6.3 updated. All validated data points labeled "(data-validated)" throughout.
+## Previous Session: 2026-04-06
 
-## Recent Session: 2026-04-06
-
-Implementation integrity audit (seven-pass protocol) run against v1.4.0 work. Two issues found and fixed:
-
-**master-reference.md stale header (v1.4.0 audit miss)**
-The site audit pass fixed README, index.md, and api/reference.json but missed the master-reference.md document header. Fixed: version `1.0.0` → `1.4.0`, date `2026-03` → `2026-04`, "five" → "seven" independently parseable sections.
-
-**brand-guidelines.md and master-reference.md missing Layer 1 agent_audiences frontmatter**
-The v1.3.9 Agent Routing pass added `agent_audiences` frontmatter to 21 content pages but excluded these two — which had gotten Layer 2 AGENT-AUDIENCE section comments in v1.3.8. Both pages now have `agent_audiences: [general-style, headline, seo, human-only]` in frontmatter. The two-layer routing system is now complete on all content pages.
+Integrity audit against v1.4.0. Fixed: master-reference.md stale header (version, date, section count); brand-guidelines.md and master-reference.md missing Layer 1 `agent_audiences` frontmatter — two-layer routing system now complete on all content pages.
 
 ## Previous Session: 2026-04-02
 
-A full-day session across multiple exchanges. Summary of all work:
+§3.11 FAQ / Service Journalism added (v1.3.7). Agent Routing system built (v1.3.8–1.3.9): two-layer annotation (`agent_audiences` frontmatter + `<!-- AGENT-AUDIENCE: -->` comments) applied to all 21 content pages; `_data/agent_routing.yml` created; `api/reference.json` updated; human-stakeholder-agnostic policy established. Site-wide stale values fixed (v1.4.0). Headlines formula order made data-driven via Liquid loop over navigation.yml.
 
-**§3.11 FAQ / Service Journalism (v1.3.7)**
-New format added — standalone page with full spec. Red overrides: headline formula locked, focus keyphrase as exact search query, answer-first requirement, 300–500 words per answer block, mandatory article structure, 2–3 sentence paragraph max, H2s require Google Trends/PAA keywords.
-Files: `docs/faq.md` (created); `_data/navigation.yml`, `admin/config.yml`, `docs/master-reference.md`, `docs/documentation.md`, `api/reference.json`, `docs/changelog.md`, `docs/headlines.md` (updated). FAQ placed directly after Everything to Know in sidebar.
+## Previous Session: 2026-03-30 / 2026-03-31 / 2026-04-01
 
-**Agent Routing system (v1.3.8–1.3.9)**
-Root cause identified: the CSA's headline, SEO, and style agents each have separate prompts — standards were correct but rules weren't reaching the right agent. Built a two-layer routing annotation system.
-- Layer 1: `agent_audiences` frontmatter on every page
-- Layer 2: `<!-- AGENT-AUDIENCE: [tag] -->` HTML comments before every subsection
-- Four tags: `general-style`, `headline`, `seo`, `human-only`
-- `_data/agent_routing.yml` created — canonical tag vocabulary and format-page section mapping
-- `api/reference.json` updated — `agent_audiences` on every section and format entry
-- Applied to all 21 content pages: 11 format pages, 5 persona pages, headlines, acceptable-sources, publishing-guidelines, follow-up-content, collaboration-guide, brand-guidelines, master-reference
-- §1.4 Internal Linking split: link count + anchor text → `general-style`; What to Link To → `human-only` (tag page navigation not yet a CSA capability)
-- Human-stakeholder agnostic policy established: no individual names in site-facing documentation
-
-**Site audit + stale fixes (v1.4.0 prep)**
-README, index.md, and api/reference.json all had stale values from before v1.3.6–1.3.9. Fixed: version numbers, format counts (10→11), section statuses (§3 partial→active, §4 partial→active, §2 pending→active), missing §7 row in index.md, FAQ missing from README format list, stale roadmap item removed.
-
-**Data-driven Headlines formula order (v1.4.0)**
-`docs/headlines.md` Format-Specific Headline Formulas section was hardcoded and out of sync with the sidebar (FAQ was last but position 3 in nav). Refactored: each format's `<details>` block moved to `_includes/headline-formulas/[match].html`; headlines.md now loops `_data/navigation.yml` Article Formats children via Liquid. Reordering the sidebar automatically reorders the formulas list. Adding a new format requires: nav entry + include file only.
-
-**General Guidelines DOCX**
-Full §1 (all sections §1.1–§1.9) exported as formatted DOCX for upload to Google Docs. Saved to Desktop as `csa-general-guidelines.docx`. Omits Agent Routing section (technical infrastructure). Formatted with dark header tables, bold-prefixed bullets, blue note callouts.
-
-## Previous Session: 2026-04-01
-
-- **Personas:** Pierce consolidated 3 personas from CSA data; passed to Sara Vallone to refine/supplement.
-- **PGS-115:** Google Discover Explainer visible to all users — bug being fixed (should be national team only).
-- **Cluster tagging strategy:** Settled in alignment meeting. Variant linking now in dev queue. Document cluster tagging entry point (Research Draft stage) in standards once dev delivers.
-
-## Previous Session: 2026-03-31 (CSA Weekly Update)
-
-- **Format/persona separation decision:** Content formats and target audiences to be independently selectable. Dev request logged. Sara Vallone prefers format-first workflow.
-- **PGS-95 (Google Discover Explainer):** Live as of 2026-03-31 (scoping bug being fixed via PGS-115).
-- **Canonical ID = Cluster ID:** Confirmed by group.
-
-## Previous Session: 2026-03-30
-
-Added snapshot version bar to every page. Weekly trigger (Mon 8am Dallas) bundles all `docs/*.md` + `api/reference.json` into a snapshot JSON at `data/snapshots/`. Max 5 snapshots. Passkey `8812` gates restore download.
-**Trigger:** `trig_014MR5mJJxFsVYLdVdDU4u1d` — shared with csa-dashboard and data-headlines. Details in ops-hub REFERENCE.md.
-
-## Previous Session: 2026-03-24
-
-Ingested new Word and Character Counts doc. **Site-wide updates:** SEO Title 60–70 → 50–70; Promo/Homepage Title 65–70 → 70–75; Meta Description 100–165 → 100–155. Exclusive/(Excl) changed from required to optional.
+Snapshot version bar added (Mon 8am Dallas trigger, max 5 snapshots, passkey `8812`; trigger `trig_014MR5mJJxFsVYLdVdDU4u1d`). Format/persona separation decision logged (independently selectable, dev queued). PGS-95 live; PGS-115 (scoping bug) in progress. Cluster tagging entry point = Research Draft stage (pending dev delivery). Persona consolidation passed to Sara Vallone.
 
 ---
 
 *This file follows the Tiered Context Architecture. Budget: ≤150 lines.*
-*Current: ~105 lines*
+*Current: ~100 lines*
