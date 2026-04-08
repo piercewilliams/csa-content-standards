@@ -42,6 +42,22 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Headlines" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Add each outlet as a <details> block. Character counts: H1 95–100, SEO Title 60–70, Promo 65–70, Meta 100–165." }
 
+      - label: "SmartNews"
+        name: "platform-smartnews"
+        file: "docs/platform-smartnews.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "SmartNews" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for SmartNews (§10.1). Covers headline range (70–90 chars, 80–99 sweet spot), SmartView structure constraints (no CSS/scripted styling), feed thumbnail specs (media:thumbnail, 4:3, 320×240px), GIF prohibition, read-velocity optimization, analytics caveat (GA4 tracks in-app views not referral traffic), and monetization." }
+
+      - label: "Apple News"
+        name: "platform-apple-news"
+        file: "docs/platform-apple-news.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Apple News" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for Apple News (§10.2). Covers headline range (90–120 chars, peak at 110–119), question/number-led headline avoidance for algorithmic reach (featured placement exception documented), subtitle field requirement, ANF vs RSS, AI content policy (byline/co-byline + News Publisher metadata), thumbnail specs, affiliate opportunity, and monetization (100% self-sold, 70% Apple-sold)." }
+
       - label: "Google Discover Explainer"
         name: "discover-explainer"
         file: "docs/discover-explainer.md"
@@ -170,14 +186,6 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "Persona: The Watercooler Insider" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Social-currency reader for viral, entertainment, and pop culture content. Bimodal engagement: 2–15s (high-traffic) or 30–60s (debunks/drama)." }
 
-      - label: "Acceptable Sources"
-        name: "acceptable-sources"
-        file: "docs/acceptable-sources.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Title", name: "title", widget: "hidden", default: "Acceptable Sources" }
-          - { label: "Body", name: "body", widget: "markdown", hint: "Add new sources as rows in the relevant vertical's table. Each source needs: name, URL, type, and notes." }
-
       - label: "Publishing Guidelines"
         name: "publishing-guidelines"
         file: "docs/publishing-guidelines.md"
@@ -185,6 +193,14 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Publishing Guidelines" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Platform-specific rules — CMS entry and submission, not writing style." }
+
+      - label: "Acceptable Sources"
+        name: "acceptable-sources"
+        file: "docs/acceptable-sources.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Acceptable Sources" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Add new sources as rows in the relevant vertical's table. Each source needs: name, URL, type, and notes." }
 
       - label: "AI Tool Responsibility"
         name: "tool-responsibility"
@@ -209,22 +225,6 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Title", name: "title", widget: "hidden", default: "Follow-Up Content" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Editorial strategy for extending breaking news coverage. Decision framework: newsworthy? → write original (never syndicate); site normally covers? → follow-up content. Story types: death, arrest, breakup, interview, release, controversy, pregnancy, wedding, and more." }
-
-      - label: "SmartNews"
-        name: "platform-smartnews"
-        file: "docs/platform-smartnews.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Title", name: "title", widget: "hidden", default: "SmartNews" }
-          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for SmartNews (§10.1). Covers headline range (70–90 chars, 80–99 sweet spot), SmartView structure constraints (no CSS/scripted styling), feed thumbnail specs (media:thumbnail, 4:3, 320×240px), GIF prohibition, read-velocity optimization, analytics caveat (GA4 tracks in-app views not referral traffic), and monetization." }
-
-      - label: "Apple News"
-        name: "platform-apple-news"
-        file: "docs/platform-apple-news.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Title", name: "title", widget: "hidden", default: "Apple News" }
-          - { label: "Body", name: "body", widget: "markdown", hint: "Platform format guide for Apple News (§10.2). Covers headline range (90–120 chars, peak at 110–119), question/number-led headline avoidance for algorithmic reach (featured placement exception documented), subtitle field requirement, ANF vs RSS, AI content policy (byline/co-byline + News Publisher metadata), thumbnail specs, affiliate opportunity, and monetization (100% self-sold, 70% Apple-sold)." }
 
       - label: "Documentation"
         name: "documentation"

@@ -12,6 +12,15 @@ main:
     url: /docs/headlines
     match: headlines
 
+  - title: Platform Formats
+    children:
+      - title: SmartNews
+        url: /docs/platform-smartnews
+        match: platform-smartnews
+      - title: Apple News
+        url: /docs/platform-apple-news
+        match: platform-apple-news
+
   - title: Article Formats
     children:
       - title: Google Discover Explainer
@@ -65,13 +74,13 @@ main:
         url: /docs/watercooler-insider
         match: watercooler-insider
 
-  - title: Acceptable Sources
-    url: /docs/acceptable-sources
-    match: acceptable-sources
-
   - title: Publishing Guidelines
     url: /docs/publishing-guidelines
     match: publishing-guidelines
+
+  - title: Acceptable Sources
+    url: /docs/acceptable-sources
+    match: acceptable-sources
 
   - title: AI Tool Responsibility
     url: /docs/tool-responsibility
@@ -84,15 +93,6 @@ main:
   - title: Follow-Up Content
     url: /docs/follow-up-content
     match: follow-up-content
-
-  - title: Platform Formats
-    children:
-      - title: SmartNews
-        url: /docs/platform-smartnews
-        match: platform-smartnews
-      - title: Apple News
-        url: /docs/platform-apple-news
-        match: platform-apple-news
 
   - divider: true
 
