@@ -111,7 +111,6 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 | Standard article (news story/post) | 400 words minimum |
 | Style article (story/post) | 300 words minimum |
 | H2 post / explainer (total) | 500 words minimum |
-| H2 post / explainer intro | 80 words minimum |
 | Gallery or listicle intro | 80–150 words |
 | Breaking news jam (at publish) | 80 words minimum; pad to 400 (500 for H2s) |
 | Favor post | No requirement |

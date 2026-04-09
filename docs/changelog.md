@@ -11,6 +11,9 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.6.3] — 2026-04
+- Headlines §2 (Us Weekly): removed "H2 post / explainer intro — 80 words minimum" word count requirement; dropped by L&E/UsW team after review with TEO (Stephanie Zandecki)
+
 ## [1.6.2] — 2026-04
 - SEO Keywords (Meta Keywords) guidance added to General Guidelines §1.2: new `### SEO Keywords (Meta Keywords) Rules` subsection; field added to §1.2 Character Counts; SEO keywords line added to §3.1 Pre-Publish Checklist
 - SEO Keywords field added to all ten §3 article format sections (§3.1–§3.10): `### SEO Keywords (Meta Keywords)` **(REQUIRED)** subsection inserted after `### Meta Description` in each format — 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names required for local stories
