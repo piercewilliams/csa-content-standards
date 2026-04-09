@@ -34,7 +34,7 @@
         "push_notification": { "min": 70, "max": 89, "truncation_note": "Most mobile devices truncate at ~80 chars — front-load the subject" }
       },
       "formula_constraints": {
-        "question_headlines": { "apple_news": "avoid (organic reach)", "smartnews": "avoid", "push": "avoid", "featured_exception": "Apple News featured slots only — not applicable to Sara Vallone content type (0% featuring rate)" },
+        "question_headlines": { "apple_news": "avoid", "smartnews": "avoid", "push": "avoid" },
         "number_lead": { "apple_news": "avoid (data-validated underperformer)", "smartnews": "positive signal" },
         "what_to_know": { "smartnews": "avoid (directional finding)", "apple_news": "avoid for organic; editorially favored for featured slots" },
         "did_you_miss": { "all": "avoid — historically under 100 views median" }

@@ -15,7 +15,7 @@ Platform: Apple News | §10.2
 
 ---
 
-> **Where this platform overrides General Guidelines:** The headline character range is <span style="color: #dc2626;">**90–120 characters (data-validated)**</span> — substantially above the 80–100 universal default; data-validated performance shows engagement rising through 110–119. <span style="color: #dc2626;">**Question headlines and number-led headlines underperform in organic algorithmic reach (data-validated)**</span> and should be avoided for that goal (a strategic exception for human-curated featured placement is documented below). <span style="color: #dc2626;">**AI disclosure requirements exceed General Guidelines §1.6**</span> — AI-generated or AI-assisted content requires a byline or co-byline and must be tagged in News Publisher metadata; AI-generated media must be clearly labeled. The <span style="color: #dc2626;">**subtitle field is a required publishing step**</span> with no General Guidelines equivalent. <span style="color: #dc2626;">**Thumbnail specs**</span> (300×300px minimum, 1:2 to 3:1 aspect ratio) have no General Guidelines equivalent.
+> **Where this platform overrides General Guidelines:** The headline character range is <span style="color: #dc2626;">**90–120 characters (data-validated)**</span> — substantially above the 80–100 universal default; data-validated performance shows engagement rising through 110–119. <span style="color: #dc2626;">**Question headlines, number-led headlines, and "What to Know" endings underperform in organic algorithmic reach (data-validated)**</span> and should be avoided. <span style="color: #dc2626;">**AI disclosure requirements exceed General Guidelines §1.6**</span> — AI-generated or AI-assisted content requires a byline or co-byline and must be tagged in News Publisher metadata; AI-generated media must be clearly labeled. The <span style="color: #dc2626;">**subtitle field is a required publishing step**</span> with no General Guidelines equivalent. <span style="color: #dc2626;">**Thumbnail specs**</span> (300×300px minimum, 1:2 to 3:1 aspect ratio) have no General Guidelines equivalent.
 
 ---
 
@@ -38,11 +38,10 @@ Apple's human editorial team curates featured content. Quality, originality, and
 
 - <span style="color: #dc2626;">**Compelling and informative** — Apple News readers expect content that earns their full attention, not just a click</span>
 - <span style="color: #dc2626;">**Write a separate Apple News title** — distinct from the shorter SEO/Discover variant; the Apple News title can be set as an override in News Publisher</span>
-- <span style="color: #dc2626;">**Avoid question headlines for organic algorithmic reach** — they underperform in organic views (data-validated)</span>
+- <span style="color: #dc2626;">**Avoid question headlines** — underperform in organic algorithmic reach on Apple News and SmartNews (data-validated)</span>
 - <span style="color: #dc2626;">**Avoid number-led headlines** — underperform on Apple News despite performing well on other platforms including SmartNews (data-validated)</span>
+- <span style="color: #dc2626;">**Avoid "What to Know" endings** — worst-performing formula on SmartNews (pct_rank 0.37, p=3.0e-6, n=213); avoid on both platforms for organic reach</span>
 - Casing: follow destination site style guide
-
-> **Featured placement exception:** Apple's human editorial team *favors* question and "What to Know" formats for editorially curated featured slots. If writing specifically to pursue a featured slot — not for broad algorithmic reach — question framing may help with human curators. These are separate optimization goals; choose the approach based on the specific objective for the piece.
 
 ---
 

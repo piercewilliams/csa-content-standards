@@ -137,10 +137,11 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 
 **Formula constraints (data-validated, override General Guidelines):**
 
-- <span style="color: #dc2626;">**No question headlines** — underperform in organic algorithmic reach</span>
+- <span style="color: #dc2626;">**No question headlines** — underperform in organic algorithmic reach on both Apple News and SmartNews (data-validated)</span>
 - <span style="color: #dc2626;">**No number-led headlines** — underperform on Apple News despite performing well on other platforms (including SmartNews)</span>
+- <span style="color: #dc2626;">**No "What to Know" endings** — worst-performing formula on SmartNews (pct_rank 0.37, p=3.0e-6, n=213); avoid on both platforms for organic reach</span>
 
-> **Featured placement exception:** Apple's editorial team *favors* question and "What to Know" formats for editorially curated featured slots. Use question framing only when specifically targeting a featured slot — not for broad algorithmic reach. See [Platform Formats §10.2]({{ "/docs/platform-apple-news" | relative_url }}) for complete spec including subtitle requirements, AI content policy, and image specs.
+See [Platform Formats §10.2]({{ "/docs/platform-apple-news" | relative_url }}) for complete Apple News spec including subtitle requirements, AI content policy, and image specs.
 
 </details>
 
