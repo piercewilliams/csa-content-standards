@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-08 (SEO Keywords guidance added — §1.2 + all §3 format sections — v1.6.2)
+**Last session:** 2026-04-09 — Headline standards cross-repo audit: featured exception removed, WTK + question rules unified, push notifications added, platform overrides clarified
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -28,16 +28,19 @@ For session history: see [sessions/](sessions/)
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
-## Recent Session: 2026-04-08 (SEO Keywords — v1.6.2)
+## Recent Session: 2026-04-09 — Headline standards audit + alignment
 
-Added SEO Keywords (Meta Keywords) guidance site-wide. Source: TEO team guidelines (Oliver Felix), refined with National team input (Pierce + Susannah Locke). Single words are acceptable — National refinement from TEO's multi-word-only original.
+Cross-repo consistency audit against data-headlines grader and empirical findings. All fixable conflicts resolved:
 
-- `docs/master-reference.md` §1.2: new `### SEO Keywords (Meta Keywords) Rules` section; field in Character Counts; Pre-Publish Checklist line added
-- `docs/master-reference.md` §3.1–3.10: `### SEO Keywords (Meta Keywords)` **(REQUIRED)** inserted after `### Meta Description` in each format section
-- `docs/changelog.md`: v1.6.2 entry
+- `docs/headlines.md` (Us Weekly Apple News block): featured placement exception removed (0% featuring rate, no data support). WTK added as third formula to avoid alongside question and number-led. "Did you miss" avoidance added to Universal Defaults.
+- `docs/headlines.md`: Push Notifications `<details>` block added — 70–89 chars, data-validated (1.45% median CTR, n=874, p<0.05).
+- `docs/platform-apple-news.md`: same featured exception removal + WTK added to avoid list. Overview blurb updated.
+- `docs/brand-guidelines.md` §1.2: platform override callout added under Character Counts (Apple News 90–120, SmartNews 70–90 override the 80–100 universal default).
+- `api/reference.json`: `platform_char_counts` + `formula_constraints` structured objects added to §2 for machine consumption by CSA dev team.
 
 ## Previous Sessions
 
+- **2026-04-08 v1.6.2** — SEO Keywords (Meta Keywords) guidance added: §1.2 + all §3 format sections (§3.1–3.10); Pre-Publish Checklist; changelog entry
 - **2026-04-08 v1.6.1** — Platform Formats consistency audit: all discrepancies corrected; data-validated labels added to §10.1/§10.2; publishing-guidelines §6.3 and headlines §2 updated
 - **2026-04-07 v1.6.0** — Platform Formats §10 built: SmartNews §10.1 + Apple News §10.2 standalone pages
 - **2026-04-06** — Integrity audit: stale master-reference header fixed; missing `agent_audiences` frontmatter added to brand-guidelines.md
