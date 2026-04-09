@@ -36,6 +36,7 @@ Each outlet's standards can be expanded below.
 ### Formula Variations
 - Default to General Guidelines headline formulas (§1.2)
 - "Everything You Need to Know" / "Everything to Know" patterns per article format spec (§3)
+- <span style="color: #dc2626;">**Avoid "Did you miss" headlines**</span> — historically associated with low performance (under 100 views median, ceiling ~65 PVs across 31 stories). Replace with original content framing instead.
 
 ### CMS-Specific Notes
 - See Publishing Guidelines §6 for platform-specific CMS requirements
@@ -169,6 +170,29 @@ The Yoast focus keyphrase is **different** from the story's focus keyphrase (e.g
 - Follow destination site style guide (sentence case for CUE)
 
 > For article structure, image requirements, analytics, and full discoverability guidance, see [Platform Formats §10.1 — SmartNews]({{ "/docs/platform-smartnews" | relative_url }}).
+
+</details>
+
+<!-- AGENT-AUDIENCE: headline -->
+<details markdown="1">
+<summary>Push Notifications</summary>
+
+*Applies to: all outlets distributing via push notification (CUE, WordPress with push enabled)*
+
+### Character Counts
+
+| Field | Range | Notes |
+|---|---|---|
+| <span style="color: #dc2626;">**Push notification headline**</span> | <span style="color: #dc2626;">**70–89 characters**</span> | <span style="color: #dc2626;">**Data-validated: 1.45% median CTR in this range for news brands (n=874, p<0.05). Notifications truncate at ~80 characters on most mobile devices — front-load the most important information.**</span> |
+
+### Formula Constraints
+
+- **Front-load the news** — truncation means the first 80 characters carry nearly all the weight; do not bury the subject
+- **No question headlines** — underperform on both Apple News and SmartNews organic reach; avoid for push as well
+- **No "Did you miss"** — low-performing format across all distribution surfaces
+- **Specificity over curiosity** — push recipients decide in under a second; a specific, clear headline outperforms a teaser
+
+> **Note:** Push notification character counts are distinct from Apple News (90–120) and SmartNews (70–90) ranges. The 70–89 window is optimized for mobile truncation behavior, not feed display.
 
 </details>
 

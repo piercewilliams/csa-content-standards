@@ -26,7 +26,19 @@
       "agent_audiences": ["headline", "seo", "human-only"],
       "url": "https://csa-content-standards.netlify.app/docs/master-reference#2-headlines",
       "standalone_url": "https://csa-content-standards.netlify.app/docs/headlines",
-      "notes": "Outlet-specific standards pending. Universal headline rules are in Brand Guidelines §1.2."
+      "notes": "Outlet-specific and platform-specific standards. Universal headline rules are in Brand Guidelines §1.2 (80–100 chars fallback). Platform overrides: Apple News 90–120 chars (sweet spot 110–119); SmartNews 70–90 chars; Push notifications 70–89 chars. Avoid question headlines for organic reach on both Apple News and SmartNews. Avoid number-led headlines on Apple News (positive on SmartNews). Avoid 'Did you miss' on all surfaces.",
+      "platform_char_counts": {
+        "universal_fallback": { "min": 80, "max": 100 },
+        "apple_news": { "min": 90, "max": 120, "sweet_spot_min": 110, "sweet_spot_max": 119 },
+        "smartnews": { "min": 70, "max": 90 },
+        "push_notification": { "min": 70, "max": 89, "truncation_note": "Most mobile devices truncate at ~80 chars — front-load the subject" }
+      },
+      "formula_constraints": {
+        "question_headlines": { "apple_news": "avoid (organic reach)", "smartnews": "avoid", "push": "avoid", "featured_exception": "Apple News featured slots only — not applicable to Sara Vallone content type (0% featuring rate)" },
+        "number_lead": { "apple_news": "avoid (data-validated underperformer)", "smartnews": "positive signal" },
+        "what_to_know": { "smartnews": "avoid (directional finding)", "apple_news": "avoid for organic; editorially favored for featured slots" },
+        "did_you_miss": { "all": "avoid — historically under 100 views median" }
+      }
     },
     {
       "section": 3,

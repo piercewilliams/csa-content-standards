@@ -64,11 +64,14 @@ Use these tags to extract exactly what belongs in each agent's prompt. For secti
 
 ### Character Counts
 <!-- AGENT-AUDIENCE: headline -->
-- **Headline (H1):** 80–100 characters
+- **Headline (H1):** 80–100 characters *(fallback for outlets without platform-specific guidance)*
 <!-- AGENT-AUDIENCE: seo -->
 - **SEO Title:** 50–70 characters
 - **Promo/Homepage Title:** 70–75 characters
 - **Meta Description:** 100–155 characters
+
+<!-- AGENT-AUDIENCE: headline -->
+> **Platform overrides:** Apple News requires **90–120 characters** (data-validated sweet spot: 110–119); SmartNews requires **70–90 characters** (70–79 is acceptable — extends below the universal minimum). These ranges override the 80–100 universal default. See [Headlines §2]({{ "/docs/headlines" | relative_url }}) for full platform-specific guidance.
 
 <!-- AGENT-AUDIENCE: seo -->
 ### Focus Keyphrase
