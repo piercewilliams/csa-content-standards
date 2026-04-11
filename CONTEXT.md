@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-10 — Nav housekeeping: 8 article formats marked (pending), all three nav sections sorted A–Z
+**Last session:** 2026-04-10 — Nav/accordion housekeeping: 8 article formats marked pending (italic, sorted below live items); nav sections sorted A–Z
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** 2026-04-10 — Nav housekeeping: 8 article formats marked `(pending)` (nav + page h1); Article Formats, Platform Formats, and Personas sections sorted A–Z in navigation.yml.
+- **Last changes:** 2026-04-10 — Pending format treatment: live formats first (A–Z), pending formats below (A–Z, italic) applied to nav and all in-page accordions (headline-formulas includes). Page h1s show `Name (pending)`.
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -28,12 +28,12 @@ For session history: see [sessions/](sessions/)
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
-## Recent Session: 2026-04-10 — Nav housekeeping
+## Recent Session: 2026-04-10 — Pending format treatment + nav/accordion housekeeping
 
-- 8 article formats marked as in-development: `(pending)` prefixed to each title in nav; `(pending)` appended to each page's h1 heading. Affected formats: Cast Introduction / Update, Couple / Baby, Fan Theory / Fan Question, Interview, Obituary, Recap, Recipe, Timeline.
-- Article Formats nav section sorted A–Z.
-- Platform Formats nav section sorted A–Z (Apple News before SmartNews).
-- Personas nav section sorted A–Z (Curious Explorer, Curious Optimizer, Discover Browser, Watercooler Insider, Wonder-Driven Science Enthusiast).
+- 8 article formats marked in-development: Cast Introduction / Update, Couple / Baby, Fan Theory / Fan Question, Interview, Obituary, Recap, Recipe, Timeline.
+- **Nav (`navigation.yml`):** Live Article Formats first (A–Z), then pending formats (A–Z) in `<em>` italics with `(pending)` prefix. Same live-first/pending-second pattern applied to Platform Formats (Apple News, SmartNews) and Personas (A–Z).
+- **Page h1s:** `(pending)` appended after name on each of the 8 pending format pages.
+- **Headline formula accordions (`_includes/headline-formulas/*.html`):** `<summary>` updated to `<em>Name (pending) (§X.X)</em>` for all 8 pending formats. Order auto-follows `navigation.yml` so no separate maintenance needed.
 
 ## Previous Session: 2026-04-09 — Headline standards audit + alignment
 
