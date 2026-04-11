@@ -5,7 +5,7 @@ cms_entry: cast
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Cast Introduction / Update
+# Cast Introduction / Update (pending)
 
 Platform: All platforms | Type: Cast Introduction, Cast Update
 

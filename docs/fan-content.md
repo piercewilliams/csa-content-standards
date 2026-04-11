@@ -5,7 +5,7 @@ cms_entry: fan-content
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Fan Theory / Fan Question
+# Fan Theory / Fan Question (pending)
 
 Platform: All platforms | Type: Fan Theory, Fan Question
 

@@ -5,7 +5,7 @@ cms_entry: obituary
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Obituary
+# Obituary (pending)
 
 Platform: All platforms | Type: Obituary
 

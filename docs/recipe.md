@@ -5,7 +5,7 @@ cms_entry: recipe
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Recipe
+# Recipe (pending)
 
 Platform: All platforms | Type: Recipe
 

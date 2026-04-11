@@ -5,7 +5,7 @@ cms_entry: recap
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Recap
+# Recap (pending)
 
 Platform: All platforms | Type: Episode / Movie Recap
 

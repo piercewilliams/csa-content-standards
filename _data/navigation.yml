@@ -14,65 +14,65 @@ main:
 
   - title: Platform Formats
     children:
-      - title: SmartNews
-        url: /docs/platform-smartnews
-        match: platform-smartnews
       - title: Apple News
         url: /docs/platform-apple-news
         match: platform-apple-news
+      - title: SmartNews
+        url: /docs/platform-smartnews
+        match: platform-smartnews
 
   - title: Article Formats
     children:
-      - title: Google Discover Explainer
-        url: /docs/discover-explainer
-        match: discover-explainer
+      - title: (pending) Cast Introduction / Update
+        url: /docs/cast
+        match: cast
+      - title: (pending) Couple / Baby
+        url: /docs/couple-baby
+        match: couple-baby
       - title: Everything to Know
         url: /docs/everything-to-know
         match: everything-to-know
+      - title: (pending) Fan Theory / Fan Question
+        url: /docs/fan-content
+        match: fan-content
       - title: FAQ / Service Journalism
         url: /docs/faq
         match: faq
-      - title: Recipe
-        url: /docs/recipe
-        match: recipe
-      - title: Timeline
-        url: /docs/timeline
-        match: timeline
-      - title: Interview
+      - title: Google Discover Explainer
+        url: /docs/discover-explainer
+        match: discover-explainer
+      - title: (pending) Interview
         url: /docs/interview
         match: interview
-      - title: Recap
-        url: /docs/recap
-        match: recap
-      - title: Fan Theory / Fan Question
-        url: /docs/fan-content
-        match: fan-content
-      - title: Obituary
+      - title: (pending) Obituary
         url: /docs/obituary
         match: obituary
-      - title: Couple / Baby
-        url: /docs/couple-baby
-        match: couple-baby
-      - title: Cast Introduction / Update
-        url: /docs/cast
-        match: cast
+      - title: (pending) Recap
+        url: /docs/recap
+        match: recap
+      - title: (pending) Recipe
+        url: /docs/recipe
+        match: recipe
+      - title: (pending) Timeline
+        url: /docs/timeline
+        match: timeline
   - title: Personas
     children:
-      - title: The Discover Browser
-        url: /docs/discover-browser
-        match: discover-browser
-      - title: The Curious Optimizer
-        url: /docs/curious-optimizer
-        match: curious-optimizer
-      - title: The Wonder-Driven Science Enthusiast
-        url: /docs/science-enthusiast
-        match: science-enthusiast
       - title: The Curious Explorer
         url: /docs/curious-explorer
         match: curious-explorer
+      - title: The Curious Optimizer
+        url: /docs/curious-optimizer
+        match: curious-optimizer
+      - title: The Discover Browser
+        url: /docs/discover-browser
+        match: discover-browser
       - title: The Watercooler Insider
         url: /docs/watercooler-insider
         match: watercooler-insider
+      - title: The Wonder-Driven Science Enthusiast
+        url: /docs/science-enthusiast
+        match: science-enthusiast
 
   - title: Publishing Guidelines
     url: /docs/publishing-guidelines

@@ -5,7 +5,7 @@ cms_entry: couple-baby
 agent_audiences: [general-style, headline, seo, human-only]
 ---
 
-# Couple / Baby
+# Couple / Baby (pending)
 
 Platform: All platforms | Type: Couple Relationship, Baby Announcement / Birth
 
