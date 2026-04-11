@@ -23,37 +23,37 @@ main:
 
   - title: Article Formats
     children:
-      - title: (pending) Cast Introduction / Update
-        url: /docs/cast
-        match: cast
-      - title: (pending) Couple / Baby
-        url: /docs/couple-baby
-        match: couple-baby
       - title: Everything to Know
         url: /docs/everything-to-know
         match: everything-to-know
-      - title: (pending) Fan Theory / Fan Question
-        url: /docs/fan-content
-        match: fan-content
       - title: FAQ / Service Journalism
         url: /docs/faq
         match: faq
       - title: Google Discover Explainer
         url: /docs/discover-explainer
         match: discover-explainer
-      - title: (pending) Interview
+      - title: <em>(pending) Cast Introduction / Update</em>
+        url: /docs/cast
+        match: cast
+      - title: <em>(pending) Couple / Baby</em>
+        url: /docs/couple-baby
+        match: couple-baby
+      - title: <em>(pending) Fan Theory / Fan Question</em>
+        url: /docs/fan-content
+        match: fan-content
+      - title: <em>(pending) Interview</em>
         url: /docs/interview
         match: interview
-      - title: (pending) Obituary
+      - title: <em>(pending) Obituary</em>
         url: /docs/obituary
         match: obituary
-      - title: (pending) Recap
+      - title: <em>(pending) Recap</em>
         url: /docs/recap
         match: recap
-      - title: (pending) Recipe
+      - title: <em>(pending) Recipe</em>
         url: /docs/recipe
         match: recipe
-      - title: (pending) Timeline
+      - title: <em>(pending) Timeline</em>
         url: /docs/timeline
         match: timeline
   - title: Personas

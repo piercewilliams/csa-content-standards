@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-09 — Headline standards cross-repo audit: featured exception removed, WTK + question rules unified, push notifications added, platform overrides clarified
+**Last session:** 2026-04-10 — Nav housekeeping: 8 article formats marked (pending), all three nav sections sorted A–Z
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** SEO Keywords (Meta Keywords) guidance added (v1.6.2, 2026-04-08) — `### SEO Keywords (Meta Keywords) Rules` in §1.2; field in Character Counts; Pre-Publish Checklist updated; `### SEO Keywords (Meta Keywords)` **(REQUIRED)** added to all ten §3 format sections. Rules: 1–5 keywords, single words acceptable, all lowercase, comma-separated, location names for local stories.
+- **Last changes:** 2026-04-10 — Nav housekeeping: 8 article formats marked `(pending)` (nav + page h1); Article Formats, Platform Formats, and Personas sections sorted A–Z in navigation.yml.
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -28,7 +28,14 @@ For session history: see [sessions/](sessions/)
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
 7. [ ] **§9 role-level module access** — Which roles can view raw module output in the CSA UI. Pending confirmation with Rajiv and Susannah. Update claims-validation.md Content Pipeline Tiers table and Audit Trail section once confirmed.
 
-## Recent Session: 2026-04-09 — Headline standards audit + alignment
+## Recent Session: 2026-04-10 — Nav housekeeping
+
+- 8 article formats marked as in-development: `(pending)` prefixed to each title in nav; `(pending)` appended to each page's h1 heading. Affected formats: Cast Introduction / Update, Couple / Baby, Fan Theory / Fan Question, Interview, Obituary, Recap, Recipe, Timeline.
+- Article Formats nav section sorted A–Z.
+- Platform Formats nav section sorted A–Z (Apple News before SmartNews).
+- Personas nav section sorted A–Z (Curious Explorer, Curious Optimizer, Discover Browser, Watercooler Insider, Wonder-Driven Science Enthusiast).
+
+## Previous Session: 2026-04-09 — Headline standards audit + alignment
 
 Cross-repo consistency audit against data-headlines grader and empirical findings. All fixable conflicts resolved:
 
