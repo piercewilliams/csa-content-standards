@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-10 — Nav/accordion housekeeping: 8 article formats marked pending (italic, sorted below live items); nav sections sorted A–Z
+**Last session:** 2026-04-15 — v1.7.0–v1.8.0: CSA Target Audience Definition sections built for all 5 persona pages; format pages scaffolded then removed per Sara Vallone (personas+formats decoupled in CSA UI); Tone sections added to §4.2–§4.5; csa-target-audience AGENT-AUDIENCE tag added site-wide; CSA definitions expanded with full core drivers + What They Respond To content
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -13,7 +13,7 @@ For session history: see [sessions/](sessions/)
 
 - **Site:** Live at https://csa-content-standards.netlify.app
 - **Repo:** https://github.com/piercewilliams/csa-content-standards
-- **Last changes:** 2026-04-10 — Pending format treatment: live formats first (A–Z), pending formats below (A–Z, italic) applied to nav and all in-page accordions (headline-formulas includes). Page h1s show `Name (pending)`.
+- **Last changes:** 2026-04-15 — v1.8.0. All 5 persona pages now have fully populated CSA Target Audience Definition sections (Name, Description with core driver + What They Respond To specifics, Focus areas). csa-target-audience AGENT-AUDIENCE tag added — unique, greppable from raw Markdown. Sara Vallone confirmed personas+formats decoupled in CSA UI — no standalone format pages needed for persona-derived content types.
 - **Blockers:** None known
 - **AI Tool Responsibility page (`docs/tool-responsibility.md`):** Finalized as of 2026-04-07. One open item: override documentation location (`[location TBD, pending CSA team input]`). All other gaps resolved.
 - **AGENT-AUDIENCE routing §1:** Fully confirmed live 2026-04-08 — all §1 sections tagged and routing correctly. Susannah is using Claude to fetch content by tag during uploads.
@@ -22,7 +22,7 @@ For session history: see [sessions/](sessions/)
 
 1. [ ] **Persona experimentation — Watercooler Insider + Curious Explorer** — All 5 personas pinned to National CSA accounts (2026-04-02). Experimentation on §4.4 and §4.5 to begin once live. Watch for performance data and any standard updates that follow.
 2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
-3. [ ] **Document format/persona separation** — Decision 2026-03-31: content formats and target audiences to be independently selectable (mix-and-match). Dev request logged. Codify architecture here once tooling is defined.
+3. [x] **Document format/persona separation** — Sara Vallone confirmed 2026-04-15: personas and formats are decoupled in CSA UI. Format guidance per persona dropped; persona pages carry full audience definition. Architecture now reflected in v1.8.0 site state and changelog.
 4. [ ] **Claims validation integration** — §9 spec complete (v1.5.0). Sara Vallone parameter session still pending; once complete, scope the Gary API integration and update §9 with any integration-specific workflow details.
 5. [ ] **Extend AGENT-AUDIENCE routing beyond §1** — §1 fully confirmed. Audit §2+ sections and add AGENT-AUDIENCE tags where applicable.
 6. [ ] **§8 override documentation location** — `[location TBD, pending CSA team input]` in tool-responsibility.md and claims-validation.md. Resolve once CSA team decides on CMS field, Slack thread, or separate log.
