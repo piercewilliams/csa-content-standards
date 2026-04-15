@@ -1269,60 +1269,6 @@ Pattern: `[topic]-[question-keywords]` or `[topic]-[year]-questions-answered`
 
 ---
 
-<!-- FORMAT:trend-feature -->
-## 3.12 Trend Feature
-
-Platform: Trend Hunter / B2C Channels | Type: Trend and self-improvement content
-Primary persona: §4.2 The Curious Optimizer
-
-> See the full [Trend Feature page]({{ "/docs/trend-feature" | relative_url }}) for the complete spec and pre-publish checklist.
-
-Surfaces an emerging trend, tool, or behavior before the Curious Optimizer has encountered it — and makes the case for acting on it. No locked headline formula — follow General Guidelines §1.2.
-
-**Content Framework:** Discovery (define the trend in one jargon-free sentence), Understanding (cultural/emotional resonance and timing), Evaluation (frame benefits by motivation, not demographics), Action (concrete steps to try it).
-
-**Key rules:** Universal, psychographic-first language — never assume age, gender, income, or region. Utility is the hook. Optimistic without hype, direct without dryness.
-
-**Tone:** Smart, approachable, and curious. Encouraging but realistic.
-
----
-
-<!-- FORMAT:science-discovery-feature -->
-## 3.13 Science & Discovery Feature
-
-Platform: Science / Nature / Discovery Features | Type: Science, nature, archaeology, and discovery content
-Primary personas: §4.3 The Wonder-Driven Science Enthusiast · §4.4 The Curious Explorer
-
-> See the full [Science & Discovery Feature page]({{ "/docs/science-discovery-feature" | relative_url }}) for the complete spec, two-mode guidance, and pre-publish checklist.
-
-Reveals something extraordinary the reader didn't know existed — and makes them feel its significance. Two modes: Science Enthusiast mode (broad awe-driven; all science topics) and Explorer mode (shareable-fact-driven; new species, archaeology, weird science). No locked headline formula — follow General Guidelines §1.2.
-
-**Content Framework:** Discovery (define the discovery in one vivid, jargon-free line), Understanding (why it expands understanding or stirs emotion), Evaluation (universalize the wonder), Action (ways to explore further).
-
-**Key rules:** Lead with awe, not data. Specificity over generic nature coverage. Explorer mode: lead with single most jaw-dropping detail. Science Enthusiast mode: sustain awe throughout.
-
-**Tone:** Accessible, vivid, and story-forward. Lead with marvel; explanation follows.
-
----
-
-<!-- FORMAT:entertainment-viral -->
-## 3.14 Entertainment & Trending
-
-Platform: Entertainment / Trending | Type: Viral, entertainment, and pop culture content
-Primary persona: §4.5 The Watercooler Insider
-
-> See the full [Entertainment & Trending page]({{ "/docs/entertainment-viral" | relative_url }}) for the complete spec and pre-publish checklist.
-
-Delivers the real story behind viral moments, celebrity beats, internet trends, and pop culture debates. Positions the reader as the person who knows the inside angle. No locked headline formula — follow General Guidelines §1.2.
-
-**Content Framework:** Discovery (surface what's in circulation), Understanding (the context — named people, specific quotes, concrete details), Evaluation (the real story — debunk, twist, or inside angle), Action (the shareable takeaway).
-
-**Key rules:** Debunk and "real story behind" angles are the highest-performing pattern. Use named people, specific quotes, concrete details — generic language reads as aggregation. Celebrity content humanizes, not tabloidizes.
-
-**Tone:** Confident, culturally fluent, and insider-casual.
-
----
-
 <!-- SECTION:personas -->
 # 4. Personas
 
@@ -1365,7 +1311,6 @@ This is the person scrolling their phone in a waiting room or on the couch after
 
 **Platform:** Trend Hunter / B2C Channels
 **Applies to:** Trend and self-improvement content
-**Format page:** §3.12 [Trend Feature]({{ "/docs/trend-feature" | relative_url }})
 
 > See the full [Curious Optimizer page]({{ "/docs/curious-optimizer" | relative_url }}) for the complete persona spec and CSA Target Audience Definition.
 
@@ -1385,7 +1330,6 @@ Psychographic-first persona spanning all demographics, united by mindset: curios
 
 **Platform:** Science / Discovery Features
 **Applies to:** Science, nature, and discovery content
-**Format page:** §3.13 [Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }})
 
 > See the full [Wonder-Driven Science Enthusiast page]({{ "/docs/science-enthusiast" | relative_url }}) for the complete persona spec and CSA Target Audience Definition.
 
@@ -1405,7 +1349,6 @@ Reader united by awe — loves the strange, beautiful mechanisms behind how life
 
 **Platform:** Discovery / Science / Nature
 **Applies to:** Science, nature, archaeology, and discovery content
-**Format page:** §3.13 [Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }})
 
 > See the full [Curious Explorer page]({{ "/docs/curious-explorer" | relative_url }}) for the complete persona spec and CSA Target Audience Definition.
 
@@ -1425,7 +1368,6 @@ Deep-engagement reader who clicks on a headline about a weird species or archaeo
 
 **Platform:** Entertainment / Trending
 **Applies to:** Viral, entertainment, and pop culture content
-**Format page:** §3.14 [Entertainment & Trending]({{ "/docs/entertainment-viral" | relative_url }})
 
 > See the full [Watercooler Insider page]({{ "/docs/watercooler-insider" | relative_url }}) for the complete persona spec and CSA Target Audience Definition.
 

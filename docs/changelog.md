@@ -11,6 +11,11 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.8.0] — 2026-04
+- Article Formats §3 / Personas §4: Restructured persona-adjacent format pages per updated CSA product architecture. Sara Vallone confirmed that format guidance per persona can be dropped once personas and formats are decoupled in the CSA UI — format selection handles format; persona handles audience. Removed §3.12 Trend Feature, §3.13 Science & Discovery Feature, and §3.14 Entertainment & Trending as standalone format pages.
+- Persona pages updated: §4.2–§4.5 each gained a **### Tone** section preserving the tone guidance that was persona-level (not format-level). Cross-references to deleted format pages removed from CSA Target Audience Definition sections. All other persona content (Who They Are, What They Respond To, Content Framework, Content Implications, CSA Target Audience Definition) unchanged.
+- Infrastructure sync: navigation.yml (three active format entries removed), admin/config.yml (three CMS entries removed), api/reference.json (version 1.8.0, three format entries removed), documentation.md (format count 14 → 11, three rows removed from Active Article Formats table), index.md (format count 14 → 11), master-reference.md (§3.12–3.14 sections removed, §4.2–4.5 Format page cross-reference lines removed), three headline-formula includes deleted (trend-feature.html, science-discovery-feature.html, entertainment-viral.html)
+
 ## [1.7.0] — 2026-04
 - Personas §4: CSA Target Audience Definition section added to all five persona pages — formatted definition for direct entry into the CSA product UI (Name, Description, Focus areas: Discovery / Understanding / Evaluation / Action). Section demarcated with horizontal rule and blockquote callout. AGENT-AUDIENCE: general-style tagged. Each section cross-references the relevant format page.
 - Article Formats §3: Three new format pages added — §3.12 Trend Feature, §3.13 Science & Discovery Feature, §3.14 Entertainment & Trending. Each follows the full format page apparatus: AGENT-AUDIENCE section comments, frontmatter agent_audiences, download buttons, Content Framework, Tone, Writing Guidance, What to Avoid, Pre-Publish Checklist. No locked headline formula or CSA product-level specs yet specified — general-style and editorial writing guidance only.

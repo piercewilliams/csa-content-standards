@@ -36,12 +36,16 @@ A deep-engagement reader driven by wonder, surprise, and the thrill of learning 
 - Headlines should combine specificity with a knowledge gap: "A 4-Foot Snake Killed by a Hiker Turned Out to Be Something Scientists Had Never Seen Before"
 - Avoid generic nature roundups — every piece needs a concrete, surprising hook
 
+### Tone
+
+Awestruck but grounded. Immediate and kinetic — hook with the single most jaw-dropping specific detail and move through the discovery fast. Specific over sensational, smart without lecturing.
+
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
 ## CSA Target Audience Definition
 
-> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Science & Discovery content, see [§3.13 Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }}).
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.
 
 **Name:** Nature & Discovery (The Curious Explorer)
 

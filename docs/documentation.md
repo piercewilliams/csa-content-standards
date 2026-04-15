@@ -32,7 +32,7 @@ The site is organized into ten numbered sections plus supporting reference pages
 |---|---|---|
 | 1 | [General Guidelines]({{ "/docs/brand-guidelines" | relative_url }}) | Universal rules — voice and tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content standard, compliance. Applies to all formats and platforms unless explicitly overridden. |
 | 2 | [Headlines]({{ "/docs/headlines" | relative_url }}) | Outlet-specific headline standards and all format-specific headline formulas — character counts, casing, formula variations, and no-verb exceptions by format. |
-| 3 | [Article Formats]({{ "/docs/discover-explainer" | relative_url }}) | Format-specific rules for each article type — structure, metadata, word count, image specs, URL patterns, tags, and pre-publish checklists. Fourteen formats are currently active. |
+| 3 | [Article Formats]({{ "/docs/discover-explainer" | relative_url }}) | Format-specific rules for each article type — structure, metadata, word count, image specs, URL patterns, tags, and pre-publish checklists. Eleven formats are currently active. |
 | 4 | [Personas]({{ "/docs/discover-browser" | relative_url }}) | Audience definitions used to guide tone, framing, and content decisions. Five personas are currently active: The Discover Browser, The Curious Optimizer, The Wonder-Driven Science Enthusiast, The Curious Explorer, and The Watercooler Insider. Each persona page includes a **CSA Target Audience Definition** section at the bottom — the formatted definition for direct entry into the CSA product UI. |
 | 5 | [Acceptable Sources]({{ "/docs/acceptable-sources" | relative_url }}) | Approved source categories and specific outlets for factual reporting and citation across all verticals. |
 | 6 | [Publishing Guidelines]({{ "/docs/publishing-guidelines" | relative_url }}) | Platform-specific CMS entry requirements — CUE (McClatchy CMS), WordPress, Apple News, and additional export destinations. |
@@ -45,7 +45,7 @@ The site is organized into ten numbered sections plus supporting reference pages
 
 ## Active Article Formats
 
-Fourteen article formats are currently documented under §3. Each has its own standalone page.
+Eleven article formats are currently documented under §3. Each has its own standalone page.
 
 | Format | Section | Page |
 |---|---|---|
@@ -60,9 +60,6 @@ Fourteen article formats are currently documented under §3. Each has its own st
 | Couple / Baby | §3.9 | [couple-baby]({{ "/docs/couple-baby" | relative_url }}) |
 | Cast Introduction / Update | §3.10 | [cast]({{ "/docs/cast" | relative_url }}) |
 | FAQ / Service Journalism | §3.11 | [faq]({{ "/docs/faq" | relative_url }}) |
-| Trend Feature | §3.12 | [trend-feature]({{ "/docs/trend-feature" | relative_url }}) |
-| Science & Discovery Feature | §3.13 | [science-discovery-feature]({{ "/docs/science-discovery-feature" | relative_url }}) |
-| Entertainment & Trending | §3.14 | [entertainment-viral]({{ "/docs/entertainment-viral" | relative_url }}) |
 
 ---
 

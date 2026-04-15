@@ -34,12 +34,16 @@ This reader treats content as social currency — they want to be the person who
 - Celebrity content should humanize, not tabloidize; nostalgia content consistently converts — lean into it
 - Avoid generic listicles and aggregation without an angle
 
+### Tone
+
+Confident, culturally fluent, and insider-casual. The reader should feel like they're hearing from someone who already knows how this plays out. Not tabloid sensationalism — the Watercooler Insider wants to be credible, not just loud.
+
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
 ## CSA Target Audience Definition
 
-> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Entertainment & Trending content, see [§3.14 Entertainment & Trending]({{ "/docs/entertainment-viral" | relative_url }}).
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.
 
 **Name:** Entertainment & Trending (The Watercooler Insider)
 

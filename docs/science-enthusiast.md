@@ -44,12 +44,16 @@ Each piece for this persona should address all four points in sequence:
 - Respect the reader's intelligence — explain, don't condescend
 - Tailor focus areas to the specific topic: paleontology, marine life, astronomy, environmental change each have distinct registers
 
+### Tone
+
+Accessible, vivid, and story-forward. Lead with marvel, not data — explanation follows awe, not the reverse. Respect the reader's intelligence; explain without condescending. Pacing and clarity must sustain curiosity from first line to last.
+
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
 ## CSA Target Audience Definition
 
-> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Science & Discovery content, see [§3.13 Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }}).
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.
 
 **Name:** Science & Discovery (The Wonder-Driven Science Enthusiast)
 

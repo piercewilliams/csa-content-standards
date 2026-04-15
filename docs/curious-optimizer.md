@@ -42,12 +42,16 @@ Each piece for this persona should address all four points in sequence:
 - Blend optimism with tangible benefit — optimistic without hype, direct without dryness
 - Avoid framing that requires the reader to see themselves in a specific demographic box
 
+### Tone
+
+Smart, approachable, and curious. Encouraging but realistic — optimistic without hype, direct without dryness. Never condescending. The reader should feel empowered by new information, not lectured at.
+
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
 ## CSA Target Audience Definition
 
-> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Trend Feature content, see [§3.12 Trend Feature]({{ "/docs/trend-feature" | relative_url }}).
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.
 
 **Name:** Trend Hunter B2C (The Curious Optimizer)
 

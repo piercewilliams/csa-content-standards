@@ -19,7 +19,7 @@ Reference documentation for the Content Scaling Agent — versioned and served i
 |---|---|---|
 | 1 | General Guidelines | ✅ Active |
 | 2 | Headlines | ✅ Active |
-| 3 | Article Formats | ✅ Active — 14 formats |
+| 3 | Article Formats | ✅ Active — 11 formats |
 | 4 | Personas | ✅ Active — 5 personas |
 | 5 | Acceptable Sources | ✅ Active |
 | 6 | Publishing Guidelines | 🔄 Partial — CUE active; WordPress pending |
