@@ -11,6 +11,15 @@ Format: `[VERSION] — YYYY-MM — Description`
 
 ---
 
+## [1.7.0] — 2026-04
+- Personas §4: CSA Target Audience Definition section added to all five persona pages — formatted definition for direct entry into the CSA product UI (Name, Description, Focus areas: Discovery / Understanding / Evaluation / Action). Section demarcated with horizontal rule and blockquote callout. AGENT-AUDIENCE: general-style tagged. Each section cross-references the relevant format page.
+- Article Formats §3: Three new format pages added — §3.12 Trend Feature, §3.13 Science & Discovery Feature, §3.14 Entertainment & Trending. Each follows the full format page apparatus: AGENT-AUDIENCE section comments, frontmatter agent_audiences, download buttons, Content Framework, Tone, Writing Guidance, What to Avoid, Pre-Publish Checklist. No locked headline formula or CSA product-level specs yet specified — general-style and editorial writing guidance only.
+- §3.12 Trend Feature: primary persona The Curious Optimizer (§4.2); Content Framework Discovery / Understanding / Evaluation / Action; psychographic-first universal language required; no demographic assumptions
+- §3.13 Science & Discovery Feature: primary personas The Wonder-Driven Science Enthusiast (§4.3) and The Curious Explorer (§4.4); two audience modes documented (broad awe-driven vs. shareable-fact-driven); Content Framework Discovery / Understanding / Evaluation / Action
+- §3.14 Entertainment & Trending: primary persona The Watercooler Insider (§4.5); Content Framework Discovery / Understanding / Evaluation / Action; debunk and "real story behind" as highest-performing pattern
+- Persona pages updated: §4.2–§4.5 now include **Format page** cross-reference line pointing to the relevant new §3 page; master-reference §4 entries updated to match
+- Infrastructure sync: navigation.yml (three new format children under Article Formats), admin/config.yml (three new CMS entries with format-specific hints), api/reference.json (version 1.7.0, three new format entries), documentation.md (format count 11 → 14, three new rows in Active Article Formats table, §4 row updated to describe CSA Target Audience Definition sections), index.md (format count 11 → 14), master-reference.md (§3.12–3.14 condensed summaries added, §4 scope updated, all persona entries updated with format page cross-reference), three new headline-formulas includes (trend-feature.html, science-discovery-feature.html, entertainment-viral.html)
+
 ## [1.6.3] — 2026-04
 - Headlines §2 (Us Weekly): removed "H2 post / explainer intro — 80 words minimum" word count requirement; dropped by L&E/UsW team after review with TEO (Stephanie Zandecki)
 

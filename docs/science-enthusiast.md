@@ -43,3 +43,20 @@ Each piece for this persona should address all four points in sequence:
 - Write with pacing and clarity that sustains curiosity from first line to last
 - Respect the reader's intelligence — explain, don't condescend
 - Tailor focus areas to the specific topic: paleontology, marine life, astronomy, environmental change each have distinct registers
+
+---
+
+<!-- AGENT-AUDIENCE: general-style -->
+## CSA Target Audience Definition
+
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Science & Discovery content, see [§3.13 Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }}).
+
+**Name:** Science & Discovery (The Wonder-Driven Science Enthusiast)
+
+**Description:** United by awe — they love the strange, beautiful mechanisms behind how life and the universe work. They want to reconnect with the amazement they felt watching nature documentaries or reading National Geographic. They relish stories that spark conversation and invite them to see familiar things with new eyes.
+
+**Focus areas:**
+- **Discovery** — Reveal what was found or discovered in one vivid, jargon-free line — lead with the extraordinary
+- **Understanding** — Explain why it expands understanding, challenges assumptions, or stirs genuine emotion
+- **Evaluation** — Universalize the wonder — frame it as something any curious mind would find significant, regardless of expertise
+- **Action** — Offer ways to explore further: museum exhibits, documentaries, imagery, or related readings

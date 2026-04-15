@@ -35,3 +35,20 @@ A deep-engagement reader driven by wonder, surprise, and the thrill of learning 
 - Prioritize topics where science reveals something hidden or overturns a prior assumption
 - Headlines should combine specificity with a knowledge gap: "A 4-Foot Snake Killed by a Hiker Turned Out to Be Something Scientists Had Never Seen Before"
 - Avoid generic nature roundups — every piece needs a concrete, surprising hook
+
+---
+
+<!-- AGENT-AUDIENCE: general-style -->
+## CSA Target Audience Definition
+
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Science & Discovery content, see [§3.13 Science & Discovery Feature]({{ "/docs/science-discovery-feature" | relative_url }}).
+
+**Name:** Nature & Discovery (The Curious Explorer)
+
+**Description:** Driven by wonder, surprise, and the thrill of learning something they didn't know existed. They click on a headline about a weird species or archaeological mystery and stay — absorbing for 30–70+ seconds, scrolling 28–55% of the page. They want to feel smarter and walk away with a fact worth sharing.
+
+**Focus areas:**
+- **Discovery** — Lead with the single most jaw-dropping specific detail — a number, a scale, a physical description
+- **Understanding** — Frame the article as answering a question the reader didn't know they had
+- **Evaluation** — Prioritize topics where science reveals something hidden or overturns a prior assumption
+- **Action** — Give readers a shareable fact — something specific that makes them feel smarter after reading

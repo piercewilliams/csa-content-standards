@@ -1,6 +1,6 @@
 {
   "document": "CSA Content Standards — Master Reference",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "last_updated": "2026-04",
   "base_url": "https://csa-content-standards.netlify.app",
   "agent_routing": {
@@ -135,6 +135,33 @@
           "agent_audiences": ["general-style", "headline", "seo", "human-only"],
           "url": "https://csa-content-standards.netlify.app/docs/master-reference#311-faq--service-journalism",
           "standalone_url": "https://csa-content-standards.netlify.app/docs/faq"
+        },
+        {
+          "id": "trend-feature",
+          "title": "Trend Feature",
+          "status": "active",
+          "agent_audiences": ["general-style", "human-only"],
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#312-trend-feature",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/trend-feature",
+          "notes": "Primary persona: The Curious Optimizer (§4.2). No locked headline formula or CSA product-level specs yet — general-style and editorial writing guidance only. Content Framework: Discovery / Understanding / Evaluation / Action."
+        },
+        {
+          "id": "science-discovery-feature",
+          "title": "Science & Discovery Feature",
+          "status": "active",
+          "agent_audiences": ["general-style", "human-only"],
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#313-science--discovery-feature",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/science-discovery-feature",
+          "notes": "Two persona modes: Science Enthusiast (§4.3) and Curious Explorer (§4.4). No locked headline formula or CSA product-level specs yet. Content Framework: Discovery / Understanding / Evaluation / Action. Lead with awe; specificity over generic nature coverage."
+        },
+        {
+          "id": "entertainment-viral",
+          "title": "Entertainment & Trending",
+          "status": "active",
+          "agent_audiences": ["general-style", "human-only"],
+          "url": "https://csa-content-standards.netlify.app/docs/master-reference#314-entertainment--trending",
+          "standalone_url": "https://csa-content-standards.netlify.app/docs/entertainment-viral",
+          "notes": "Primary persona: The Watercooler Insider (§4.5). No locked headline formula or CSA product-level specs yet. Content Framework: Discovery / Understanding / Evaluation / Action. Debunk and 'real story behind' angles are the highest-performing pattern."
         }
       ]
     },

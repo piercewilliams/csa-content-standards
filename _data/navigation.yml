@@ -56,6 +56,15 @@ main:
       - title: <em>(pending) Timeline</em>
         url: /docs/timeline
         match: timeline
+      - title: Entertainment &amp; Trending
+        url: /docs/entertainment-viral
+        match: entertainment-viral
+      - title: Science &amp; Discovery Feature
+        url: /docs/science-discovery-feature
+        match: science-discovery-feature
+      - title: Trend Feature
+        url: /docs/trend-feature
+        match: trend-feature
   - title: Personas
     children:
       - title: The Curious Explorer

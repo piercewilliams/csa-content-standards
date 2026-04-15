@@ -44,3 +44,20 @@ Each piece for this persona should address all four points in sequence:
 - Every piece needs a high-quality hero image: 1200px+ wide, 16:9, 300K+ resolution, no logos, no text overlays, no generic stock
 - Meta descriptions: 100–155 characters — must contain the focus keyphrase and relevant proper nouns; see General Guidelines §1.2
 - Consistency in a content lane builds Discover trust over time — publish regularly in focus verticals
+
+---
+
+<!-- AGENT-AUDIENCE: general-style -->
+## CSA Target Audience Definition
+
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Discover content, see [§3.1 Google Discover Explainer]({{ "/docs/discover-explainer" | relative_url }}).
+
+**Name:** Google Discover (The Discover Browser)
+
+**Description:** Scrolling their phone without actively searching — open to being surprised. Visually driven and impatient, they light up when something unexpected breaks through their feed pattern. They trust credible sources but want content that feels human and specific, not institutional.
+
+**Focus areas:**
+- **Discovery** — Lead with a scroll-stopping hook that defines the story's core in one crisp line
+- **Understanding** — Contextualize why this is freshly relevant — what makes it break the pattern right now
+- **Evaluation** — Frame value in universal curiosity terms: "if you love tiny discoveries that change how you see something familiar"
+- **Action** — Lean visual — suggest how to see, share, or engage with the topic further

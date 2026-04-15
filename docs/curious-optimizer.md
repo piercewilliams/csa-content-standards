@@ -41,3 +41,20 @@ Each piece for this persona should address all four points in sequence:
 - Emphasize what readers can do with this information — utility is the hook
 - Blend optimism with tangible benefit — optimistic without hype, direct without dryness
 - Avoid framing that requires the reader to see themselves in a specific demographic box
+
+---
+
+<!-- AGENT-AUDIENCE: general-style -->
+## CSA Target Audience Definition
+
+> **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Trend Feature content, see [§3.12 Trend Feature]({{ "/docs/trend-feature" | relative_url }}).
+
+**Name:** Trend Hunter B2C (The Curious Optimizer)
+
+**Description:** Seeks emerging trends before they go mainstream. Driven by curiosity, self-improvement, relevance, and inspiration. This is a psychographic-based persona that spans all demographics — unified by mindset, not age, gender, or income. They want to feel ahead, informed, and confident in their decisions.
+
+**Focus areas:**
+- **Discovery** — Show something new or surprising in topics they care about
+- **Understanding** — Explain what this is, why it matters, and who it's for
+- **Evaluation** — Help determine if a trend is worth their time or money
+- **Action** — Provide routines, itineraries, products, or practical steps

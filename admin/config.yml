@@ -146,6 +146,30 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "FAQ / Service Journalism" }
           - { label: "Body", name: "body", widget: "markdown", hint: "Format-specific rules. These override Brand Guidelines where they conflict. Headline formula: [Topic] [Question Word]: [Specific Question Answered]. Focus keyphrase: exact search query (e.g. 'Social Security check dates 2025'). Word count: 300–500 per answer block. Every H2 needs a Google Trends/PAA keyword. Answer-first: first 1–2 sentences must be snippet-ready." }
 
+      - label: "Trend Feature"
+        name: "trend-feature"
+        file: "docs/trend-feature.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Trend Feature" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Writing standards for Trend Feature content (§3.12). Primary persona: The Curious Optimizer (§4.2). No locked headline formula — follow General Guidelines §1.2. Content Framework: Discovery (define the trend), Understanding (why it matters), Evaluation (who it's for by motivation), Action (concrete steps to try it). Universal, psychographic-first language required — never demographic assumptions." }
+
+      - label: "Science & Discovery Feature"
+        name: "science-discovery-feature"
+        file: "docs/science-discovery-feature.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Science & Discovery Feature" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Writing standards for Science & Discovery Feature content (§3.13). Two persona modes: Science Enthusiast (§4.3, broad awe-driven) and Curious Explorer (§4.4, shareable-fact-driven). Content Framework: Discovery (vivid definition), Understanding (what it means), Evaluation (universalize the wonder), Action (ways to explore further). Lead with awe, not data. Specificity over generic nature coverage." }
+
+      - label: "Entertainment & Trending"
+        name: "entertainment-viral"
+        file: "docs/entertainment-viral.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Entertainment & Trending" }
+          - { label: "Body", name: "body", widget: "markdown", hint: "Writing standards for Entertainment & Trending content (§3.14). Primary persona: The Watercooler Insider (§4.5). Content Framework: Discovery (what's in circulation), Understanding (the context), Evaluation (the real story), Action (the shareable takeaway). Debunk and 'real story behind' angles are the highest-performing pattern. Use named people, specific quotes, concrete details — generic language reads as aggregation." }
+
       - label: "Persona: The Discover Browser"
         name: "discover-browser"
         file: "docs/discover-browser.md"
