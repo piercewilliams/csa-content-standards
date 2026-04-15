@@ -2,7 +2,7 @@
 
 **Phase:** Maintenance / Active Refinement
 **Status:** Active
-**Last session:** 2026-04-15 — v1.7.0–v1.8.0: CSA Target Audience Definition sections built for all 5 persona pages; format pages scaffolded then removed per Sara Vallone (personas+formats decoupled in CSA UI); Tone sections added to §4.2–§4.5; csa-target-audience AGENT-AUDIENCE tag added site-wide; CSA definitions expanded with full core drivers + What They Respond To content
+**Last session:** 2026-04-15 — v1.7.0–v1.8.0: CSA Target Audience Definition sections built for all 5 persona pages; format pages scaffolded then removed per Sara Vallone; Tone sections added to §4.2–§4.5; csa-target-audience AGENT-AUDIENCE tag added. Pierce granted CSA Admin by Susannah — entering remaining 3 personas as Team Target Audiences in CSA production (Discover Browser + Science Enthusiast done by Susannah; Curious Optimizer, Curious Explorer, Watercooler Insider = Pierce's to-do).
 
 For stable reference facts: see [REFERENCE.md](REFERENCE.md)
 For session history: see [sessions/](sessions/)
@@ -20,6 +20,7 @@ For session history: see [sessions/](sessions/)
 
 ## What's Next
 
+0. [ ] **Enter remaining 3 Team Target Audiences in CSA production** — Pierce is CSA Admin as of 2026-04-15 (Susannah Locke). Susannah entered The Discover Browser + The Wonder-Driven Science Enthusiast. Pierce to enter: **The Curious Optimizer** (§4.2), **The Curious Explorer** (§4.3), **The Watercooler Insider** (§4.5). Workflow: CSA production → National Team pub → Import Draft → Step 3 → scroll to Team Target Audiences → Add another → Name / Why this audience cares / Focus Areas → Save. Instructions: [Confluence Tango](https://mcclatchy.atlassian.net/wiki/spaces/~712020c6aefbf4e0b0490681e00766cbcd78ef/pages/1886912513/Adding+Team+Target+Audiences+in+CSA+Tango+capture) + [Google Doc recording](https://docs.google.com/document/d/1QQmTLAZSuGQcFGIQiHZQI1H-otnVbUdnDOHYTjPYgiY/edit?tab=t.rs50k9rswcdl). Content for each persona: pull Name/Description/Focus Areas from §4.2/§4.3/§4.5 persona pages.
 1. [ ] **Persona experimentation — Watercooler Insider + Curious Explorer** — All 5 personas pinned to National CSA accounts (2026-04-02). Experimentation on §4.4 and §4.5 to begin once live. Watch for performance data and any standard updates that follow.
 2. [ ] **Apple News + MSN personas** — Still pending Andy's review before use.
 3. [x] **Document format/persona separation** — Sara Vallone confirmed 2026-04-15: personas and formats are decoupled in CSA UI. Format guidance per persona dropped; persona pages carry full audience definition. Architecture now reflected in v1.8.0 site state and changelog.
