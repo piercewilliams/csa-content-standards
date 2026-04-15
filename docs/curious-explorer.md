@@ -49,10 +49,16 @@ Awestruck but grounded. Immediate and kinetic — hook with the single most jaw-
 
 **Name:** Nature & Discovery (The Curious Explorer)
 
-**Description:** Driven by wonder, surprise, and the thrill of learning something they didn't know existed. They click on a headline about a weird species or archaeological mystery and stay — absorbing for 30–70+ seconds, scrolling 28–55% of the page. They want to feel smarter and walk away with a fact worth sharing.
+**Description:** A deep-engagement reader driven by wonder, surprise, and the thrill of learning something they didn't know existed. They click on a headline about a weird species or an archaeological mystery and stay — scrolling through 28–55% of the page, absorbing for 30–70+ seconds. They're not skimming. They want to feel smarter after every article and walk away with a fact worth sharing in the group chat. Core driver: "I had no idea this existed — and now I need to tell someone." Highest-performing content types:
+- New species discoveries with vivid physical details and scale — size, number, habitat
+- Animal escape, rescue, and survival narratives with personality and emotional stakes
+- Archaeology and fossil discoveries that rewrite or challenge accepted history
+- Invasive species and ecological surprises that reframe familiar environments
+- Deep-sea and cave exploration revelations
+- "Weird science" — fungi communication, octopus cognition, platypus biology, and other subversions of the expected
 
 **Focus areas:**
-- **Discovery** — Lead with the single most jaw-dropping specific detail — a number, a scale, a physical description
-- **Understanding** — Frame the article as answering a question the reader didn't know they had
-- **Evaluation** — Prioritize topics where science reveals something hidden or overturns a prior assumption
-- **Action** — Give readers a shareable fact — something specific that makes them feel smarter after reading
+- **Discovery** — Lead with the single most jaw-dropping specific detail — a number, a scale, a physical description; headlines should combine specificity with a knowledge gap
+- **Understanding** — Frame the article as answering a question the reader didn't know they had; animals with personality and narrative arc dramatically outperform dry taxonomy
+- **Evaluation** — Prioritize topics where science reveals something hidden or overturns a prior assumption; avoid generic nature roundups — every piece needs a concrete, surprising hook
+- **Action** — Give readers a shareable fact — something specific that makes them feel smarter; the piece should leave them with something worth bringing to the group chat

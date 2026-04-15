@@ -55,10 +55,15 @@ Smart, approachable, and curious. Encouraging but realistic — optimistic witho
 
 **Name:** Trend Hunter B2C (The Curious Optimizer)
 
-**Description:** Seeks emerging trends before they go mainstream. Driven by curiosity, self-improvement, relevance, and inspiration. This is a psychographic-based persona that spans all demographics — unified by mindset, not age, gender, or income. They want to feel ahead, informed, and confident in their decisions.
+**Description:** Seeks emerging trends before they go mainstream. Driven by curiosity, self-improvement, relevance, and inspiration — always looking for actionable insights that make life smoother, healthier, or more fulfilling. This is a psychographic-based persona that spans all demographics — unified by mindset, not age, gender, or income. They want to feel ahead, informed, and confident in their decisions. Core driver: "Ahead of the curve — and ready to act on it." Highest-performing content types:
+- Emerging trends, tools, or behaviors surfaced before mainstream pickup
+- Actionable insights over abstract concepts — practical steps, not theory
+- Motivational framing tied to intent and outcome, not demographic identity
+- Self-improvement angles across health, routines, productivity, and lifestyle
+- Content that makes them feel advantaged — not just informed, but ahead
 
 **Focus areas:**
-- **Discovery** — Show something new or surprising in topics they care about
-- **Understanding** — Explain what this is, why it matters, and who it's for
-- **Evaluation** — Help determine if a trend is worth their time or money
-- **Action** — Provide routines, itineraries, products, or practical steps
+- **Discovery** — Surface an emerging trend, tool, or behavior before mainstream pickup; define it in one clear, jargon-free sentence — no dilution
+- **Understanding** — Explain the broader cultural or emotional resonance — why this feels timely or empowering right now
+- **Evaluation** — Frame benefits around motivations, not demographics: "If you're optimizing for energy…" or "If you care about smarter routines…"; help them decide if this is worth their time
+- **Action** — Offer concrete ways to act on it — habits, purchasing tips, thought processes, or tech recommendations; utility is the hook

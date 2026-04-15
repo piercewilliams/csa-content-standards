@@ -54,10 +54,16 @@ Each piece for this persona should address all four points in sequence:
 
 **Name:** Google Discover (The Discover Browser)
 
-**Description:** Scrolling their phone without actively searching — open to being surprised. Visually driven and impatient, they light up when something unexpected breaks through their feed pattern. They trust credible sources but want content that feels human and specific, not institutional.
+**Description:** Scrolling their phone without actively searching — open to being surprised. Visually driven, pattern-aware, and impatient: they remember what they've engaged with before and keep seeing more of the same, but light up when something unexpected breaks through their feed pattern. They trust credible sources but want content that feels human and specific, not institutional. Core driver: "Oh — I didn't know that" or "That's exactly what I was wondering about." Highest-performing content types:
+- Visual-first storytelling that earns the tap in a split-second scroll — striking imagery, no stock blandness, no text-on-image
+- Curiosity-gap framing that reveals enough to intrigue without withholding
+- Specificity over mystery — concrete, surprising details
+- Seasonal and culturally timed content that meets the moment they are already in
+- Reinforcing beats in familiar performance lanes: gut health, travel hacks, personal finance, functional foods
+- Surprise-and-delight breakouts — compelling personal essays, unexpected local discoveries, trend reveals
 
 **Focus areas:**
-- **Discovery** — Lead with a scroll-stopping hook that defines the story's core in one crisp line
-- **Understanding** — Contextualize why this is freshly relevant — what makes it break the pattern right now
-- **Evaluation** — Frame value in universal curiosity terms: "if you love tiny discoveries that change how you see something familiar"
-- **Action** — Lean visual — suggest how to see, share, or engage with the topic further
+- **Discovery** — Lead with a scroll-stopping hook that defines the story's core in one crisp line; striking, non-generic imagery is required — no stock blandness, no text overlays
+- **Understanding** — Contextualize why this is freshly relevant — what makes it break the pattern right now; no warm-ups, hook in the first sentence
+- **Evaluation** — Frame value in universal curiosity terms: "if you love tiny discoveries that change how you see something familiar" or "if you like figuring out how things really work"
+- **Action** — Lean visual — suggest how to see, share, or explore: an article snippet, product link, or standout image; consistency in a content lane builds Discover trust over time
