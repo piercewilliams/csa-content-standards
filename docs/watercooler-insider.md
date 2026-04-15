@@ -2,7 +2,7 @@
 layout: default
 title: "Persona: The Watercooler Insider"
 cms_entry: watercooler-insider
-agent_audiences: [general-style]
+agent_audiences: [general-style, csa-target-audience]
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
@@ -40,7 +40,7 @@ Confident, culturally fluent, and insider-casual. The reader should feel like th
 
 ---
 
-<!-- AGENT-AUDIENCE: general-style -->
+<!-- AGENT-AUDIENCE: csa-target-audience -->
 ## CSA Target Audience Definition
 
 > **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.

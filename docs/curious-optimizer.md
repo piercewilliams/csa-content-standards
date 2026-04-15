@@ -2,7 +2,7 @@
 layout: default
 title: "Persona: The Curious Optimizer"
 cms_entry: curious-optimizer
-agent_audiences: [general-style]
+agent_audiences: [general-style, csa-target-audience]
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
@@ -48,7 +48,7 @@ Smart, approachable, and curious. Encouraging but realistic — optimistic witho
 
 ---
 
-<!-- AGENT-AUDIENCE: general-style -->
+<!-- AGENT-AUDIENCE: csa-target-audience -->
 ## CSA Target Audience Definition
 
 > **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.

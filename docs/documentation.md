@@ -109,6 +109,7 @@ These comments are invisible on the rendered site but present in the raw Markdow
 | `general-style` | General style for all work — voice, tone, vocabulary, explicit language policy, anchor text rules |
 | `headline` | H1 headline guidance, abstracted from SEO — character count, formula, verb requirement, modifier rules |
 | `seo` | SEO title, focus keyphrase, meta description, promo title |
+| `csa-target-audience` | Formatted persona definitions for direct entry into the CSA product UI — Name, Description, Focus areas. Appears only on §4 persona pages. |
 | `human-only` | Human editorial workflows — not consumed by any CSA agent at this stage |
 
 **Canonical vocabulary**

@@ -2,7 +2,7 @@
 layout: default
 title: "Persona: The Curious Explorer"
 cms_entry: curious-explorer
-agent_audiences: [general-style]
+agent_audiences: [general-style, csa-target-audience]
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
@@ -42,7 +42,7 @@ Awestruck but grounded. Immediate and kinetic — hook with the single most jaw-
 
 ---
 
-<!-- AGENT-AUDIENCE: general-style -->
+<!-- AGENT-AUDIENCE: csa-target-audience -->
 ## CSA Target Audience Definition
 
 > **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above.

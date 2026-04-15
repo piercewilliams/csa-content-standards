@@ -41,6 +41,12 @@ tags:
       - "SEO Title, Dek, Meta Description, Focus Keyphrase sections on all format pages"
       - "§10.1 SmartNews — Headline section (SmartNews RSS <title> is the SEO title; same field serves both purposes)"
 
+  csa-target-audience:
+    label: "CSA Target Audience"
+    description: "Formatted persona definitions for direct entry into the CSA product UI — Name, Description, Focus areas (Discovery / Understanding / Evaluation / Action)"
+    covers:
+      - "## CSA Target Audience Definition section on all five persona pages (§4.1–§4.5)"
+
   human-only:
     label: "Human Only"
     description: "Human editorial workflows — not consumed by any CSA agent at this stage"

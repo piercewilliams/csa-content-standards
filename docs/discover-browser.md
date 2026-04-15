@@ -2,7 +2,7 @@
 layout: default
 title: "Persona: The Discover Browser"
 cms_entry: discover-browser
-agent_audiences: [general-style]
+agent_audiences: [general-style, csa-target-audience]
 ---
 
 <!-- AGENT-AUDIENCE: general-style -->
@@ -47,7 +47,7 @@ Each piece for this persona should address all four points in sequence:
 
 ---
 
-<!-- AGENT-AUDIENCE: general-style -->
+<!-- AGENT-AUDIENCE: csa-target-audience -->
 ## CSA Target Audience Definition
 
 > **For CSA product use** — copy this definition directly into the CSA Target Audience fields. The full editorial reference is in the sections above. For writing standards specific to Discover content, see [§3.1 Google Discover Explainer]({{ "/docs/discover-explainer" | relative_url }}).
