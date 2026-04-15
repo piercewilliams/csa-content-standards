@@ -23,6 +23,9 @@ main:
 
   - title: Article Formats
     children:
+      - title: Entertainment &amp; Trending
+        url: /docs/entertainment-viral
+        match: entertainment-viral
       - title: Everything to Know
         url: /docs/everything-to-know
         match: everything-to-know
@@ -32,6 +35,12 @@ main:
       - title: Google Discover Explainer
         url: /docs/discover-explainer
         match: discover-explainer
+      - title: Science &amp; Discovery Feature
+        url: /docs/science-discovery-feature
+        match: science-discovery-feature
+      - title: Trend Feature
+        url: /docs/trend-feature
+        match: trend-feature
       - title: <em>(pending) Cast Introduction / Update</em>
         url: /docs/cast
         match: cast
@@ -56,15 +65,6 @@ main:
       - title: <em>(pending) Timeline</em>
         url: /docs/timeline
         match: timeline
-      - title: Entertainment &amp; Trending
-        url: /docs/entertainment-viral
-        match: entertainment-viral
-      - title: Science &amp; Discovery Feature
-        url: /docs/science-discovery-feature
-        match: science-discovery-feature
-      - title: Trend Feature
-        url: /docs/trend-feature
-        match: trend-feature
   - title: Personas
     children:
       - title: The Curious Explorer
