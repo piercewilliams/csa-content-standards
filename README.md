@@ -3,7 +3,7 @@
 Reference documentation for the Content Scaling Agent (CSA) — an AI content generation system. This site defines every rule the agent and its human editors follow when creating, optimizing, and publishing articles across all CSA-affiliated outlets.
 
 **Live site:** https://csa-content-standards.netlify.app
-**Current version:** 1.5.0
+**Current version:** 1.8.0
 
 ---
 
@@ -51,10 +51,11 @@ agent_audiences: [general-style, headline, seo, human-only]
 
 ```html
 <!-- section-level, in raw Markdown -->
-<!-- AGENT-AUDIENCE: general-style -->   Voice, tone, explicit language policy, anchor text
-<!-- AGENT-AUDIENCE: headline -->        H1 character count, formula, verb requirement, modifier rules
-<!-- AGENT-AUDIENCE: seo -->             SEO title, focus keyphrase, meta description, promo title
-<!-- AGENT-AUDIENCE: human-only -->      Bylines, compliance, workflows, tag page linking
+<!-- AGENT-AUDIENCE: general-style -->      Voice, tone, explicit language policy, anchor text
+<!-- AGENT-AUDIENCE: headline -->           H1 character count, formula, verb requirement, modifier rules
+<!-- AGENT-AUDIENCE: seo -->               SEO title, focus keyphrase, meta description, promo title
+<!-- AGENT-AUDIENCE: human-only -->         Bylines, compliance, workflows, tag page linking
+<!-- AGENT-AUDIENCE: csa-target-audience --> CSA Target Audience Definition sections (persona name, description, focus areas)
 ```
 
 To extract rules for a specific input: grep `docs/brand-guidelines.md` or `docs/master-reference.md` for `AGENT-AUDIENCE: [tag]` and take everything between that comment and the next. The `api/reference.json` includes `agent_audiences` on every section and format entry for programmatic filtering. The canonical tag vocabulary is in `_data/agent_routing.yml`.
@@ -76,7 +77,7 @@ The standards are organized into ten numbered sections. Section numbers are stab
 | 1 | [General Guidelines](https://csa-content-standards.netlify.app/docs/brand-guidelines) | ✅ Active | Universal rules — voice/tone, headlines, explicit language, internal links, bylines, AI disclosure, Helpful Content compliance. Applies to all formats unless a format-specific page overrides it. |
 | 2 | [Headlines](https://csa-content-standards.netlify.app/docs/headlines) | ✅ Active | Outlet-specific headline standards (Us Weekly, Apple News) and format-specific headline formulas for all 11 active formats. |
 | 3 | [Article Formats](https://csa-content-standards.netlify.app/docs/discover-explainer) | ✅ Active | Format-specific rules for each article type — structure, metadata, word counts, image specs, URL patterns, and pre-publish checklists. 11 formats active. |
-| 4 | [Personas](https://csa-content-standards.netlify.app/docs/discover-browser) | ✅ Active | Audience definitions that guide tone, framing, and content decisions. Five personas currently active. |
+| 4 | [Personas](https://csa-content-standards.netlify.app/docs/discover-browser) | ✅ Active | Audience definitions that guide tone, framing, and content decisions. Five personas active and live in CSA as Team Target Audiences (v1.8.0). Each persona page includes a CSA Target Audience Definition section formatted for direct entry into the CSA UI. |
 | 5 | [Acceptable Sources](https://csa-content-standards.netlify.app/docs/acceptable-sources) | ✅ Active | Approved sources for factual reporting and citation, organized by vertical (news, entertainment, health, etc.). |
 | 6 | [Publishing Guidelines](https://csa-content-standards.netlify.app/docs/publishing-guidelines) | 🔄 Partial | Platform-specific CMS entry requirements. CUE (McClatchy CMS) and Apple News are active; WordPress is pending. |
 | 7 | [Follow-Up Content](https://csa-content-standards.netlify.app/docs/follow-up-content) | ✅ Active | Editorial strategy for extending breaking news coverage — decision framework and follow-up angle guide for 13 story types. |
